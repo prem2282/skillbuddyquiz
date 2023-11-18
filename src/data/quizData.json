@@ -1,0 +1,110 @@
+{
+  "quizData": [
+    {
+      "quizId": "quiz_id1",
+      "quizDetails": [
+        {
+          "question": "What is the most common form of democracy in modern times?",
+          "options": {
+            "A": "Direct Democracy",
+            "B": "Representative Democracy",
+            "C": "Monarchical Democracy",
+            "D": "Socialist Democracy"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect. Direct Democracy is where people directly participate in decision making, less common in modern large societies.",
+            "B": "Correct. Representative Democracy, where elected officials represent a group of people, is the most common form in modern times.",
+            "C": "Incorrect. Monarchical Democracy is a mixed form of monarchy and democracy, which is not the most common form.",
+            "D": "Incorrect. Socialist Democracy is a political ideology, not a specific form of democracy widely adopted."
+          }
+        },
+        {
+          "question": "What was the key promise made by Devi Lal in the Haryana State Assembly election of 1987?",
+          "options": {
+            "A": "Free Education",
+            "B": "Loan Waiver",
+            "C": "Tax Reduction",
+            "D": "Free Healthcare"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect. Free Education was not the key promise made by Devi Lal in this election.",
+            "B": "Correct. Devi Lal promised a waiver of loans up to Rs. 10,000 for farmers, which was a significant promise.",
+            "C": "Incorrect. Tax Reduction was not the key promise in this election.",
+            "D": "Incorrect. Free Healthcare was not the central promise made by Devi Lal."
+          }
+        },
+        {
+          "question": "What is the minimum age for a candidate to contest in Indian elections?",
+          "options": {
+            "A": "18 years",
+            "B": "21 years",
+            "C": "25 years",
+            "D": "30 years"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect. 18 years is the minimum age for voting, not for contesting in elections.",
+            "B": "Incorrect. 21 years is the minimum age for contesting in local elections like Panchayats, not for Parliament or Legislative Assemblies.",
+            "C": "Correct. The minimum age to contest in Indian elections for Parliament or Legislative Assemblies is 25 years.",
+            "D": "Incorrect. 30 years is the minimum age for contesting in Rajya Sabha or Legislative Council elections."
+          }
+        }
+      ]
+    },
+    {
+      "quizId": "quiz_id2",
+      "quizDetails": [
+        {
+          "question": "What does the Election Commission of India implement during elections?",
+          "options": {
+            "A": "Economic Code",
+            "B": "Code of Conduct",
+            "C": "Administrative Code",
+            "D": "Judicial Code"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect. The Election Commission does not implement an Economic Code.",
+            "B": "Correct. The Election Commission implements the Model Code of Conduct to ensure fair play during elections.",
+            "C": "Incorrect. There is no specific Administrative Code enforced by the Election Commission.",
+            "D": "Incorrect. Judicial Code is not within the purview of the Election Commission."
+          }
+        },
+        {
+          "question": "How often are Lok Sabha elections held in India?",
+          "options": {
+            "A": "Every 3 years",
+            "B": "Every 4 years",
+            "C": "Every 5 years",
+            "D": "Every 6 years"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect. Lok Sabha elections are not held every 3 years.",
+            "B": "Incorrect. This is more common in countries like the USA, not India.",
+            "C": "Correct. Lok Sabha elections in India are held every 5 years.",
+            "D": "Incorrect. No regular parliamentary elections in India have a 6-year term."
+          }
+        },
+        {
+          "question": "What is the term used for election conducted for one constituency to fill a vacancy?",
+          "options": {
+            "A": "General Election",
+            "B": "By-Election",
+            "C": "Primary Election",
+            "D": "Special Election"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect. General Election refers to the regular nationwide election.",
+            "B": "Correct. A By-Election is held to fill a vacancy in a single constituency.",
+            "C": "Incorrect. Primary Election is a concept mainly in the United States for selecting party nominees.",
+            "D": "Incorrect. Special Election is a broader term and can refer to various types of irregular elections."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Civics",
+      "chapter": "Chapter 1",
+      "quizId": "quiz_id1"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Civics",
+      "chapter": "Chapter 2",
+      "quizId": "quiz_id2"
+    }
+  ]
+}
