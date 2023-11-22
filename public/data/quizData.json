@@ -17,7 +17,8 @@
             "B": "Correct. Representative Democracy, where elected officials represent a group of people, is the most common form in modern times.",
             "C": "Incorrect. Monarchical Democracy is a mixed form of monarchy and democracy, which is not the most common form.",
             "D": "Incorrect. Socialist Democracy is a political ideology, not a specific form of democracy widely adopted."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What was the key promise made by Devi Lal in the Haryana State Assembly election of 1987?",
@@ -33,7 +34,8 @@
             "B": "Correct. Devi Lal promised a waiver of loans up to Rs. 10,000 for farmers, which was a significant promise.",
             "C": "Incorrect. Tax Reduction was not the key promise in this election.",
             "D": "Incorrect. Free Healthcare was not the central promise made by Devi Lal."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is the minimum age for a candidate to contest in Indian elections?",
@@ -49,7 +51,8 @@
             "B": "Incorrect. 21 years is the minimum age for contesting in local elections like Panchayats, not for Parliament or Legislative Assemblies.",
             "C": "Correct. The minimum age to contest in Indian elections for Parliament or Legislative Assemblies is 25 years.",
             "D": "Incorrect. 30 years is the minimum age for contesting in Rajya Sabha or Legislative Council elections."
-          }
+          },
+          "level": 1
         }
       ]
     },
@@ -70,7 +73,8 @@
             "B": "Correct. Representative Democracy, where elected officials represent a group of people, is the most common form in modern times.",
             "C": "Incorrect. Monarchical Democracy is a mixed form of monarchy and democracy, which is not the most common form.",
             "D": "Incorrect. Socialist Democracy is a political ideology, not a specific form of democracy widely adopted."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What was the key promise made by Devi Lal in the Haryana State Assembly election of 1987?",
@@ -86,7 +90,8 @@
             "B": "Correct. Devi Lal promised a waiver of loans up to Rs. 10,000 for farmers, which was a significant promise.",
             "C": "Incorrect. Tax Reduction was not the key promise in this election.",
             "D": "Incorrect. Free Healthcare was not the central promise made by Devi Lal."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is the minimum age for a candidate to contest in Indian elections?",
@@ -102,7 +107,8 @@
             "B": "Incorrect. 21 years is the minimum age for contesting in local elections like Panchayats, not for Parliament or Legislative Assemblies.",
             "C": "Correct. The minimum age to contest in Indian elections for Parliament or Legislative Assemblies is 25 years.",
             "D": "Incorrect. 30 years is the minimum age for contesting in Rajya Sabha or Legislative Council elections."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What does the Election Commission of India implement during elections?",
@@ -118,7 +124,8 @@
             "B": "Correct. The Election Commission implements the Model Code of Conduct to ensure fair play during elections.",
             "C": "Incorrect. There is no specific Administrative Code enforced by the Election Commission.",
             "D": "Incorrect. Judicial Code is not within the purview of the Election Commission."
-          }
+          },
+          "level": 1
         },
         {
           "question": "How often are Lok Sabha elections held in India?",
@@ -134,7 +141,8 @@
             "B": "Incorrect. This is more common in countries like the USA, not India.",
             "C": "Correct. Lok Sabha elections in India are held every 5 years.",
             "D": "Incorrect. No regular parliamentary elections in India have a 6-year term."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is the term used for election conducted for one constituency to fill a vacancy?",
@@ -150,7 +158,8 @@
             "B": "Correct. A By-Election is held to fill a vacancy in a single constituency.",
             "C": "Incorrect. Primary Election is a concept mainly in the United States for selecting party nominees.",
             "D": "Incorrect. Special Election is a broader term and can refer to various types of irregular elections."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What are constituencies reserved for SC and ST in elections known as?",
@@ -166,7 +175,8 @@
             "B": "Incorrect. Special Constituencies is not a term used in this context.",
             "C": "Correct. Constituencies reserved for Scheduled Castes and Scheduled Tribes are known as Reserved Constituencies.",
             "D": "Incorrect. Protected Constituencies is not a term used in Indian electoral context."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is the purpose of the Model Code of Conduct in Indian elections?",
@@ -182,7 +192,8 @@
             "B": "Correct. It is aimed at ensuring fair and equal opportunity for all candidates in the election.",
             "C": "Incorrect. The selection of candidates is a party's internal matter.",
             "D": "Incorrect. While media coverage is a concern, it's not the primary purpose of the Model Code of Conduct."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What mechanism does a democracy use to allow people to change their representatives?",
@@ -198,7 +209,8 @@
             "B": "Incorrect. Referendums are generally used for direct decisions on policy questions, not for changing representatives.",
             "C": "Incorrect. Public Opinion Polls are a tool for gauging public opinion but do not directly change representatives.",
             "D": "Incorrect. Legislative Hearings are part of the legislative process, not a mechanism for changing representatives."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Who is responsible for preparing the Electoral Roll in India?",
@@ -214,7 +226,8 @@
             "B": "Incorrect. While the Parliament enacts laws, it does not prepare the Electoral Roll.",
             "C": "Correct. The Election Commission of India is responsible for the preparation and revision of Electoral Rolls.",
             "D": "Incorrect. The Prime Minister is not involved in the preparation of Electoral Rolls."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is the maximum expenditure limit for Lok Sabha elections in big states of India?",
@@ -230,7 +243,8 @@
             "B": "Incorrect. 50 lakh INR is lower than the actual limit for big states.",
             "C": "Incorrect. 1 crore INR exceeds the set limit for Lok Sabha elections.",
             "D": "Incorrect. 25 lakh INR is far below the actual limit."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Which article of the Indian Constitution provides for adult suffrage?",
@@ -246,7 +260,8 @@
             "B": "Incorrect. Article 368 deals with the amendment of the Constitution.",
             "C": "Incorrect. Article 243 pertains to Panchayats and not to suffrage.",
             "D": "Incorrect. Article 21 deals with the right to life and personal liberty."
-          }
+          },
+          "level": 1
         },
         {
           "question": "In India, who can cast a 'postal vote'?",
@@ -262,7 +277,8 @@
             "B": "Correct. Armed Forces Personnel are eligible to cast a postal vote.",
             "C": "Incorrect. Senior citizens generally vote in person or through special provisions but not by postal vote.",
             "D": "Incorrect. University Students usually vote in person unless they fall under special categories."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Which body is responsible for delimitation of constituencies in India?",
@@ -278,7 +294,8 @@
             "B": "Incorrect. Parliament passes laws but does not directly delimit constituencies.",
             "C": "Correct. The Delimitation Commission is responsible for the delimitation of constituencies.",
             "D": "Incorrect. The Supreme Court does not engage in delimitation; it may hear related cases."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is NOT a qualification to be a voter in India?",
@@ -294,7 +311,8 @@
             "B": "Incorrect. Being a resident in the constituency is required to be a voter.",
             "C": "Correct. There is no minimum educational qualification required to vote.",
             "D": "Incorrect. Being at least 18 years old is a qualification for voting."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What does NOT happen during the 'silent period' before polling in India?",
@@ -310,7 +328,8 @@
             "B": "Incorrect. Voting does not happen during this period, but it is not a prohibited activity.",
             "C": "Incorrect. Election analysis in media can occur during the silent period.",
             "D": "Incorrect. Public opinion polling may still be conducted in the silent period."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Which of the following is a feature of the Indian electoral system?",
@@ -326,7 +345,8 @@
             "B": "Correct. The First-Past-The-Post system is used in Indian parliamentary elections.",
             "C": "Incorrect. Direct Democracy is not a feature of the Indian electoral system.",
             "D": "Incorrect. India follows a parliamentary system, not a presidential system."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is the minimum age required to be eligible for the office of the President of India?",
@@ -342,7 +362,8 @@
             "B": "Correct. The minimum age required is 35 years for the President of India.",
             "C": "Incorrect. 40 years is not the set minimum age for presidential eligibility.",
             "D": "Incorrect. 45 years exceeds the minimum age requirement."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is the term for the practice of attempting to influence voters before they vote in Indian elections?",
@@ -358,7 +379,8 @@
             "B": "Incorrect. Lobbying is an attempt to influence decisions made by officials in the government, not directly related to voters.",
             "C": "Correct. Campaigning is the term for activities aimed at influencing voters before they vote.",
             "D": "Incorrect. Electoral Bonding is a financial instrument for donating to political parties, not a direct voter influence practice."
-          }
+          },
+          "level": 1
         },
         {
           "question": "In the context of Indian elections, what is 'NOTA'?",
@@ -374,7 +396,8 @@
             "B": "Correct. NOTA stands for 'None of the Above', an option on Indian election ballots.",
             "C": "Incorrect. NOTA is not related to any National Organizational Technical Assessment.",
             "D": "Incorrect. NOTA does not mean Notice of Temporal Adjustment."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is the primary role of the Chief Election Commissioner of India?",
@@ -390,7 +413,8 @@
             "B": "Correct. The Chief Election Commissioner supervises and directs the election process in India.",
             "C": "Incorrect. Legislating election laws is the function of the Parliament, not the Chief Election Commissioner.",
             "D": "Incorrect. Conducting public opinion polls is not a responsibility of the Chief Election Commissioner."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Which system is used for the election of members to the Rajya Sabha in India?",
@@ -406,7 +430,8 @@
             "B": "Incorrect. First-Past-The-Post is used for Lok Sabha but not for Rajya Sabha.",
             "C": "Incorrect. Proportional Representation is a different electoral system not used for Rajya Sabha.",
             "D": "Incorrect. Rajya Sabha members are not elected by direct popular vote."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is the significance of the 'anti-defection law' in Indian politics?",
@@ -422,7 +447,8 @@
             "B": "Correct. The anti-defection law aims to prevent elected members from changing parties after election.",
             "C": "Incorrect. Campaign finance is regulated separately and not under the anti-defection law.",
             "D": "Incorrect. The law is not specifically designed to provide a framework for coalition governments."
-          }
+          },
+          "level": 1
         },
         {
           "question": "In India, which body is responsible for issuing the Model Code of Conduct for elections?",
@@ -438,7 +464,8 @@
             "B": "Incorrect. The Parliament legislates but does not issue the Model Code of Conduct.",
             "C": "Correct. The Election Commission of India issues the Model Code of Conduct.",
             "D": "Incorrect. The Prime Minister's Office is not responsible for issuing the Model Code of Conduct."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is the term used for the practice of redrawing constituency boundaries to influence election outcomes?",
@@ -454,7 +481,8 @@
             "B": "Incorrect. Filibustering is a legislative tactic, not related to redrawing boundaries.",
             "C": "Incorrect. Lobbying is the act of attempting to influence decisions made by officials, not redrawing boundaries.",
             "D": "Incorrect. Coalitioning refers to forming alliances, not redrawing electoral constituencies."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Which of the following is NOT a function of the Election Commission of India?",
@@ -470,7 +498,8 @@
             "B": "Incorrect. Deciding the dates of elections is a function of the Election Commission.",
             "C": "Correct. Appointing the Prime Minister is not a function of the Election Commission.",
             "D": "Incorrect. Preparing the electoral rolls is a function of the Election Commission."
-          }
+          },
+          "level": 1
         },
         {
           "question": "In the Indian electoral system, what does a 'symbol' represent?",
@@ -486,7 +515,8 @@
             "B": "Incorrect. Symbols do not represent the financial status of a candidate.",
             "C": "Correct. Symbols serve as a unique identifier for political parties or independent candidates.",
             "D": "Incorrect. Symbols have no relation to the literacy rate of a constituency."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is the role of 'Voter ID' in Indian elections?",
@@ -502,7 +532,8 @@
             "B": "Incorrect. Voter ID is not merely optional; it is a crucial requirement.",
             "C": "Incorrect. India does not have online voting, and Voter ID is used in physical polling stations.",
             "D": "Incorrect. Voter ID is directly related to the voting process."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Which amendment of the Indian Constitution reduced the voting age from 21 to 18?",
@@ -518,7 +549,8 @@
             "B": "Incorrect. The 44th Amendment also did not change the voting age.",
             "C": "Correct. The 61st Amendment, passed in 1988, reduced the voting age from 21 to 18.",
             "D": "Incorrect. The 73rd Amendment pertains to Panchayati Raj Institutions."
-          }
+          },
+          "level": 1
         },
         {
           "question": "In India, what is the maximum duration between two sessions of Parliament?",
@@ -534,12 +566,13 @@
             "B": "Incorrect. Four months is not the maximum duration specified.",
             "C": "Correct. There should not be a gap of more than six months between two sessions of Parliament.",
             "D": "Incorrect. One year exceeds the maximum allowed interval between sessions."
-          }
+          },
+          "level": 1
         }
       ]
     },
     {
-      "quizId": "quiz_id3",
+      "quizId": "CBSE_9_Science_1",
       "quizDetails": [
         {
           "question": "What is the primary characteristic of matter that distinguishes its three states?",
@@ -555,7 +588,8 @@
             "B": "Incorrect because weight is not a primary factor in determining the state of matter.",
             "C": "Correct because the intermolecular distance and the force of attraction between particles are key in determining whether a substance is a solid, liquid, or gas.",
             "D": "Incorrect because temperature, while it affects the state of matter, is not the primary characteristic; it's more about how temperature affects intermolecular forces and distances."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What happens to the kinetic energy of particles as the temperature increases?",
@@ -571,23 +605,20 @@
             "B": "Incorrect because kinetic energy changes with temperature; it does not remain constant.",
             "C": "Correct because as temperature increases, the particles gain more energy and move faster, hence their kinetic energy increases.",
             "D": "Incorrect because the change in kinetic energy with temperature is predictable and increases consistently."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Which state of matter has the least intermolecular force of attraction?",
-          "options": {
-            "A": "Solid",
-            "B": "Liquid",
-            "C": "Gas",
-            "D": "Plasma"
-          },
+          "options": { "A": "Solid", "B": "Liquid", "C": "Gas", "D": "Plasma" },
           "answer": "C",
           "explanations": {
             "A": "Incorrect because solids have strong intermolecular forces keeping their particles close together.",
             "B": "Incorrect because liquids have moderate intermolecular forces.",
             "C": "Correct because gases have the least intermolecular force of attraction, allowing their particles to move freely and occupy the available space.",
             "D": "Incorrect because plasma is not typically considered in the basic three states of matter, and its particles are ionized with different interaction dynamics."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Which process describes the change from a gaseous state to a liquid state?",
@@ -603,23 +634,25 @@
             "B": "Correct because condensation is the process where a gas turns into a liquid.",
             "C": "Incorrect because evaporation is the change from a liquid to a gas.",
             "D": "Incorrect because freezing is the transition from a liquid to a solid."
-          }
+          },
+          "level": 1
         },
         {
           "question": "At what temperature does water have the highest density?",
           "options": {
-            "A": "0°C",
-            "B": "4°C",
-            "C": "100°C",
+            "A": "0\u00b0C",
+            "B": "4\u00b0C",
+            "C": "100\u00b0C",
             "D": "At its boiling point"
           },
           "answer": "B",
           "explanations": {
-            "A": "Incorrect because at 0°C, water starts to freeze and expands, reducing its density.",
-            "B": "Correct because water reaches its maximum density at around 4°C.",
-            "C": "Incorrect because at 100°C, water is turning into steam, and its density is decreasing.",
+            "A": "Incorrect because at 0\u00b0C, water starts to freeze and expands, reducing its density.",
+            "B": "Correct because water reaches its maximum density at around 4\u00b0C.",
+            "C": "Incorrect because at 100\u00b0C, water is turning into steam, and its density is decreasing.",
             "D": "Incorrect because at its boiling point, water's density is lower as it is transitioning into a gaseous state."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Which property of matter is demonstrated when a scent spreads across a room?",
@@ -635,7 +668,8 @@
             "B": "Incorrect because condensation is the process of a gas turning into a liquid.",
             "C": "Incorrect because sublimation is the transition from solid to gas, skipping the liquid state.",
             "D": "Incorrect because evaporation is the process of a liquid turning into a vapor."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What causes the pressure exerted by gases?",
@@ -651,7 +685,8 @@
             "B": "Correct because gas pressure is caused by the collisions of gas particles with the walls of their container.",
             "C": "Incorrect because the color change of a gas does not affect pressure.",
             "D": "Incorrect because gases have negligible intermolecular forces, and these are not the cause of pressure."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is the effect of an increase in temperature on the rate of evaporation?",
@@ -667,23 +702,20 @@
             "B": "Correct because higher temperatures provide more energy to the particles, enabling them to overcome intermolecular forces and evaporate faster.",
             "C": "Incorrect because temperature changes definitely affect the rate of evaporation.",
             "D": "Incorrect because there is no evidence to suggest that the rate of evaporation initially increases and then decreases with a continuous increase in temperature."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Which state of matter is characterized by a definite shape and volume?",
-          "options": {
-            "A": "Solid",
-            "B": "Liquid",
-            "C": "Gas",
-            "D": "Plasma"
-          },
+          "options": { "A": "Solid", "B": "Liquid", "C": "Gas", "D": "Plasma" },
           "answer": "A",
           "explanations": {
             "A": "Correct because solids have a definite shape and volume due to the close packing of their particles.",
             "B": "Incorrect because liquids have a definite volume but take the shape of their container.",
             "C": "Incorrect because gases neither have a definite shape nor a definite volume.",
             "D": "Incorrect because plasma, like gas, does not have a definite shape or volume."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What type of change is involved when ice melts to form water?",
@@ -699,7 +731,8 @@
             "B": "Correct because melting of ice is a phase change from solid to liquid state.",
             "C": "Incorrect because sublimation is the transition from solid to gas, bypassing the liquid phase.",
             "D": "Incorrect because melting of ice is a reversible change; it can be reversed by freezing the water."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What property of a gas is demonstrated when a balloon inflates uniformly in all directions?",
@@ -715,7 +748,8 @@
             "B": "Incorrect because condensation is the transition from gas to liquid and is unrelated to balloon inflation.",
             "C": "Correct because the uniform inflation of a balloon is due to the gas exerting uniform pressure in all directions.",
             "D": "Incorrect because evaporation is the process of turning from liquid to gas and is not relevant to the inflation of a balloon."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Why does ice float on water?",
@@ -731,7 +765,8 @@
             "B": "Correct because ice is less dense than water due to the expansion of water when it freezes, causing ice to float.",
             "C": "Incorrect because gravity affects all states of matter, and this is not the reason why ice floats.",
             "D": "Incorrect because the absorption of heat is not the primary reason for ice floating on water."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What happens to the boiling point of water at higher altitudes?",
@@ -747,7 +782,8 @@
             "B": "Correct because at higher altitudes, the lower atmospheric pressure causes water to boil at lower temperatures.",
             "C": "Incorrect because the boiling point of water is dependent on the atmospheric pressure, which changes with altitude.",
             "D": "Incorrect because the change in boiling point with altitude is predictable and consistent."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is the primary reason for the expansion of matter on heating?",
@@ -763,7 +799,8 @@
             "B": "Incorrect although density can decrease upon heating, it is not the primary reason for expansion.",
             "C": "Correct because the increase in kinetic energy of particles upon heating causes them to move more and occupy a larger volume, leading to expansion.",
             "D": "Incorrect because gravitational force is not related to the thermal expansion of matter."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Which process best describes the direct transition from solid to gas?",
@@ -779,7 +816,8 @@
             "B": "Incorrect because evaporation is the process of liquid turning into gas.",
             "C": "Correct because sublimation is the direct transition from solid to gas without passing through the liquid phase.",
             "D": "Incorrect because freezing is the transition from liquid to solid."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What is the primary factor that affects the rate of evaporation?",
@@ -795,7 +833,8 @@
             "B": "Incorrect because humidity affects evaporation but is not the primary factor.",
             "C": "Correct because the surface area directly influences the rate of evaporation; larger surface areas facilitate faster evaporation.",
             "D": "Incorrect because the color of the container has no significant effect on the rate of evaporation."
-          }
+          },
+          "level": 1
         },
         {
           "question": "What does the term 'latent heat' refer to?",
@@ -811,7 +850,8 @@
             "B": "Correct because latent heat is the heat absorbed or released by a substance during a change in its physical state (phase) without changing its temperature.",
             "C": "Incorrect because this describes specific heat, not latent heat.",
             "D": "Incorrect because latent heat is not specifically about heat loss to surroundings."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Which factor does not affect the solubility of a solid in a liquid?",
@@ -827,23 +867,20 @@
             "B": "Incorrect because while pressure has a greater effect on the solubility of gases, it can also influence the solubility of solids in some cases.",
             "C": "Incorrect because the size of solid particles can affect the rate of solubility.",
             "D": "Correct because the color of the liquid does not affect the solubility of a solid in it."
-          }
+          },
+          "level": 1
         },
         {
           "question": "In which state of matter do particles have the highest kinetic energy?",
-          "options": {
-            "A": "Solid",
-            "B": "Liquid",
-            "C": "Gas",
-            "D": "Plasma"
-          },
+          "options": { "A": "Solid", "B": "Liquid", "C": "Gas", "D": "Plasma" },
           "answer": "C",
           "explanations": {
             "A": "Incorrect because particles in a solid have the least kinetic energy due to their close packing and limited movement.",
             "B": "Incorrect because while particles in a liquid have more kinetic energy than in a solid, they are not as energetic as in a gas.",
             "C": "Correct because particles in a gas state have the highest kinetic energy, which allows them to move freely and occupy available space.",
             "D": "Incorrect because while plasma has high kinetic energy, it is not typically considered in the basic three states of matter."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Which phenomenon is an example of a physical change?",
@@ -859,7 +896,8 @@
             "B": "Incorrect because rusting of iron is a chemical change involving iron and oxygen.",
             "C": "Correct because melting of ice is a physical change; it changes form but not its chemical composition.",
             "D": "Incorrect because cooking of food involves chemical changes in the ingredients."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Why does the temperature of a substance remain constant during its boiling point?",
@@ -875,7 +913,8 @@
             "B": "Incorrect because the kinetic energy does not stop increasing; it's just that the energy is used elsewhere.",
             "C": "Correct because during boiling, the temperature remains constant as the heat energy absorbed is used to overcome the intermolecular forces, causing a phase change.",
             "D": "Incorrect because atmospheric pressure does not directly explain why the temperature remains constant during boiling."
-          }
+          },
+          "level": 1
         },
         {
           "question": "In a closed container, why does the rate of evaporation eventually equal the rate of condensation?",
@@ -891,7 +930,8 @@
             "B": "Incorrect because the change in air pressure is not the primary reason for this equilibrium.",
             "C": "Correct because in a closed container, the rate of evaporation and condensation eventually balance each other, reaching a dynamic equilibrium between the liquid and vapor phases.",
             "D": "Incorrect because the kinetic energy of particles does not decrease; instead, it is the balance of energy exchange that leads to equilibrium."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Why does the solubility of a gas in a liquid generally decrease with an increase in temperature?",
@@ -907,10 +947,11 @@
             "B": "Incorrect because the expansion of the liquid is not the primary reason for decreased solubility.",
             "C": "Correct because increased kinetic energy at higher temperatures makes gas molecules less likely to be 'captured' by the liquid, reducing solubility.",
             "D": "Incorrect because atmospheric pressure is not the main factor in this context."
-          }
+          },
+          "level": 1
         },
         {
-          "question": "What is the primary reason for the anomalous expansion of water below 4°C?",
+          "question": "What is the primary reason for the anomalous expansion of water below 4\u00b0C?",
           "options": {
             "A": "Formation of hydrogen bonds in a hexagonal pattern",
             "B": "Decrease in kinetic energy of water molecules",
@@ -919,11 +960,12 @@
           },
           "answer": "A",
           "explanations": {
-            "A": "Correct because below 4°C, water molecules form a hexagonal structure due to hydrogen bonding, which occupies more space and leads to the anomalous expansion of water.",
+            "A": "Correct because below 4\u00b0C, water molecules form a hexagonal structure due to hydrogen bonding, which occupies more space and leads to the anomalous expansion of water.",
             "B": "Incorrect although the kinetic energy decreases, the key factor is the formation of a specific molecular structure.",
             "C": "Incorrect because atmospheric pressure does not directly cause the anomalous expansion of water.",
             "D": "Incorrect because the reduction in density is a result of the anomalous expansion, not the cause."
-          }
+          },
+          "level": 1
         },
         {
           "question": "Why is the pressure inside a soap bubble higher than the outside atmospheric pressure?",
@@ -934,6 +976,7 @@
             "D": "As a result of external air pressure"
           },
           "answer": "B",
+          "level": 2,
           "explanations": {
             "A": "Incorrect because temperature differences are not the primary reason for the pressure difference.",
             "B": "Correct because the surface tension of the soap film creates a pressure inside the bubble that is slightly higher than the external atmospheric pressure.",
@@ -950,6 +993,7 @@
             "D": "As a result of external atmospheric pressure"
           },
           "answer": "C",
+          "level": 2,
           "explanations": {
             "A": "Incorrect because gravitational force is negligible in the behavior of gas particles in a container.",
             "B": "Incorrect because gases typically have low density, not high.",
@@ -966,8 +1010,9 @@
             "D": "Reduced gravitational force"
           },
           "answer": "B",
+          "level": 2,
           "explanations": {
-            "A": "Incorrect because the oxygen content doesn’t significantly affect the boiling point of water.",
+            "A": "Incorrect because the oxygen content doesn\u2019t significantly affect the boiling point of water.",
             "B": "Correct because the boiling point of water decreases at higher altitudes due to lower atmospheric pressure.",
             "C": "Incorrect because humidity does not have a significant impact on the boiling point.",
             "D": "Incorrect because gravitational force has a negligible effect on the boiling point of water."
@@ -982,6 +1027,7 @@
             "D": "Magnetic fields surrounding the particles"
           },
           "answer": "C",
+          "level": 2,
           "explanations": {
             "A": "Incorrect because electrical charges do not primarily cause Brownian motion.",
             "B": "Incorrect because gravitational forces are too weak to cause noticeable Brownian motion in small particles.",
@@ -998,6 +1044,7 @@
             "D": "The formation of ice crystals is easier in hot water"
           },
           "answer": "A",
+          "level": 2,
           "explanations": {
             "A": "Correct because one of the explanations for the Mpemba effect is that evaporation of hot water reduces its volume, leading to faster freezing.",
             "B": "Incorrect although hot water does hold less dissolved gas, this is not the primary reason for the Mpemba effect.",
@@ -1010,10 +1057,11 @@
           "options": {
             "A": "Impurities increase the kinetic energy of the solvent",
             "B": "They decrease the solvent's vapor pressure, lowering the freezing point",
-            "C": "Impurities increase the solvent’s density",
+            "C": "Impurities increase the solvent\u2019s density",
             "D": "They raise the atmospheric pressure on the solvent"
           },
           "answer": "B",
+          "level": 2,
           "explanations": {
             "A": "Incorrect because impurities do not significantly increase the kinetic energy of the solvent.",
             "B": "Correct because impurities in a solvent lower its vapor pressure, which in turn lowers the freezing point (a phenomenon known as freezing point depression).",
@@ -1030,6 +1078,7 @@
             "D": "Charles' law"
           },
           "answer": "B",
+          "level": 2,
           "explanations": {
             "A": "Incorrect because Pascal's principle relates to fluid dynamics in a confined space and is not directly applicable to hot air balloons.",
             "B": "Correct because Archimedes' principle, which states that an object is buoyed up by a force equal to the weight of the fluid displaced by the object, explains the rising of a hot air balloon in the atmosphere.",
@@ -1046,6 +1095,7 @@
             "D": "During phase changes"
           },
           "answer": "B",
+          "level": 2,
           "explanations": {
             "A": "Incorrect because the ideal gas law is most accurate under high temperatures and low pressures.",
             "B": "Correct because the ideal gas law becomes less accurate for real gases at low temperatures and high pressures, where intermolecular forces and the volume of the gas molecules become significant.",
@@ -1062,6 +1112,7 @@
             "D": "Dialysis"
           },
           "answer": "A",
+          "level": 2,
           "explanations": {
             "A": "Correct because the Tyndall effect, where light is scattered by particles in a colloidal solution, demonstrates the particle nature of matter.",
             "B": "Incorrect because osmotic pressure is related to the solvent movement through a semipermeable membrane, not directly showing particle nature.",
@@ -1075,9 +1126,10 @@
             "A": "Decrease in vapor pressure above the solution",
             "B": "Increase in the kinetic energy of the solvent molecules",
             "C": "Change in the gravitational pull on the solution",
-            "D": "Enhancement of the solvent’s thermal conductivity"
+            "D": "Enhancement of the solvent\u2019s thermal conductivity"
           },
           "answer": "A",
+          "level": 2,
           "explanations": {
             "A": "Correct because adding a solute to a solvent decreases the vapor pressure above the solution, leading to a decrease in the freezing point (colligative property).",
             "B": "Incorrect because the addition of a solute does not significantly increase the kinetic energy of solvent molecules in this context.",
@@ -1094,11 +1146,2536 @@
             "D": "As a result of increased gravitational forces on molecules"
           },
           "answer": "A",
+          "level": 2,
           "explanations": {
             "A": "Correct because at very high pressures, the actual volume of gas molecules becomes significant compared to the total volume, leading to deviations from ideal behavior.",
             "B": "Incorrect because randomness in molecular motion is a feature of gases but does not explain the deviation from ideal behavior.",
             "C": "Incorrect because molecular bonds do not break down at high pressures in the context of ideal gas behavior.",
             "D": "Incorrect because gravitational forces are negligible in the behavior of gas molecules under high pressure."
+          }
+        }
+      ]
+    },
+    {
+      "quizId": "CBSE_9_Science_2",
+      "quizDetails": [
+        {
+          "question": "What does 'pure' mean in a scientific context?",
+          "options": {
+            "A": "Free from any adulteration",
+            "B": "Consists of a single type of particle",
+            "C": "Contains only natural ingredients",
+            "D": "Lacking any kind of mixture"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: This is more of a common understanding, not a scientific one.",
+            "B": "Correct: In science, a pure substance consists of a single type of particle.",
+            "C": "Incorrect: 'Natural' does not necessarily imply 'pure' in scientific terms.",
+            "D": "Incorrect: While a pure substance is not a mixture, this option does not fully capture the scientific definition of purity."
+          },
+          "level": 1
+        },
+        {
+          "question": "What is a mixture in the context of matter?",
+          "options": {
+            "A": "A combination of two or more substances that are chemically bonded",
+            "B": "A single substance with uniform properties",
+            "C": "A combination of two or more substances that retain their own properties",
+            "D": "An element found in nature"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: In a mixture, substances are not chemically bonded.",
+            "B": "Incorrect: Mixtures consist of more than one substance.",
+            "C": "Correct: In a mixture, each substance retains its own properties.",
+            "D": "Incorrect: Elements are pure substances, not mixtures."
+          },
+          "level": 1
+        },
+        {
+          "question": "Which of the following is an example of a mixture?",
+          "options": {
+            "A": "Pure water",
+            "B": "Gold",
+            "C": "Milk",
+            "D": "Oxygen"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Pure water is a pure substance, not a mixture.",
+            "B": "Incorrect: Gold is an element, a pure substance.",
+            "C": "Correct: Milk is a mixture of water, fat, proteins, etc.",
+            "D": "Incorrect: Oxygen is a pure substance, either as an element or a molecule."
+          },
+          "level": 1
+        },
+        {
+          "question": "What defines a pure substance?",
+          "options": {
+            "A": "A substance with no adulteration",
+            "B": "A substance consisting of a single type of particle",
+            "C": "A substance that is naturally occurring",
+            "D": "A substance that has been processed"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: While a common person might view a pure substance as having no adulteration, the scientific definition is more specific.",
+            "B": "Correct: A pure substance consists of a single type of particle, meaning all constituent particles are the same in their chemical nature.",
+            "C": "Incorrect: Pure substances are not defined based on their occurrence in nature.",
+            "D": "Incorrect: The processing of a substance does not necessarily make it pure; purity is determined by the uniformity of its constituent particles."
+          },
+          "level": 1
+        },
+        {
+          "question": "Which of the following is an example of a mixture?",
+          "options": {
+            "A": "Milk",
+            "B": "Pure water",
+            "C": "Elemental iron",
+            "D": "Distilled vinegar"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Milk is a mixture, consisting of water, fat, proteins, etc.",
+            "B": "Incorrect: Pure water is not a mixture but rather a pure substance.",
+            "C": "Incorrect: Elemental iron is a pure substance, not a mixture.",
+            "D": "Incorrect: Distilled vinegar's composition depends on the process used, and it is not specifically categorized in this context."
+          },
+          "level": 1
+        },
+        {
+          "question": "How can dissolved sodium chloride be separated from water?",
+          "options": {
+            "A": "Filtration",
+            "B": "Distillation",
+            "C": "Evaporation",
+            "D": "Magnetic separation"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Filtration is not effective for separating dissolved substances.",
+            "B": "Incorrect: While distillation could be used, evaporation is specifically identified as a method.",
+            "C": "Correct: Dissolved sodium chloride can be separated from water through the physical process of evaporation.",
+            "D": "Incorrect: Magnetic separation is not relevant for separating sodium chloride from water."
+          },
+          "level": 1
+        },
+        {
+          "question": "What is a characteristic feature of a mixture?",
+          "options": {
+            "A": "Consists of a single type of particle",
+            "B": "Is always a liquid",
+            "C": "Is constituted by more than one kind of pure form of matter",
+            "D": "Cannot be separated into its components"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: A single type of particle defines a pure substance, not a mixture.",
+            "B": "Incorrect: Mixtures can be in any state of matter, not just liquid.",
+            "C": "Correct: Mixtures are constituted by more than one kind of pure form of matter.",
+            "D": "Incorrect: Mixtures can often be separated into their components through various methods."
+          },
+          "level": 1
+        },
+        {
+          "question": "What is a common misconception about purity?",
+          "options": {
+            "A": "All consumables are pure",
+            "B": "Purity means having no adulteration",
+            "C": "Mixtures cannot be pure",
+            "D": "Pure substances are always liquids"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: There is no claim that all consumables are pure.",
+            "B": "Correct: A common misconception is that purity means having no adulteration.",
+            "C": "Incorrect: The discussion differentiates mixtures from pure substances.",
+            "D": "Incorrect: There is no assertion that pure substances are always liquids."
+          },
+          "level": 1
+        },
+        {
+          "question": "What does the term 'adulteration' imply in the context of pure substances?",
+          "options": {
+            "A": "The presence of multiple types of particles",
+            "B": "The addition of unwanted substances",
+            "C": "The process of purification",
+            "D": "The natural variation in substance composition"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Multiple types of particles describe a mixture, not adulteration.",
+            "B": "Correct: Adulteration typically refers to the addition of unwanted or impure substances to a product.",
+            "C": "Incorrect: Purification is the process of removing impurities, not adding them.",
+            "D": "Incorrect: Natural variation does not constitute adulteration, which implies human intervention."
+          },
+          "level": 1
+        },
+        {
+          "question": "What is a distinguishing property of mixtures?",
+          "options": {
+            "A": "They have a fixed boiling point",
+            "B": "They consist of only one kind of particle",
+            "C": "They can be separated into pure components",
+            "D": "They are always homogeneous"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Mixtures generally do not have a fixed boiling point, unlike pure substances.",
+            "B": "Incorrect: Mixtures consist of more than one kind of particle.",
+            "C": "Correct: Mixtures can be separated into their pure components through various methods.",
+            "D": "Incorrect: Mixtures can be either homogeneous or heterogeneous."
+          },
+          "level": 1
+        },
+        {
+          "question": "Which of the following best describes a homogeneous mixture?",
+          "options": {
+            "A": "A mixture where the components can be visibly distinguished",
+            "B": "A mixture that has a variable composition throughout",
+            "C": "A mixture where the composition is uniform throughout",
+            "D": "A mixture that cannot be separated into its components"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: A mixture where components are visibly distinguished is a heterogeneous mixture.",
+            "B": "Incorrect: A variable composition would suggest a heterogeneous mixture.",
+            "C": "Correct: A homogeneous mixture has a uniform composition throughout.",
+            "D": "Incorrect: Most mixtures, whether homogeneous or heterogeneous, can be separated into their components."
+          },
+          "level": 1
+        },
+        {
+          "question": "What separation technique is likely to be used for a mixture of two liquids with different boiling points?",
+          "options": {
+            "A": "Filtration",
+            "B": "Distillation",
+            "C": "Decantation",
+            "D": "Sublimation"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Filtration is typically used for separating solids from liquids.",
+            "B": "Correct: Distillation is an effective method for separating liquids with different boiling points.",
+            "C": "Incorrect: Decantation is more suited for separating a liquid from a settled solid.",
+            "D": "Incorrect: Sublimation is the transition of a substance from solid to gas without becoming liquid, not a separation technique for liquids."
+          },
+          "level": 1
+        },
+        {
+          "question": "What can be inferred from the experiment where salt is dissolved in water?",
+          "options": {
+            "A": "Matter is continuous and cannot be divided into smaller particles.",
+            "B": "Matter consists of large particles that cannot dissolve in water.",
+            "C": "Matter is made up of extremely small particles not visible to the naked eye.",
+            "D": "Salt particles increase the water level when dissolved."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The experiment demonstrates that matter is not continuous because the salt dissolves evenly in the water.",
+            "B": "Incorrect: The salt does dissolve in water, which implies that matter consists of small particles that can intersperse with water molecules.",
+            "C": "Correct: The salt dissolving and disappearing in the water suggests that matter is made of particles too small to see without magnification.",
+            "D": "Incorrect: The water level does not increase significantly when salt is dissolved, indicating that matter has space between particles."
+          },
+          "level": 1
+        },
+        {
+          "question": "What does the rate of diffusion of potassium permanganate in water indicate?",
+          "options": {
+            "A": "Particles of potassium permanganate are larger than water particles.",
+            "B": "Potassium permanganate does not interact with water.",
+            "C": "Particles of matter have spaces between them allowing diffusion.",
+            "D": "Diffusion does not depend on particle size."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The size of the potassium permanganate particles does not prevent diffusion; rather, it demonstrates that particles are small and can move between water molecules.",
+            "B": "Incorrect: The potassium permanganate does interact with water, as shown by the spread of color throughout the water.",
+            "C": "Correct: The spread of color through the water shows that particles of matter have spaces between them that allow other particles to pass through.",
+            "D": "Incorrect: Diffusion does depend on particle size, but this experiment specifically shows that the small size of the potassium permanganate particles allows for diffusion in water."
+          },
+          "level": 1
+        },
+        {
+          "question": "Why do gases like oxygen and carbon dioxide dissolve in water?",
+          "options": {
+            "A": "Due to the high temperature of water.",
+            "B": "Because gases are highly compressible.",
+            "C": "As gases have particles that can intermix with water due to diffusion.",
+            "D": "Because gases are heavier than liquids."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Temperature can affect solubility, but it is not the primary reason gases dissolve in water.",
+            "B": "Incorrect: Compressibility is a property of gases but does not directly explain why they dissolve in water.",
+            "C": "Correct: The gases dissolve in water because their particles can spread out and mix with water particles, a process facilitated by diffusion.",
+            "D": "Incorrect: Gases are generally less dense than liquids and do not dissolve due to being heavier."
+          },
+          "level": 1
+        },
+        {
+          "question": "What does the term 'latent heat of vaporisation' refer to?",
+          "options": {
+            "A": "The temperature at which a liquid starts to evaporate.",
+            "B": "The heat required to convert a liquid to gas without changing its temperature.",
+            "C": "The amount of heat lost during the condensation of a gas.",
+            "D": "The heat energy required to change the temperature of a liquid."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The term refers to heat energy required, not the temperature at which evaporation starts.",
+            "B": "Correct: Latent heat of vaporisation is the amount of heat energy needed to convert a liquid into a gas at its boiling point, without a change in temperature.",
+            "C": "Incorrect: Latent heat refers to the energy required for phase change, not the energy lost during condensation.",
+            "D": "Incorrect: Latent heat of vaporisation does not change the temperature of the liquid; it provides the energy for the phase change."
+          },
+          "level": 1
+        },
+        {
+          "question": "Why is evaporation considered a cooling process?",
+          "options": {
+            "A": "Because it releases heat into the environment.",
+            "B": "As it involves the absorption of latent heat from the surroundings.",
+            "C": "Due to the high temperature of the evaporating liquid.",
+            "D": "Since evaporation only occurs at low temperatures."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Evaporation absorbs heat from the surroundings, which is why it is a cooling process.",
+            "B": "Correct: During evaporation, the liquid absorbs latent heat from the surroundings, resulting in a cooling effect.",
+            "C": "Incorrect: The temperature of the evaporating liquid is not necessarily high; evaporation can occur at any temperature.",
+            "D": "Incorrect: Evaporation can occur at any temperature, not just low temperatures."
+          },
+          "level": 1
+        },
+        {
+          "question": "Which of the following experiments suggests that matter is particulate rather than continuous?",
+          "options": {
+            "A": "Mixing salt with sand and observing no volume change",
+            "B": "Dissolving sugar in water and noticing a change in taste",
+            "C": "Dissolving salt in water without changing the water level",
+            "D": "Freezing water into ice and observing it expand"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Mixing salt with sand would result in a mixture where individual grains can be seen, which does not provide clear evidence of the particulate nature of matter.",
+            "B": "Incorrect: While dissolving sugar changes the taste due to the particulate nature of matter, it does not provide clear evidence regarding the continuous vs. particulate debate.",
+            "C": "Correct: Dissolving salt in water without changing the water level suggests that salt particles fit into the spaces between water particles, demonstrating that matter is made of individual particles rather than being continuous.",
+            "D": "Incorrect: Freezing water into ice and observing expansion is related to the properties of water molecules when they form a solid lattice, which is not directly evidence against matter being continuous."
+          },
+          "level": 2
+        },
+        {
+          "question": "In the context of the kinetic theory of matter, what does the random movement of particles in a gas lead to?",
+          "options": {
+            "A": "Decreased density of the gas",
+            "B": "Increased rate of diffusion compared to liquids and solids",
+            "C": "The gas maintaining a constant volume",
+            "D": "The gas exhibiting strong intermolecular forces"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The random movement of particles in a gas leads to diffusion and does not inherently decrease the density of the gas.",
+            "B": "Correct: The random, high-speed movement of particles in a gas leads to a higher rate of diffusion compared to liquids and solids where the particles are more closely bound.",
+            "C": "Incorrect: Gases do not maintain a constant volume due to random particle movement; they expand to fill their containers.",
+            "D": "Incorrect: The random movement of particles in a gas is due to weak intermolecular forces, not strong ones."
+          },
+          "level": 2
+        },
+        {
+          "question": "What does the latent heat of vaporisation indicate about the particles of a liquid?",
+          "options": {
+            "A": "The speed of particles at the boiling point",
+            "B": "The change in kinetic energy during phase change",
+            "C": "The temperature at which particles evaporate",
+            "D": "The energy required to overcome intermolecular forces during vaporisation"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: The latent heat of vaporisation does not directly indicate the speed of the particles, but rather the energy required for phase change.",
+            "B": "Incorrect: While kinetic energy does change during phase change, latent heat specifically refers to the energy needed to change phase at a constant temperature.",
+            "C": "Incorrect: The latent heat of vaporisation is not a temperature, but an amount of energy per unit mass.",
+            "D": "Correct: The latent heat of vaporisation is the amount of energy required to overcome the intermolecular forces holding the liquid particles together, allowing them to vaporise."
+          },
+          "level": 2
+        },
+        {
+          "question": "Why is sublimation considered a useful separation technique in chemistry?",
+          "options": {
+            "A": "It allows rapid cooling of substances without a liquid phase.",
+            "B": "It can separate substances based on their volatility.",
+            "C": "It indicates the purity of a substance by its sublimation temperature.",
+            "D": "It is a physical change that alters the chemical composition of a substance."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Sublimation involves a phase change from solid to gas, not cooling, and it doesn't avoid a liquid phase for the purpose of cooling.",
+            "B": "Correct: Sublimation can be used to separate substances that sublimate from those that do not, which is often based on their volatility.",
+            "C": "Incorrect: While the sublimation temperature can be characteristic of a pure substance, this is not the primary reason why sublimation is used as a separation technique.",
+            "D": "Incorrect: Sublimation is a physical change and does not alter the chemical composition of a substance."
+          },
+          "level": 2
+        },
+        {
+          "question": "Based on the diffusion of gases, which of the following scenarios would lead to the fastest diffusion of a perfume in a room?",
+          "options": {
+            "A": "A room at lower temperature with still air",
+            "B": "A room at higher temperature with a fan running",
+            "C": "A humid room with a fan running",
+            "D": "A room with air at high pressure and high humidity"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Lower temperature generally results in slower movement of particles, which would slow down diffusion.",
+            "B": "Correct: Higher temperatures increase particle motion, leading to faster diffusion, and a fan helps disperse the perfume particles throughout the room more quickly.",
+            "C": "Incorrect: While a fan can aid in diffusion, high humidity can slow the process because the air is already saturated with water vapor, which can impede the movement of perfume particles.",
+            "D": "Incorrect: High pressure and high humidity are more likely to slow down the diffusion of perfume in a room due to denser air and moisture content."
+          },
+          "level": 2
+        },
+        {
+          "level": 2,
+          "question": "Which principle explains why a piece of paper with perfume sprayed on it can be smelled from the other side of a room?",
+          "options": {
+            "A": "Capillary action of paper fibers spreading the perfume.",
+            "B": "Diffusion of perfume particles through the air.",
+            "C": "Electromagnetic waves carrying the perfume scent.",
+            "D": "Gravity pulling the perfume particles throughout the room."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Capillary action helps to spread a liquid through a solid material but does not explain how the scent travels through the air.",
+            "B": "Correct: The scent of perfume is due to the diffusion of its particles through the air, which is why it can be detected from a distance.",
+            "C": "Incorrect: Electromagnetic waves are related to light and energy transmission, not the movement of scent particles.",
+            "D": "Incorrect: Gravity affects the movement of physical objects and is not responsible for the diffusion of scent particles through the air."
+          }
+        },
+        {
+          "level": 2,
+          "question": "What conclusion can be drawn about the intermolecular forces within a substance that sublimates?",
+          "options": {
+            "A": "The substance has very strong intermolecular forces.",
+            "B": "The substance has no intermolecular forces.",
+            "C": "The substance has intermolecular forces that can be overcome at room temperature.",
+            "D": "The substance's intermolecular forces increase upon sublimation."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: A substance with very strong intermolecular forces would not sublimate easily.",
+            "B": "Incorrect: All substances have some intermolecular forces; the ability to sublimate indicates a particular strength of these forces.",
+            "C": "Correct: If a substance sublimates, it means that its intermolecular forces are such that they can be overcome even at room temperature, allowing the substance to transition directly from a solid to a gas.",
+            "D": "Incorrect: Sublimation involves the overcoming of intermolecular forces, not their increase."
+          }
+        },
+        {
+          "level": 2,
+          "question": "In a closed system at equilibrium, what happens to the rate of evaporation if the temperature is increased?",
+          "options": {
+            "A": "The rate of evaporation decreases as the system approaches a dynamic equilibrium.",
+            "B": "The rate of evaporation remains constant as temperature has no effect at equilibrium.",
+            "C": "The rate of evaporation increases, disrupting the equilibrium temporarily.",
+            "D": "The rate of evaporation and condensation both decrease, maintaining equilibrium."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: At equilibrium, increasing the temperature typically increases the rate of evaporation, not decreases it.",
+            "B": "Incorrect: Temperature is a factor that affects the rate of evaporation, even at equilibrium.",
+            "C": "Correct: Increasing the temperature in a closed system at equilibrium will increase the rate of evaporation, which will disrupt the equilibrium until the rate of condensation increases to match it again.",
+            "D": "Incorrect: Increasing temperature will not decrease the rates; it will increase the rate of evaporation."
+          }
+        },
+        {
+          "level": 2,
+          "question": "Why does increasing pressure over a liquid's surface increase the boiling point?",
+          "options": {
+            "A": "It decreases the kinetic energy of the particles in the liquid.",
+            "B": "It reduces the space between particles, making it harder for them to enter the gas phase.",
+            "C": "It increases the potential energy of the particles in the liquid.",
+            "D": "It causes the liquid to freeze, preventing boiling."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Increasing pressure does not decrease the kinetic energy of particles directly.",
+            "B": "Correct: Increased pressure over a liquid's surface makes it more difficult for the particles to escape into the gas phase, thus increasing the boiling point.",
+            "C": "Incorrect: The potential energy of the particles is more related to the forces between them, not the pressure exerted on the liquid.",
+            "D": "Incorrect: Increasing pressure does not cause the liquid to freeze; that would require a decrease in temperature."
+          }
+        },
+        {
+          "level": 2,
+          "question": "Which factor is not a reason that evaporation causes cooling?",
+          "options": {
+            "A": "Particles with higher kinetic energy escape the liquid, leaving behind particles with lower kinetic energy.",
+            "B": "The process of evaporation requires energy, which is taken from the liquid itself.",
+            "C": "Evaporation leads to a decrease in the liquid's temperature, which is a direct measure of the average kinetic energy of its particles.",
+            "D": "The surrounding air transfers heat to the evaporating liquid, thereby reducing its temperature."
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: This is one of the reasons evaporation causes cooling as the more energetic particles leave the liquid.",
+            "B": "Incorrect: The requirement of energy for the phase change from liquid to gas does contribute to the cooling effect.",
+            "C": "Incorrect: The decrease in temperature of the liquid due to the loss of high energy particles does indeed cause cooling.",
+            "D": "Correct: The surrounding air does not transfer heat to the liquid during evaporation; in fact, the liquid absorbs heat from the surroundings, which causes the cooling effect."
+          }
+        }
+      ]
+    },
+    {
+      "quizId": "CBSE_9_Science_3",
+      "quizDetails": [
+        {
+          "question": "Who postulated the concept of 'Parmanu' as the smallest indivisible particle of matter?",
+          "level": 1,
+          "options": {
+            "A": "Maharishi Kanad",
+            "B": "Democritus",
+            "C": "John Dalton",
+            "D": "Antoine Lavoisier"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Maharishi Kanad was the Indian philosopher who introduced the concept of 'Parmanu'.",
+            "B": "Incorrect: Democritus was a Greek philosopher who proposed the idea of 'atoms' being indivisible.",
+            "C": "Incorrect: John Dalton developed the atomic theory in the 19th century, which was different from the concept of 'Parmanu'.",
+            "D": "Incorrect: Antoine Lavoisier was involved in establishing laws of chemical combination, not the concept of 'Parmanu'."
+          }
+        },
+        {
+          "question": "What is the Law of Conservation of Mass?",
+          "level": 1,
+          "options": {
+            "A": "Mass is neither created nor destroyed in a chemical reaction.",
+            "B": "Elements combine in fixed ratios to form compounds.",
+            "C": "Atoms are indivisible and indestructible.",
+            "D": "Compounds are formed by the combination of two or more elements."
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: This law states that the total mass of reactants equals the total mass of products in a chemical reaction.",
+            "B": "Incorrect: This describes the Law of Definite Proportions, not the Law of Conservation of Mass.",
+            "C": "Incorrect: This is a postulate of Dalton’s atomic theory.",
+            "D": "Incorrect: This is a general statement about compounds, not related to the Law of Conservation of Mass."
+          }
+        },
+        {
+          "question": "What is the significance of Dalton's atomic theory?",
+          "level": 1,
+          "options": {
+            "A": "It established the first table of atomic weights.",
+            "B": "It introduced the idea of atoms as the smallest unit of matter.",
+            "C": "It proved that atoms could be divided into smaller particles.",
+            "D": "It described atoms as being made up of protons, neutrons, and electrons."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Dalton's theory did not establish the first table of atomic weights; it laid the foundation for understanding atomic weights.",
+            "B": "Correct: Dalton's atomic theory introduced the idea that atoms are the smallest unit of matter and participate in chemical reactions.",
+            "C": "Incorrect: Dalton's theory described atoms as indivisible, not divisible into smaller particles.",
+            "D": "Incorrect: The concept of protons, neutrons, and electrons was developed much later than Dalton's atomic theory."
+          }
+        },
+        {
+          "question": "Which of the following best describes the Law of Definite Proportions?",
+          "level": 1,
+          "options": {
+            "A": "Atoms of different elements combine in simple whole-number ratios to form chemical compounds.",
+            "B": "The properties of a compound are the same as the properties of the elements that form it.",
+            "C": "In a chemical reaction, the mass of the products is always equal to the mass of the reactants.",
+            "D": "The elements in a compound are always present in a definite proportion by mass."
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: This statement is more related to Dalton's atomic theory than to the Law of Definite Proportions.",
+            "B": "Incorrect: This is not related to the Law of Definite Proportions, as compound properties often differ from their constituent elements.",
+            "C": "Incorrect: This describes the Law of Conservation of Mass.",
+            "D": "Correct: The Law of Definite Proportions states that elements in a compound are always present in a definite proportion by mass."
+          }
+        },
+        {
+          "question": "What is the atomicity of phosphorus?",
+          "level": 1,
+          "options": {
+            "A": "Monoatomic",
+            "B": "Diatomic",
+            "C": "Tetra-atomic",
+            "D": "Poly-atomic"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Monoatomic refers to elements like argon and helium, not phosphorus.",
+            "B": "Incorrect: Diatomic refers to elements like oxygen and hydrogen, not phosphorus.",
+            "C": "Correct: Phosphorus typically exists as tetra-atomic molecules (P4).",
+            "D": "Incorrect: Poly-atomic refers to elements like sulfur, which has an atomicity greater than four."
+          }
+        },
+        {
+          "question": "Which of the following is not a postulate of Dalton's atomic theory?",
+          "level": 1,
+          "options": {
+            "A": "Atoms are indivisible particles.",
+            "B": "Atoms of different elements have different masses and chemical properties.",
+            "C": "Atoms can be created or destroyed in chemical reactions.",
+            "D": "Atoms combine in the ratio of small whole numbers to form compounds."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: This is a postulate of Dalton's atomic theory stating that atoms are indivisible.",
+            "B": "Incorrect: This is also a postulate of Dalton's atomic theory.",
+            "C": "Correct: Dalton's theory actually states that atoms cannot be created or destroyed in chemical reactions.",
+            "D": "Incorrect: This is another postulate of Dalton's atomic theory."
+          }
+        },
+        {
+          "question": "What does the 'Law of Constant Proportions' state?",
+          "level": 1,
+          "options": {
+            "A": "The properties of an element are a periodic function of their atomic numbers.",
+            "B": "The elements in a compound are always present in a definite proportion by mass.",
+            "C": "The total mass of reactants equals the total mass of products in a chemical reaction.",
+            "D": "Atoms are the basic unit from which molecules and ions are formed."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: This is related to the periodic law, not the Law of Constant Proportions.",
+            "B": "Correct: This law states that in any chemical substance, the elements are always present in a definite proportion by mass.",
+            "C": "Incorrect: This describes the Law of Conservation of Mass.",
+            "D": "Incorrect: This is a general statement about atoms, not related to the Law of Constant Proportions."
+          }
+        },
+        {
+          "question": "What is the atomicity of sulphur?",
+          "level": 1,
+          "options": {
+            "A": "Monoatomic",
+            "B": "Diatomic",
+            "C": "Tetra-atomic",
+            "D": "Poly-atomic"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Monoatomic refers to elements like argon and helium, not sulphur.",
+            "B": "Incorrect: Diatomic refers to elements like oxygen and hydrogen, not sulphur.",
+            "C": "Incorrect: Tetra-atomic refers to elements like phosphorus, not sulphur.",
+            "D": "Correct: Sulphur typically exists as poly-atomic molecules, particularly in the form of S8."
+          }
+        },
+        {
+          "question": "What is the significance of the formula unit mass in chemistry?",
+          "level": 1,
+          "options": {
+            "A": "It is the sum of the atomic masses of all atoms in a molecule.",
+            "B": "It represents the mass of a single atom of an element.",
+            "C": "It is the sum of the atomic masses of all atoms in a formula unit of a compound.",
+            "D": "It is used to calculate the molar mass of a compound."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: This defines molecular mass, not formula unit mass.",
+            "B": "Incorrect: This is the definition of atomic mass.",
+            "C": "Correct: Formula unit mass is the sum of the atomic masses of all atoms in a formula unit of a compound, typically for ionic compounds.",
+            "D": "Incorrect: While related, the formula unit mass itself is not used to calculate molar mass but is similar in concept."
+          }
+        },
+        {
+          "question": "Which principle is illustrated by calculating the percentage composition of a compound?",
+          "level": 1,
+          "options": {
+            "A": "Law of Conservation of Mass",
+            "B": "Law of Definite Proportions",
+            "C": "Dalton's Atomic Theory",
+            "D": "Avogadro's Hypothesis"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The Law of Conservation of Mass relates to the mass before and after a chemical reaction, not the composition of compounds.",
+            "B": "Correct: The Law of Definite Proportions is illustrated when calculating the percentage composition of a compound, as it relates to the fixed ratio of elements in a compound.",
+            "C": "Incorrect: While Dalton's Atomic Theory is fundamental in understanding chemical reactions, it does not directly relate to the percentage composition of a compound.",
+            "D": "Incorrect: Avogadro's Hypothesis deals with gases and their volumes, not the composition of compounds."
+          }
+        },
+        {
+          "question": "What is the main difference between atoms of elements and molecules of compounds?",
+          "level": 1,
+          "options": {
+            "A": "Atoms of elements are always monoatomic, while molecules of compounds are polyatomic.",
+            "B": "Atoms of elements can exist independently, while molecules of compounds cannot.",
+            "C": "Atoms of elements are the basic units of chemical elements, while molecules of compounds consist of two or more atoms bonded together.",
+            "D": "Atoms of elements do not have a definite shape, while molecules of compounds do."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Not all atoms of elements are monoatomic; some like oxygen (O2) are diatomic.",
+            "B": "Incorrect: Some atoms of elements cannot exist independently, such as reactive non-metals.",
+            "C": "Correct: Atoms are the basic units of elements, while molecules of compounds are made of two or more atoms bonded together.",
+            "D": "Incorrect: Neither atoms nor molecules have a definite shape."
+          }
+        },
+        {
+          "question": "What does the valency of an element represent?",
+          "level": 1,
+          "options": {
+            "A": "The mass of the element compared to carbon-12",
+            "B": "The number of protons in the nucleus of the element's atoms",
+            "C": "The combining power of an element, often thought of as the number of 'arms' an atom has for bonding",
+            "D": "The number of electrons in the outermost shell of the element's atoms"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: This is related to atomic mass, not valency.",
+            "B": "Incorrect: The number of protons defines the atomic number, not valency.",
+            "C": "Correct: Valency is the combining power of an element, which determines how it bonds with other atoms.",
+            "D": "Incorrect: While the number of electrons in the outermost shell influences valency, it is not the definition of valency."
+          }
+        },
+        {
+          "question": "Which of the following correctly explains the concept of atomic mass?",
+          "level": 1,
+          "options": {
+            "A": "It is the mass of an atom compared to the mass of an atom of hydrogen.",
+            "B": "It is the total number of protons and neutrons in the nucleus of an atom.",
+            "C": "It is a relative mass unit equal to exactly one-twelfth the mass of one carbon-12 atom.",
+            "D": "It is the mass of an atom measured in grams."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Atomic mass is not specifically compared to hydrogen but to carbon-12.",
+            "B": "Incorrect: While this describes the mass number, it is not the definition of atomic mass.",
+            "C": "Correct: Atomic mass is defined as a relative mass unit equal to one-twelfth the mass of a carbon-12 atom.",
+            "D": "Incorrect: Atomic mass is not measured in grams but in atomic mass units."
+          }
+        },
+        {
+          "question": "What is a polyatomic ion?",
+          "level": 1,
+          "options": {
+            "A": "An ion formed from a single atom",
+            "B": "An ion that consists of two atoms",
+            "C": "An ion that contains only non-metal atoms",
+            "D": "An ion composed of a group of atoms with a net charge"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: A polyatomic ion is not formed from a single atom.",
+            "B": "Incorrect: Polyatomic ions consist of more than two atoms.",
+            "C": "Incorrect: Polyatomic ions can contain both metal and non-metal atoms.",
+            "D": "Correct: A polyatomic ion is a group of atoms with a net charge."
+          }
+        },
+        {
+          "question": "How is the formula unit mass of a substance calculated?",
+          "level": 1,
+          "options": {
+            "A": "By adding the atomic masses of the constituent elements in a molecule",
+            "B": "By summing the atomic masses of all atoms in a formula unit of a compound",
+            "C": "By multiplying the atomic mass of the most abundant isotope by the number of atoms in the compound",
+            "D": "By calculating the weight of one mole of the substance"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: This describes how to calculate molecular mass, not formula unit mass.",
+            "B": "Correct: Formula unit mass is calculated by summing the atomic masses of all atoms in a formula unit of the compound.",
+            "C": "Incorrect: This does not accurately describe how formula unit mass is calculated.",
+            "D": "Incorrect: This describes the calculation of molar mass, not formula unit mass."
+          }
+        },
+        {
+          "question": "What is the main characteristic of a polyatomic ion?",
+          "level": 1,
+          "options": {
+            "A": "It consists of only one type of atom.",
+            "B": "It carries no net charge.",
+            "C": "It is formed by atoms of only non-metals.",
+            "D": "It is composed of more than one atom and carries a net charge."
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: A polyatomic ion is made up of more than one type of atom.",
+            "B": "Incorrect: A polyatomic ion always carries a net charge, either positive or negative.",
+            "C": "Incorrect: A polyatomic ion can be made up of both metal and non-metal atoms.",
+            "D": "Correct: A polyatomic ion is a group of atoms that are bonded together and carry a net charge."
+          }
+        },
+        {
+          "question": "What is the significance of the atomic mass unit (u)?",
+          "level": 1,
+          "options": {
+            "A": "It is equal to the mass of one proton.",
+            "B": "It is defined as one-twelfth the mass of a carbon-12 atom.",
+            "C": "It represents the exact mass of an electron.",
+            "D": "It is the same as the mass of one neutron."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The atomic mass unit is not equal to the mass of a proton.",
+            "B": "Correct: One atomic mass unit is defined as exactly one-twelfth the mass of one carbon-12 atom.",
+            "C": "Incorrect: The atomic mass unit does not represent the mass of an electron.",
+            "D": "Incorrect: While similar, the mass of a neutron is not exactly one atomic mass unit."
+          }
+        },
+        {
+          "question": "What does the chemical formula of a compound indicate?",
+          "level": 1,
+          "options": {
+            "A": "The number of molecules in a compound.",
+            "B": "The physical properties of the compound.",
+            "C": "The constituent elements and the number of atoms of each element in the compound.",
+            "D": "The temperature at which the compound melts."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The chemical formula does not indicate the number of molecules in a compound.",
+            "B": "Incorrect: The chemical formula does not directly indicate the physical properties of a compound.",
+            "C": "Correct: The chemical formula shows the constituent elements and the number of atoms of each element that make up the compound.",
+            "D": "Incorrect: The melting point is a physical property that is not indicated by the chemical formula."
+          }
+        },
+        {
+          "question": "How is the formula unit mass of a substance calculated?",
+          "level": 1,
+          "options": {
+            "A": "By adding the atomic masses of the constituent elements in a molecule.",
+            "B": "By summing the atomic masses of all atoms in a formula unit of a compound.",
+            "C": "By dividing the molecular mass by Avogadro's number.",
+            "D": "By multiplying the atomic mass by the number of electrons in the substance."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: This describes the calculation of molecular mass, not formula unit mass.",
+            "B": "Correct: The formula unit mass is the sum of the atomic masses of all atoms in a formula unit of a compound.",
+            "C": "Incorrect: Avogadro's number is used for different calculations, not for determining formula unit mass.",
+            "D": "Incorrect: This method is not relevant to calculating formula unit mass."
+          }
+        },
+        {
+          "question": "What is the molecular mass of a compound?",
+          "level": 1,
+          "options": {
+            "A": "It is the mass of the compound in grams.",
+            "B": "It is the sum of the atomic masses of all the atoms in a molecule of the compound.",
+            "C": "It is the mass of one mole of the compound.",
+            "D": "It is the mass of the compound compared to the mass of an equal volume of water."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Molecular mass is not simply the mass of the compound in grams.",
+            "B": "Correct: The molecular mass of a compound is the total sum of the atomic masses of all the atoms in a molecule of that compound.",
+            "C": "Incorrect: The mass of one mole of the compound refers to the molar mass, not the molecular mass.",
+            "D": "Incorrect: This describes a way to find density, not molecular mass."
+          }
+        },
+        {
+          "question": "Which postulate of Dalton’s atomic theory can be challenged by the discovery of isotopes?",
+          "level": 2,
+          "options": {
+            "A": "Atoms of a given element are identical in mass and chemical properties.",
+            "B": "Atoms are indivisible particles.",
+            "C": "Atoms combine in the ratio of small whole numbers to form compounds.",
+            "D": "Atoms cannot be created or destroyed in a chemical reaction."
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The discovery of isotopes, which are atoms of the same element with different masses, challenges the postulate that atoms of a given element are identical in mass.",
+            "B": "Incorrect: The discovery of subatomic particles (protons, neutrons, electrons) challenged this postulate, not isotopes.",
+            "C": "Incorrect: The discovery of isotopes does not affect this postulate about atomic combination.",
+            "D": "Incorrect: The conservation of atoms in reactions is not challenged by the existence of isotopes."
+          }
+        },
+        {
+          "question": "Why was the oxygen-16 isotope not chosen as the standard for atomic mass unit?",
+          "level": 2,
+          "options": {
+            "A": "Because it does not have a stable number of neutrons.",
+            "B": "Because it was not as abundant as carbon-12.",
+            "C": "Because it did not provide integer values for most atomic masses.",
+            "D": "Because its atomic mass was not exactly 16 units."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Oxygen-16 is a stable isotope and does have a stable number of neutrons.",
+            "B": "Incorrect: Abundance was not the main issue; oxygen-16 is quite abundant.",
+            "C": "Correct: Using oxygen-16 did not provide integer or near-integer values for most other elements, making calculations more complex.",
+            "D": "Incorrect: The atomic mass of oxygen-16 is, in fact, 16 atomic mass units."
+          }
+        },
+        {
+          "question": "In a water molecule (H2O), what is the ratio of the total number of protons to electrons?",
+          "level": 2,
+          "options": {
+            "A": "1:1",
+            "B": "2:1",
+            "C": "10:8",
+            "D": "10:10"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: This ratio does not represent the total number of protons and electrons in a water molecule.",
+            "B": "Incorrect: This ratio greatly underestimates the number of protons and electrons.",
+            "C": "Incorrect: While close, this is not the exact ratio of protons to electrons in a water molecule.",
+            "D": "Correct: A water molecule has 10 protons (2 from each hydrogen atom and 6 from oxygen) and 10 electrons (2 from each hydrogen and 6 from oxygen), making the ratio 10:10."
+          }
+        },
+        {
+          "question": "What is the challenge in using molecular mass to compare the masses of different molecules?",
+          "level": 2,
+          "options": {
+            "A": "Molecular mass does not take into account the number of electrons in a molecule.",
+            "B": "Different isotopes of the same element can have different molecular masses.",
+            "C": "Molecular mass cannot be measured directly but must be calculated.",
+            "D": "Molecules with the same molecular mass can have different structures."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The number of electrons does not significantly affect the molecular mass.",
+            "B": "Correct: Different isotopes can result in different molecular masses for molecules containing the same elements.",
+            "C": "Incorrect: While true, this does not represent a comparison challenge per se.",
+            "D": "Incorrect: Different structures (isomers) do not affect the molecular mass directly."
+          }
+        },
+        {
+          "question": "In the context of atomic structure, what does the quantum mechanical model explain that the Bohr model does not?",
+          "level": 2,
+          "options": {
+            "A": "The existence of subatomic particles",
+            "B": "The exact pathways of electrons around the nucleus",
+            "C": "The probability distribution of finding an electron in a certain area",
+            "D": "The divisibility of atoms into smaller particles"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Both models acknowledge subatomic particles.",
+            "B": "Incorrect: The Bohr model suggests exact pathways (orbits), but the quantum mechanical model does not.",
+            "C": "Correct: The quantum mechanical model explains electron behavior in terms of probability distributions, unlike the defined orbits in the Bohr model.",
+            "D": "Incorrect: The divisibility of atoms is not uniquely explained by the quantum mechanical model."
+          }
+        },
+        {
+          "question": "Which of the following best explains why the concept of isotopes does not contradict the Law of Constant Proportions?",
+          "level": 2,
+          "options": {
+            "A": "Isotopes do not participate in chemical reactions.",
+            "B": "Isotopes of an element have identical chemical properties.",
+            "C": "Isotopes affect the mass ratios in compounds.",
+            "D": "Isotopes are only found in a few elements."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Isotopes do participate in chemical reactions.",
+            "B": "Correct: Isotopes of an element have identical chemical properties and do not affect the fixed proportion of elements in a compound.",
+            "C": "Incorrect: While isotopes have different masses, they do not alter the mass ratio in compounds as they have the same chemical behavior.",
+            "D": "Incorrect: Isotopes are found in many elements, not just a few."
+          }
+        },
+        {
+          "question": "Why is the molecular mass of carbon dioxide (CO2) not exactly 44 u?",
+          "level": 2,
+          "options": {
+            "A": "Because of the presence of isotopes of carbon and oxygen.",
+            "B": "Due to the varying number of neutrons in carbon and oxygen atoms.",
+            "C": "Because atomic masses are averages of isotopic masses relative to carbon-12.",
+            "D": "Owing to the bond energy between carbon and oxygen atoms."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: While isotopes exist, this is not the primary reason for the variance in molecular mass.",
+            "B": "Incorrect: The number of neutrons does not directly affect the calculation of molecular mass in this context.",
+            "C": "Correct: The molecular mass is slightly different from the theoretical value because atomic masses are average values based on isotopic abundances relative to carbon-12.",
+            "D": "Incorrect: Bond energy affects energy states, not the calculation of molecular mass."
+          }
+        },
+        {
+          "question": "In the formation of the compound sodium chloride (NaCl), how does the concept of valency explain the ratio of sodium to chlorine atoms?",
+          "level": 2,
+          "options": {
+            "A": "Sodium and chlorine both have a valency of 1, leading to a 1:1 ratio.",
+            "B": "Sodium has a valency of 2, while chlorine has a valency of 1, creating a 2:1 ratio.",
+            "C": "Both elements achieve noble gas configuration by sharing electrons.",
+            "D": "Sodium donates two electrons to chlorine, forming a stable compound."
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Sodium (Na) and chlorine (Cl) both have a valency of 1, which explains the 1:1 ratio in sodium chloride.",
+            "B": "Incorrect: Sodium has a valency of 1, not 2.",
+            "C": "Incorrect: In NaCl, sodium and chlorine achieve noble gas configuration by transfer (not sharing) of an electron.",
+            "D": "Incorrect: Sodium donates only one electron to chlorine, not two."
+          }
+        },
+        {
+          "question": "How does Avogadro's hypothesis apply to the concept of molecular mass?",
+          "level": 2,
+          "options": {
+            "A": "It suggests that equal volumes of gases contain an equal number of molecules under similar conditions.",
+            "B": "It states that the molecular mass of a gas can be directly measured by its volume.",
+            "C": "It indicates that the molecular mass determines the density of a gas.",
+            "D": "It implies that gases with higher molecular masses have larger volumes."
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Avogadro's hypothesis is about equal volumes of gases containing an equal number of molecules, which is fundamental in understanding molecular mass in relation to molar volume.",
+            "B": "Incorrect: Avogadro's hypothesis does not directly relate to measuring molecular mass by volume.",
+            "C": "Incorrect: While molecular mass affects density, this is not what Avogadro's hypothesis states.",
+            "D": "Incorrect: Avogadro's hypothesis does not imply that gases with higher molecular masses have larger volumes."
+          }
+        },
+        {
+          "question": "Why is the atomic mass of elements like chlorine not a whole number?",
+          "level": 2,
+          "options": {
+            "A": "Due to the presence of electrons which have negligible mass.",
+            "B": "Because atomic masses are calculated as the average of the masses of all isotopes.",
+            "C": "Because of the variations in the number of neutrons in the atomic nucleus.",
+            "D": "Due to the differences in the binding energies of the atomic nucleus."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Electrons have negligible mass and do not significantly affect atomic mass.",
+            "B": "Correct: The atomic mass of elements like chlorine is an average of the masses of its naturally occurring isotopes.",
+            "C": "Incorrect: While variations in neutron number create isotopes, this option doesn't directly explain the non-whole number atomic mass.",
+            "D": "Incorrect: Binding energies affect energy states, not the calculation of atomic mass."
+          }
+        }
+      ]
+    },
+    {
+      "quizId":"CBSE_9_Science_4",
+      "quizDetails":[
+        {
+          "question": "What discovery led to the failure of the aspect of Dalton's atomic theory that suggested atoms were indivisible and indestructible?",
+          "level": 1,
+          "options": {
+            "A": "Discovery of sub-atomic particles (electrons and protons)",
+            "B": "Discovery of neutrons",
+            "C": "Rutherford's alpha-particle scattering experiment",
+            "D": "Bohr's model of the atom"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The discovery of sub-atomic particles (electrons and protons) inside the atom led to the failure of this aspect of Dalton's atomic theory.",
+            "B": "Incorrect: The discovery of neutrons was significant, but it was the discovery of electrons and protons that directly contradicted Dalton's theory of indivisible atoms.",
+            "C": "Incorrect: While Rutherford's experiment was crucial in understanding the atomic structure, it was not the primary reason for the failure of Dalton's indivisibility aspect.",
+            "D": "Incorrect: Bohr's model advanced the atomic theory but did not directly lead to the failure of Dalton's theory on indivisibility."
+          }
+        },
+        {
+          "question": "What did J.J. Thomson's model of an atom suggest?",
+          "level": 1,
+          "options": {
+            "A": "An atom has a small, dense nucleus",
+            "B": "An atom consists of a positively charged sphere with electrons embedded in it",
+            "C": "Electrons revolve around the nucleus in fixed orbits",
+            "D": "The nucleus of an atom contains neutrons and protons"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The concept of a small, dense nucleus was proposed by Rutherford, not Thomson.",
+            "B": "Correct: Thomson's model proposed that an atom consists of a positively charged sphere with electrons embedded in it.",
+            "C": "Incorrect: The idea of electrons revolving in fixed orbits was proposed by Bohr, not Thomson.",
+            "D": "Incorrect: The presence of neutrons and protons in the nucleus was not part of Thomson's model."
+          }
+        },
+        {
+          "question": "According to Rutherford's atomic model, what is concentrated in a very small volume within the atom?",
+          "level": 1,
+          "options": {
+            "A": "Electrons",
+            "B": "Protons and Neutrons",
+            "C": "All the positive charge and mass of the atom",
+            "D": "Electromagnetic energy"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Electrons are not concentrated in a small volume but orbit around the nucleus.",
+            "B": "Incorrect: While protons and neutrons are in the nucleus, the option does not fully capture Rutherford's conclusion about the concentration of positive charge and mass.",
+            "C": "Correct: Rutherford's model concluded that all the positive charge and mass of the atom are concentrated in a very small volume within the atom.",
+            "D": "Incorrect: Electromagnetic energy is not what is concentrated according to Rutherford's model."
+          }
+        },
+        {
+          "question": "Which of the following statements correctly describes the Bohr Model of the atom?",
+          "level": 1,
+          "options": {
+            "A": "The nucleus is composed of electrons and protons",
+            "B": "Electrons move in fixed orbits and do not radiate energy while in these orbits",
+            "C": "The atom is a uniform sphere of positive charge",
+            "D": "Electrons are randomly distributed in a cloud around the nucleus"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The nucleus is composed of protons and neutrons, not electrons.",
+            "B": "Correct: Bohr's model proposed that electrons move in fixed orbits and do not radiate energy while in these orbits.",
+            "C": "Incorrect: This description matches Thomson's model, not Bohr's.",
+            "D": "Incorrect: The concept of an electron cloud is part of the Quantum Mechanical Model, not Bohr's model."
+          }
+        },
+        {
+          "question": "What is the valency of an element whose atoms have three electrons in their outermost shell?",
+          "level": 1,
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Valency of 1 is for elements with 1 electron in their outermost shell.",
+            "B": "Incorrect: Valency of 2 is for elements with 2 electrons in their outermost shell.",
+            "C": "Correct: Elements with three electrons in the outermost shell have a valency of 3.",
+            "D": "Incorrect: Valency of 4 would be for elements with four electrons in their outermost shell or four electrons short of a full shell."
+          }
+        },
+        {
+          "question": "Which experiment led to the discovery of the electron?",
+          "level": 1,
+          "options": {
+            "A": "Gold foil experiment",
+            "B": "Cathode ray tube experiment",
+            "C": "Oil drop experiment",
+            "D": "Alpha particle scattering experiment"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The gold foil experiment was conducted by Rutherford, which led to the discovery of the nucleus.",
+            "B": "Correct: The cathode ray tube experiment, conducted by J.J. Thomson, led to the discovery of the electron.",
+            "C": "Incorrect: The oil drop experiment, conducted by Millikan, was used to measure the charge of the electron.",
+            "D": "Incorrect: The alpha particle scattering experiment was also conducted by Rutherford and led to insights about the atomic nucleus."
+          }
+        },
+        {
+          "question": "What key feature distinguishes the Bohr Model from Rutherford's Model of the atom?",
+          "level": 1,
+          "options": {
+            "A": "The presence of a nucleus",
+            "B": "The distribution of electrons in shells",
+            "C": "The discovery of protons",
+            "D": "The concept of orbiting electrons"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Both models acknowledge the presence of a nucleus.",
+            "B": "Correct: Bohr's Model introduces the concept of electrons distributed in shells or energy levels, which was not a feature in Rutherford's Model.",
+            "C": "Incorrect: The discovery of protons is not the distinguishing feature between these two models.",
+            "D": "Incorrect: Both models involve the concept of electrons orbiting around the nucleus."
+          }
+        },
+        {
+          "question": "Which statement best describes the nucleus according to the Rutherford Model?",
+          "level": 1,
+          "options": {
+            "A": "The nucleus contains only protons.",
+            "B": "The nucleus is relatively large compared to the atom.",
+            "C": "The nucleus is positively charged and contains most of the atom's mass.",
+            "D": "The nucleus is negatively charged and contains electrons."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Rutherford's model suggested the presence of protons in the nucleus, but it did not rule out the presence of other particles like neutrons, which were discovered later.",
+            "B": "Incorrect: Rutherford's model stated that the nucleus is very small compared to the rest of the atom.",
+            "C": "Correct: Rutherford concluded that the nucleus is positively charged and contains most of the atom's mass.",
+            "D": "Incorrect: The nucleus is positively charged and does not contain electrons according to Rutherford's model."
+          }
+        },
+        {
+          "question": "Which subatomic particle was discovered by James Chadwick?",
+          "level": 1,
+          "options": {
+            "A": "Electron",
+            "B": "Proton",
+            "C": "Neutron",
+            "D": "Positron"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The electron was discovered by J.J. Thomson.",
+            "B": "Incorrect: The proton was identified by Ernest Rutherford.",
+            "C": "Correct: James Chadwick discovered the neutron in 1932.",
+            "D": "Incorrect: The positron, a type of antiparticle, was not discovered by Chadwick."
+          }
+        },
+        {
+          "question": "What principle is demonstrated by the quantum mechanical model of the atom?",
+          "level": 1,
+          "options": {
+            "A": "Atoms are mostly empty space",
+            "B": "Electrons have both wave-like and particle-like properties",
+            "C": "Electrons move in fixed orbits around the nucleus",
+            "D": "Atoms are indivisible"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: While it's true that atoms are mostly empty space, this concept was established before the quantum mechanical model.",
+            "B": "Correct: The quantum mechanical model demonstrates that electrons have dual characteristics, exhibiting both wave-like and particle-like properties.",
+            "C": "Incorrect: The concept of fixed orbits is from Bohr's model, not the quantum mechanical model.",
+            "D": "Incorrect: The idea that atoms are indivisible was disproved by the discovery of subatomic particles."
+          }
+        },
+        {
+          "question": "Which of the following is a key postulate of Dalton's atomic theory?",
+          "level": 1,
+          "options": {
+            "A": "Atoms can be created and destroyed",
+            "B": "Atoms of different elements can combine in any ratio",
+            "C": "Atoms of the same element are identical in mass and properties",
+            "D": "Atoms are divisible into smaller subatomic particles"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Dalton's theory stated that atoms cannot be created or destroyed.",
+            "B": "Incorrect: According to Dalton, atoms of different elements combine in simple whole-number ratios.",
+            "C": "Correct: Dalton postulated that all atoms of a given element are identical in mass and properties.",
+            "D": "Incorrect: Dalton's theory suggested that atoms were indivisible, the smallest unit of matter."
+          }
+        },
+        {
+          "question": "What is the significance of the neutron in the atomic structure?",
+          "level": 1,
+          "options": {
+            "A": "It carries a positive charge and contributes to the atomic mass",
+            "B": "It is negatively charged and orbits the nucleus",
+            "C": "It carries no charge and contributes to the atomic mass",
+            "D": "It provides stability to the electron cloud"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Neutrons are neutral, carrying no charge, though they do contribute to the atomic mass.",
+            "B": "Incorrect: Neutrons are located in the nucleus and do not have a negative charge.",
+            "C": "Correct: Neutrons are neutral particles in the nucleus that contribute to the atomic mass.",
+            "D": "Incorrect: Neutrons contribute to the stability of the nucleus, not the electron cloud."
+          }
+        },
+        {
+          "question": "What is the primary limitation of Rutherford's model of the atom?",
+          "level": 1,
+          "options": {
+            "A": "It did not explain the stability of the atom",
+            "B": "It did not account for the existence of neutrons",
+            "C": "It suggested that electrons are stationary",
+            "D": "It proposed that atoms are mostly empty space"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Rutherford's model did not explain why negatively charged electrons do not fall into the positively charged nucleus, thus not explaining the stability of atoms.",
+            "B": "Incorrect: The existence of neutrons was discovered later, so this was not a limitation of Rutherford's original model.",
+            "C": "Incorrect: Rutherford's model actually suggested that electrons orbit the nucleus, not that they are stationary.",
+            "D": "Incorrect: The idea that atoms are mostly empty space was actually a key insight of Rutherford's model, not a limitation."
+          }
+        },
+        {
+          "question": "In the Bohr Model of the atom, what happens when an electron jumps from a higher energy level to a lower one?",
+          "level": 1,
+          "options": {
+            "A": "It absorbs energy",
+            "B": "It becomes a neutron",
+            "C": "It emits energy in the form of electromagnetic radiation",
+            "D": "It increases the atomic mass"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: An electron emits energy when it jumps from a higher to a lower energy level.",
+            "B": "Incorrect: An electron does not become a neutron; they are distinct particles.",
+            "C": "Correct: When an electron jumps from a higher energy level to a lower one, it emits energy, often as visible light or other forms of electromagnetic radiation.",
+            "D": "Incorrect: The jump of an electron between energy levels does not affect the atomic mass."
+          }
+        },
+        {
+          "question": "Which subatomic particle plays a critical role in chemical bonding?",
+          "level": 1,
+          "options": {
+            "A": "Proton",
+            "B": "Neutron",
+            "C": "Electron",
+            "D": "Positron"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Protons are in the nucleus and do not typically play a direct role in chemical bonding.",
+            "B": "Incorrect: Neutrons, located in the nucleus, are also not directly involved in chemical bonding.",
+            "C": "Correct: Electrons, especially those in the outermost shell, are key in the formation of chemical bonds.",
+            "D": "Incorrect: Positrons are antiparticles and not involved in typical chemical bonding."
+          }
+        },
+        {
+          "question": "Which statement best describes isotopes?",
+          "level": 1,
+          "options": {
+            "A": "Atoms of the same element with different numbers of electrons",
+            "B": "Atoms of the same element with different numbers of protons",
+            "C": "Atoms of different elements with the same number of neutrons",
+            "D": "Atoms of the same element with different numbers of neutrons"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Isotopes of an element have the same number of electrons.",
+            "B": "Incorrect: Atoms of the same element always have the same number of protons.",
+            "C": "Incorrect: Isotopes are variants of the same element, not different elements.",
+            "D": "Correct: Isotopes are atoms of the same element that differ in the number of neutrons."
+          }
+        },
+        {
+          "question": "What is the atomic number of an element?",
+          "level": 1,
+          "options": {
+            "A": "The total number of protons and neutrons in the nucleus",
+            "B": "The total number of electrons in an atom",
+            "C": "The number of protons in the nucleus",
+            "D": "The number of neutrons in the nucleus"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: This describes the mass number, not the atomic number.",
+            "B": "Incorrect: The atomic number is not the total number of electrons, though it is equal to the number of electrons in a neutral atom.",
+            "C": "Correct: The atomic number is defined as the number of protons in the nucleus of an atom.",
+            "D": "Incorrect: The number of neutrons does not determine the atomic number."
+          }
+        },
+        {
+          "question": "Which scientist's work led to the establishment of the Quantum Mechanical Model of the atom?",
+          "level": 1,
+          "options": {
+            "A": "Niels Bohr",
+            "B": "Ernest Rutherford",
+            "C": "J.J. Thomson",
+            "D": "Erwin Schrödinger"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Niels Bohr developed the Bohr Model, not the Quantum Mechanical Model.",
+            "B": "Incorrect: Rutherford's work led to the planetary model of the atom.",
+            "C": "Incorrect: J.J. Thomson developed the plum pudding model.",
+            "D": "Correct: Erwin Schrödinger's work was fundamental in the development of the Quantum Mechanical Model."
+          }
+        },
+        {
+          "question": "What phenomenon could not be explained by the classical models of atomic structure?",
+          "level": 1,
+          "options": {
+            "A": "The stability of the atomic nucleus",
+            "B": "The discrete energy levels of electrons",
+            "C": "The uniform distribution of charge in an atom",
+            "D": "The presence of subatomic particles"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The stability of the nucleus was a question, but not the key issue with classical models.",
+            "B": "Correct: Classical models could not explain the existence of discrete energy levels for electrons, as observed in atomic spectra.",
+            "C": "Incorrect: Classical models like Thomson's did suggest a uniform distribution of charge, but this was not the central problem.",
+            "D": "Incorrect: The presence of subatomic particles was indeed explained by classical models."
+          }
+        },
+        {
+          "question": "In the context of atomic structure, what is an 'electron cloud'?",
+          "level": 1,
+          "options": {
+            "A": "A dense region in the nucleus containing electrons",
+            "B": "A fixed path in which electrons orbit the nucleus",
+            "C": "A region around the nucleus where electrons are likely to be found",
+            "D": "A cluster of electrons outside the atom"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The nucleus does not contain electrons; it contains protons and neutrons.",
+            "B": "Incorrect: The electron cloud model does not involve fixed paths or orbits.",
+            "C": "Correct: The electron cloud is a region around the nucleus where there is a high probability of finding electrons.",
+            "D": "Incorrect: The electron cloud is a part of the atomic structure, not outside the atom."
+          }
+        },
+        {
+          "question": "In the context of quantum mechanics, what is the significance of the Heisenberg Uncertainty Principle?",
+          "level": 2,
+          "options": {
+            "A": "It states that the exact position and momentum of an electron cannot be simultaneously determined",
+            "B": "It asserts that electrons move in fixed orbits with known energies",
+            "C": "It describes the exact trajectory of an electron around the nucleus",
+            "D": "It suggests that electrons are stationary within the atom"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The Heisenberg Uncertainty Principle is a fundamental concept of quantum mechanics stating that it is impossible to simultaneously know the exact position and momentum of an electron.",
+            "B": "Incorrect: This principle does not assert that electrons have fixed orbits; rather, it challenges the notion of exact measurements of position and momentum.",
+            "C": "Incorrect: The principle implies that exact trajectories of subatomic particles cannot be precisely determined.",
+            "D": "Incorrect: The principle does not suggest stationary electrons; it addresses the limitations in measuring their position and momentum."
+          }
+        },
+        {
+          "question": "Which concept in atomic theory is illustrated by the line spectrum of hydrogen?",
+          "level": 2,
+          "options": {
+            "A": "Continuous distribution of energy levels",
+            "B": "Presence of subatomic particles other than electrons",
+            "C": "Quantized energy levels of electrons",
+            "D": "Uniform distribution of charge within the atom"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The line spectrum represents discrete, not continuous, energy levels.",
+            "B": "Incorrect: The line spectrum specifically provides evidence for quantized energy levels of electrons.",
+            "C": "Correct: The hydrogen line spectrum demonstrates that electrons occupy specific, quantized energy levels.",
+            "D": "Incorrect: The concept of charge distribution is not directly related to the line spectrum of hydrogen."
+          }
+        },
+        {
+          "question": "What is the primary reason for the development of the Quantum Mechanical Model over the Bohr Model?",
+          "level": 2,
+          "options": {
+            "A": "Inability of the Bohr Model to explain the stability of the atom",
+            "B": "Bohr's Model's failure to account for the chemical properties of elements",
+            "C": "Inability of the Bohr Model to accurately predict the behavior of electrons in multi-electron atoms",
+            "D": "The discovery of neutrons, which was not explained by the Bohr Model"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: While the Bohr Model had limitations regarding atomic stability, this was not the primary reason for its replacement.",
+            "B": "Incorrect: Bohr's Model did attempt to explain chemical properties, though not comprehensively.",
+            "C": "Correct: The Quantum Mechanical Model was developed mainly due to the Bohr Model's inability to predict behaviors of electrons in atoms with more than one electron.",
+            "D": "Incorrect: The discovery of neutrons was not a direct factor in the development of the Quantum Mechanical Model over the Bohr Model."
+          }
+        },
+        {
+          "question": "What is the significance of quantum numbers in atomic theory?",
+          "level": 2,
+          "options": {
+            "A": "They determine the exact location of an electron within an atom",
+            "B": "They describe properties such as electron energy, orbital shape, and electron spin",
+            "C": "They indicate the number of protons and neutrons in an atom",
+            "D": "They provide a measure of the atom's overall charge"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Quantum numbers do not provide an exact location of an electron, due to the Heisenberg Uncertainty Principle.",
+            "B": "Correct: Quantum numbers are used in atomic physics to describe properties of electrons, such as their energy levels, the shapes of orbitals they occupy, and their spin.",
+            "C": "Incorrect: Quantum numbers relate to electron behavior, not the count of protons or neutrons.",
+            "D": "Incorrect: Quantum numbers do not directly measure the atom's charge."
+          }
+        },
+        {
+          "question": "How does the Pauli Exclusion Principle relate to electron configuration in atoms?",
+          "level": 2,
+          "options": {
+            "A": "It states that electrons in the same orbital must have the same spin",
+            "B": "It allows electrons to share the same four quantum numbers",
+            "C": "It dictates that no two electrons in an atom can have the same set of four quantum numbers",
+            "D": "It implies that electrons repel each other within an orbital"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The Pauli Exclusion Principle actually states that two electrons in the same orbital must have opposite spins.",
+            "B": "Incorrect: According to this principle, no two electrons can share the same set of quantum numbers.",
+            "C": "Correct: The principle dictates that each electron in an atom must have a unique set of quantum numbers.",
+            "D": "Incorrect: While electrons do repel each other due to their like charges, this is not the focus of the Pauli Exclusion Principle."
+          }
+        },
+        {
+          "question": "In quantum mechanics, what is the role of the 'orbital' concept in describing electron positions?",
+          "level": 2,
+          "options": {
+            "A": "It defines the exact trajectory of an electron around the nucleus",
+            "B": "It describes a three-dimensional region where an electron is most likely to be found",
+            "C": "It represents a fixed path that electrons follow around the nucleus",
+            "D": "It indicates the total number of electrons in the outermost shell of an atom"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: In quantum mechanics, exact trajectories of electrons cannot be determined.",
+            "B": "Correct: An orbital represents a probabilistic area in three-dimensional space where an electron is likely to be found.",
+            "C": "Incorrect: Quantum mechanics moves away from the concept of fixed paths for electrons.",
+            "D": "Incorrect: The orbital concept does not directly indicate the total number of electrons in the outermost shell."
+          }
+        },
+        {
+          "question": "Which phenomenon best demonstrates the dual nature (particle and wave-like) of electrons?",
+          "level": 2,
+          "options": {
+            "A": "Rutherford's gold foil experiment",
+            "B": "Bohr's atomic model",
+            "C": "Electron diffraction",
+            "D": "Discovery of the neutron"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Rutherford's experiment demonstrated the existence of a dense nucleus, not the dual nature of electrons.",
+            "B": "Incorrect: Bohr's model focused on electron orbits, not on their dual nature.",
+            "C": "Correct: Electron diffraction experiments, where electrons exhibit wave-like interference patterns, demonstrate their dual nature.",
+            "D": "Incorrect: The discovery of the neutron does not relate to the dual nature of electrons."
+          }
+        },
+        {
+          "question": "What is the primary reason that electrons do not collapse into the nucleus, according to quantum mechanics?",
+          "level": 2,
+          "options": {
+            "A": "Electrostatic repulsion between electrons and protons",
+            "B": "The Heisenberg Uncertainty Principle",
+            "C": "The Pauli Exclusion Principle",
+            "D": "The energy quantization in electron shells"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: While electrostatic forces are important, they do not fully explain why electrons do not collapse into the nucleus.",
+            "B": "Correct: The Heisenberg Uncertainty Principle implies that we cannot precisely determine both the position and momentum of electrons, contributing to the understanding of why electrons do not collapse into the nucleus.",
+            "C": "Incorrect: The Pauli Exclusion Principle explains electron configuration in atoms but does not directly address why electrons do not collapse into the nucleus.",
+            "D": "Incorrect: Energy quantization explains electron energy levels, but this alone does not explain why electrons do not collapse into the nucleus."
+          }
+        },
+        {
+          "question": "How does the Aufbau Principle guide the arrangement of electrons in an atom?",
+          "level": 2,
+          "options": {
+            "A": "Electrons fill orbitals starting from the highest energy level to the lowest",
+            "B": "Electrons fill orbitals of the same energy level randomly",
+            "C": "Electrons fill orbitals starting from the lowest energy level to the highest",
+            "D": "Electrons in the same orbital must have opposite spins"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The Aufbau Principle states the opposite - electrons fill from lower to higher energy levels.",
+            "B": "Incorrect: Electrons fill each orbital in a subshell before pairing up in any one orbital.",
+            "C": "Correct: The Aufbau Principle dictates that electrons occupy orbitals starting from the lowest available energy levels before moving to higher ones.",
+            "D": "Incorrect: This statement describes the Pauli Exclusion Principle, not the Aufbau Principle."
+          }
+        },
+        {
+          "question": "What is the primary difference between the 2p and 2s orbitals in an atom?",
+          "level": 2,
+          "options": {
+            "A": "2p orbitals have a lower energy level than 2s orbitals",
+            "B": "2s orbitals can hold more electrons than 2p orbitals",
+            "C": "2p and 2s orbitals are located in different shells",
+            "D": "2p orbitals have a different shape and higher energy than 2s orbitals"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: 2p orbitals are at a higher energy level compared to 2s orbitals in the same shell.",
+            "B": "Incorrect: Both 2s and 2p orbitals can hold the same number of electrons (2 for 2s and 6 for 2p in total).",
+            "C": "Incorrect: Both 2p and 2s orbitals are located in the same shell, the second shell.",
+            "D": "Correct: The 2p orbitals have a different (dumbbell) shape and are at a higher energy level than the spherical 2s orbitals."
+          }
+        }
+      ]
+    },
+    {
+      "quizId":"CBSE_9_Science_5",
+      "quizDetails": [
+        {
+          "question": "Who first observed cells in 1665 and what did he use?",
+          "level": 1,
+          "options": {
+            "A": "Antonie van Leeuwenhoek using a compound microscope",
+            "B": "Robert Hooke using a self-designed microscope",
+            "C": "Robert Brown using an electron microscope",
+            "D": "Matthias Schleiden using a light microscope"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Antonie van Leeuwenhoek is known for his work with microscopes but he did not first observe cells.",
+            "B": "Correct: Robert Hooke first observed cells in 1665 using a self-designed microscope.",
+            "C": "Incorrect: Robert Brown contributed to cell theory, but he was not the first to observe cells.",
+            "D": "Incorrect: Matthias Schleiden is a co-founder of cell theory, but he did not first observe cells."
+          }
+        },
+        {
+          "question": "What is the significance of the plasma membrane in a cell?",
+          "level": 1,
+          "options": {
+            "A": "It synthesizes proteins and lipids",
+            "B": "It is the site of photosynthesis",
+            "C": "It acts as a selectively permeable barrier",
+            "D": "It stores the cell's genetic material"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Protein and lipid synthesis occurs in the endoplasmic reticulum and Golgi apparatus, not the plasma membrane.",
+            "B": "Incorrect: Photosynthesis occurs in the chloroplasts of plant cells.",
+            "C": "Correct: The plasma membrane acts as a selectively permeable barrier, controlling the movement of substances in and out of the cell.",
+            "D": "Incorrect: The cell's genetic material is stored in the nucleus, not in the plasma membrane."
+          }
+        },
+        {
+          "question": "Which of the following is known as the 'suicide bags' of a cell?",
+          "level": 1,
+          "options": {
+            "A": "Mitochondria",
+            "B": "Ribosomes",
+            "C": "Lysosomes",
+            "D": "Endoplasmic Reticulum"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Mitochondria are known as the 'powerhouses' of the cell, not 'suicide bags'.",
+            "B": "Incorrect: Ribosomes are involved in protein synthesis and are not referred to as 'suicide bags'.",
+            "C": "Correct: Lysosomes are known as 'suicide bags' because they contain digestive enzymes that can break down the cell itself.",
+            "D": "Incorrect: The endoplasmic reticulum is involved in protein and lipid synthesis but is not known as 'suicide bags'."
+          }
+        },
+        {
+          "question": "What is the primary role of chloroplasts in plant cells?",
+          "level": 1,
+          "options": {
+            "A": "Protein synthesis",
+            "B": "Photosynthesis",
+            "C": "Genetic information storage",
+            "D": "Detoxification"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Protein synthesis primarily occurs in ribosomes, not chloroplasts.",
+            "B": "Correct: Chloroplasts are primarily involved in photosynthesis in plant cells.",
+            "C": "Incorrect: Genetic information is primarily stored in the nucleus, not chloroplasts.",
+            "D": "Incorrect: Detoxification processes occur in other organelles like the endoplasmic reticulum, not chloroplasts."
+          }
+        },
+        {
+          "question": "What is the function of ribosomes in a cell?",
+          "level": 1,
+          "options": {
+            "A": "Energy production",
+            "B": "Protein synthesis",
+            "C": "DNA replication",
+            "D": "Transport of substances"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Energy production is primarily the function of mitochondria.",
+            "B": "Correct: Ribosomes are responsible for protein synthesis in the cell.",
+            "C": "Incorrect: DNA replication occurs in the nucleus, not in ribosomes.",
+            "D": "Incorrect: Transport of substances is managed by various other organelles like the endoplasmic reticulum and vesicles, not ribosomes."
+          }
+        },
+        {
+          "question": "Which cellular organelle is primarily responsible for providing energy in the form of ATP?",
+          "level": 1,
+          "options": {
+            "A": "Golgi apparatus",
+            "B": "Lysosome",
+            "C": "Mitochondrion",
+            "D": "Nucleus"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The Golgi apparatus is involved in modifying, sorting, and packaging of proteins and lipids.",
+            "B": "Incorrect: Lysosomes are involved in the digestion of cellular waste.",
+            "C": "Correct: Mitochondria are the site of ATP (energy) production in the cell.",
+            "D": "Incorrect: The nucleus is the control center of the cell and houses genetic material, not involved in ATP production."
+          }
+        },
+        {
+          "question": "Which of the following statements best describes osmosis?",
+          "level": 1,
+          "options": {
+            "A": "The movement of water molecules from an area of lower solute concentration to an area of higher solute concentration",
+            "B": "The movement of solute particles from an area of higher concentration to an area of lower concentration",
+            "C": "The active transport of ions against the concentration gradient",
+            "D": "The conversion of ATP into ADP to facilitate the movement of molecules"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Osmosis is the movement of water molecules from an area of lower solute concentration to an area of higher solute concentration across a semipermeable membrane.",
+            "B": "Incorrect: This describes diffusion, not osmosis.",
+            "C": "Incorrect: Active transport involves the movement of substances against their concentration gradient, typically using energy, but does not describe osmosis.",
+            "D": "Incorrect: The conversion of ATP to ADP is involved in active transport but is not a characteristic of osmosis."
+          }
+        },
+        {
+          "question": "Which part of the cell is responsible for breaking down and recycling cellular debris?",
+          "level": 1,
+          "options": {
+            "A": "Mitochondria",
+            "B": "Ribosomes",
+            "C": "Lysosomes",
+            "D": "Golgi apparatus"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Mitochondria are involved in energy production, not in the breakdown of cellular debris.",
+            "B": "Incorrect: Ribosomes are involved in protein synthesis, not in the breakdown of cellular debris.",
+            "C": "Correct: Lysosomes contain digestive enzymes that break down and recycle cellular debris.",
+            "D": "Incorrect: The Golgi apparatus is involved in modifying, sorting, and packaging of proteins and lipids, not in the breakdown of cellular debris."
+          }
+        },
+        {
+          "question": "What is the primary role of the cell wall in plant cells?",
+          "level": 1,
+          "options": {
+            "A": "Regulating cell metabolism",
+            "B": "Providing structural support and protection",
+            "C": "Synthesizing proteins",
+            "D": "Storing genetic information"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Cell metabolism is regulated by the cell membrane and various organelles within the cell, not the cell wall.",
+            "B": "Correct: The cell wall in plant cells provides structural support and protection.",
+            "C": "Incorrect: Protein synthesis occurs in ribosomes, not in the cell wall.",
+            "D": "Incorrect: Genetic information is stored in the nucleus, not in the cell wall."
+          }
+        },
+        {
+          "question": "Which organelle is known as the 'powerhouse' of the cell?",
+          "level": 1,
+          "options": {
+            "A": "Golgi apparatus",
+            "B": "Mitochondria",
+            "C": "Nucleus",
+            "D": "Endoplasmic Reticulum"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The Golgi apparatus is involved in modifying, sorting, and packaging proteins and lipids.",
+            "B": "Correct: Mitochondria are known as the 'powerhouse' of the cell due to their role in ATP (energy) production.",
+            "C": "Incorrect: The nucleus serves as the control center of the cell, storing genetic information.",
+            "D": "Incorrect: The endoplasmic reticulum is involved in protein and lipid synthesis, not energy production."
+          }
+        },
+        {
+          "question": "What is the primary function of the nucleus in a cell?",
+          "level": 1,
+          "options": {
+            "A": "Protein synthesis",
+            "B": "Photosynthesis",
+            "C": "Energy production",
+            "D": "Storing and protecting genetic material"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Protein synthesis occurs in the ribosomes.",
+            "B": "Incorrect: Photosynthesis occurs in chloroplasts in plant cells.",
+            "C": "Incorrect: Energy production primarily occurs in the mitochondria.",
+            "D": "Correct: The primary function of the nucleus is to store and protect the cell's genetic material."
+          }
+        },
+        {
+          "question": "Which process is responsible for the movement of particles from an area of higher concentration to an area of lower concentration?",
+          "level": 1,
+          "options": {
+            "A": "Osmosis",
+            "B": "Active transport",
+            "C": "Endocytosis",
+            "D": "Diffusion"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Osmosis specifically refers to the movement of water molecules across a semipermeable membrane.",
+            "B": "Incorrect: Active transport involves the movement of substances against their concentration gradient, often requiring energy.",
+            "C": "Incorrect: Endocytosis is the process of taking substances into a cell by engulfing them in a membrane.",
+            "D": "Correct: Diffusion is the movement of particles from an area of higher concentration to an area of lower concentration."
+          }
+        },
+        {
+          "question": "In a cell, where does the synthesis of ribosomal RNA (rRNA) take place?",
+          "level": 1,
+          "options": {
+            "A": "Nucleolus",
+            "B": "Ribosomes",
+            "C": "Endoplasmic reticulum",
+            "D": "Golgi apparatus"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The nucleolus is the site within the nucleus where rRNA is synthesized.",
+            "B": "Incorrect: Ribosomes are the site of protein synthesis, not rRNA synthesis.",
+            "C": "Incorrect: The endoplasmic reticulum is involved in protein and lipid synthesis, but not rRNA synthesis.",
+            "D": "Incorrect: The Golgi apparatus is involved in modifying, sorting, and packaging of proteins and lipids, not in rRNA synthesis."
+          }
+        },
+        {
+          "question": "Which type of cell contains chloroplasts?",
+          "level": 1,
+          "options": {
+            "A": "Animal cells",
+            "B": "Bacterial cells",
+            "C": "Fungal cells",
+            "D": "Plant cells"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Animal cells do not contain chloroplasts.",
+            "B": "Incorrect: Bacterial cells do not have chloroplasts as they are prokaryotic cells.",
+            "C": "Incorrect: Fungal cells do not contain chloroplasts.",
+            "D": "Correct: Plant cells contain chloroplasts, which are essential for photosynthesis."
+          }
+        },
+        {
+          "question": "What is the primary role of vacuoles in plant cells?",
+          "level": 1,
+          "options": {
+            "A": "Protein synthesis",
+            "B": "Energy production",
+            "C": "Storing nutrients, waste products, and maintaining turgor pressure",
+            "D": "DNA replication"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Protein synthesis occurs in the ribosomes.",
+            "B": "Incorrect: Energy production occurs in the mitochondria.",
+            "C": "Correct: Vacuoles in plant cells are primarily responsible for storing nutrients, waste products, and maintaining turgor pressure.",
+            "D": "Incorrect: DNA replication occurs in the nucleus."
+          }
+        },
+        {
+          "question": "Which of the following best describes the function of the Golgi apparatus?",
+          "level": 1,
+          "options": {
+            "A": "Production of ATP",
+            "B": "Protein synthesis",
+            "C": "Modification, sorting, and packaging of proteins and lipids",
+            "D": "Breaking down cellular waste"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: ATP production occurs in the mitochondria.",
+            "B": "Incorrect: Protein synthesis occurs in the ribosomes.",
+            "C": "Correct: The Golgi apparatus is involved in the modification, sorting, and packaging of proteins and lipids.",
+            "D": "Incorrect: Breaking down cellular waste is primarily the function of lysosomes."
+          }
+        },
+        {
+          "question": "Which cellular process is primarily responsible for maintaining cellular homeostasis?",
+          "level": 2,
+          "options": {
+            "A": "Photosynthesis",
+            "B": "Cellular respiration",
+            "C": "Osmoregulation",
+            "D": "Protein synthesis"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Photosynthesis is important for energy production in plants but does not directly maintain cellular homeostasis.",
+            "B": "Incorrect: Cellular respiration is crucial for energy production but is not the primary process for maintaining homeostasis.",
+            "C": "Correct: Osmoregulation, the control of water and ion concentrations, is crucial for maintaining cellular homeostasis.",
+            "D": "Incorrect: Protein synthesis is vital for cell function but is not directly involved in maintaining homeostasis."
+          }
+        },
+        {
+          "question": "In the context of cell biology, what is the Endosymbiotic Theory primarily concerned with?",
+          "level": 2,
+          "options": {
+            "A": "The origin of chloroplasts and mitochondria",
+            "B": "The development of the nuclear membrane",
+            "C": "The process of cell division",
+            "D": "The synthesis of proteins within cells"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The Endosymbiotic Theory suggests that mitochondria and chloroplasts originated as symbiotic bacteria living inside other cells.",
+            "B": "Incorrect: The theory does not primarily deal with the development of the nuclear membrane.",
+            "C": "Incorrect: It is not focused on the process of cell division.",
+            "D": "Incorrect: Protein synthesis is not the main focus of the Endosymbiotic Theory."
+          }
+        },
+        {
+          "question": "Which process involves the synthesis of membrane-bound organelles?",
+          "level": 2,
+          "options": {
+            "A": "Binary fission",
+            "B": "Autophagy",
+            "C": "Autopoiesis",
+            "D": "Mitosis"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Binary fission is a form of asexual reproduction and cell division seen in prokaryotes.",
+            "B": "Incorrect: Autophagy is the process of degradation and recycling of cellular components.",
+            "C": "Correct: Autopoiesis involves the creation of new cellular structures, including membrane-bound organelles.",
+            "D": "Incorrect: Mitosis is the process of cell division in eukaryotic cells and does not directly involve the synthesis of organelles."
+          }
+        },
+        {
+          "question": "What is the role of smooth endoplasmic reticulum (ER) in liver cells?",
+          "level": 2,
+          "options": {
+            "A": "Synthesizing proteins",
+            "B": "Photosynthesis",
+            "C": "Detoxification",
+            "D": "Storing genetic material"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Protein synthesis is a function of the rough ER, not the smooth ER.",
+            "B": "Incorrect: Photosynthesis occurs in chloroplasts, not the endoplasmic reticulum.",
+            "C": "Correct: The smooth endoplasmic reticulum in liver cells plays a key role in detoxification processes.",
+            "D": "Incorrect: Genetic material is stored in the nucleus, not in the endoplasmic reticulum."
+          }
+        },
+        {
+          "question": "Which principle is demonstrated by the semi-permeable nature of the plasma membrane?",
+          "level": 2,
+          "options": {
+            "A": "Fluid mosaic model",
+            "B": "Selective permeability",
+            "C": "Diffusion",
+            "D": "Osmotic balance"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The fluid mosaic model describes the structure of the plasma membrane but not its selective permeability function.",
+            "B": "Correct: The plasma membrane's semi-permeable nature demonstrates selective permeability, allowing certain substances to pass while blocking others.",
+            "C": "Incorrect: Diffusion is a process that occurs across the membrane, but it doesn't define its semi-permeable nature.",
+            "D": "Incorrect: Osmotic balance is a result of the semi-permeable membrane but not a principle that defines its nature."
+          }
+        },
+        {
+          "question": "What is the significance of the Golgi apparatus in the process of exocytosis?",
+          "level": 2,
+          "options": {
+            "A": "It synthesizes the materials to be excreted",
+            "B": "It modifies and packages materials for secretion",
+            "C": "It is the site where exocytosis occurs",
+            "D": "It stores materials before they are secreted"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: While the Golgi apparatus is involved in synthesis, it does not specifically synthesize materials for exocytosis.",
+            "B": "Correct: The Golgi apparatus modifies, sorts, and packages materials for secretion via exocytosis.",
+            "C": "Incorrect: Exocytosis occurs at the plasma membrane, not within the Golgi apparatus.",
+            "D": "Incorrect: Storage of materials before secretion is not the primary function of the Golgi apparatus."
+          }
+        },
+        {
+          "question": "How does the structure of mitochondria support its function in cellular respiration?",
+          "level": 2,
+          "options": {
+            "A": "The double membrane allows for compartmentalization of different metabolic processes",
+            "B": "The presence of ribosomes facilitates protein synthesis",
+            "C": "The large nucleus controls energy production",
+            "D": "The rough surface enhances lipid synthesis"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The double membrane of mitochondria allows for compartmentalization, essential for various steps in cellular respiration.",
+            "B": "Incorrect: While mitochondria have their own ribosomes, this is not how their structure supports cellular respiration.",
+            "C": "Incorrect: Mitochondria do not have a large nucleus; their function in energy production is not controlled by a nucleus.",
+            "D": "Incorrect: The structure of mitochondria is not characterized by a rough surface, and lipid synthesis is not their primary function."
+          }
+        },
+        {
+          "question": "What role does the rough endoplasmic reticulum (ER) play in a eukaryotic cell?",
+          "level": 2,
+          "options": {
+            "A": "Energy production",
+            "B": "Synthesis and packaging of proteins",
+            "C": "Detoxification of chemicals",
+            "D": "Storage of genetic material"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Energy production is not a function of the rough ER.",
+            "B": "Correct: The rough ER is involved in the synthesis and packaging of proteins, aided by the ribosomes on its surface.",
+            "C": "Incorrect: Detoxification is a role more commonly associated with the smooth ER.",
+            "D": "Incorrect: Storage of genetic material is the function of the nucleus, not the ER."
+          }
+        },
+        {
+          "question": "In the context of cell signaling, what is the primary role of receptor proteins in the plasma membrane?",
+          "level": 2,
+          "options": {
+            "A": "Synthesizing signaling molecules",
+            "B": "Direct transport of nutrients into the cell",
+            "C": "Receiving and transmitting chemical signals to the cell interior",
+            "D": "Breaking down signaling molecules"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Receptor proteins do not synthesize signaling molecules; they receive them.",
+            "B": "Incorrect: While receptor proteins can be involved in transport, their primary role in cell signaling is not direct nutrient transport.",
+            "C": "Correct: Receptor proteins are crucial for receiving and transmitting chemical signals from the external environment to the cell's interior.",
+            "D": "Incorrect: The primary role of receptor proteins is not to break down signaling molecules."
+          }
+        },
+        {
+          "question": "Which statement accurately describes the function of the cytoskeleton in eukaryotic cells?",
+          "level": 2,
+          "options": {
+            "A": "It is primarily involved in the storage of genetic material",
+            "B": "It functions in maintaining cell shape and enabling cellular motion",
+            "C": "It is the primary site of ATP synthesis",
+            "D": "It synthesizes proteins for cellular activities"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The cytoskeleton does not store genetic material; this is the function of the nucleus.",
+            "B": "Correct: The cytoskeleton plays a key role in maintaining cell shape and is involved in various forms of cellular motion.",
+            "C": "Incorrect: ATP synthesis occurs in the mitochondria, not in the cytoskeleton.",
+            "D": "Incorrect: Protein synthesis is carried out by ribosomes, not the cytoskeleton."
+          }
+        },
+        {
+          "question": "What is the primary role of tight junctions in epithelial cells?",
+          "level": 2,
+          "options": {
+            "A": "Facilitating communication between adjacent cells",
+            "B": "Preventing the passage of molecules and ions between cells",
+            "C": "Acting as a barrier against infectious agents",
+            "D": "Transporting nutrients from one cell to another"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Tight junctions are not primarily for communication; this is more characteristic of gap junctions.",
+            "B": "Correct: Tight junctions seal adjacent epithelial cells tightly together to prevent the passage of molecules and ions between them.",
+            "C": "Incorrect: While they provide a barrier, their primary role is not to act against infectious agents.",
+            "D": "Incorrect: Tight junctions do not transport nutrients between cells."
+          }
+        },
+        {
+          "question": "How does facilitated diffusion differ from simple diffusion?",
+          "level": 2,
+          "options": {
+            "A": "Facilitated diffusion requires energy, while simple diffusion does not",
+            "B": "Facilitated diffusion involves transport proteins, whereas simple diffusion does not",
+            "C": "Facilitated diffusion moves substances against a concentration gradient, while simple diffusion moves them down a gradient",
+            "D": "Facilitated diffusion can only move water molecules, while simple diffusion moves other molecules"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Neither facilitated diffusion nor simple diffusion requires energy; they are both passive processes.",
+            "B": "Correct: Facilitated diffusion differs from simple diffusion in that it involves transport proteins to move substances across the cell membrane.",
+            "C": "Incorrect: Both facilitated and simple diffusion move substances down their concentration gradient, not against it.",
+            "D": "Incorrect: Facilitated diffusion is not limited to water molecules; it can move a variety of substances."
+          }
+        }
+      ]
+    },
+    {
+      "quizId":"CBSE_9_Science_6",
+      "quizDetails": [
+        {
+          "question": "Which tissue in plants is responsible for increasing the length of the stem and the root?",
+          "level": 1,
+          "options": {
+            "A": "Parenchyma",
+            "B": "Sclerenchyma",
+            "C": "Apical meristem",
+            "D": "Collenchyma"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Parenchyma is a type of simple permanent tissue mainly involved in storage of food.",
+            "B": "Incorrect: Sclerenchyma makes the plant hard and stiff but is not responsible for growth in length.",
+            "C": "Correct: Apical meristem is present at the growing tips of stems and roots and is responsible for increasing their length.",
+            "D": "Incorrect: Collenchyma provides flexibility and mechanical support, not growth in length."
+          }
+        },
+        {
+          "question": "What is the function of stomata in plants?",
+          "level": 1,
+          "options": {
+            "A": "Transporting water",
+            "B": "Exchanging gases",
+            "C": "Supporting the plant",
+            "D": "Conducting food"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Transporting water is primarily the function of xylem.",
+            "B": "Correct: Stomata are involved in gas exchange, allowing CO2 to enter and O2 to exit the plant.",
+            "C": "Incorrect: Support is provided by tissues like collenchyma and sclerenchyma.",
+            "D": "Incorrect: Conducting food is the main function of phloem."
+          }
+        },
+        {
+          "question": "Which of the following tissues is a type of simple permanent tissue in plants?",
+          "level": 1,
+          "options": {
+            "A": "Xylem",
+            "B": "Phloem",
+            "C": "Parenchyma",
+            "D": "Meristematic tissue"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Xylem is a complex tissue made of different types of cells.",
+            "B": "Incorrect: Phloem, like xylem, is a complex tissue.",
+            "C": "Correct: Parenchyma is a simple permanent tissue with unspecialized cells.",
+            "D": "Incorrect: Meristematic tissue is involved in growth and is not a permanent tissue."
+          }
+        },
+        {
+          "question": "Which type of muscle tissue is characterized by involuntary, rhythmic contractions and is found in the heart?",
+          "level": 1,
+          "options": {
+            "A": "Striated muscle",
+            "B": "Smooth muscle",
+            "C": "Cardiac muscle",
+            "D": "Skeletal muscle"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Striated muscle is usually under voluntary control and is attached to bones.",
+            "B": "Incorrect: Smooth muscle is involuntary but not specifically associated with the heart.",
+            "C": "Correct: Cardiac muscle is found in the heart and is characterized by involuntary and rhythmic contractions.",
+            "D": "Incorrect: Skeletal muscle is primarily involved in voluntary movements."
+          }
+        },
+        {
+          "question": "What is the primary function of sclerenchyma in plants?",
+          "level": 1,
+          "options": {
+            "A": "Transporting nutrients",
+            "B": "Photosynthesis",
+            "C": "Providing strength and support",
+            "D": "Gas exchange"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The primary function of transporting nutrients is performed by phloem.",
+            "B": "Incorrect: Photosynthesis is mainly carried out by the leaves, not sclerenchyma.",
+            "C": "Correct: Sclerenchyma tissue makes the plant hard and stiff, providing strength and support.",
+            "D": "Incorrect: Gas exchange is primarily the function of stomata, not sclerenchyma."
+          }
+        },
+        {
+          "question": "Which of the following is a characteristic feature of cardiac muscle tissue?",
+          "level": 1,
+          "options": {
+            "A": "It is voluntary and has striations",
+            "B": "It is involuntary and has striations",
+            "C": "It is voluntary and lacks striations",
+            "D": "It is involuntary and lacks striations"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Cardiac muscle is involuntary, not voluntary.",
+            "B": "Correct: Cardiac muscle tissue is involuntary and has striations, allowing it to contract rhythmically.",
+            "C": "Incorrect: Cardiac muscle is not voluntary and it does have striations.",
+            "D": "Incorrect: Cardiac muscle has striations, unlike smooth muscle which lacks them."
+          }
+        },
+        {
+          "question": "Which tissue in plants is responsible for the transport of water from roots to leaves?",
+          "level": 1,
+          "options": {
+            "A": "Phloem",
+            "B": "Xylem",
+            "C": "Parenchyma",
+            "D": "Collenchyma"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Phloem is responsible for transporting food, not water.",
+            "B": "Correct: Xylem transports water and minerals from roots to the leaves.",
+            "C": "Incorrect: Parenchyma is mainly involved in storage and does not transport water.",
+            "D": "Incorrect: Collenchyma provides support and flexibility, not water transport."
+          }
+        },
+        {
+          "question": "What type of epithelial tissue is found in the lining of the kidney tubules?",
+          "level": 1,
+          "options": {
+            "A": "Squamous epithelium",
+            "B": "Stratified squamous epithelium",
+            "C": "Ciliated columnar epithelium",
+            "D": "Cuboidal epithelium"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Squamous epithelium is too thin for the lining of kidney tubules.",
+            "B": "Incorrect: Stratified squamous epithelium is typically found in areas subject to abrasion, not in kidney tubules.",
+            "C": "Incorrect: Ciliated columnar epithelium is mainly found in the respiratory tract.",
+            "D": "Correct: Cuboidal epithelium, with its cube-shaped cells, lines the kidney tubules and provides mechanical support."
+          }
+        },
+        {
+          "question": "What is the primary role of adipose tissue in the human body?",
+          "level": 1,
+          "options": {
+            "A": "Protecting internal organs",
+            "B": "Storing fat and acting as an insulator",
+            "C": "Transporting nutrients",
+            "D": "Producing blood cells"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: While adipose tissue does provide some cushioning, its primary role is not protecting internal organs.",
+            "B": "Correct: Adipose tissue is primarily involved in storing fat and acts as an insulator for the body.",
+            "C": "Incorrect: The transportation of nutrients is primarily the function of the circulatory system.",
+            "D": "Incorrect: Blood cell production primarily occurs in the bone marrow, not adipose tissue."
+          }
+        },
+        {
+          "question": "Which of the following tissues is involved in the movement of the alimentary canal?",
+          "level": 1,
+          "options": {
+            "A": "Striated muscle tissue",
+            "B": "Cardiac muscle tissue",
+            "C": "Nervous tissue",
+            "D": "Smooth muscle tissue"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Striated muscle tissue is mostly involved in voluntary movements, not in the alimentary canal.",
+            "B": "Incorrect: Cardiac muscle tissue is specific to the heart.",
+            "C": "Incorrect: Nervous tissue transmits signals but does not directly cause movement.",
+            "D": "Correct: Smooth muscle tissue is responsible for involuntary movements like those in the alimentary canal."
+          }
+        },
+        {
+          "question": "Which tissue in plants is mainly involved in the storage of food?",
+          "level": 1,
+          "options": {
+            "A": "Parenchyma",
+            "B": "Collenchyma",
+            "C": "Sclerenchyma",
+            "D": "Xylem"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Parenchyma is mainly involved in the storage of food in plants.",
+            "B": "Incorrect: Collenchyma provides mechanical support and flexibility.",
+            "C": "Incorrect: Sclerenchyma makes the plant hard and stiff and is not primarily involved in food storage.",
+            "D": "Incorrect: Xylem is involved in the transport of water and minerals, not in food storage."
+          }
+        },
+        {
+          "question": "What is the function of the guard cells in plant tissues?",
+          "level": 1,
+          "options": {
+            "A": "Conducting water",
+            "B": "Protecting against pathogens",
+            "C": "Regulating the opening and closing of stomata",
+            "D": "Transporting nutrients"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Guard cells do not conduct water.",
+            "B": "Incorrect: While they do offer some protection, it's not their primary function.",
+            "C": "Correct: Guard cells regulate the opening and closing of stomata for gas exchange and transpiration.",
+            "D": "Incorrect: Transporting nutrients is primarily the function of phloem, not guard cells."
+          }
+        },
+        {
+          "question": "Which type of plant tissue is primarily involved in photosynthesis?",
+          "level": 1,
+          "options": {
+            "A": "Parenchyma",
+            "B": "Collenchyma",
+            "C": "Sclerenchyma",
+            "D": "Xylem"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Parenchyma, especially when it contains chlorophyll (chlorenchyma), is involved in photosynthesis.",
+            "B": "Incorrect: Collenchyma provides mechanical support and flexibility, but is not primarily involved in photosynthesis.",
+            "C": "Incorrect: Sclerenchyma makes the plant hard and stiff and is not involved in photosynthesis.",
+            "D": "Incorrect: Xylem is involved in the transport of water and minerals, not in photosynthesis."
+          }
+        },
+        {
+          "question": "What is the main function of the epidermis in plants?",
+          "level": 1,
+          "options": {
+            "A": "Transporting nutrients",
+            "B": "Protecting against water loss",
+            "C": "Supporting the plant",
+            "D": "Conducting water"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The transport of nutrients is not the primary function of the epidermis.",
+            "B": "Correct: The epidermis, often with a waxy cuticle, primarily protects plants against water loss.",
+            "C": "Incorrect: Support is provided by tissues like collenchyma and sclerenchyma, not the epidermis.",
+            "D": "Incorrect: Water conduction is primarily the function of xylem, not the epidermis."
+          }
+        },
+        {
+          "question": "Which type of muscle tissue is found in the walls of blood vessels?",
+          "level": 1,
+          "options": {
+            "A": "Striated muscle",
+            "B": "Smooth muscle",
+            "C": "Cardiac muscle",
+            "D": "Skeletal muscle"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Striated muscle is primarily attached to bones for voluntary movements.",
+            "B": "Correct: Smooth muscle, which is involuntary, is found in the walls of blood vessels.",
+            "C": "Incorrect: Cardiac muscle is specific to the heart.",
+            "D": "Incorrect: Skeletal muscle is involved in voluntary movements and is not found in blood vessel walls."
+          }
+        },
+        {
+          "question": "Which type of connective tissue in humans stores fat?",
+          "level": 1,
+          "options": {
+            "A": "Areolar tissue",
+            "B": "Adipose tissue",
+            "C": "Cartilage",
+            "D": "Blood"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Areolar tissue is more involved in supporting and packing between other tissues.",
+            "B": "Correct: Adipose tissue is specialized for storing fat in the body.",
+            "C": "Incorrect: Cartilage provides support and cushioning but does not store fat.",
+            "D": "Incorrect: Blood is a fluid connective tissue and does not store fat."
+          }
+        },
+        {
+          "question": "What is the main function of nerve cells or neurons in the human body?",
+          "level": 1,
+          "options": {
+            "A": "Producing hormones",
+            "B": "Transporting nutrients",
+            "C": "Transmitting signals",
+            "D": "Storing energy"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Neurons are not primarily involved in hormone production.",
+            "B": "Incorrect: Nutrient transport is not the function of neurons.",
+            "C": "Correct: Neurons are specialized for transmitting signals rapidly within the body.",
+            "D": "Incorrect: Neurons do not store energy in the form of fat or other reserves."
+          }
+        },
+        {
+          "question": "What is the role of epidermis in plants?",
+          "level": 1,
+          "options": {
+            "A": "Transporting water",
+            "B": "Photosynthesis",
+            "C": "Protecting against water loss",
+            "D": "Supporting plant structure"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Water transport is mainly the function of xylem.",
+            "B": "Incorrect: Photosynthesis is not the primary function of the epidermis.",
+            "C": "Correct: The epidermis protects plants against water loss, often aided by a waxy cuticle.",
+            "D": "Incorrect: Support is provided by other tissues like collenchyma and sclerenchyma."
+          }
+        },
+        {
+          "question": "Which type of connective tissue in humans is involved in supporting and protecting organs?",
+          "level": 1,
+          "options": {
+            "A": "Adipose tissue",
+            "B": "Cartilage",
+            "C": "Bone",
+            "D": "Blood"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Adipose tissue is mainly for storing fat and insulation.",
+            "B": "Incorrect: Cartilage provides support and smoothens surfaces at joints but is less involved in protecting organs.",
+            "C": "Correct: Bone is a connective tissue that supports and protects organs.",
+            "D": "Incorrect: Blood is involved in transport within the body but does not provide physical support or protection."
+          }
+        },
+        {
+          "question": "What is the characteristic feature of striated muscle tissue?",
+          "level": 1,
+          "options": {
+            "A": "Presence of single nucleus in each cell",
+            "B": "Involuntary control",
+            "C": "Lack of striations",
+            "D": "Alternating light and dark bands"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Striated muscle cells are usually multinucleate.",
+            "B": "Incorrect: Striated muscles are mostly under voluntary control.",
+            "C": "Incorrect: Striated muscle tissue is named for its distinctive striations.",
+            "D": "Correct: The alternating light and dark bands or striations are a characteristic feature of striated muscle tissue."
+          }
+        },
+        {
+          "question": "Why are meristematic tissues absent in animals?",
+          "level": 2,
+          "options": {
+            "A": "Because animals do not grow",
+            "B": "Due to the lack of cell walls in animal cells",
+            "C": "Because animals have a different mode of growth involving cell differentiation",
+            "D": "As animals do not have a fixed shape"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Animals do grow, but their growth pattern is different from plants.",
+            "B": "Incorrect: The absence of cell walls in animal cells is not the reason for the absence of meristematic tissues.",
+            "C": "Correct: In animals, growth is uniform and involves cell differentiation, unlike the localized growth seen in plants with meristematic tissues.",
+            "D": "Incorrect: Having a non-fixed shape is not the reason for the absence of meristematic tissues in animals."
+          }
+        },
+        {
+          "question": "How does the structure of a neuron support its function in the nervous system?",
+          "level": 2,
+          "options": {
+            "A": "The branched structure allows for the storage of information",
+            "B": "The long axons and dendrites facilitate rapid signal transmission over distances",
+            "C": "The presence of multiple nuclei enhances signal reception",
+            "D": "The spindle shape of neurons aids in faster movement"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Neurons do not store information; their structure supports signal transmission.",
+            "B": "Correct: The long axons and dendrites of neurons facilitate rapid transmission of nerve impulses over distances.",
+            "C": "Incorrect: Neurons typically have a single nucleus, and their structure is not primarily for signal reception.",
+            "D": "Incorrect: Neurons are not spindle-shaped; this characteristic is of smooth muscle cells."
+          }
+        },
+        {
+          "question": "Why does sclerenchyma tissue provide strength and support in plants?",
+          "level": 2,
+          "options": {
+            "A": "Due to the flexibility and elasticity of its cells",
+            "B": "Because of the thin and permeable cell walls",
+            "C": "Owing to the presence of lignin in its thickened cell walls",
+            "D": "As a result of its living cells that can divide"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Sclerenchyma cells are not flexible or elastic; they are rigid.",
+            "B": "Incorrect: Sclerenchyma cell walls are thick and lignified, not thin and permeable.",
+            "C": "Correct: The presence of lignin in the thickened cell walls of sclerenchyma gives it strength and support.",
+            "D": "Incorrect: Sclerenchyma cells are typically dead and do not divide."
+          }
+        },
+        {
+          "question": "In which type of epithelial tissue are cells arranged in multiple layers and why?",
+          "level": 2,
+          "options": {
+            "A": "Squamous epithelium, for better absorption",
+            "B": "Cuboidal epithelium, for secretion",
+            "C": "Stratified squamous epithelium, for protection against wear and tear",
+            "D": "Ciliated columnar epithelium, for movement of mucus"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Squamous epithelium is usually single-layered and involved in diffusion, not absorption.",
+            "B": "Incorrect: Cuboidal epithelium is not typically arranged in multiple layers.",
+            "C": "Correct: Stratified squamous epithelium is multi-layered, providing protection against wear and tear.",
+            "D": "Incorrect: Ciliated columnar epithelium is primarily involved in the movement of substances like mucus but is not multi-layered."
+          }
+        },
+        {
+          "question": "Why do meristematic cells in plants lack vacuoles?",
+          "level": 2,
+          "options": {
+            "A": "To allow more space for storing nutrients",
+            "B": "Because they are non-living cells",
+            "C": "To maximize space for dense cytoplasm and active organelles for rapid division",
+            "D": "To facilitate faster transport of water"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The lack of vacuoles is not for storing nutrients, but for other cellular functions.",
+            "B": "Incorrect: Meristematic cells are living and actively dividing cells.",
+            "C": "Correct: The absence of vacuoles in meristematic cells maximizes space for dense cytoplasm and active organelles, facilitating rapid cell division.",
+            "D": "Incorrect: The presence or absence of vacuoles is not primarily related to water transport."
+          }
+        },
+        {
+          "question": "How does the structure of sclerenchyma cells contribute to their function?",
+          "level": 2,
+          "options": {
+            "A": "Thin cell walls allow for flexibility and growth",
+            "B": "Thickened lignified cell walls provide rigidity and strength",
+            "C": "Large vacuoles help in storing nutrients and water",
+            "D": "Highly branched structure increases surface area for absorption"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Sclerenchyma cells have thick, not thin, cell walls and are not flexible.",
+            "B": "Correct: The thickened lignified cell walls of sclerenchyma cells provide rigidity and strength, which is crucial for the plant’s structural integrity.",
+            "C": "Incorrect: Sclerenchyma cells typically do not have large vacuoles for storage.",
+            "D": "Incorrect: Sclerenchyma cells are not highly branched and do not play a role in absorption."
+          }
+        },
+        {
+          "question": "Why are epithelial tissues in animals tightly packed with minimal intercellular spaces?",
+          "level": 2,
+          "options": {
+            "A": "To allow for flexibility and movement",
+            "B": "To facilitate the exchange of nutrients and gases",
+            "C": "To provide a barrier against mechanical injury and pathogens",
+            "D": "To enhance the storage capacity for water and nutrients"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The tight packing is not primarily for flexibility or movement.",
+            "B": "Incorrect: While epithelial tissues do facilitate exchange, the tight packing is more about protection.",
+            "C": "Correct: The tight packing of epithelial cells provides an effective barrier against mechanical injury, pathogens, and prevents water loss.",
+            "D": "Incorrect: The primary role of epithelial tissues is not storage of water and nutrients."
+          }
+        },
+        {
+          "question": "In the context of plant tissues, how does the presence of intercellular spaces in parenchyma contribute to its function?",
+          "level": 2,
+          "options": {
+            "A": "Increases rigidity and structural support",
+            "B": "Facilitates rapid division and growth",
+            "C": "Enhances storage and gaseous exchange",
+            "D": "Promotes water transport throughout the plant"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Intercellular spaces in parenchyma do not contribute to rigidity or structural support.",
+            "B": "Incorrect: The role of intercellular spaces is not directly related to cell division and growth.",
+            "C": "Correct: The large intercellular spaces in parenchyma enhance its ability to store substances and facilitate gaseous exchange.",
+            "D": "Incorrect: While parenchyma can help in water storage, its intercellular spaces are not primarily for water transport."
+          }
+        },
+        {
+          "question": "What distinguishes meristematic tissues in plants from permanent tissues in terms of cellular characteristics?",
+          "level": 2,
+          "options": {
+            "A": "Meristematic tissues are non-living, while permanent tissues are living",
+            "B": "Meristematic tissues have a large number of vacuoles, whereas permanent tissues do not",
+            "C": "Meristematic tissues lack vacuoles and have a dense cytoplasm, while permanent tissues have differentiated functions",
+            "D": "Meristematic tissues are mainly found in animals, while permanent tissues are in plants"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Meristematic tissues are living, actively dividing cells.",
+            "B": "Incorrect: Meristematic tissues typically lack vacuoles, not the other way around.",
+            "C": "Correct: Meristematic tissues are characterized by dense cytoplasm and lack of vacuoles, focusing on cell division, unlike permanent tissues which are differentiated.",
+            "D": "Incorrect: Meristematic tissues are specific to plants, not animals."
+          }
+        },
+        {
+          "question": "In the human nervous system, how do the structural features of neurons facilitate their function?",
+          "level": 2,
+          "options": {
+            "A": "Multiple nuclei in neurons enhance rapid signal transmission",
+            "B": "Long axons and dendrites allow for efficient signal transmission over long distances",
+            "C": "The presence of large vacuoles in neurons aids in signal storage",
+            "D": "Branched structure of neurons facilitates energy storage"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Neurons typically have a single nucleus.",
+            "B": "Correct: The long axons and dendrites of neurons are crucial for efficient transmission of nerve impulses over long distances.",
+            "C": "Incorrect: Neurons do not have large vacuoles for signal storage; their function is rapid signal transmission.",
+            "D": "Incorrect: The branched structure of neurons facilitates signal transmission, not energy storage."
+          }
+        },
+        {
+          "question": "What is the role of lignin in the walls of sclerenchyma cells in plants?",
+          "level": 2,
+          "options": {
+            "A": "To facilitate flexibility and growth of plant cells",
+            "B": "To enable water and nutrient transport within the plant",
+            "C": "To provide rigidity and strength for structural support",
+            "D": "To enhance the photosynthetic ability of plant cells"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Lignin in sclerenchyma provides rigidity, not flexibility.",
+            "B": "Incorrect: Lignin's role is structural support, not transport of water and nutrients.",
+            "C": "Correct: Lignin in the walls of sclerenchyma cells provides rigidity and strength, crucial for the plant's structural support.",
+            "D": "Incorrect: Lignin is not involved in enhancing photosynthesis."
+          }
+        },
+        {
+          "question": "How does the specialization of epithelial tissue in animals correlate with its functions?",
+          "level": 2,
+          "options": {
+            "A": "Squamous epithelium's thinness facilitates rapid diffusion and filtration",
+            "B": "Stratified epithelium's multiple layers are specialized for energy storage",
+            "C": "Ciliated epithelium's structure is primarily for strength and rigidity",
+            "D": "Cuboidal epithelium is adapted for rapid cell division and growth"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The thinness of squamous epithelium facilitates functions like diffusion and filtration.",
+            "B": "Incorrect: Stratified epithelium provides protection against mechanical stress, not for energy storage.",
+            "C": "Incorrect: Ciliated epithelium is specialized for moving materials across the surface, not for rigidity.",
+            "D": "Incorrect: Cuboidal epithelium is adapted for secretion and absorption, not for rapid division."
           }
         }
       ]

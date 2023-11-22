@@ -19,7 +19,49 @@
       "grade": "9",
       "subject": "Science",
       "chapter": "1: Matter in our Surroundings",
-      "quizId": "quiz_id3"
-    }
+      "quizId": "CBSE_9_Science_1"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Science",
+      "chapter": "2: Is Matter Around Us Pure",
+      "quizId": "CBSE_9_Science_2"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Science",
+      "chapter": "3: Atoms and Molecules",
+      "quizId": "CBSE_9_Science_3"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Science",
+      "chapter": "4: Structure of the Atom",
+      "quizId": "CBSE_9_Science_4"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Science",
+      "chapter": "5: Fundamental Unit of Life",
+      "quizId": "CBSE_9_Science_5"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Science",
+      "chapter": "6: Tissues",
+      "quizId": "CBSE_9_Science_6"
+    },
+    {
+      "board": "CBSE",
+      "grade": "10",
+      "subject": "Science",
+      "chapter": "1: Dummy",
+      "quizId": "CBSE_10_Science_1"
+    }    
   ]
 }

@@ -32,6 +32,14 @@ export const useQuizStore = defineStore("quiz", {
       });
       return score;
     },
+    levels(state) {
+
+      let levels = state.quizList?.quizDetails?.map((question) => question.level);
+      // unique levels
+      return [...new Set(levels)].sort((a, b) => a - b);
+
+
+    }
   },
   actions: {
     async loadQuizList(quizId) {
@@ -43,6 +51,10 @@ export const useQuizStore = defineStore("quiz", {
           (quiz) => quiz.quizId === quizId
         );
         console.log("selectedQuiz", selectedQuiz);
+        // filter questions with level 2
+        // selectedQuiz.quizDetails = selectedQuiz.quizDetails.filter(
+        //   (question) => question.level === 2
+        // );
         this.quizList = selectedQuiz;
       } catch (error) {
         console.error("Failed to load quiz data:", error);

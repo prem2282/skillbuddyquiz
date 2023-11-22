@@ -4,25 +4,77 @@ import { useRoute, useRouter } from "vue-router";
 export const useAcademicsStore = defineStore("academics", {
   state: () => ({
     academics: {},
-    selectedItemIndex: null,
     selectedQuizId: null,
+    selectedBoard: null,
+    selectedGrade: null,
+    selectedSubject: null,
+    selectedChapter: null,
   }),
-  getters: {},
+  getters: {
+    getAcademics(state) {
+      return state.academics;
+    },
+    getSelectedQuizId(state) {
+      return state.selectedQuizId;
+    },
+    getBoardList(state) {
+      if (!state.academics || !state.academics.data) {
+        return [];
+      }
+      
+      const boards = state.academics.data.map((item) => item.board);
+      return [...new Set(boards)];
+    },
+    getSelectedBoard(state) {
+      return state.selectedBoard;
+    },
+    getSelectedGrade(state) {
+      return state.selectedGrade;
+    },
+    getSelectedSubject(state) {
+      return state.selectedSubject;
+    },
+    getGradeListForBoard(state) {
+      const filteredData = state.academics.data.filter((item) => item.board === state.selectedBoard);
+      const grades = filteredData.map((item) => item.grade);
+      return [...new Set(grades)];
+    },
+    getSubjectListForGrade(state) {
+      const filteredData = state.academics.data.filter((item) => item.board === state.selectedBoard && item.grade === state.selectedGrade);
+      const subjects = filteredData.map((item) => item.subject);
+      return [...new Set(subjects)];
+    },
+    getChapterListForSubject(state) {
+      return  state.academics.data.filter((item) => item.board === state.selectedBoard && item.grade === state.selectedGrade && item.subject === state.selectedSubject);
+    },
+  },
 
   actions: {
-    async loadAcadList(quizId) {
+    async loadAcadList() {
       try {
         const response = await fetch("data/academicsData.json");
         const data = await response.json();
 
         this.academics = data;
+
       } catch (error) {
         console.error("Failed to load academics data:", error);
       }
     },
-    selectItem(index) {
-      this.selectedItemIndex = index;
-      this.selectedQuizId = this.academics.data[index].quizId;
+    selectChapter(item) {
+      console.log("item", item);
+      this.selectedChapter = item.chapter;
+      this.selectedQuizId = item.quizId;
     },
+    selectBoard(board) {
+      this.selectedBoard = board;
+    },
+    selectGrade(grade) {
+      this.selectedGrade = grade;
+    },
+    selectSubject(subject) {
+      this.selectedSubject = subject;
+    },
+ 
   },
 });

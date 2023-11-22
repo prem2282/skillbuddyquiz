@@ -1,7 +1,7 @@
 <template>
   <q-card
     clickable
-    @click="selectItem(cardItem.quizId)"
+    @click="selectChapter()"
     style="width: 200px"
     class="q-pa-sm q-ma-md"
   >
@@ -26,16 +26,19 @@ export default {
     academicsStore() {
       return useAcademicsStore();
     },
-    academics() {
-      return this.academicsStore.academics;
+    getChapterListForSubject() {
+      return this.academicsStore.getChapterListForSubject;
     },
     cardItem() {
-      return this.academics.data[this.acadIndex];
+      return this.getChapterListForSubject[this.acadIndex];
     },
   },
   methods: {
-    selectItem() {
-      this.academicsStore.selectItem(this.acadIndex);
+    selectChapter() {
+      this.academicsStore.selectChapter(this.cardItem);
+      this.loadQuiz();
+    },
+    loadQuiz() {
       this.$router.push({
         path: "/quiz",
         params: {
