@@ -375,6 +375,166 @@
             "C": "Incorrect. NOTA is not related to any National Organizational Technical Assessment.",
             "D": "Incorrect. NOTA does not mean Notice of Temporal Adjustment."
           }
+        },
+        {
+          "question": "What is the primary role of the Chief Election Commissioner of India?",
+          "options": {
+            "A": "Advising the President on election matters",
+            "B": "Supervising the overall election process",
+            "C": "Legislating election laws",
+            "D": "Conducting public opinion polls"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect. The Chief Election Commissioner does not primarily advise the President.",
+            "B": "Correct. The Chief Election Commissioner supervises and directs the election process in India.",
+            "C": "Incorrect. Legislating election laws is the function of the Parliament, not the Chief Election Commissioner.",
+            "D": "Incorrect. Conducting public opinion polls is not a responsibility of the Chief Election Commissioner."
+          }
+        },
+        {
+          "question": "Which system is used for the election of members to the Rajya Sabha in India?",
+          "options": {
+            "A": "Single Transferable Vote",
+            "B": "First-Past-The-Post",
+            "C": "Proportional Representation",
+            "D": "Direct Popular Vote"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct. The Single Transferable Vote system is used for Rajya Sabha elections.",
+            "B": "Incorrect. First-Past-The-Post is used for Lok Sabha but not for Rajya Sabha.",
+            "C": "Incorrect. Proportional Representation is a different electoral system not used for Rajya Sabha.",
+            "D": "Incorrect. Rajya Sabha members are not elected by direct popular vote."
+          }
+        },
+        {
+          "question": "What is the significance of the 'anti-defection law' in Indian politics?",
+          "options": {
+            "A": "It allows MPs and MLAs to change parties without restrictions",
+            "B": "It prohibits MPs and MLAs from changing parties after election",
+            "C": "It regulates election campaign finances",
+            "D": "It provides a framework for coalition governments"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect. The law does not allow unrestricted party changing.",
+            "B": "Correct. The anti-defection law aims to prevent elected members from changing parties after election.",
+            "C": "Incorrect. Campaign finance is regulated separately and not under the anti-defection law.",
+            "D": "Incorrect. The law is not specifically designed to provide a framework for coalition governments."
+          }
+        },
+        {
+          "question": "In India, which body is responsible for issuing the Model Code of Conduct for elections?",
+          "options": {
+            "A": "Supreme Court",
+            "B": "Parliament",
+            "C": "Election Commission",
+            "D": "Prime Minister's Office"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect. The Supreme Court does not issue the Model Code of Conduct.",
+            "B": "Incorrect. The Parliament legislates but does not issue the Model Code of Conduct.",
+            "C": "Correct. The Election Commission of India issues the Model Code of Conduct.",
+            "D": "Incorrect. The Prime Minister's Office is not responsible for issuing the Model Code of Conduct."
+          }
+        },
+        {
+          "question": "What is the term used for the practice of redrawing constituency boundaries to influence election outcomes?",
+          "options": {
+            "A": "Gerrymandering",
+            "B": "Filibustering",
+            "C": "Lobbying",
+            "D": "Coalitioning"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct. Gerrymandering refers to redrawing electoral boundaries for political advantage.",
+            "B": "Incorrect. Filibustering is a legislative tactic, not related to redrawing boundaries.",
+            "C": "Incorrect. Lobbying is the act of attempting to influence decisions made by officials, not redrawing boundaries.",
+            "D": "Incorrect. Coalitioning refers to forming alliances, not redrawing electoral constituencies."
+          }
+        },
+        {
+          "question": "Which of the following is NOT a function of the Election Commission of India?",
+          "options": {
+            "A": "Conducting Presidential and Vice-Presidential elections",
+            "B": "Deciding the dates of elections",
+            "C": "Appointing the Prime Minister of India",
+            "D": "Preparing the electoral rolls"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect. The Election Commission conducts Presidential and Vice-Presidential elections.",
+            "B": "Incorrect. Deciding the dates of elections is a function of the Election Commission.",
+            "C": "Correct. Appointing the Prime Minister is not a function of the Election Commission.",
+            "D": "Incorrect. Preparing the electoral rolls is a function of the Election Commission."
+          }
+        },
+        {
+          "question": "In the Indian electoral system, what does a 'symbol' represent?",
+          "options": {
+            "A": "The ideology of a political party",
+            "B": "The financial status of a candidate",
+            "C": "A unique identifier for a political party or candidate",
+            "D": "The literacy rate of a constituency"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect. While symbols may reflect ideology, their primary role is identification.",
+            "B": "Incorrect. Symbols do not represent the financial status of a candidate.",
+            "C": "Correct. Symbols serve as a unique identifier for political parties or independent candidates.",
+            "D": "Incorrect. Symbols have no relation to the literacy rate of a constituency."
+          }
+        },
+        {
+          "question": "What is the role of 'Voter ID' in Indian elections?",
+          "options": {
+            "A": "It is mandatory for voting",
+            "B": "It is optional but recommended for voting",
+            "C": "It is used only for online voting",
+            "D": "It is not related to the voting process"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct. Voter ID is an essential document for voters to establish their identity during voting.",
+            "B": "Incorrect. Voter ID is not merely optional; it is a crucial requirement.",
+            "C": "Incorrect. India does not have online voting, and Voter ID is used in physical polling stations.",
+            "D": "Incorrect. Voter ID is directly related to the voting process."
+          }
+        },
+        {
+          "question": "Which amendment of the Indian Constitution reduced the voting age from 21 to 18?",
+          "options": {
+            "A": "42nd Amendment",
+            "B": "44th Amendment",
+            "C": "61st Amendment",
+            "D": "73rd Amendment"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect. The 42nd Amendment did not deal with voting age.",
+            "B": "Incorrect. The 44th Amendment also did not change the voting age.",
+            "C": "Correct. The 61st Amendment, passed in 1988, reduced the voting age from 21 to 18.",
+            "D": "Incorrect. The 73rd Amendment pertains to Panchayati Raj Institutions."
+          }
+        },
+        {
+          "question": "In India, what is the maximum duration between two sessions of Parliament?",
+          "options": {
+            "A": "Three months",
+            "B": "Four months",
+            "C": "Six months",
+            "D": "One year"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect. Three months is less than the maximum permitted duration.",
+            "B": "Incorrect. Four months is not the maximum duration specified.",
+            "C": "Correct. There should not be a gap of more than six months between two sessions of Parliament.",
+            "D": "Incorrect. One year exceeds the maximum allowed interval between sessions."
+          }
         }
       ]
     }
