@@ -11,8 +11,15 @@
       "board": "CBSE",
       "grade": "9",
       "subject": "Civics",
-      "chapter": "Chapter 2",
+      "chapter": "Electoral Politics",
       "quizId": "quiz_id2"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Science",
+      "chapter": "1: Matter in our Surroundings",
+      "quizId": "quiz_id3"
     }
   ]
 }

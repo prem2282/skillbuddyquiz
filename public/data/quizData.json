@@ -537,6 +537,571 @@
           }
         }
       ]
+    },
+    {
+      "quizId": "quiz_id3",
+      "quizDetails": [
+        {
+          "question": "What is the primary characteristic of matter that distinguishes its three states?",
+          "options": {
+            "A": "Color",
+            "B": "Weight",
+            "C": "Intermolecular distance and force",
+            "D": "Temperature"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect because color is not a fundamental characteristic that determines the state of matter.",
+            "B": "Incorrect because weight is not a primary factor in determining the state of matter.",
+            "C": "Correct because the intermolecular distance and the force of attraction between particles are key in determining whether a substance is a solid, liquid, or gas.",
+            "D": "Incorrect because temperature, while it affects the state of matter, is not the primary characteristic; it's more about how temperature affects intermolecular forces and distances."
+          }
+        },
+        {
+          "question": "What happens to the kinetic energy of particles as the temperature increases?",
+          "options": {
+            "A": "It decreases",
+            "B": "It remains constant",
+            "C": "It increases",
+            "D": "It fluctuates unpredictably"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect because kinetic energy increases with temperature, not decreases.",
+            "B": "Incorrect because kinetic energy changes with temperature; it does not remain constant.",
+            "C": "Correct because as temperature increases, the particles gain more energy and move faster, hence their kinetic energy increases.",
+            "D": "Incorrect because the change in kinetic energy with temperature is predictable and increases consistently."
+          }
+        },
+        {
+          "question": "Which state of matter has the least intermolecular force of attraction?",
+          "options": {
+            "A": "Solid",
+            "B": "Liquid",
+            "C": "Gas",
+            "D": "Plasma"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect because solids have strong intermolecular forces keeping their particles close together.",
+            "B": "Incorrect because liquids have moderate intermolecular forces.",
+            "C": "Correct because gases have the least intermolecular force of attraction, allowing their particles to move freely and occupy the available space.",
+            "D": "Incorrect because plasma is not typically considered in the basic three states of matter, and its particles are ionized with different interaction dynamics."
+          }
+        },
+        {
+          "question": "Which process describes the change from a gaseous state to a liquid state?",
+          "options": {
+            "A": "Sublimation",
+            "B": "Condensation",
+            "C": "Evaporation",
+            "D": "Freezing"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect because sublimation is the transition from a solid to a gas without passing through the liquid phase.",
+            "B": "Correct because condensation is the process where a gas turns into a liquid.",
+            "C": "Incorrect because evaporation is the change from a liquid to a gas.",
+            "D": "Incorrect because freezing is the transition from a liquid to a solid."
+          }
+        },
+        {
+          "question": "At what temperature does water have the highest density?",
+          "options": {
+            "A": "0°C",
+            "B": "4°C",
+            "C": "100°C",
+            "D": "At its boiling point"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect because at 0°C, water starts to freeze and expands, reducing its density.",
+            "B": "Correct because water reaches its maximum density at around 4°C.",
+            "C": "Incorrect because at 100°C, water is turning into steam, and its density is decreasing.",
+            "D": "Incorrect because at its boiling point, water's density is lower as it is transitioning into a gaseous state."
+          }
+        },
+        {
+          "question": "Which property of matter is demonstrated when a scent spreads across a room?",
+          "options": {
+            "A": "Diffusion",
+            "B": "Condensation",
+            "C": "Sublimation",
+            "D": "Evaporation"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct because diffusion is the process by which particles spread out and mix with each other without any external force.",
+            "B": "Incorrect because condensation is the process of a gas turning into a liquid.",
+            "C": "Incorrect because sublimation is the transition from solid to gas, skipping the liquid state.",
+            "D": "Incorrect because evaporation is the process of a liquid turning into a vapor."
+          }
+        },
+        {
+          "question": "What causes the pressure exerted by gases?",
+          "options": {
+            "A": "Condensation of the gas",
+            "B": "Collisions of gas particles with container walls",
+            "C": "Change in the color of the gas",
+            "D": "Intermolecular forces within the gas"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect because condensation turns gas into liquid and does not directly cause pressure.",
+            "B": "Correct because gas pressure is caused by the collisions of gas particles with the walls of their container.",
+            "C": "Incorrect because the color change of a gas does not affect pressure.",
+            "D": "Incorrect because gases have negligible intermolecular forces, and these are not the cause of pressure."
+          }
+        },
+        {
+          "question": "What is the effect of an increase in temperature on the rate of evaporation?",
+          "options": {
+            "A": "Decreases the rate",
+            "B": "Increases the rate",
+            "C": "No change in the rate",
+            "D": "Initially increases, then decreases"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect because an increase in temperature generally increases the kinetic energy of particles, leading to a higher rate of evaporation.",
+            "B": "Correct because higher temperatures provide more energy to the particles, enabling them to overcome intermolecular forces and evaporate faster.",
+            "C": "Incorrect because temperature changes definitely affect the rate of evaporation.",
+            "D": "Incorrect because there is no evidence to suggest that the rate of evaporation initially increases and then decreases with a continuous increase in temperature."
+          }
+        },
+        {
+          "question": "Which state of matter is characterized by a definite shape and volume?",
+          "options": {
+            "A": "Solid",
+            "B": "Liquid",
+            "C": "Gas",
+            "D": "Plasma"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct because solids have a definite shape and volume due to the close packing of their particles.",
+            "B": "Incorrect because liquids have a definite volume but take the shape of their container.",
+            "C": "Incorrect because gases neither have a definite shape nor a definite volume.",
+            "D": "Incorrect because plasma, like gas, does not have a definite shape or volume."
+          }
+        },
+        {
+          "question": "What type of change is involved when ice melts to form water?",
+          "options": {
+            "A": "Chemical change",
+            "B": "Phase change",
+            "C": "Sublimation",
+            "D": "Irreversible change"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect because melting ice does not involve a change in the chemical composition of water.",
+            "B": "Correct because melting of ice is a phase change from solid to liquid state.",
+            "C": "Incorrect because sublimation is the transition from solid to gas, bypassing the liquid phase.",
+            "D": "Incorrect because melting of ice is a reversible change; it can be reversed by freezing the water."
+          }
+        },
+        {
+          "question": "What property of a gas is demonstrated when a balloon inflates uniformly in all directions?",
+          "options": {
+            "A": "Diffusion",
+            "B": "Condensation",
+            "C": "Uniform pressure",
+            "D": "Evaporation"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect because diffusion refers to the mixing of particles and is not directly related to the inflation of a balloon.",
+            "B": "Incorrect because condensation is the transition from gas to liquid and is unrelated to balloon inflation.",
+            "C": "Correct because the uniform inflation of a balloon is due to the gas exerting uniform pressure in all directions.",
+            "D": "Incorrect because evaporation is the process of turning from liquid to gas and is not relevant to the inflation of a balloon."
+          }
+        },
+        {
+          "question": "Why does ice float on water?",
+          "options": {
+            "A": "Ice has a higher density than water",
+            "B": "Water expands upon freezing, reducing its density",
+            "C": "Gravity has less effect on solid substances",
+            "D": "Ice absorbs heat from the water"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect because ice has a lower density than liquid water, which is why it floats.",
+            "B": "Correct because ice is less dense than water due to the expansion of water when it freezes, causing ice to float.",
+            "C": "Incorrect because gravity affects all states of matter, and this is not the reason why ice floats.",
+            "D": "Incorrect because the absorption of heat is not the primary reason for ice floating on water."
+          }
+        },
+        {
+          "question": "What happens to the boiling point of water at higher altitudes?",
+          "options": {
+            "A": "Increases",
+            "B": "Decreases",
+            "C": "Remains the same",
+            "D": "Fluctuates unpredictably"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect because the boiling point decreases at higher altitudes due to lower atmospheric pressure.",
+            "B": "Correct because at higher altitudes, the lower atmospheric pressure causes water to boil at lower temperatures.",
+            "C": "Incorrect because the boiling point of water is dependent on the atmospheric pressure, which changes with altitude.",
+            "D": "Incorrect because the change in boiling point with altitude is predictable and consistent."
+          }
+        },
+        {
+          "question": "What is the primary reason for the expansion of matter on heating?",
+          "options": {
+            "A": "Increase in atomic mass",
+            "B": "Decrease in density",
+            "C": "Increase in kinetic energy of particles",
+            "D": "Reduction in gravitational force"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect because heating does not change the atomic mass of substances.",
+            "B": "Incorrect although density can decrease upon heating, it is not the primary reason for expansion.",
+            "C": "Correct because the increase in kinetic energy of particles upon heating causes them to move more and occupy a larger volume, leading to expansion.",
+            "D": "Incorrect because gravitational force is not related to the thermal expansion of matter."
+          }
+        },
+        {
+          "question": "Which process best describes the direct transition from solid to gas?",
+          "options": {
+            "A": "Condensation",
+            "B": "Evaporation",
+            "C": "Sublimation",
+            "D": "Freezing"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect because condensation is the transition from gas to liquid.",
+            "B": "Incorrect because evaporation is the process of liquid turning into gas.",
+            "C": "Correct because sublimation is the direct transition from solid to gas without passing through the liquid phase.",
+            "D": "Incorrect because freezing is the transition from liquid to solid."
+          }
+        },
+        {
+          "question": "What is the primary factor that affects the rate of evaporation?",
+          "options": {
+            "A": "Type of liquid",
+            "B": "Humidity",
+            "C": "Surface area",
+            "D": "Color of the container"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect because while the type of liquid can affect evaporation, it's not the primary factor.",
+            "B": "Incorrect because humidity affects evaporation but is not the primary factor.",
+            "C": "Correct because the surface area directly influences the rate of evaporation; larger surface areas facilitate faster evaporation.",
+            "D": "Incorrect because the color of the container has no significant effect on the rate of evaporation."
+          }
+        },
+        {
+          "question": "What does the term 'latent heat' refer to?",
+          "options": {
+            "A": "The heat released during condensation",
+            "B": "The heat absorbed or released during a phase change",
+            "C": "The heat required to increase the temperature of a substance",
+            "D": "The heat lost to the surroundings"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect because this is too specific; latent heat refers to heat involved in any phase change, not just condensation.",
+            "B": "Correct because latent heat is the heat absorbed or released by a substance during a change in its physical state (phase) without changing its temperature.",
+            "C": "Incorrect because this describes specific heat, not latent heat.",
+            "D": "Incorrect because latent heat is not specifically about heat loss to surroundings."
+          }
+        },
+        {
+          "question": "Which factor does not affect the solubility of a solid in a liquid?",
+          "options": {
+            "A": "Temperature",
+            "B": "Pressure",
+            "C": "Size of the solid particles",
+            "D": "The color of the liquid"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect because temperature often affects the solubility of solids in liquids.",
+            "B": "Incorrect because while pressure has a greater effect on the solubility of gases, it can also influence the solubility of solids in some cases.",
+            "C": "Incorrect because the size of solid particles can affect the rate of solubility.",
+            "D": "Correct because the color of the liquid does not affect the solubility of a solid in it."
+          }
+        },
+        {
+          "question": "In which state of matter do particles have the highest kinetic energy?",
+          "options": {
+            "A": "Solid",
+            "B": "Liquid",
+            "C": "Gas",
+            "D": "Plasma"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect because particles in a solid have the least kinetic energy due to their close packing and limited movement.",
+            "B": "Incorrect because while particles in a liquid have more kinetic energy than in a solid, they are not as energetic as in a gas.",
+            "C": "Correct because particles in a gas state have the highest kinetic energy, which allows them to move freely and occupy available space.",
+            "D": "Incorrect because while plasma has high kinetic energy, it is not typically considered in the basic three states of matter."
+          }
+        },
+        {
+          "question": "Which phenomenon is an example of a physical change?",
+          "options": {
+            "A": "Burning of wood",
+            "B": "Rusting of iron",
+            "C": "Melting of ice",
+            "D": "Cooking of food"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect because burning of wood is a chemical change; it results in new substances.",
+            "B": "Incorrect because rusting of iron is a chemical change involving iron and oxygen.",
+            "C": "Correct because melting of ice is a physical change; it changes form but not its chemical composition.",
+            "D": "Incorrect because cooking of food involves chemical changes in the ingredients."
+          }
+        },
+        {
+          "question": "Why does the temperature of a substance remain constant during its boiling point?",
+          "options": {
+            "A": "Because the substance is losing heat",
+            "B": "Because the kinetic energy of particles stops increasing",
+            "C": "Because all heat energy is used for breaking intermolecular forces",
+            "D": "Because the atmospheric pressure is constant"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect because the substance is absorbing heat, not losing it.",
+            "B": "Incorrect because the kinetic energy does not stop increasing; it's just that the energy is used elsewhere.",
+            "C": "Correct because during boiling, the temperature remains constant as the heat energy absorbed is used to overcome the intermolecular forces, causing a phase change.",
+            "D": "Incorrect because atmospheric pressure does not directly explain why the temperature remains constant during boiling."
+          }
+        },
+        {
+          "question": "In a closed container, why does the rate of evaporation eventually equal the rate of condensation?",
+          "options": {
+            "A": "Because of an increase in temperature",
+            "B": "Due to a decrease in air pressure",
+            "C": "Owing to the equilibrium between the liquid and vapor phases",
+            "D": "As a result of decreased kinetic energy of particles"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect because the temperature does not necessarily have to increase for equilibrium to be reached.",
+            "B": "Incorrect because the change in air pressure is not the primary reason for this equilibrium.",
+            "C": "Correct because in a closed container, the rate of evaporation and condensation eventually balance each other, reaching a dynamic equilibrium between the liquid and vapor phases.",
+            "D": "Incorrect because the kinetic energy of particles does not decrease; instead, it is the balance of energy exchange that leads to equilibrium."
+          }
+        },
+        {
+          "question": "Why does the solubility of a gas in a liquid generally decrease with an increase in temperature?",
+          "options": {
+            "A": "Because the kinetic energy of gas molecules decreases",
+            "B": "Due to the expansion of the liquid",
+            "C": "As a result of increased kinetic energy of gas molecules",
+            "D": "Due to the decrease in atmospheric pressure"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect because the kinetic energy of gas molecules increases with temperature.",
+            "B": "Incorrect because the expansion of the liquid is not the primary reason for decreased solubility.",
+            "C": "Correct because increased kinetic energy at higher temperatures makes gas molecules less likely to be 'captured' by the liquid, reducing solubility.",
+            "D": "Incorrect because atmospheric pressure is not the main factor in this context."
+          }
+        },
+        {
+          "question": "What is the primary reason for the anomalous expansion of water below 4°C?",
+          "options": {
+            "A": "Formation of hydrogen bonds in a hexagonal pattern",
+            "B": "Decrease in kinetic energy of water molecules",
+            "C": "Increase in atmospheric pressure",
+            "D": "Reduction in the density of water"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct because below 4°C, water molecules form a hexagonal structure due to hydrogen bonding, which occupies more space and leads to the anomalous expansion of water.",
+            "B": "Incorrect although the kinetic energy decreases, the key factor is the formation of a specific molecular structure.",
+            "C": "Incorrect because atmospheric pressure does not directly cause the anomalous expansion of water.",
+            "D": "Incorrect because the reduction in density is a result of the anomalous expansion, not the cause."
+          }
+        },
+        {
+          "question": "Why is the pressure inside a soap bubble higher than the outside atmospheric pressure?",
+          "options": {
+            "A": "Due to the higher temperature inside the bubble",
+            "B": "Because of the surface tension of the soap film",
+            "C": "Owing to the increased density of air inside the bubble",
+            "D": "As a result of external air pressure"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect because temperature differences are not the primary reason for the pressure difference.",
+            "B": "Correct because the surface tension of the soap film creates a pressure inside the bubble that is slightly higher than the external atmospheric pressure.",
+            "C": "Incorrect because the density of air inside the bubble is not significantly different from that outside.",
+            "D": "Incorrect because external air pressure does not directly increase the pressure inside a bubble."
+          }
+        },
+        {
+          "question": "Why does a gas exert pressure on the walls of its container?",
+          "options": {
+            "A": "Due to gravitational force acting on gas particles",
+            "B": "Because of the high density of gases",
+            "C": "Owing to constant, random motion and collisions of particles with the walls",
+            "D": "As a result of external atmospheric pressure"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect because gravitational force is negligible in the behavior of gas particles in a container.",
+            "B": "Incorrect because gases typically have low density, not high.",
+            "C": "Correct because the pressure exerted by a gas is due to its particles being in constant, random motion and colliding with the container walls.",
+            "D": "Incorrect because while external pressure can affect the gas, it's the internal particle collisions that primarily cause gas pressure."
+          }
+        },
+        {
+          "question": "Which factor explains the decrease in the boiling point of water at higher altitudes?",
+          "options": {
+            "A": "Decreased atmospheric oxygen",
+            "B": "Lower atmospheric pressure",
+            "C": "Increased humidity",
+            "D": "Reduced gravitational force"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect because the oxygen content doesn’t significantly affect the boiling point of water.",
+            "B": "Correct because the boiling point of water decreases at higher altitudes due to lower atmospheric pressure.",
+            "C": "Incorrect because humidity does not have a significant impact on the boiling point.",
+            "D": "Incorrect because gravitational force has a negligible effect on the boiling point of water."
+          }
+        },
+        {
+          "question": "What is the primary cause of Brownian motion in particles of matter?",
+          "options": {
+            "A": "Electrical charges in particles",
+            "B": "Gravitational forces acting on particles",
+            "C": "Random collisions with other particles and the medium",
+            "D": "Magnetic fields surrounding the particles"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect because electrical charges do not primarily cause Brownian motion.",
+            "B": "Incorrect because gravitational forces are too weak to cause noticeable Brownian motion in small particles.",
+            "C": "Correct because Brownian motion is caused by the random and erratic collisions of particles with each other and with their medium.",
+            "D": "Incorrect because magnetic fields are not involved in the random movement characteristic of Brownian motion."
+          }
+        },
+        {
+          "question": "Why does hot water freeze faster than cold water in some circumstances (Mpemba effect)?",
+          "options": {
+            "A": "Evaporation of hot water reduces its volume, speeding up freezing",
+            "B": "Hot water holds less dissolved gas, leading to faster freezing",
+            "C": "Higher initial temperature causes a greater rate of heat loss",
+            "D": "The formation of ice crystals is easier in hot water"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct because one of the explanations for the Mpemba effect is that evaporation of hot water reduces its volume, leading to faster freezing.",
+            "B": "Incorrect although hot water does hold less dissolved gas, this is not the primary reason for the Mpemba effect.",
+            "C": "Incorrect because while hot water may lose heat more quickly initially, this doesn't fully explain the Mpemba effect.",
+            "D": "Incorrect because ice crystal formation is not easier in hot water compared to cold water."
+          }
+        },
+        {
+          "question": "What is the role of impurities in the freezing point depression of a solvent?",
+          "options": {
+            "A": "Impurities increase the kinetic energy of the solvent",
+            "B": "They decrease the solvent's vapor pressure, lowering the freezing point",
+            "C": "Impurities increase the solvent’s density",
+            "D": "They raise the atmospheric pressure on the solvent"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect because impurities do not significantly increase the kinetic energy of the solvent.",
+            "B": "Correct because impurities in a solvent lower its vapor pressure, which in turn lowers the freezing point (a phenomenon known as freezing point depression).",
+            "C": "Incorrect although impurities can affect density, this is not why they lower the freezing point.",
+            "D": "Incorrect because atmospheric pressure is not directly influenced by impurities in a solvent."
+          }
+        },
+        {
+          "question": "What principle explains why a hot air balloon rises in the atmosphere?",
+          "options": {
+            "A": "Pascal's principle",
+            "B": "Archimedes' principle",
+            "C": "Boyle's law",
+            "D": "Charles' law"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect because Pascal's principle relates to fluid dynamics in a confined space and is not directly applicable to hot air balloons.",
+            "B": "Correct because Archimedes' principle, which states that an object is buoyed up by a force equal to the weight of the fluid displaced by the object, explains the rising of a hot air balloon in the atmosphere.",
+            "C": "Incorrect because Boyle's law relates to the pressure-volume relationship of gases at constant temperature and does not explain the lift of a hot air balloon.",
+            "D": "Incorrect while Charles' law explains how gases expand when heated, it does not directly explain the buoyancy of a hot air balloon."
+          }
+        },
+        {
+          "question": "In a real gas, when does the ideal gas law fail to accurately predict behavior?",
+          "options": {
+            "A": "At high temperatures and low pressures",
+            "B": "At low temperatures and high pressures",
+            "C": "At standard temperature and pressure",
+            "D": "During phase changes"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect because the ideal gas law is most accurate under high temperatures and low pressures.",
+            "B": "Correct because the ideal gas law becomes less accurate for real gases at low temperatures and high pressures, where intermolecular forces and the volume of the gas molecules become significant.",
+            "C": "Incorrect because the ideal gas law generally works well at standard temperature and pressure conditions.",
+            "D": "Incorrect because the ideal gas law does not apply to phase changes; it only describes the behavior of gases."
+          }
+        },
+        {
+          "question": "Which phenomenon demonstrates the particle nature of matter in a colloidal solution?",
+          "options": {
+            "A": "Tyndall effect",
+            "B": "Osmotic pressure",
+            "C": "Brownian motion",
+            "D": "Dialysis"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct because the Tyndall effect, where light is scattered by particles in a colloidal solution, demonstrates the particle nature of matter.",
+            "B": "Incorrect because osmotic pressure is related to the solvent movement through a semipermeable membrane, not directly showing particle nature.",
+            "C": "Incorrect while Brownian motion does demonstrate the particle nature of matter, it's not specific to colloidal solutions.",
+            "D": "Incorrect because dialysis is a process of separating smaller particles from larger ones and does not directly demonstrate the particle nature of matter."
+          }
+        },
+        {
+          "question": "What causes the decrease in the freezing point of a solvent when a solute is added?",
+          "options": {
+            "A": "Decrease in vapor pressure above the solution",
+            "B": "Increase in the kinetic energy of the solvent molecules",
+            "C": "Change in the gravitational pull on the solution",
+            "D": "Enhancement of the solvent’s thermal conductivity"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct because adding a solute to a solvent decreases the vapor pressure above the solution, leading to a decrease in the freezing point (colligative property).",
+            "B": "Incorrect because the addition of a solute does not significantly increase the kinetic energy of solvent molecules in this context.",
+            "C": "Incorrect because gravitational pull is not relevant to the change in freezing point due to a solute.",
+            "D": "Incorrect because the thermal conductivity of the solvent is not the primary factor in freezing point depression."
+          }
+        },
+        {
+          "question": "Why do gases deviate from ideal behavior at very high pressures?",
+          "options": {
+            "A": "Due to the significant volume occupied by the gas molecules",
+            "B": "Because of complete randomness in molecular motion",
+            "C": "Owing to the breakdown of molecular bonds at high pressure",
+            "D": "As a result of increased gravitational forces on molecules"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct because at very high pressures, the actual volume of gas molecules becomes significant compared to the total volume, leading to deviations from ideal behavior.",
+            "B": "Incorrect because randomness in molecular motion is a feature of gases but does not explain the deviation from ideal behavior.",
+            "C": "Incorrect because molecular bonds do not break down at high pressures in the context of ideal gas behavior.",
+            "D": "Incorrect because gravitational forces are negligible in the behavior of gas molecules under high pressure."
+          }
+        }
+      ]
     }
   ]
 }
