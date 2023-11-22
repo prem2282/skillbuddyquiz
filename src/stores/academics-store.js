@@ -1,5 +1,4 @@
 import { defineStore } from "pinia";
-import academicsData from "src/data/academicsData.json";
 import { useRoute, useRouter } from "vue-router";
 
 export const useAcademicsStore = defineStore("academics", {
@@ -13,7 +12,7 @@ export const useAcademicsStore = defineStore("academics", {
   actions: {
     async loadAcadList(quizId) {
       try {
-        const response = await fetch("/src/data/academicsData.json");
+        const response = await fetch("data/academicsData.json");
         const data = await response.json();
 
         this.academics = data;

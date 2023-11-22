@@ -1,5 +1,4 @@
 import { defineStore } from "pinia";
-import quizData from "src/data/quizData.json";
 import { useRoute, useRouter } from "vue-router";
 
 export const useQuizStore = defineStore("quiz", {
@@ -38,7 +37,7 @@ export const useQuizStore = defineStore("quiz", {
     async loadQuizList(quizId) {
       console.log("quizId", quizId);
       try {
-        const response = await fetch("/src/data/quizData.json");
+        const response = await fetch("/data/quizData.json");
         const data = await response.json();
         const selectedQuiz = data.quizData.find(
           (quiz) => quiz.quizId === quizId

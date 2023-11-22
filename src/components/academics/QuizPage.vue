@@ -13,7 +13,7 @@
 
         <div class="q-pa-md q-ma-md">
           <q-card>
-            <q-card-section>
+            <q-card-section class="text-subtitle1">
               <q-item-section>{{ currentQuiz.question }}</q-item-section>
             </q-card-section>
           </q-card>
@@ -42,7 +42,9 @@
             <q-card
               :class="questionResult === 'Correct' ? 'bg-green-3' : 'bg-red-3'"
             >
-              <q-card-section>
+              <q-card-section
+                :class="{ 'streaming-text': showStreamingEffect }"
+              >
                 <q-item-section>{{ explanation }}</q-item-section>
               </q-card-section>
             </q-card>
@@ -81,6 +83,7 @@ export default {
       selectedOption: null,
       headerText: "Quiz",
       submitted: false,
+      showStreamingEffect: false,
     };
   },
   computed: {
@@ -133,9 +136,31 @@ export default {
       this.selectedOption = null;
       this.submitted = false;
     },
+    streamingEffect() {
+      this.showStreamingEffect = true;
+      setTimeout(() => (this.showStreamingEffect = false), 2000);
+    },
     submitAnswer() {
       this.submitted = true;
+      this.streamingEffect();
     },
   },
 };
 </script>
+<style>
+@keyframes streamText {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.streaming-text {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid orange; /* optional: adds a cursor-like effect */
+  animation: streamText 2s steps(40, end) forwards; /* adjust time and steps as needed */
+}
+</style>
