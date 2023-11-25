@@ -1,63 +1,7 @@
 {
   "quizData": [
     {
-      "quizId": "quiz_id1",
-      "quizDetails": [
-        {
-          "question": "What is the most common form of democracy in modern times?",
-          "options": {
-            "A": "Direct Democracy",
-            "B": "Representative Democracy",
-            "C": "Monarchical Democracy",
-            "D": "Socialist Democracy"
-          },
-          "answer": "B",
-          "explanations": {
-            "A": "Incorrect. Direct Democracy is where people directly participate in decision making, less common in modern large societies.",
-            "B": "Correct. Representative Democracy, where elected officials represent a group of people, is the most common form in modern times.",
-            "C": "Incorrect. Monarchical Democracy is a mixed form of monarchy and democracy, which is not the most common form.",
-            "D": "Incorrect. Socialist Democracy is a political ideology, not a specific form of democracy widely adopted."
-          },
-          "level": 1
-        },
-        {
-          "question": "What was the key promise made by Devi Lal in the Haryana State Assembly election of 1987?",
-          "options": {
-            "A": "Free Education",
-            "B": "Loan Waiver",
-            "C": "Tax Reduction",
-            "D": "Free Healthcare"
-          },
-          "answer": "B",
-          "explanations": {
-            "A": "Incorrect. Free Education was not the key promise made by Devi Lal in this election.",
-            "B": "Correct. Devi Lal promised a waiver of loans up to Rs. 10,000 for farmers, which was a significant promise.",
-            "C": "Incorrect. Tax Reduction was not the key promise in this election.",
-            "D": "Incorrect. Free Healthcare was not the central promise made by Devi Lal."
-          },
-          "level": 1
-        },
-        {
-          "question": "What is the minimum age for a candidate to contest in Indian elections?",
-          "options": {
-            "A": "18 years",
-            "B": "21 years",
-            "C": "25 years",
-            "D": "30 years"
-          },
-          "answer": "C",
-          "explanations": {
-            "A": "Incorrect. 18 years is the minimum age for voting, not for contesting in elections.",
-            "B": "Incorrect. 21 years is the minimum age for contesting in local elections like Panchayats, not for Parliament or Legislative Assemblies.",
-            "C": "Correct. The minimum age to contest in Indian elections for Parliament or Legislative Assemblies is 25 years.",
-            "D": "Incorrect. 30 years is the minimum age for contesting in Rajya Sabha or Legislative Council elections."
-          },
-          "level": 1
-        }
-      ]
-    },
-    {
-      "quizId": "quiz_id2",
+      "quizId": "CBSE_9_Civics_1",
       "quizDetails": [
         {
           "question": "What is the most common form of democracy in modern times?",
@@ -2136,8 +2080,8 @@
       ]
     },
     {
-      "quizId":"CBSE_9_Science_4",
-      "quizDetails":[
+      "quizId": "CBSE_9_Science_4",
+      "quizDetails": [
         {
           "question": "What discovery led to the failure of the aspect of Dalton's atomic theory that suggested atoms were indivisible and indestructible?",
           "level": 1,
@@ -2651,7 +2595,7 @@
       ]
     },
     {
-      "quizId":"CBSE_9_Science_5",
+      "quizId": "CBSE_9_Science_5",
       "quizDetails": [
         {
           "question": "Who first observed cells in 1665 and what did he use?",
@@ -3132,7 +3076,7 @@
       ]
     },
     {
-      "quizId":"CBSE_9_Science_6",
+      "quizId": "CBSE_9_Science_6",
       "quizDetails": [
         {
           "question": "Which tissue in plants is responsible for increasing the length of the stem and the root?",
@@ -3676,6 +3620,2615 @@
             "B": "Incorrect: Stratified epithelium provides protection against mechanical stress, not for energy storage.",
             "C": "Incorrect: Ciliated epithelium is specialized for moving materials across the surface, not for rigidity.",
             "D": "Incorrect: Cuboidal epithelium is adapted for secretion and absorption, not for rapid division."
+          }
+        }
+      ]
+    },
+    {
+      "quizId": "CBSE_9_Science_7",
+      "quizDetails": [
+        {
+          "question": "Which of the following statements is true regarding displacement and distance?",
+          "level": 1,
+          "options": {
+            "A": "Displacement can be greater than distance traveled.",
+            "B": "Distance traveled is always greater than or equal to displacement.",
+            "C": "Distance and displacement are always equal.",
+            "D": "Neither distance nor displacement depends on the path taken."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Displacement, being the shortest distance between two points, cannot be greater than the actual path traveled (distance).",
+            "B": "Correct: Distance, the total path length, is always greater than or equal to the displacement, which is the straight line distance between the starting and ending points.",
+            "C": "Incorrect: They are only equal if the motion is in a straight line without changing direction.",
+            "D": "Incorrect: While displacement depends only on the initial and final positions, distance depends on the actual path taken."
+          }
+        },
+        {
+          "question": "What is the unit of speed in the SI (International System of Units)?",
+          "level": 1,
+          "options": {
+            "A": "m/s",
+            "B": "km/h",
+            "C": "m",
+            "D": "s"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: In the SI system, speed is measured in meters per second (m/s).",
+            "B": "Incorrect: Kilometers per hour (km/h) is a commonly used unit but not the SI unit.",
+            "C": "Incorrect: Meter (m) is a unit of distance, not speed.",
+            "D": "Incorrect: Second (s) is a unit of time, not speed."
+          }
+        },
+        {
+          "question": "Which of the following is an example of uniform circular motion?",
+          "level": 1,
+          "options": {
+            "A": "A car accelerating on a straight road",
+            "B": "A satellite orbiting the Earth at a constant speed",
+            "C": "A runner speeding up on a circular track",
+            "D": "A stone thrown vertically upwards"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The car is not moving in a circular path.",
+            "B": "Correct: A satellite moving at a constant speed in a circular orbit is an example of uniform circular motion.",
+            "C": "Incorrect: Speeding up implies a change in speed, which does not qualify as uniform motion.",
+            "D": "Incorrect: The motion of the stone is not circular."
+          }
+        },
+        {
+          "question": "What does the slope of a distance-time graph represent?",
+          "level": 1,
+          "options": {
+            "A": "Acceleration",
+            "B": "Velocity",
+            "C": "Displacement",
+            "D": "Distance"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The slope of a velocity-time graph represents acceleration, not a distance-time graph.",
+            "B": "Correct: The slope of a distance-time graph indicates the velocity of the object.",
+            "C": "Incorrect: Displacement is not directly represented by the slope of a distance-time graph.",
+            "D": "Incorrect: Distance is plotted on the graph but its slope represents velocity."
+          }
+        },
+        {
+          "question": "If an object moves along a straight path in a reverse direction, its displacement is:",
+          "level": 1,
+          "options": {
+            "A": "Equal to the distance traveled",
+            "B": "Zero",
+            "C": "Negative",
+            "D": "Positive"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Displacement can be different from distance if the direction of motion changes.",
+            "B": "Incorrect: Displacement is zero only if the object returns to its starting point.",
+            "C": "Correct: Displacement is a vector quantity and can be negative if the object moves in the reverse direction.",
+            "D": "Incorrect: Positive displacement implies movement in the forward direction."
+          }
+        },
+        {
+          "question": "Which formula correctly represents the average speed of an object?",
+          "level": 1,
+          "options": {
+            "A": "Average speed = Total distance / Total time",
+            "B": "Average speed = Displacement / Time taken",
+            "C": "Average speed = Initial velocity + Final velocity",
+            "D": "Average speed = Total time / Total distance"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Average speed is calculated by dividing the total distance traveled by the total time taken.",
+            "B": "Incorrect: This formula represents average velocity, not speed.",
+            "C": "Incorrect: This is not a formula for speed; it resembles the average of initial and final velocities.",
+            "D": "Incorrect: This is the inverse of the correct formula."
+          }
+        },
+        {
+          "question": "In a velocity-time graph, a horizontal line parallel to the time axis indicates:",
+          "level": 1,
+          "options": {
+            "A": "The object is accelerating",
+            "B": "The object is decelerating",
+            "C": "The object is at rest",
+            "D": "The object is moving at constant velocity"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Acceleration would be indicated by a sloped line, not a horizontal one.",
+            "B": "Incorrect: Deceleration, like acceleration, would not be represented by a horizontal line.",
+            "C": "Incorrect: An object at rest would be indicated by a line on the velocity axis, not parallel to the time axis.",
+            "D": "Correct: A horizontal line indicates that the velocity is constant over time."
+          }
+        },
+        {
+          "question": "What does the area under a velocity-time graph represent?",
+          "level": 1,
+          "options": {
+            "A": "Acceleration",
+            "B": "Distance",
+            "C": "Displacement",
+            "D": "Velocity"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Acceleration is the slope of a velocity-time graph, not the area under it.",
+            "B": "Incorrect: Distance is not directly represented by the area under a velocity-time graph, especially when direction is considered.",
+            "C": "Correct: The area under a velocity-time graph represents displacement.",
+            "D": "Incorrect: Velocity is represented on the graph but its area does not represent velocity itself."
+          }
+        },
+        {
+          "question": "What is the main difference between speed and velocity?",
+          "level": 1,
+          "options": {
+            "A": "Speed is a vector quantity, while velocity is scalar.",
+            "B": "Velocity includes direction, while speed does not.",
+            "C": "Speed can never be zero, but velocity can.",
+            "D": "Speed is used for circular motion, while velocity is not."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Speed is scalar, while velocity is a vector quantity.",
+            "B": "Correct: Velocity is a vector quantity and thus includes both magnitude and direction, whereas speed is scalar and only has magnitude.",
+            "C": "Incorrect: Both speed and velocity can be zero; this happens when an object is at rest.",
+            "D": "Incorrect: Both speed and velocity can be used to describe circular motion; the distinction is not based on the type of motion."
+          }
+        },
+        {
+          "question": "An object thrown vertically upwards reaches a height of 10 meters before coming down. What is the displacement of the object when it returns to the point of release?",
+          "level": 1,
+          "options": {
+            "A": "10 meters",
+            "B": "20 meters",
+            "C": "0 meters",
+            "D": "-10 meters"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: 10 meters is the height reached, not the displacement upon returning.",
+            "B": "Incorrect: 20 meters is the total distance traveled, not the displacement.",
+            "C": "Correct: Displacement is zero as the object returns to its starting point.",
+            "D": "Incorrect: Negative displacement would imply it ended below its starting point."
+          }
+        },
+        {
+          "question": "Which of the following is a correct representation of Newton's first law of motion?",
+          "level": 1,
+          "options": {
+            "A": "Force equals mass times acceleration.",
+            "B": "For every action, there is an equal and opposite reaction.",
+            "C": "An object in motion stays in motion, and an object at rest stays at rest unless acted upon by an external force.",
+            "D": "The acceleration of an object is directly proportional to the force applied and inversely proportional to its mass."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: This is Newton's second law of motion.",
+            "B": "Incorrect: This is Newton's third law of motion.",
+            "C": "Correct: This statement accurately represents Newton's first law, also known as the law of inertia.",
+            "D": "Incorrect: This is a restatement of Newton's second law."
+          }
+        },
+        {
+          "question": "Which term describes the rate of change of velocity?",
+          "level": 1,
+          "options": {
+            "A": "Speed",
+            "B": "Displacement",
+            "C": "Acceleration",
+            "D": "Momentum"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Speed is the rate of change of distance, not velocity.",
+            "B": "Incorrect: Displacement is a vector quantity representing change in position, not the rate of change of velocity.",
+            "C": "Correct: Acceleration is defined as the rate of change of velocity.",
+            "D": "Incorrect: Momentum is a product of mass and velocity, not the rate of change of velocity."
+          }
+        },
+        {
+          "question": "What does a steep slope in a distance-time graph indicate about the motion of an object?",
+          "level": 1,
+          "options": {
+            "A": "The object is accelerating.",
+            "B": "The object is moving at a constant speed.",
+            "C": "The object is moving faster.",
+            "D": "The object is at rest."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Acceleration refers to a change in velocity, not just speed, and is not directly inferred from a distance-time graph.",
+            "B": "Incorrect: A constant speed would be shown as a linear, but not necessarily steep, slope.",
+            "C": "Correct: A steeper slope in a distance-time graph indicates a faster speed.",
+            "D": "Incorrect: An object at rest would be indicated by a flat, horizontal line, not a steep slope."
+          }
+        },
+        {
+          "question": "Which of the following scenarios represents negative acceleration?",
+          "level": 1,
+          "options": {
+            "A": "A car speeding up on a highway.",
+            "B": "A ball thrown upwards slowing down.",
+            "C": "A bicycle maintaining a constant speed.",
+            "D": "A train taking a curve at a steady speed."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Speeding up indicates positive acceleration.",
+            "B": "Correct: A ball thrown upwards experiences negative acceleration due to gravity, as it slows down.",
+            "C": "Incorrect: Maintaining a constant speed means there is no acceleration.",
+            "D": "Incorrect: A steady speed, even in a curve, does not necessarily indicate negative acceleration."
+          }
+        },
+        {
+          "question": "What is the significance of the area under a curve in a speed-time graph?",
+          "level": 1,
+          "options": {
+            "A": "It represents the total distance traveled.",
+            "B": "It shows the change in acceleration.",
+            "C": "It indicates the average speed.",
+            "D": "It determines the time of travel."
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The area under a speed-time graph represents the total distance traveled by the object.",
+            "B": "Incorrect: Change in acceleration is related to the slope of the graph, not the area under it.",
+            "C": "Incorrect: Average speed is calculated differently, not directly from the area under a speed-time graph.",
+            "D": "Incorrect: Time of travel is shown on the horizontal axis, not by the area under the curve."
+          }
+        },
+        {
+          "question": "A car moves in a straight line from point A to B and then back to A. Which of the following statements is true?",
+          "level": 1,
+          "options": {
+            "A": "The displacement is zero.",
+            "B": "The distance traveled is zero.",
+            "C": "The speed is zero.",
+            "D": "The acceleration is zero."
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Since the car returns to its starting point, the displacement is zero.",
+            "B": "Incorrect: The distance traveled is not zero as it includes the journey from A to B and back to A.",
+            "C": "Incorrect: Speed is not zero unless the car is stationary throughout, which is not implied here.",
+            "D": "Incorrect: There is no information given about acceleration, which could be zero or non-zero depending on how the car moved."
+          }
+        },
+        {
+          "question": "If a car travels a distance of 100 km in 2 hours, what is its average speed?",
+          "level": 1,
+          "options": {
+            "A": "50 km/h",
+            "B": "100 km/h",
+            "C": "200 km/h",
+            "D": "25 km/h"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Average speed is calculated as total distance divided by total time, so 100 km / 2 h = 50 km/h.",
+            "B": "Incorrect: 100 km/h would mean the car travelled 100 km in one hour, not two.",
+            "C": "Incorrect: 200 km/h is not the correct calculation of speed for the given distance and time.",
+            "D": "Incorrect: 25 km/h would indicate the car took four hours to travel 100 km."
+          }
+        },
+        {
+          "question": "A pendulum swings back and forth. At its highest point, the pendulum's velocity is:",
+          "level": 1,
+          "options": {
+            "A": "Maximum",
+            "B": "Minimum",
+            "C": "Increasing",
+            "D": "Constant"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The pendulum's velocity is not maximum at the highest point.",
+            "B": "Correct: At its highest point, the pendulum momentarily stops before swinging back, so its velocity is minimum (zero).",
+            "C": "Incorrect: The velocity is not increasing at this point; it actually decreases to zero before changing direction.",
+            "D": "Incorrect: The velocity of a pendulum is not constant; it changes throughout its swing."
+          }
+        },
+        {
+          "question": "Which of the following is not a vector quantity?",
+          "level": 1,
+          "options": {
+            "A": "Velocity",
+            "B": "Acceleration",
+            "C": "Force",
+            "D": "Speed"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Velocity is a vector quantity as it includes both magnitude and direction.",
+            "B": "Incorrect: Acceleration is a vector because it describes the rate of change of velocity, which includes direction.",
+            "C": "Incorrect: Force is a vector quantity as it has both magnitude and direction.",
+            "D": "Correct: Speed is a scalar quantity as it describes only the magnitude of movement, not its direction."
+          }
+        },
+        {
+          "question": "What happens to the velocity of an object in free fall (ignoring air resistance)?",
+          "level": 1,
+          "options": {
+            "A": "It remains constant.",
+            "B": "It decreases over time.",
+            "C": "It increases until reaching terminal velocity.",
+            "D": "It increases continuously."
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Velocity does not remain constant during free fall.",
+            "B": "Incorrect: In free fall, the velocity increases, it does not decrease.",
+            "C": "Incorrect: Ignoring air resistance, the concept of terminal velocity does not apply.",
+            "D": "Correct: In free fall, and ignoring air resistance, the object's velocity increases continuously due to gravity."
+          }
+        },
+        {
+          "question": "A car accelerates uniformly from rest to a speed of 20 m/s in 10 seconds. What is its acceleration?",
+          "level": 2,
+          "options": {
+            "A": "0.5 m/s²",
+            "B": "2 m/s²",
+            "C": "10 m/s²",
+            "D": "20 m/s²"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: This value is too low for the given change in speed and time.",
+            "B": "Correct: Acceleration is change in velocity over time, so ( \frac{20,m/s}{10,s} = 2,m/s² ).",
+            "C": "Incorrect: This value is too high for the given change in speed and time.",
+            "D": "Incorrect: This would be the acceleration if the car reached 20 m/s in just one second."
+          }
+        },
+        {
+          "question": "An object moves in a circle of radius 5m with a constant speed of 10 m/s. What is the magnitude of its acceleration towards the center of the circle?",
+          "level": 2,
+          "options": {
+            "A": "2 m/s²",
+            "B": "20 m/s²",
+            "C": "10 m/s²",
+            "D": "0 m/s²"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The centripetal acceleration ( a = \frac{v^2}{r} ), so ( \frac{10^2}{5} = 20,m/s² ).",
+            "B": "Incorrect: This calculation does not use the correct formula for centripetal acceleration.",
+            "C": "Incorrect: This value is the speed, not the acceleration.",
+            "D": "Incorrect: There is acceleration towards the center in circular motion, even if the speed is constant."
+          }
+        },
+        {
+          "question": "A ball is thrown vertically upward with an initial velocity of 15 m/s. Ignoring air resistance, what is its velocity at the highest point?",
+          "level": 2,
+          "options": {
+            "A": "0 m/s",
+            "B": "15 m/s",
+            "C": "9.8 m/s",
+            "D": "-15 m/s"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: At the highest point, the velocity of the ball is 0 m/s as it changes direction.",
+            "B": "Incorrect: 15 m/s is the initial velocity, not the velocity at the highest point.",
+            "C": "Incorrect: 9.8 m/s is the acceleration due to gravity, not the velocity of the ball at the highest point.",
+            "D": "Incorrect: -15 m/s would be the velocity if it were falling back to the initial position after reaching the highest point."
+          }
+        },
+        {
+          "question": "If the mass of an object is doubled while applying the same force, how does the acceleration change?",
+          "level": 2,
+          "options": {
+            "A": "It doubles.",
+            "B": "It remains the same.",
+            "C": "It halves.",
+            "D": "It quadruples."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Doubling the mass does not double the acceleration.",
+            "B": "Incorrect: The acceleration changes when the mass changes while applying the same force.",
+            "C": "Correct: According to Newton's second law (F = ma), if mass is doubled and force remains constant, acceleration halves.",
+            "D": "Incorrect: Quadrupling is not the correct relationship between mass increase and acceleration."
+          }
+        },
+        {
+          "question": "A car traveling at 15 m/s brakes to a stop in 5 seconds. What is the magnitude of its average acceleration?",
+          "level": 2,
+          "options": {
+            "A": "-3 m/s²",
+            "B": "3 m/s²",
+            "C": "-15 m/s²",
+            "D": "0 m/s²"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Acceleration is the change in velocity over time, which is (-(15,m/s) / 5,s = -3,m/s²). The negative sign indicates deceleration.",
+            "B": "Incorrect: This value doesn't take into account the direction of acceleration (deceleration in this case).",
+            "C": "Incorrect: This value doesn't correspond to the given velocity and time.",
+            "D": "Incorrect: The car is decelerating, not maintaining a constant speed."
+          }
+        },
+        {
+          "question": "A projectile is launched horizontally from a height of 20 meters. Ignoring air resistance, what will be its vertical velocity just before hitting the ground?",
+          "level": 2,
+          "options": {
+            "A": "19.6 m/s",
+            "B": "9.8 m/s",
+            "C": "20 m/s",
+            "D": "14 m/s"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Using the formula ( v = sqrt{2gh} ), where ( g = 9.8,m/s² ) and ( h = 20,m ), the vertical velocity is approximately 19.6 m/s.",
+            "B": "Incorrect: This is the value of gravitational acceleration, not the velocity.",
+            "C": "Incorrect: This would be the case if velocity and height were directly proportional, which they are not in this scenario.",
+            "D": "Incorrect: This value does not match the calculation for vertical velocity in projectile motion."
+          }
+        },
+        {
+          "question": "An object moves with a uniform acceleration. If its velocity after 4 seconds is 20 m/s, and after 7 seconds is 35 m/s, what is the acceleration?",
+          "level": 2,
+          "options": {
+            "A": "5 m/s²",
+            "B": "15 m/s²",
+            "C": "3 m/s²",
+            "D": "7.5 m/s²"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Acceleration is the change in velocity over time. Here, ((35,m/s - 20,m/s) / (7,s - 4,s) = 5,m/s²).",
+            "B": "Incorrect: This value does not match the given change in velocity and time.",
+            "C": "Incorrect: This value is too low for the given change in velocity and time period.",
+            "D": "Incorrect: This value does not accurately represent the rate of change in velocity."
+          }
+        },
+        {
+          "question": "A ball is thrown upwards with an initial speed of 10 m/s from a height of 15 meters. Ignoring air resistance, what is the maximum height reached by the ball?",
+          "level": 2,
+          "options": {
+            "A": "20 meters",
+            "B": "25 meters",
+            "C": "10 meters",
+            "D": "30 meters"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: This value underestimates the height gained.",
+            "B": "Correct: Using the formula ( h = h_0 + \frac{v^2}{2g} ), where ( h_0 = 15,m ), ( v = 10,m/s ), and ( g = 9.8,m/s² ), the maximum height is approximately 25 meters.",
+            "C": "Incorrect: This value does not account for the initial height or the height gained during the upward motion.",
+            "D": "Incorrect: This overestimates the height gained."
+          }
+        },
+        {
+          "question": "A cyclist accelerates from 0 to 18 km/h in 5 seconds. What is the cyclist's average acceleration?",
+          "level": 2,
+          "options": {
+            "A": "3.6 km/h²",
+            "B": "1 km/h²",
+            "C": "0.9 m/s²",
+            "D": "1.8 m/s²"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: This value does not consider the conversion from km/h to m/s.",
+            "B": "Incorrect: This value is not calculated with correct units or formula.",
+            "C": "Correct: First convert 18 km/h to m/s, which is 5 m/s, then calculate acceleration (5 m/s / 5 s = 1 m/s²).",
+            "D": "Incorrect: This value is close but not the correct conversion of the given speed to m/s."
+          }
+        },
+        {
+          "question": "A ball is dropped from a height of 45 meters. Ignoring air resistance, how long does it take to hit the ground?",
+          "level": 2,
+          "options": {
+            "A": "3 seconds",
+            "B": "4.5 seconds",
+            "C": "6 seconds",
+            "D": "9 seconds"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Using the formula ( t = sqrt{\frac{2h}{g}} ), where ( g = 9.8,m/s² ) and ( h = 45,m ), it takes approximately 3 seconds.",
+            "B": "Incorrect: This value is too high.",
+            "C": "Incorrect: This value significantly overestimates the time.",
+            "D": "Incorrect: This value is too high and not based on the correct use of the formula."
+          }
+        },
+        {
+          "question": "A car moving with an initial velocity of 36 km/h comes to a stop in 10 seconds. What is the distance covered during this time?",
+          "level": 2,
+          "options": {
+            "A": "50 meters",
+            "B": "100 meters",
+            "C": "10 meters",
+            "D": "20 meters"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: This value underestimates the distance covered.",
+            "B": "Correct: First, convert velocity to m/s (10 m/s), then use the formula ( s = ut + \frac{1}{2}at^2 ), where ( u = 10,m/s ), ( a = -1,m/s² ), and ( t = 10,s ), to find ( s = 100,m ).",
+            "C": "Incorrect: This value greatly underestimates the distance.",
+            "D": "Incorrect: This value is too low for the given speed and time."
+          }
+        },
+        {
+          "question": "Two cars, A and B, start from rest and accelerate uniformly to 60 km/h in 5 seconds and 10 seconds, respectively. How does the acceleration of car B compare to car A?",
+          "level": 2,
+          "options": {
+            "A": "Car B accelerates twice as fast as car A.",
+            "B": "Car B accelerates half as fast as car A.",
+            "C": "Car B and car A have the same acceleration.",
+            "D": "Car B accelerates four times as fast as car A."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Car B takes longer to reach the same speed, so it cannot be accelerating faster.",
+            "B": "Correct: Since car B takes twice as long to reach the same speed, its acceleration is half that of car A.",
+            "C": "Incorrect: The different times to reach the same speed indicate different accelerations.",
+            "D": "Incorrect: The relationship is inverse; car B accelerates slower, not faster."
+          }
+        }
+      ]
+    },
+    {
+      "quizId": "CBSE_9_Science_8",
+      "quizDetails": [
+        {
+          "question": "What happens when an unbalanced force is applied to an object?",
+          "level": 1,
+          "options": {
+            "A": "The object's velocity remains constant",
+            "B": "The object's motion is unaffected",
+            "C": "The object experiences a change in velocity or direction",
+            "D": "The object's mass increases"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: A constant velocity indicates balanced forces, not the effect of an unbalanced force.",
+            "B": "Incorrect: An unbalanced force will always affect the object's motion, either by changing its speed or direction.",
+            "C": "Correct: An unbalanced force results in a change in the object's speed or direction of motion.",
+            "D": "Incorrect: Force affects the motion of an object, not its mass."
+          }
+        },
+        {
+          "question": "Which of the following is a true statement about balanced forces acting on an object?",
+          "level": 1,
+          "options": {
+            "A": "They always cause the object to move",
+            "B": "They change the shape of the object",
+            "C": "They result in a net force of zero",
+            "D": "They increase the object's mass"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Balanced forces do not cause motion as they cancel each other out.",
+            "B": "Incorrect: Balanced forces do not change the object's shape as they are equal and opposite.",
+            "C": "Correct: Balanced forces result in a net force of zero, meaning there is no change in the object's state of motion.",
+            "D": "Incorrect: Forces do not affect the mass of an object."
+          }
+        },
+        {
+          "question": "According to Newton's First Law of Motion, an object at rest will remain at rest unless:",
+          "level": 1,
+          "options": {
+            "A": "It is acted upon by an unbalanced force",
+            "B": "Its mass is reduced",
+            "C": "It is in a vacuum",
+            "D": "It is observed for a prolonged period"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: An object at rest will only change its state if an unbalanced force is applied.",
+            "B": "Incorrect: The mass of an object does not affect its state of rest without the application of a force.",
+            "C": "Incorrect: Being in a vacuum doesn't inherently cause an object at rest to move.",
+            "D": "Incorrect: Merely observing an object does not change its state of motion."
+          }
+        },
+        {
+          "question": "What does Newton's Second Law of Motion describe?",
+          "level": 1,
+          "options": {
+            "A": "The relationship between the mass of an object and its inertia",
+            "B": "The effect of gravity on an object in motion",
+            "C": "The relationship between an object's mass, acceleration, and applied force",
+            "D": "The motion of objects at rest"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Newton's Second Law does not directly deal with inertia, but rather the change in motion due to force.",
+            "B": "Incorrect: While gravity can be a force considered in this law, it's not the primary focus of the law itself.",
+            "C": "Correct: Newton's Second Law explains how the acceleration of an object is related to its mass and the net force applied to it.",
+            "D": "Incorrect: This law does not focus on objects at rest, but rather on how their motion changes when a force is applied."
+          }
+        },
+        {
+          "question": "What is the key principle of Newton's Third Law of Motion?",
+          "level": 1,
+          "options": {
+            "A": "Every action has an equal and opposite reaction",
+            "B": "Force equals mass times acceleration",
+            "C": "Objects in motion stay in motion unless acted upon",
+            "D": "The total momentum of a system remains constant if no external forces act on it"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Newton's Third Law states that for every action, there is an equal and opposite reaction.",
+            "B": "Incorrect: This describes Newton's Second Law of Motion.",
+            "C": "Incorrect: This is part of Newton's First Law of Motion.",
+            "D": "Incorrect: This statement refers to the law of conservation of momentum, not Newton's Third Law."
+          }
+        },
+        {
+          "question": "What does the concept of inertia primarily describe?",
+          "level": 1,
+          "options": {
+            "A": "The tendency of an object to resist changes in its state of motion",
+            "B": "The rate at which an object falls to the ground",
+            "C": "The force required to keep an object in motion",
+            "D": "The amount of matter in an object"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Inertia is the property of an object that resists changes to its motion or state of rest.",
+            "B": "Incorrect: This describes acceleration due to gravity, not inertia.",
+            "C": "Incorrect: This is more related to the concept of force, not inertia.",
+            "D": "Incorrect: While related to mass, this definition does not accurately describe inertia."
+          }
+        },
+        {
+          "question": "When forces acting on an object are balanced, what is true about the object's motion?",
+          "level": 1,
+          "options": {
+            "A": "The object will inevitably come to a stop",
+            "B": "The object's speed will continually increase",
+            "C": "The object will maintain its current state of motion",
+            "D": "The object will change direction"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: An object with balanced forces can remain in motion at a constant velocity.",
+            "B": "Incorrect: Balanced forces mean there is no change in speed.",
+            "C": "Correct: An object will maintain its current state of motion (either at rest or in uniform motion) if the forces acting on it are balanced.",
+            "D": "Incorrect: A change in direction implies the presence of an unbalanced force."
+          }
+        },
+        {
+          "question": "Which of the following is a practical application of Newton's Laws of Motion?",
+          "level": 1,
+          "options": {
+            "A": "Designing seat belts for cars",
+            "B": "Calculating the nutritional value of food",
+            "C": "Predicting weather patterns",
+            "D": "Analyzing historical events"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Seat belts are designed considering Newton's Laws, particularly to counteract the forces during a car crash.",
+            "B": "Incorrect: Nutritional value calculations do not typically involve Newton's Laws.",
+            "C": "Incorrect: Weather patterns are more related to meteorology and environmental science, not directly to Newton's Laws.",
+            "D": "Incorrect: Historical analysis does not generally involve the application of Newton's Laws."
+          }
+        },
+        {
+          "question": "How is the acceleration of an object related to the net force acting on it and its mass, according to Newton's Second Law of Motion?",
+          "level": 1,
+          "options": {
+            "A": "Acceleration is directly proportional to mass and inversely proportional to force",
+            "B": "Acceleration is directly proportional to force and inversely proportional to mass",
+            "C": "Acceleration is directly proportional to both force and mass",
+            "D": "Acceleration is inversely proportional to both force and mass"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: This inverses the relationship. Acceleration increases with force and decreases with greater mass.",
+            "B": "Correct: According to Newton's Second Law, acceleration is directly proportional to the net force and inversely proportional to the mass.",
+            "C": "Incorrect: While force increases acceleration, a larger mass decreases it.",
+            "D": "Incorrect: This option suggests that both higher forces and higher masses reduce acceleration, which is not correct."
+          }
+        },
+        {
+          "question": "In the context of motion, what is the significance of an object's mass?",
+          "level": 1,
+          "options": {
+            "A": "It determines how quickly the object can stop",
+            "B": "It is directly proportional to the object's speed",
+            "C": "It affects the object's inertia and response to applied forces",
+            "D": "It is irrelevant to the object's motion"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Stopping time depends on various factors, including force and friction, not just mass.",
+            "B": "Incorrect: Mass is not directly related to speed; it's more about inertia and resistance to change in motion.",
+            "C": "Correct: Mass is a measure of inertia, affecting how an object responds to applied forces.",
+            "D": "Incorrect: Mass is highly relevant in determining how an object will move under the influence of forces."
+          }
+        },
+        {
+          "question": "Which of these is an example of Newton's Third Law of Motion in action?",
+          "level": 1,
+          "options": {
+            "A": "A ball rolling down a hill",
+            "B": "A rocket launching into space",
+            "C": "An apple falling from a tree",
+            "D": "Water boiling in a pot"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: This is more about gravitational pull and less about action-reaction pairs.",
+            "B": "Correct: A rocket's launch demonstrates action (expelling gas downwards) and reaction (rocket moving upwards).",
+            "C": "Incorrect: This is an example of gravitational force, not action-reaction.",
+            "D": "Incorrect: Boiling water involves heat transfer and phase change, not action-reaction pairs."
+          }
+        },
+        {
+          "question": "How do mass and weight differ in terms of their role in force and motion?",
+          "level": 1,
+          "options": {
+            "A": "Mass is a measure of how much matter an object has, while weight is the force of gravity on that object",
+            "B": "Mass and weight are essentially the same in all contexts",
+            "C": "Weight is how much space an object occupies, while mass is the force it exerts",
+            "D": "Mass is the force exerted by an object, while weight is its volume"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Mass is a measure of the amount of matter, and weight is the gravitational force exerted on that matter.",
+            "B": "Incorrect: Mass and weight are different; weight includes the effect of gravity.",
+            "C": "Incorrect: Weight is related to gravity, not space, and mass is about matter, not force exerted.",
+            "D": "Incorrect: Mass is about matter, not force, and weight is a force, not volume."
+          }
+        },
+        {
+          "question": "Which technological application utilizes the concept of balanced forces?",
+          "level": 1,
+          "options": {
+            "A": "Solar panels generating electricity",
+            "B": "Suspension bridges distributing weight",
+            "C": "Wireless charging of devices",
+            "D": "Data transfer through optical fibers"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Solar panels involve energy conversion, not the balancing of forces.",
+            "B": "Correct: Suspension bridges are designed to distribute weight evenly, exemplifying balanced forces.",
+            "C": "Incorrect: Wireless charging deals with electromagnetic fields, not directly with balanced forces.",
+            "D": "Incorrect: Optical fibers involve light transmission, not force balancing."
+          }
+        },
+        {
+          "question": "What role does friction play in the motion of objects?",
+          "level": 1,
+          "options": {
+            "A": "It always increases the speed of moving objects",
+            "B": "It is only present when objects are at rest",
+            "C": "It opposes the relative motion between two surfaces",
+            "D": "It has no impact on an object's motion"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Friction generally opposes motion, slowing objects down.",
+            "B": "Incorrect: Friction acts on moving objects as well, not just on stationary ones.",
+            "C": "Correct: Friction acts to oppose the relative motion between surfaces in contact.",
+            "D": "Incorrect: Friction significantly affects the motion of objects, often slowing or stopping them."
+          }
+        },
+        {
+          "question": "Which statement accurately describes the gravitational force?",
+          "level": 1,
+          "options": {
+            "A": "It is a force that only acts between the Earth and the Moon",
+            "B": "It increases with the distance between two objects",
+            "C": "It is a mutual force of attraction between any two masses",
+            "D": "It is the strongest of the four fundamental forces in nature"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Gravitational force acts between any two masses, not just the Earth and the Moon.",
+            "B": "Incorrect: Gravitational force decreases with increasing distance between objects.",
+            "C": "Correct: Gravitation is the mutual attraction between any two masses, regardless of their size.",
+            "D": "Incorrect: Gravitational force is actually the weakest of the fundamental forces."
+          }
+        },
+        {
+          "question": "Which is an example of inertia in everyday life?",
+          "level": 1,
+          "options": {
+            "A": "A car coming to a stop when brakes are applied",
+            "B": "A ball rolling uphill coming to a stop",
+            "C": "Passengers leaning forward when a bus abruptly stops",
+            "D": "A candle burning steadily in a still room"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: This is more about the application of force (brakes) rather than inertia.",
+            "B": "Incorrect: The ball stopping uphill is due to gravitational force counteracting its motion.",
+            "C": "Correct: Passengers leaning forward due to inertia when a moving bus stops is a classic example of inertia in action.",
+            "D": "Incorrect: A burning candle involves chemical reactions, not inertia."
+          }
+        },
+        {
+          "question": "How are Newton's Laws of Motion relevant to space exploration?",
+          "level": 1,
+          "options": {
+            "A": "They explain the behavior of celestial bodies",
+            "B": "They govern the motion of spacecrafts in outer space",
+            "C": "They are used to predict solar eclipses",
+            "D": "They determine the chemical composition of planets"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: While Newton's Laws can apply to celestial bodies, they are more specifically related to motion, not behavior in general.",
+            "B": "Correct: Newton's Laws are fundamental in understanding and predicting the motion of spacecrafts in the vacuum of space.",
+            "C": "Incorrect: Solar eclipses are more related to the alignment of celestial bodies, not specifically to Newton's Laws.",
+            "D": "Incorrect: Chemical composition is determined by chemistry and planetary science, not by Newton's Laws of Motion."
+          }
+        },
+        {
+          "question": "What is the main difference between static and kinetic friction?",
+          "level": 1,
+          "options": {
+            "A": "Static friction occurs between moving surfaces, while kinetic friction acts when surfaces are stationary",
+            "B": "Static friction is usually stronger than kinetic friction",
+            "C": "Kinetic friction only occurs in liquids",
+            "D": "Static friction generates heat, whereas kinetic friction does not"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Static friction acts on stationary surfaces, and kinetic friction occurs between moving surfaces.",
+            "B": "Correct: Static friction, which resists the initiation of motion, is typically stronger than kinetic friction, which occurs during motion.",
+            "C": "Incorrect: Kinetic friction can occur in solids as well, not just in liquids.",
+            "D": "Incorrect: Both static and kinetic friction can generate heat."
+          }
+        },
+        {
+          "question": "What does the principle of conservation of momentum state?",
+          "level": 1,
+          "options": {
+            "A": "The momentum of a system decreases over time",
+            "B": "Momentum is not conserved in collisions",
+            "C": "The total momentum of an isolated system remains constant if no external forces act on it",
+            "D": "Momentum is directly proportional to the force applied"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Conservation of momentum states that momentum does not decrease unless external forces act.",
+            "B": "Incorrect: In elastic collisions, momentum is conserved.",
+            "C": "Correct: The principle of conservation of momentum states that the total momentum of an isolated system remains constant in the absence of external forces.",
+            "D": "Incorrect: Momentum is proportional to mass and velocity, not directly to force."
+          }
+        },
+        {
+          "question": "Which of these is a practical example of force application in everyday life?",
+          "level": 1,
+          "options": {
+            "A": "Photosynthesis in plants",
+            "B": "Pushing a shopping cart",
+            "C": "The process of evaporation",
+            "D": "Electrical conductivity"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Photosynthesis is a biochemical process, not a direct application of force.",
+            "B": "Correct: Pushing a shopping cart involves applying a force to move an object, illustrating the principles of force and motion.",
+            "C": "Incorrect: Evaporation is a physical process related to heat and phase change, not force.",
+            "D": "Incorrect: Electrical conductivity is related to the movement of electrons, not a direct application of mechanical force."
+          }
+        },
+        {
+          "question": "A car suddenly stops and the passenger feels a force pushing them forward. Which of Newton's Laws best explains this phenomenon?",
+          "level": 2,
+          "options": {
+            "A": "Newton's First Law, due to the inertia of the passenger",
+            "B": "Newton's Second Law, as force is applied to stop the car",
+            "C": "Newton's Third Law, because of the equal and opposite reaction to the car stopping",
+            "D": "The law of conservation of momentum, as the momentum of the car is transferred to the passenger"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: This is an example of inertia as described by Newton's First Law, where the passenger continues to move forward when the car stops.",
+            "B": "Incorrect: While Newton's Second Law is about force causing acceleration, it doesn't directly explain the passenger's experience.",
+            "C": "Incorrect: Newton's Third Law pertains to action-reaction pairs, which is not the primary factor in this scenario.",
+            "D": "Incorrect: The law of conservation of momentum doesn't apply directly to the sensation of being pushed forward."
+          }
+        },
+        {
+          "question": "In a situation where a box slides down an inclined plane, which aspect of friction plays a crucial role?",
+          "level": 2,
+          "options": {
+            "A": "Static friction, as it prevents the box from sliding",
+            "B": "Kinetic friction, as it opposes the motion of the box",
+            "C": "Both static and kinetic friction, as they act simultaneously",
+            "D": "Neither, as friction is negligible on inclined planes"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Static friction would prevent the box from starting to slide, but once in motion, it's no longer the primary factor.",
+            "B": "Correct: Kinetic friction is the force that opposes the sliding motion of the box once it has started moving down the incline.",
+            "C": "Incorrect: While static friction acts before the box starts to move, it is kinetic friction that plays the crucial role during the motion.",
+            "D": "Incorrect: Friction is a significant factor on inclined planes and cannot be disregarded."
+          }
+        },
+        {
+          "question": "Which statement is true about the conservation of momentum in a perfectly inelastic collision?",
+          "level": 2,
+          "options": {
+            "A": "Momentum is not conserved, as kinetic energy is lost",
+            "B": "Only the momentum of individual objects is conserved",
+            "C": "Total momentum of the system is conserved, but kinetic energy is not",
+            "D": "Both momentum and kinetic energy are conserved"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Despite the loss of kinetic energy, the total momentum of the system is still conserved.",
+            "B": "Incorrect: It's the total momentum of the system that is conserved, not just the individual momenta.",
+            "C": "Correct: In a perfectly inelastic collision, while kinetic energy is not conserved due to conversion into other forms, the total momentum of the system is conserved.",
+            "D": "Incorrect: In perfectly inelastic collisions, kinetic energy is not conserved."
+          }
+        },
+        {
+          "question": "How does the gravitational force between two objects change if the distance between them is halved?",
+          "level": 2,
+          "options": {
+            "A": "It becomes four times stronger",
+            "B": "It becomes twice as strong",
+            "C": "It is halved",
+            "D": "It remains unchanged"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: According to the inverse square law of gravitation, if the distance is halved, the gravitational force increases by a factor of four (2^2).",
+            "B": "Incorrect: The relationship is not linear but follows the inverse square law.",
+            "C": "Incorrect: Reducing the distance has a more significant effect than just halving the force.",
+            "D": "Incorrect: Gravitational force changes significantly with changes in distance between objects."
+          }
+        }
+      ]
+    },
+    {
+      "quizId": "CBSE_9_Science_9",
+      "quizDetails": [
+        {
+          "question": "What does the Universal Law of Gravitation state about the force between two objects?",
+          "level": 1,
+          "options": {
+            "A": "It is directly proportional to the sum of their masses and inversely proportional to the square of the distance between them.",
+            "B": "It is directly proportional to the product of their masses and inversely proportional to the distance between them.",
+            "C": "It is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+            "D": "It only exists between celestial bodies and not between objects on Earth."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The force is not proportional to the sum of their masses, but to the product of their masses.",
+            "B": "Incorrect: The force is inversely proportional to the square of the distance, not just the distance.",
+            "C": "Correct: The Universal Law of Gravitation states that the force is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+            "D": "Incorrect: The law applies universally, not just to celestial bodies."
+          }
+        },
+        {
+          "question": "What happens to an object in free fall under the influence of Earth's gravity?",
+          "level": 1,
+          "options": {
+            "A": "It falls with a constant speed.",
+            "B": "It falls with a decreasing speed.",
+            "C": "It falls with an increasing speed due to constant acceleration.",
+            "D": "It floats in the air without falling."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: In free fall, the object does not move at a constant speed but accelerates.",
+            "B": "Incorrect: In free fall, the speed of the object increases, not decreases.",
+            "C": "Correct: Objects in free fall under Earth's gravity accelerate downwards with a constant acceleration (g).",
+            "D": "Incorrect: Objects in free fall do not float but fall towards the Earth."
+          }
+        },
+        {
+          "question": "What is the key difference between the mass and the weight of an object?",
+          "level": 1,
+          "options": {
+            "A": "Mass varies with location, while weight remains constant.",
+            "B": "Weight is a measure of the object's inertia, while mass is the gravitational force acting on it.",
+            "C": "Mass is the same everywhere, while weight varies depending on the gravitational force at the location.",
+            "D": "There is no significant difference; both are interchangeable terms."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Mass remains constant regardless of location, whereas weight can vary.",
+            "B": "Incorrect: Mass is a measure of inertia, and weight is the gravitational force acting on the mass.",
+            "C": "Correct: Mass is constant regardless of location, while weight varies with the local strength of the gravitational field.",
+            "D": "Incorrect: Mass and weight are different concepts; mass is a measure of inertia, and weight is a force."
+          }
+        },
+        {
+          "question": "According to Archimedes' Principle, what determines the buoyant force experienced by an object immersed in a fluid?",
+          "level": 1,
+          "options": {
+            "A": "The depth at which the object is submerged.",
+            "B": "The weight of the object.",
+            "C": "The weight of the fluid displaced by the object.",
+            "D": "The density of the fluid alone."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The depth of submersion does not affect the buoyant force according to Archimedes' Principle.",
+            "B": "Incorrect: While the object's weight is related, it is not the determinant factor for buoyant force.",
+            "C": "Correct: Archimedes' Principle states that the buoyant force is equal to the weight of the fluid displaced by the object.",
+            "D": "Incorrect: While fluid density is a factor, the principle specifically states that the buoyant force is equal to the weight of the fluid displaced."
+          }
+        },
+        {
+          "question": "What is Gravitational Potential Energy primarily dependent upon?",
+          "level": 1,
+          "options": {
+            "A": "The velocity of the object",
+            "B": "The mass of the object and its height from the ground",
+            "C": "The temperature of the environment",
+            "D": "The surface area of the object"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Velocity affects kinetic energy, not gravitational potential energy.",
+            "B": "Correct: Gravitational potential energy depends on the mass of the object and its height above a reference point (such as the ground).",
+            "C": "Incorrect: Temperature does not directly affect gravitational potential energy.",
+            "D": "Incorrect: Surface area is not a factor in determining gravitational potential energy."
+          }
+        },
+        {
+          "question": "Which of Kepler's Laws states that the orbit of a planet is an ellipse with the sun at one of the two foci?",
+          "level": 1,
+          "options": {
+            "A": "First Law (Law of Ellipses)",
+            "B": "Second Law (Law of Equal Areas)",
+            "C": "Third Law (Law of Harmonies)",
+            "D": "None of the above"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Kepler's First Law, also known as the Law of Ellipses, states this.",
+            "B": "Incorrect: Kepler's Second Law describes the rate at which planets sweep out area in their orbits.",
+            "C": "Incorrect: Kepler's Third Law relates the orbital period of a planet to its distance from the sun.",
+            "D": "Incorrect: One of Kepler's Laws does state this, specifically the First Law."
+          }
+        },
+        {
+          "question": "Why does gravity vary at different locations on Earth?",
+          "level": 1,
+          "options": {
+            "A": "Due to the Earth's rotation causing centrifugal force",
+            "B": "Because of varying atmospheric pressures",
+            "C": "Due to the changes in the Earth's magnetic field",
+            "D": "Because of the uniform density of the Earth"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The Earth's rotation causes centrifugal force, which varies with latitude, affecting the net gravitational force.",
+            "B": "Incorrect: Atmospheric pressure does not significantly affect gravitational variations.",
+            "C": "Incorrect: The Earth's magnetic field does not affect gravity.",
+            "D": "Incorrect: The Earth does not have a uniform density, and variations in density can affect gravity, but the primary factor is the Earth's rotation."
+          }
+        },
+        {
+          "question": "What is Escape Velocity?",
+          "level": 1,
+          "options": {
+            "A": "The velocity needed to enter Earth's orbit",
+            "B": "The velocity required for an object to break free from Earth's gravitational field without further propulsion",
+            "C": "The maximum velocity an object can achieve while falling towards Earth",
+            "D": "The speed required to maintain a stable orbit around Earth"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Entering Earth's orbit requires achieving orbital velocity, not escape velocity.",
+            "B": "Correct: Escape velocity is the speed at which an object must travel to break free from a planet's gravitational field without additional propulsion.",
+            "C": "Incorrect: This describes terminal velocity, not escape velocity.",
+            "D": "Incorrect: This is more akin to orbital velocity than escape velocity."
+          }
+        },
+        {
+          "question": "What does the concept of a Gravitational Field primarily represent?",
+          "level": 1,
+          "options": {
+            "A": "A region in space where the effect of gravity is zero",
+            "B": "A region around a mass where its gravitational pull can be felt",
+            "C": "The total space in the universe",
+            "D": "An area around a mass where electromagnetic forces operate"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: A gravitational field is not a region of zero gravity, but where gravitational forces are exerted.",
+            "B": "Correct: A gravitational field represents the region around a mass where its gravitational force can be experienced.",
+            "C": "Incorrect: It is not the total space in the universe, but specific to the areas influenced by a mass.",
+            "D": "Incorrect: It concerns gravitational, not electromagnetic forces."
+          }
+        },
+        {
+          "question": "What factors primarily affect the orbital speed of a satellite around a planet?",
+          "level": 1,
+          "options": {
+            "A": "The mass of the satellite and the distance from the planet",
+            "B": "The temperature of the environment and the mass of the satellite",
+            "C": "The mass of the planet and the distance of the satellite from the planet",
+            "D": "The color and size of the satellite"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: While the distance from the planet is a factor, the mass of the satellite has minimal influence on orbital speed.",
+            "B": "Incorrect: Neither temperature nor the mass of the satellite significantly affects orbital speed.",
+            "C": "Correct: The orbital speed depends on the mass of the planet and the satellite's distance from it.",
+            "D": "Incorrect: The color and size of the satellite are irrelevant to its orbital speed."
+          }
+        },
+        {
+          "question": "What are Tidal Forces a result of?",
+          "level": 1,
+          "options": {
+            "A": "The rotation of the Earth on its axis",
+            "B": "The gravitational pull of the moon and the sun on the Earth",
+            "C": "The atmospheric pressure differences on Earth",
+            "D": "The Earth's magnetic field"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Tidal forces are not primarily due to Earth's rotation.",
+            "B": "Correct: Tidal forces are mainly the result of the differential gravitational pull exerted by the moon and the sun on different parts of the Earth.",
+            "C": "Incorrect: Atmospheric pressure differences do not create tidal forces.",
+            "D": "Incorrect: The Earth's magnetic field does not result in tidal forces."
+          }
+        },
+        {
+          "question": "According to Newton's Third Law, how do gravitational forces between two objects behave?",
+          "level": 1,
+          "options": {
+            "A": "Only the larger object exerts a gravitational force on the smaller one",
+            "B": "The gravitational force is one-sided and affects only one object",
+            "C": "Each object exerts an equal and opposite gravitational force on the other",
+            "D": "Gravitational forces are irrelevant in Newton's Third Law"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Both objects, regardless of size, exert gravitational forces on each other.",
+            "B": "Incorrect: The gravitational interaction is mutual, not one-sided.",
+            "C": "Correct: According to Newton's Third Law, each object exerts an equal and opposite gravitational force on the other.",
+            "D": "Incorrect: Gravitational forces are very much a part of Newton's Third Law."
+          }
+        },
+        {
+          "question": "What does the Inverse-Square Law in gravitation imply about the force of gravity between two masses?",
+          "level": 1,
+          "options": {
+            "A": "It increases in direct proportion to the square of the distance between the masses.",
+            "B": "It decreases in direct proportion to the distance between the masses.",
+            "C": "It decreases in inverse proportion to the square of the distance between the masses.",
+            "D": "It remains constant regardless of the distance between the masses."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The force does not increase with the square of the distance; it decreases.",
+            "B": "Incorrect: The law states an inverse-square relationship, not a direct one.",
+            "C": "Correct: The Inverse-Square Law states that the gravitational force decreases in inverse proportion to the square of the distance between two masses.",
+            "D": "Incorrect: The gravitational force changes with distance; it doesn't remain constant."
+          }
+        },
+        {
+          "question": "How is the gravitational force between two objects calculated?",
+          "level": 1,
+          "options": {
+            "A": "By multiplying their masses and dividing by the square of the distance between them",
+            "B": "By adding their masses and multiplying by the square of the distance between them",
+            "C": "By dividing the product of their masses by the distance between them",
+            "D": "By multiplying the product of their masses with the square of the distance between them"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The gravitational force is calculated by multiplying the masses and dividing by the square of the distance between them, as per Newton's law of universal gravitation.",
+            "B": "Incorrect: The formula involves multiplying the masses, not adding them, and dividing by the square of the distance.",
+            "C": "Incorrect: The formula requires dividing by the square of the distance, not just the distance.",
+            "D": "Incorrect: The distance squared is in the denominator, not multiplied with the product of the masses."
+          }
+        },
+        {
+          "question": "What happens to the gravitational force between two objects as the distance between them increases?",
+          "level": 1,
+          "options": {
+            "A": "It increases rapidly",
+            "B": "It decreases",
+            "C": "It remains the same",
+            "D": "It fluctuates unpredictably"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The gravitational force decreases with increasing distance, not increases.",
+            "B": "Correct: As the distance between two objects increases, the gravitational force between them decreases.",
+            "C": "Incorrect: The gravitational force changes with distance, it doesn't remain constant.",
+            "D": "Incorrect: The change in gravitational force with distance is predictable and not random."
+          }
+        },
+        {
+          "question": "What causes the sensation of weightlessness in space?",
+          "level": 1,
+          "options": {
+            "A": "Complete absence of gravitational forces",
+            "B": "Constant free fall towards Earth or another celestial body",
+            "C": "The presence of a vacuum in space",
+            "D": "High speeds achieved by spacecraft"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Gravitational forces still exist in space, though they may be weaker.",
+            "B": "Correct: Weightlessness in space is primarily due to the state of constant free fall, creating a microgravity environment.",
+            "C": "Incorrect: The vacuum of space does not directly cause weightlessness.",
+            "D": "Incorrect: While spacecraft travel at high speeds, this is not the direct cause of weightlessness."
+          }
+        },
+        {
+          "question": "What is the significance of the Gravitational Constant in the Universal Law of Gravitation?",
+          "level": 1,
+          "options": {
+            "A": "It indicates the speed of gravitational waves.",
+            "B": "It represents the strength of gravitational attraction between two 1 kg masses separated by 1 meter.",
+            "C": "It is the acceleration due to gravity on Earth's surface.",
+            "D": "It determines the orbit of planets around the sun."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The gravitational constant does not relate to the speed of gravitational waves.",
+            "B": "Correct: The Gravitational Constant represents the force of attraction between two 1 kg masses separated by a distance of 1 meter.",
+            "C": "Incorrect: The acceleration due to gravity on Earth is a different concept.",
+            "D": "Incorrect: While it plays a role in planetary orbits, this is not its direct definition."
+          }
+        },
+        {
+          "question": "What determines the orbital period of a satellite orbiting a planet?",
+          "level": 1,
+          "options": {
+            "A": "The mass of the satellite and its speed",
+            "B": "The temperature and atmospheric conditions of the planet",
+            "C": "The distance of the satellite from the planet and the mass of the planet",
+            "D": "The color and material of the satellite"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: While speed is a factor, the satellite's mass is not a primary determinant.",
+            "B": "Incorrect: Atmospheric conditions and temperature do not directly determine the orbital period.",
+            "C": "Correct: The orbital period is primarily determined by the satellite's distance from the planet and the mass of the planet.",
+            "D": "Incorrect: The color and material of the satellite are irrelevant to its orbital period."
+          }
+        },
+        {
+          "question": "Which factors can cause variations in the weight of an object at different locations on Earth?",
+          "level": 1,
+          "options": {
+            "A": "The object's mass and the Earth's magnetic field",
+            "B": "The distance from the Earth's center and local geological formations",
+            "C": "Atmospheric pressure and temperature",
+            "D": "The color and shape of the object"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The Earth's magnetic field and the object's mass do not cause weight variations.",
+            "B": "Correct: Weight variations can be due to the distance from the Earth's center (affecting gravity) and local geological structures affecting local gravity.",
+            "C": "Incorrect: Atmospheric pressure and temperature have minimal impact on an object's weight.",
+            "D": "Incorrect: The color and shape of an object do not affect its weight."
+          }
+        },
+        {
+          "question": "What does Gravitational Potential describe in the field of gravitation?",
+          "level": 1,
+          "options": {
+            "A": "The potential for objects to spontaneously move in a gravitational field",
+            "B": "The energy per unit mass at a point in a gravitational field",
+            "C": "The maximum speed an object can achieve in free fall",
+            "D": "The force exerted by gravitational waves"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Gravitational potential does not describe spontaneous movement.",
+            "B": "Correct: Gravitational potential is the amount of gravitational energy per unit mass at a point in a gravitational field.",
+            "C": "Incorrect: This is not related to gravitational potential.",
+            "D": "Incorrect: Gravitational potential is not about the force exerted by gravitational waves."
+          }
+        },
+        {
+          "question": "How does the Universal Law of Gravitation apply to objects with extremely large masses, such as stars or black holes?",
+          "level": 2,
+          "options": {
+            "A": "The law breaks down and no longer applies.",
+            "B": "The gravitational force becomes repulsive instead of attractive.",
+            "C": "The law still applies, but gravitational forces become significantly stronger, requiring relativistic corrections.",
+            "D": "It applies the same as it does for smaller objects, with no changes."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The law does not break down, but its application becomes more complex.",
+            "B": "Incorrect: Gravitational force remains attractive, not repulsive.",
+            "C": "Correct: For extremely large masses like stars or black holes, the gravitational forces are stronger, and relativistic effects (from General Relativity) must be considered.",
+            "D": "Incorrect: The effect of gravity is different due to the extremely large mass and requires additional considerations beyond Newtonian physics."
+          }
+        },
+        {
+          "question": "How does the gravitational force vary at different altitudes above the Earth's surface?",
+          "level": 2,
+          "options": {
+            "A": "It increases exponentially with altitude.",
+            "B": "It decreases linearly with altitude.",
+            "C": "It remains constant regardless of altitude.",
+            "D": "It decreases in accordance with the inverse-square law."
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Gravitational force does not increase with altitude; it decreases.",
+            "B": "Incorrect: The decrease is not linear but follows the inverse-square law.",
+            "C": "Incorrect: Gravitational force does change with altitude.",
+            "D": "Correct: Gravitational force decreases with increasing altitude, following the inverse-square law."
+          }
+        },
+        {
+          "question": "What implication does Kepler's Third Law have for planets with larger orbits around the Sun?",
+          "level": 2,
+          "options": {
+            "A": "They travel at higher speeds than planets closer to the Sun.",
+            "B": "They have shorter orbital periods than planets closer to the Sun.",
+            "C": "They have longer orbital periods due to larger orbital radii.",
+            "D": "They are less affected by the Sun's gravitational pull."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Planets with larger orbits generally travel at slower speeds.",
+            "B": "Incorrect: Planets with larger orbits have longer, not shorter, orbital periods.",
+            "C": "Correct: According to Kepler's Third Law, planets with larger orbits (greater distance from the Sun) have longer orbital periods.",
+            "D": "Incorrect: While the gravitational pull is weaker at larger distances, this is not a direct implication of Kepler's Third Law."
+          }
+        },
+        {
+          "question": "How does the concept of Gravitational Potential help in understanding the movement of celestial bodies in space?",
+          "level": 2,
+          "options": {
+            "A": "It predicts the exact orbital paths of celestial bodies.",
+            "B": "It aids in calculating the kinetic energy of celestial bodies.",
+            "C": "It helps in understanding the energy changes as bodies move through different gravitational fields.",
+            "D": "It is used to determine the color and size of celestial bodies."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Gravitational potential alone does not predict exact orbital paths.",
+            "B": "Incorrect: While related, gravitational potential primarily deals with potential energy, not kinetic energy.",
+            "C": "Correct: Gravitational potential is crucial for understanding how the potential energy of celestial bodies changes as they move through various gravitational fields.",
+            "D": "Incorrect: Gravitational potential has nothing to do with the color or size of celestial bodies."
+          }
+        },
+        {
+          "question": "How does the gravitational influence of a galaxy extend to its surrounding space beyond the solar systems it contains?",
+          "level": 2,
+          "options": {
+            "A": "The influence is negligible beyond its own solar systems.",
+            "B": "It exerts a dominant gravitational force that can affect neighboring galaxies.",
+            "C": "Gravitational influence is limited to its own solar systems and does not extend further.",
+            "D": "It only affects the interstellar medium within the galaxy."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The gravitational influence of a galaxy extends beyond the individual solar systems it contains.",
+            "B": "Correct: A galaxy can exert a significant gravitational influence that affects not only its constituent solar systems but also neighboring galaxies and intergalactic space.",
+            "C": "Incorrect: A galaxy's gravitational influence is not limited to its own solar systems.",
+            "D": "Incorrect: The influence extends beyond affecting just the interstellar medium within the galaxy."
+          }
+        },
+        {
+          "question": "In the context of gravitational forces, what is the relationship between the mass of objects and their distance?",
+          "level": 2,
+          "options": {
+            "A": "Gravitational force is independent of the mass of the objects.",
+            "B": "Gravitational force decreases as mass increases, regardless of distance.",
+            "C": "Gravitational force is directly proportional to the product of the masses and inversely proportional to the square of the distance between them.",
+            "D": "Gravitational force is only dependent on distance, not mass."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Gravitational force is highly dependent on the mass of the objects involved.",
+            "B": "Incorrect: This statement is contrary to the principles of gravity, where force increases with mass.",
+            "C": "Correct: According to the Universal Law of Gravitation, the gravitational force is directly proportional to the product of the masses and inversely proportional to the square of the distance between them.",
+            "D": "Incorrect: Both mass and distance play crucial roles in determining gravitational force."
+          }
+        },
+        {
+          "question": "How do gravitational fields affect the path of light?",
+          "level": 2,
+          "options": {
+            "A": "Light is unaffected by gravitational fields.",
+            "B": "Light speeds up when passing through a gravitational field.",
+            "C": "The path of light can bend due to the curvature of space-time in a gravitational field.",
+            "D": "Light changes color when influenced by a gravitational field."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Light is affected by gravitational fields, as evidenced by phenomena like gravitational lensing.",
+            "B": "Incorrect: Light does not speed up; its speed remains constant, but its path can be altered.",
+            "C": "Correct: Gravitational fields can cause the curvature of space-time, leading to the bending of light's path, a phenomenon predicted by General Relativity.",
+            "D": "Incorrect: The color of light (its frequency) is not altered by gravity, though gravitational redshift can occur due to the Doppler effect in certain contexts."
+          }
+        },
+        {
+          "question": "What role does gravity play in the formation and evolution of cosmological structures like galaxies and galaxy clusters?",
+          "level": 2,
+          "options": {
+            "A": "Gravity has minimal impact on cosmological scales.",
+            "B": "Gravity causes galaxies to repel each other.",
+            "C": "Gravity is the primary force driving the formation, evolution, and interaction of galaxies and galaxy clusters.",
+            "D": "Gravity only affects the stars within galaxies, not the galaxies themselves."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Gravity is a fundamental force affecting cosmological scales.",
+            "B": "Incorrect: Gravity causes attraction, not repulsion, between galaxies.",
+            "C": "Correct: Gravity is the dominant force in the formation, evolution, and interaction of galaxies and larger structures in the universe.",
+            "D": "Incorrect: Gravity affects entire galaxies and their clusters, not just individual stars."
+          }
+        },
+        {
+          "question": "According to General Relativity, how does gravity affect time?",
+          "level": 2,
+          "options": {
+            "A": "Time speeds up in stronger gravitational fields.",
+            "B": "Time slows down in stronger gravitational fields.",
+            "C": "Gravity has no effect on time.",
+            "D": "Time stops completely in a gravitational field."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Time actually slows down in stronger gravitational fields, not speeds up.",
+            "B": "Correct: General Relativity predicts that time passes more slowly in stronger gravitational fields – a phenomenon known as gravitational time dilation.",
+            "C": "Incorrect: General Relativity shows that gravity does have an effect on time.",
+            "D": "Incorrect: Time does not stop completely in a gravitational field, but it can slow down."
+          }
+        },
+        {
+          "question": "What is the gravitational force experienced by an object located inside a hollow, spherical shell of uniform density?",
+          "level": 2,
+          "options": {
+            "A": "Equal to the force it would experience at the surface of the sphere.",
+            "B": "Dependent on the object's mass and position inside the sphere.",
+            "C": "Zero throughout the interior of the sphere.",
+            "D": "Greater than the force experienced outside the sphere."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The force is not equivalent to that at the surface.",
+            "B": "Incorrect: Within a hollow sphere, the gravitational force is not dependent on the object's position.",
+            "C": "Correct: According to the shell theorem, an object inside a hollow, spherical shell of uniform density experiences no net gravitational force.",
+            "D": "Incorrect: The force inside the sphere is zero, which is less than the force outside."
+          }
+        },
+        {
+          "question": "What factors contribute to the stability of a satellite's orbit around a planet?",
+          "level": 2,
+          "options": {
+            "A": "The satellite's size and the planet's temperature",
+            "B": "The satellite's velocity and the gravitational pull from the planet",
+            "C": "The satellite's color and the planet's atmospheric composition",
+            "D": "The planet's magnetic field and solar radiation"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: A satellite's size and the planet's temperature are not primary factors in orbital stability.",
+            "B": "Correct: The stability of a satellite's orbit is determined by its velocity and the gravitational pull from the planet, ensuring the satellite remains in a balanced trajectory.",
+            "C": "Incorrect: The satellite's color and the planet's atmospheric composition do not significantly affect orbit stability.",
+            "D": "Incorrect: While these factors can have effects, the primary determinants of orbital stability are the satellite's velocity and the planet's gravitational force."
+          }
+        },
+        {
+          "question": "What are gravitational waves and how are they detected?",
+          "level": 2,
+          "options": {
+            "A": "Waves caused by electromagnetic disturbances, detected by radio telescopes.",
+            "B": "Ripples in space-time caused by massive objects, detected by interferometers.",
+            "C": "Sound waves in space, detected by highly sensitive microphones.",
+            "D": "Waves in the gravitational field of Earth, detected by seismographs."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Gravitational waves are not electromagnetic in nature and are not detected by radio telescopes.",
+            "B": "Correct: Gravitational waves are ripples in space-time caused by the acceleration of massive objects. They are detected using highly sensitive instruments like LIGO, which are essentially laser interferometers.",
+            "C": "Incorrect: Gravitational waves are not sound waves and cannot be detected with microphones.",
+            "D": "Incorrect: Gravitational waves are not related to Earth's gravitational field specifically and are not detected by seismographs."
+          }
+        }
+      ]
+    },
+    {
+      "quizId": "CBSE_9_Science_10",
+      "quizDetails": [
+        {
+          "question": "What is the scientific definition of work?",
+          "level": 1,
+          "options": {
+            "A": "Any physical or mental activity",
+            "B": "Force applied on an object without displacement",
+            "C": "Force applied on an object causing displacement",
+            "D": "Exertion of energy regardless of movement"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: In everyday language, work may include any physical or mental activity, but scientifically, it requires displacement.",
+            "B": "Incorrect: Scientifically, work is not done if there is no displacement of the object, even if a force is applied.",
+            "C": "Correct: Work, in a scientific context, is defined as a force causing the displacement of an object.",
+            "D": "Incorrect: Merely exerting energy does not constitute work in scientific terms unless it causes displacement of an object."
+          }
+        },
+        {
+          "question": "What happens to the kinetic energy of a moving object if its velocity is doubled?",
+          "level": 1,
+          "options": {
+            "A": "It remains the same",
+            "B": "It doubles",
+            "C": "It quadruples",
+            "D": "It halves"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Kinetic energy depends on the square of the velocity, so it doesn't remain the same.",
+            "B": "Incorrect: Doubling the velocity doesn't double the kinetic energy, it increases it by a factor of four.",
+            "C": "Correct: Kinetic energy is proportional to the square of the velocity, so if velocity doubles, kinetic energy quadruples.",
+            "D": "Incorrect: Increasing velocity doesn't decrease kinetic energy; it increases it."
+          }
+        },
+        {
+          "question": "What is the gravitational potential energy of an object of mass 10 kg raised to a height of 6 meters? (Assuming g = 9.8 m/s²)",
+          "level": 1,
+          "options": {
+            "A": "588 J",
+            "B": "60 J",
+            "C": "98 J",
+            "D": "600 J"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Gravitational potential energy is calculated as mgh, which equals 10 kg * 9.8 m/s² * 6 m = 588 J.",
+            "B": "Incorrect: This option does not correctly apply the formula for gravitational potential energy.",
+            "C": "Incorrect: This option seems to consider only the force of gravity, not the height.",
+            "D": "Incorrect: This option incorrectly calculates the gravitational potential energy."
+          }
+        },
+        {
+          "question": "What does the law of conservation of energy state?",
+          "level": 1,
+          "options": {
+            "A": "Energy can be created and destroyed",
+            "B": "Energy can only be transformed, not created or destroyed",
+            "C": "Energy decreases over time",
+            "D": "Energy is always in a constant state"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The law states that energy cannot be created or destroyed.",
+            "B": "Correct: According to this law, energy can be converted from one form to another but cannot be created or destroyed.",
+            "C": "Incorrect: The law implies that the total amount of energy remains constant, not decreasing over time.",
+            "D": "Incorrect: While the total energy remains constant, it can change forms."
+          }
+        },
+        {
+          "question": "What is the kinetic energy of an object with a mass of 15 kg moving at a velocity of 4 m/s?",
+          "level": 1,
+          "options": {
+            "A": "60 J",
+            "B": "120 J",
+            "C": "240 J",
+            "D": "480 J"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: This does not correspond to the correct calculation of kinetic energy.",
+            "B": "Correct: Kinetic energy is given by 0.5 * mass * velocity², which is 0.5 * 15 kg * (4 m/s)² = 120 J.",
+            "C": "Incorrect: This value is double the correct kinetic energy.",
+            "D": "Incorrect: This value is four times the correct kinetic energy."
+          }
+        },
+        {
+          "question": "If an object of mass 12 kg is at a height where its potential energy is 480 J, what is the height of the object? (Assuming g = 10 m/s²)",
+          "level": 1,
+          "options": {
+            "A": "2 m",
+            "B": "4 m",
+            "C": "6 m",
+            "D": "8 m"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: This calculation does not correctly use the formula for gravitational potential energy.",
+            "B": "Correct: Using the formula E_p = mgh, height h = E_p / (mg) = 480 J / (12 kg * 10 m/s²) = 4 m.",
+            "C": "Incorrect: This is not the correct height based on the potential energy given.",
+            "D": "Incorrect: This height would result in a different potential energy."
+          }
+        },
+        {
+          "question": "What is the power expended by a girl of weight 400 N who climbs up a rope through a height of 8 m in 20 seconds?",
+          "level": 1,
+          "options": {
+            "A": "64 W",
+            "B": "80 W",
+            "C": "160 W",
+            "D": "320 W"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: This calculation does not correctly apply the formula for power.",
+            "B": "Incorrect: This is not the correct amount of power for the given conditions.",
+            "C": "Correct: Power = Work done/time taken = (400 N * 8 m) / 20 s = 160 W.",
+            "D": "Incorrect: This value is twice the correct power."
+          }
+        },
+        {
+          "question": "According to the law of conservation of energy, what happens to the total energy during any process?",
+          "level": 1,
+          "options": {
+            "A": "It increases",
+            "B": "It decreases",
+            "C": "It remains constant",
+            "D": "It vanishes completely"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The total energy does not increase; it is conserved.",
+            "B": "Incorrect: The total energy does not decrease; it is conserved.",
+            "C": "Correct: According to the law of conservation of energy, the total energy remains constant during any process.",
+            "D": "Incorrect: Energy does not vanish; it is transformed from one form to another."
+          }
+        },
+        {
+          "question": "Which statement best describes the relationship between kinetic energy and velocity?",
+          "level": 1,
+          "options": {
+            "A": "Kinetic energy is independent of velocity",
+            "B": "Kinetic energy is directly proportional to the square of velocity",
+            "C": "Kinetic energy is inversely proportional to velocity",
+            "D": "Kinetic energy is directly proportional to velocity"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Kinetic energy changes with changes in velocity.",
+            "B": "Correct: Kinetic energy is directly proportional to the square of the velocity of the object.",
+            "C": "Incorrect: Kinetic energy increases as velocity increases, not decreases.",
+            "D": "Incorrect: Kinetic energy depends on the square of the velocity, not just velocity itself."
+          }
+        },
+        {
+          "question": "What is the work done by gravity on an object moving in a horizontal path?",
+          "level": 1,
+          "options": {
+            "A": "Equal to the weight of the object",
+            "B": "Dependent on the speed of the object",
+            "C": "Zero",
+            "D": "Dependent on the mass of the object"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Work is zero since there's no displacement in the direction of the gravitational force.",
+            "B": "Incorrect: Speed does not affect the work done by gravity in horizontal movement.",
+            "C": "Correct: For horizontal movement, there's no displacement in the direction of the gravitational force, so work done is zero.",
+            "D": "Incorrect: While mass affects weight, the work done by gravity on a horizontally moving object is zero."
+          }
+        },
+        {
+          "question": "What type of energy is stored in a stretched rubber band?",
+          "level": 1,
+          "options": {
+            "A": "Kinetic energy",
+            "B": "Thermal energy",
+            "C": "Potential energy",
+            "D": "Chemical energy"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Kinetic energy is the energy of motion, not applicable to a stretched rubber band at rest.",
+            "B": "Incorrect: Thermal energy relates to heat, not the energy stored in a stretched rubber band.",
+            "C": "Correct: The energy stored in a stretched rubber band is potential energy, due to its position or shape.",
+            "D": "Incorrect: Chemical energy is stored in chemical bonds, which is not the case for a stretched rubber band."
+          }
+        },
+        {
+          "question": "What does the power rating of a machine indicate?",
+          "level": 1,
+          "options": {
+            "A": "The total energy it can use",
+            "B": "The rate at which it does work or transfers energy",
+            "C": "The maximum load it can handle",
+            "D": "The efficiency of the machine"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Power rating does not indicate the total energy usage, but the rate of energy transfer.",
+            "B": "Correct: Power is defined as the rate at which work is done or energy is transferred.",
+            "C": "Incorrect: The power rating does not directly indicate the maximum load capacity.",
+            "D": "Incorrect: Efficiency is a separate measure and not directly indicated by the power rating."
+          }
+        },
+        {
+          "question": "What is the work done by a force of 7 N acting on an object that is displaced by 8 m in the direction of the force?",
+          "level": 1,
+          "options": {
+            "A": "1 J",
+            "B": "15 J",
+            "C": "56 J",
+            "D": "None of the above"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: This calculation does not use the correct formula for work (work = force × displacement).",
+            "B": "Incorrect: This value does not match the correct calculation of force times displacement.",
+            "C": "Correct: Work done is calculated as force × displacement, which is 7 N × 8 m = 56 J.",
+            "D": "Incorrect: There is a correct answer among the given options."
+          }
+        },
+        {
+          "question": "What is the potential energy of an object of mass 20 kg raised to a height of 5 m above the ground? (Assuming g = 10 m/s²)",
+          "level": 1,
+          "options": {
+            "A": "1000 J",
+            "B": "500 J",
+            "C": "100 J",
+            "D": "200 J"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Potential energy is calculated as mgh, which equals 20 kg × 10 m/s² × 5 m = 1000 J.",
+            "B": "Incorrect: This value is half of the correct potential energy.",
+            "C": "Incorrect: This value is significantly less than the correct potential energy.",
+            "D": "Incorrect: This value is not consistent with the formula for calculating potential energy."
+          }
+        },
+        {
+          "question": "Which of the following is an example of negative work done?",
+          "level": 1,
+          "options": {
+            "A": "Pushing a car uphill",
+            "B": "Lifting a book from the floor to the table",
+            "C": "Applying brakes to slow down a car",
+            "D": "Carrying a bag on a level road"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Pushing a car uphill involves positive work as the force is in the direction of displacement.",
+            "B": "Incorrect: Lifting a book involves positive work since the force (upward) is in the direction of displacement.",
+            "C": "Correct: Applying brakes to slow down a car involves negative work as the force (from brakes) is opposite to the direction of movement.",
+            "D": "Incorrect: Carrying a bag on a level road involves zero work in the vertical direction as there is no displacement against gravity."
+          }
+        },
+        {
+          "question": "What is the primary reason for the bob of a pendulum to eventually come to rest?",
+          "level": 1,
+          "options": {
+            "A": "Violation of the law of conservation of energy",
+            "B": "Conversion of mechanical energy into thermal energy",
+            "C": "Decrease in gravitational potential energy",
+            "D": "Exhaustion of kinetic energy"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The law of conservation of energy is not violated; energy is transformed into other forms.",
+            "B": "Correct: The mechanical energy of the pendulum is gradually converted into thermal energy due to air resistance and friction, causing it to stop.",
+            "C": "Incorrect: The decrease in gravitational potential energy is converted into kinetic energy and vice versa during pendulum motion.",
+            "D": "Incorrect: Kinetic energy is transformed into potential energy and back, but the overall energy decreases due to conversions into non-mechanical forms."
+          }
+        },
+        {
+          "question": "Which of the following is a true statement about energy?",
+          "level": 1,
+          "options": {
+            "A": "Energy can be created and destroyed",
+            "B": "Energy can be neither created nor destroyed, only transformed",
+            "C": "Energy is always in a state of decrease",
+            "D": "Energy is not conserved in mechanical systems"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: According to the law of conservation of energy, energy cannot be created or destroyed.",
+            "B": "Correct: The law of conservation of energy states that energy can neither be created nor destroyed, only transformed from one form to another.",
+            "C": "Incorrect: Energy is conserved; it does not decrease overall but can transform into different forms.",
+            "D": "Incorrect: Energy is conserved in mechanical systems as per the law of conservation of energy."
+          }
+        },
+        {
+          "question": "What is the work done by a force when it acts perpendicular to the direction of displacement?",
+          "level": 1,
+          "options": {
+            "A": "Equal to the product of force and displacement",
+            "B": "Dependent on the angle between force and displacement",
+            "C": "Zero",
+            "D": "Maximum possible value"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: When force acts perpendicular to displacement, the work done is not simply the product of force and displacement.",
+            "B": "Incorrect: In this specific scenario where the force is perpendicular, the angle factor does not lead to work being done.",
+            "C": "Correct: When the force acts perpendicular to the direction of displacement, the work done is zero.",
+            "D": "Incorrect: The work done is not maximized but is actually zero when force is perpendicular to displacement."
+          }
+        },
+        {
+          "question": "What is the potential energy of an object due to its position or shape called?",
+          "level": 1,
+          "options": {
+            "A": "Kinetic energy",
+            "B": "Thermal energy",
+            "C": "Elastic potential energy",
+            "D": "Gravitational potential energy"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Kinetic energy is due to the motion of the object, not its position or shape.",
+            "B": "Incorrect: Thermal energy is related to the temperature of the object, not its position or shape.",
+            "C": "Correct: Elastic potential energy is the energy stored in an object due to its position or shape, such as a stretched or compressed spring.",
+            "D": "Incorrect: Gravitational potential energy is specifically due to the position of an object in a gravitational field, not due to its shape."
+          }
+        },
+        {
+          "question": "What is the kinetic energy of an object of mass 10 kg moving at a velocity of 3 m/s?",
+          "level": 1,
+          "options": {
+            "A": "45 J",
+            "B": "90 J",
+            "C": "30 J",
+            "D": "15 J"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Kinetic energy is given by 0.5 * mass * velocity², which is 0.5 * 10 kg * (3 m/s)² = 45 J.",
+            "B": "Incorrect: This value is double the correct kinetic energy.",
+            "C": "Incorrect: This value does not correctly use the kinetic energy formula.",
+            "D": "Incorrect: This value is less than the correct kinetic energy calculated using the kinetic energy formula."
+          }
+        },
+        {
+          "question": "An object of mass 15 kg is moving with a uniform velocity of 4 m/s. What is the work done to bring the object to rest?",
+          "level": 2,
+          "options": {
+            "A": "120 J",
+            "B": "240 J",
+            "C": "0 J",
+            "D": "60 J"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Work done is equal to the change in kinetic energy, which is 0.5 * 15 kg * (4 m/s)² = 120 J.",
+            "B": "Incorrect: This value is double the correct amount of work done.",
+            "C": "Incorrect: Work is done to bring the object to rest, so it's not zero.",
+            "D": "Incorrect: This value is half of the correct amount of work done."
+          }
+        },
+        {
+          "question": "A boy of mass 50 kg runs up a staircase of 45 steps in 9 seconds. If the height of each step is 15 cm, find his power in watts.",
+          "level": 2,
+          "options": {
+            "A": "375 W",
+            "B": "500 W",
+            "C": "250 W",
+            "D": "150 W"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Power = Work/Time = (mg * total height)/time = (50 kg * 9.81 m/s² * 6.75 m)/9 s ≈ 375 W.",
+            "B": "Incorrect: This value exceeds the calculated power.",
+            "C": "Incorrect: This value is lower than the calculated power.",
+            "D": "Incorrect: This value is significantly lower than the calculated power."
+          }
+        },
+        {
+          "question": "What is the kinetic energy of an object of mass 20 kg moving at a velocity of 5 m/s, after its velocity is tripled?",
+          "level": 2,
+          "options": {
+            "A": "225 J",
+            "B": "900 J",
+            "C": "1500 J",
+            "D": "450 J"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: This value corresponds to the original kinetic energy, not the energy after tripling the velocity.",
+            "B": "Incorrect: This value is the original kinetic energy quadrupled, not the result of tripling the velocity.",
+            "C": "Correct: Tripling the velocity results in kinetic energy nine times greater, so 0.5 * 20 kg * (15 m/s)² = 1500 J.",
+            "D": "Incorrect: This value is too low given the tripling of velocity."
+          }
+        },
+        {
+          "question": "If the potential energy of an object of mass 12 kg at a certain height is 480 J, what is the height of the object? (Assume g = 10 m/s²)",
+          "level": 2,
+          "options": {
+            "A": "5 m",
+            "B": "4 m",
+            "C": "3 m",
+            "D": "6 m"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: This height does not correspond to the given potential energy with the given mass and gravitational acceleration.",
+            "B": "Correct: Height = Potential Energy / (mass * g) = 480 J / (12 kg * 10 m/s²) = 4 m.",
+            "C": "Incorrect: This height is lower than the correct height.",
+            "D": "Incorrect: This height is higher than the correct height."
+          }
+        },
+        {
+          "question": "A car of mass 1500 kg increases its velocity from 20 m/s to 30 m/s. What is the increase in its kinetic energy?",
+          "level": 2,
+          "options": {
+            "A": "375000 J",
+            "B": "225000 J",
+            "C": "150000 J",
+            "D": "75000 J"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The increase in kinetic energy = 0.5 * 1500 * (30² - 20²) = 375000 J.",
+            "B": "Incorrect: This value represents a different calculation not relevant to the change in kinetic energy.",
+            "C": "Incorrect: This value is lower than the actual increase in kinetic energy.",
+            "D": "Incorrect: This value significantly underestimates the increase in kinetic energy."
+          }
+        },
+        {
+          "question": "A box of mass 50 kg is pushed up an inclined plane with a constant velocity. If the plane is 10 meters long and elevated 3 meters, what is the work done against gravity?",
+          "level": 2,
+          "options": {
+            "A": "500 J",
+            "B": "1500 J",
+            "C": "300 J",
+            "D": "150 J"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: This value does not correctly calculate the work done against gravity.",
+            "B": "Correct: Work done against gravity = weight * height = 50 kg * 9.8 m/s² * 3 m ≈ 1500 J.",
+            "C": "Incorrect: This value underestimates the work done against gravity.",
+            "D": "Incorrect: This value significantly underestimates the work done against gravity."
+          }
+        },
+        {
+          "question": "A roller coaster car of mass 500 kg is at the top of a 20 m high track. What is its potential energy at the top and kinetic energy at the bottom assuming negligible air resistance and friction?",
+          "level": 2,
+          "options": {
+            "A": "Potential: 100000 J, Kinetic: 0 J",
+            "B": "Potential: 100000 J, Kinetic: 100000 J",
+            "C": "Potential: 50000 J, Kinetic: 50000 J",
+            "D": "Potential: 0 J, Kinetic: 100000 J"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: While the potential energy is correct, the kinetic energy at the bottom is not zero.",
+            "B": "Correct: Potential energy at the top = mgh = 500 kg * 9.8 m/s² * 20 m = 100000 J, and kinetic energy at the bottom equals the potential energy at the top in an ideal scenario.",
+            "C": "Incorrect: Both potential and kinetic energy values are underestimated.",
+            "D": "Incorrect: The potential energy at the top is not zero."
+          }
+        },
+        {
+          "question": "A pendulum swings from its highest point to the lowest point. What happens to its potential and kinetic energy at the lowest point?",
+          "level": 2,
+          "options": {
+            "A": "Potential energy is maximum, kinetic energy is zero",
+            "B": "Potential energy is zero, kinetic energy is maximum",
+            "C": "Both potential and kinetic energy are equal",
+            "D": "Both potential and kinetic energy are zero"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: At the lowest point, the potential energy is at its minimum, not maximum.",
+            "B": "Correct: At the lowest point of a pendulum's swing, its potential energy is minimum (zero if the reference is the lowest point), and kinetic energy is maximum.",
+            "C": "Incorrect: The energies are not equal at the lowest point; potential energy is minimum, kinetic energy is maximum.",
+            "D": "Incorrect: At the lowest point, kinetic energy is maximum, not zero."
+          }
+        },
+        {
+          "question": "A car of mass 1200 kg increases its speed from rest to 60 km/h. Calculate the work done by the engine to achieve this, assuming no other forces are acting.",
+          "level": 2,
+          "options": {
+            "A": "100000 J",
+            "B": "120000 J",
+            "C": "50000 J",
+            "D": "200000 J"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: This value does not match the calculation of work done for the given change in velocity.",
+            "B": "Correct: Work done is the change in kinetic energy. Convert 60 km/h to m/s (60 × 1000/3600 = 16.67 m/s). Then, KE = 0.5 × 1200 kg × (16.67 m/s)² ≈ 120000 J.",
+            "C": "Incorrect: This value underestimates the work done for the given change in speed.",
+            "D": "Incorrect: This value overestimates the work done for the given change in speed."
+          }
+        },
+        {
+          "question": "An object of mass 30 kg is dropped from a height of 10 meters. Calculate its velocity just before it hits the ground (Assuming g = 10 m/s² and air resistance is negligible).",
+          "level": 2,
+          "options": {
+            "A": "14 m/s",
+            "B": "20 m/s",
+            "C": "10 m/s",
+            "D": "100 m/s"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Using the formula v² = u² + 2gh (initial velocity u = 0), we get v = sqrt(2 × 10 × 10) = 14.14 m/s, approximately 14 m/s.",
+            "B": "Incorrect: This value is higher than the calculated final velocity.",
+            "C": "Incorrect: This value is lower than the calculated final velocity.",
+            "D": "Incorrect: This value is significantly higher than the possible final velocity."
+          }
+        },
+        {
+          "question": "A spring with a spring constant of 200 N/m is compressed by 5 cm. Calculate the potential energy stored in the spring.",
+          "level": 2,
+          "options": {
+            "A": "5 J",
+            "B": "50 J",
+            "C": "0.5 J",
+            "D": "2.5 J"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: This value does not match the calculation of potential energy in the spring.",
+            "B": "Incorrect: This value greatly overestimates the potential energy stored.",
+            "C": "Correct: Potential energy in a spring = 0.5 × k × x², where k = 200 N/m and x = 0.05 m (5 cm), thus PE = 0.5 × 200 × 0.05² = 0.5 J.",
+            "D": "Incorrect: This value is double the correctly calculated potential energy."
+          }
+        },
+        {
+          "question": "A ball of mass 2 kg is thrown vertically upwards with a velocity of 20 m/s. Find the maximum height it reaches (Assuming g = 10 m/s²).",
+          "level": 2,
+          "options": {
+            "A": "20 m",
+            "B": "40 m",
+            "C": "10 m",
+            "D": "30 m"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Using the energy conservation principle, KE = PE at maximum height. So, 0.5 × 2 kg × (20 m/s)² = 2 kg × 10 m/s² × h. Solving for h gives h = 20 m.",
+            "B": "Incorrect: This value is twice the correct maximum height.",
+            "C": "Incorrect: This value is half the correct maximum height.",
+            "D": "Incorrect: This value is not supported by the calculations."
+          }
+        }
+      ]
+    },
+    {
+      "quizId": "CBSE_9_Science_11",
+      "quizDetails": [
+        {
+          "question": "What is essential for the production of sound?",
+          "level": 1,
+          "options": {
+            "A": "Rapid to and fro motion of an object",
+            "B": "Presence of a medium",
+            "C": "High temperature",
+            "D": "High intensity"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: Sound is produced due to the rapid to and fro motion (vibration) of an object.",
+            "B": "Incorrect: While a medium is necessary for the propagation of sound, it is not essential for its production.",
+            "C": "Incorrect: High temperature does not directly cause the production of sound.",
+            "D": "Incorrect: High intensity is a characteristic of sound, not a requirement for its production."
+          }
+        },
+        {
+          "question": "How does sound travel through a medium?",
+          "level": 1,
+          "options": {
+            "A": "Through electromagnetic waves",
+            "B": "As a series of compressions and rarefactions",
+            "C": "By the particles of the medium moving forward",
+            "D": "Through displacement of the medium"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Sound does not travel as electromagnetic waves.",
+            "B": "Correct: Sound travels through a medium as a series of compressions (high pressure) and rarefactions (low pressure).",
+            "C": "Incorrect: The particles of the medium do not move forward, but oscillate back and forth.",
+            "D": "Incorrect: The medium itself is not displaced, only the particles within the medium oscillate."
+          }
+        },
+        {
+          "question": "Which characteristic of sound determines its pitch?",
+          "level": 1,
+          "options": {
+            "A": "Wavelength",
+            "B": "Amplitude",
+            "C": "Frequency",
+            "D": "Intensity"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Wavelength affects the speed and nature of the wave, not directly the pitch.",
+            "B": "Incorrect: Amplitude determines the loudness of sound, not its pitch.",
+            "C": "Correct: The frequency of the sound wave determines its pitch; higher frequencies correspond to higher pitches.",
+            "D": "Incorrect: Intensity relates to the energy of the sound wave and affects loudness, not pitch."
+          }
+        },
+        {
+          "question": "What is one medical application of ultrasound?",
+          "level": 1,
+          "options": {
+            "A": "Measuring blood pressure",
+            "B": "Imaging internal organs",
+            "C": "Curing infectious diseases",
+            "D": "Enhancing auditory sensations"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Ultrasound is not used for measuring blood pressure.",
+            "B": "Correct: Ultrasound is used in medical imaging to visualize internal organs.",
+            "C": "Incorrect: Ultrasound does not cure infectious diseases.",
+            "D": "Incorrect: Ultrasound does not enhance auditory sensations; it is used for diagnostic imaging."
+          }
+        },
+        {
+          "question": "What factors affect the speed of sound in a medium?",
+          "level": 1,
+          "options": {
+            "A": "Temperature and pressure",
+            "B": "Humidity and gravity",
+            "C": "Frequency and amplitude",
+            "D": "Intensity and wavelength"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The speed of sound in a medium is affected by the temperature and pressure of the medium.",
+            "B": "Incorrect: While humidity can have an effect, gravity does not directly affect the speed of sound.",
+            "C": "Incorrect: Frequency and amplitude of the sound wave do not affect the speed of sound in a medium.",
+            "D": "Incorrect: Intensity and wavelength of the sound wave are not the primary factors affecting its speed in a medium."
+          }
+        },
+        {
+          "question": "What is the phenomenon of sound waves bouncing back after hitting an obstacle called?",
+          "level": 1,
+          "options": {
+            "A": "Refraction",
+            "B": "Diffraction",
+            "C": "Reflection",
+            "D": "Absorption"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Refraction is the bending of waves due to a change in speed when they pass from one medium to another.",
+            "B": "Incorrect: Diffraction is the bending of waves around the edges of an obstacle or through openings.",
+            "C": "Correct: Reflection is the bouncing back of sound waves after they strike a hard surface.",
+            "D": "Incorrect: Absorption is when sound waves are absorbed by the medium, not bounced back."
+          }
+        },
+        {
+          "question": "Which of the following animals use echolocation?",
+          "level": 1,
+          "options": {
+            "A": "Lions",
+            "B": "Bats",
+            "C": "Elephants",
+            "D": "Giraffes"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Lions do not use echolocation.",
+            "B": "Correct: Bats use echolocation to navigate and find prey in the dark.",
+            "C": "Incorrect: Elephants do not use echolocation; they communicate through low-frequency sounds.",
+            "D": "Incorrect: Giraffes do not use echolocation."
+          }
+        },
+        {
+          "question": "What distinguishes music from noise?",
+          "level": 1,
+          "options": {
+            "A": "Volume of the sound",
+            "B": "Frequency of the sound",
+            "C": "Pleasantness to the listener",
+            "D": "Source of the sound"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Volume does not determine whether a sound is music or noise; both can be loud or soft.",
+            "B": "Incorrect: Frequency alone does not distinguish music from noise; both can have high or low frequencies.",
+            "C": "Correct: Music is typically considered to be more structured and pleasant to the listener, whereas noise is often regarded as unpleasant or unwanted sound.",
+            "D": "Incorrect: The source of the sound is not a defining factor in differentiating music from noise."
+          }
+        },
+        {
+          "question": "What does the Doppler Effect describe?",
+          "level": 1,
+          "options": {
+            "A": "Change in the pitch of sound due to the movement of the sound source",
+            "B": "Decrease in sound intensity with distance",
+            "C": "Change in sound due to interference",
+            "D": "Variation of sound in different mediums"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The Doppler Effect describes the change in the frequency (and thereby pitch) of sound as the source moves relative to the observer.",
+            "B": "Incorrect: Decrease in sound intensity with distance is a general property of sound waves, not specific to the Doppler Effect.",
+            "C": "Incorrect: Change in sound due to interference relates to wave superposition, not the Doppler Effect.",
+            "D": "Incorrect: Variation of sound in different mediums is not what the Doppler Effect describes."
+          }
+        },
+        {
+          "question": "What is the decibel scale used for?",
+          "level": 1,
+          "options": {
+            "A": "Measuring the speed of sound",
+            "B": "Determining the frequency of sound waves",
+            "C": "Quantifying the intensity or loudness of sound",
+            "D": "Calculating the wavelength of sound"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The decibel scale is not used for measuring the speed of sound.",
+            "B": "Incorrect: It does not determine the frequency of sound waves.",
+            "C": "Correct: The decibel scale is used to quantify the intensity or loudness of sound.",
+            "D": "Incorrect: The decibel scale does not calculate the wavelength of sound."
+          }
+        },
+        {
+          "question": "What does the 'quality' or 'timbre' of sound refer to?",
+          "level": 1,
+          "options": {
+            "A": "The loudness or intensity of the sound",
+            "B": "The pitch or frequency of the sound",
+            "C": "The duration of the sound",
+            "D": "The characteristic that distinguishes different sounds of the same pitch and loudness"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Quality or timbre is not about the loudness or intensity.",
+            "B": "Incorrect: It is not about the pitch or frequency.",
+            "C": "Incorrect: Duration of the sound is not related to its quality or timbre.",
+            "D": "Correct: Timbre or quality of sound refers to the characteristic that distinguishes different sounds of the same pitch and loudness, like different musical instruments playing the same note."
+          }
+        },
+        {
+          "question": "What is resonance in the context of sound?",
+          "level": 1,
+          "options": {
+            "A": "The decrease of sound intensity over distance",
+            "B": "The increase in amplitude when the frequency of a force matches the natural frequency of the system",
+            "C": "The bending of sound waves around obstacles",
+            "D": "The reflection of sound waves from surfaces"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Resonance is not related to the decrease of sound intensity over distance.",
+            "B": "Correct: Resonance occurs when a system is made to vibrate at its natural frequency, and this causes an increase in amplitude.",
+            "C": "Incorrect: Bending of sound waves around obstacles is known as diffraction.",
+            "D": "Incorrect: Reflection of sound waves is different from resonance."
+          }
+        },
+        {
+          "question": "What is the typical range of frequencies audible to the average human ear?",
+          "level": 1,
+          "options": {
+            "A": "20 Hz to 20,000 Hz",
+            "B": "100 Hz to 10,000 Hz",
+            "C": "50 Hz to 15,000 Hz",
+            "D": "0 Hz to 20 Hz"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The average human ear can typically hear sounds from 20 Hz to 20,000 Hz.",
+            "B": "Incorrect: 100 Hz to 10,000 Hz is too narrow to represent the typical human hearing range.",
+            "C": "Incorrect: 50 Hz to 15,000 Hz does not fully encompass the average range of human hearing.",
+            "D": "Incorrect: 0 Hz to 20 Hz is below the threshold of human hearing."
+          }
+        },
+        {
+          "question": "What is the primary use of sonar technology?",
+          "level": 1,
+          "options": {
+            "A": "Measuring atmospheric pressure",
+            "B": "Detecting and locating objects underwater",
+            "C": "Communicating with satellites",
+            "D": "Recording sound in studios"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Sonar is not used for measuring atmospheric pressure.",
+            "B": "Correct: Sonar is primarily used for detecting and locating objects underwater by emitting sound waves and interpreting their echoes.",
+            "C": "Incorrect: Sonar is not used for satellite communication.",
+            "D": "Incorrect: Sonar technology is not typically used for recording sound in studios."
+          }
+        },
+        {
+          "question": "Which of the following is a physical property of sound waves?",
+          "level": 1,
+          "options": {
+            "A": "Color",
+            "B": "Polarity",
+            "C": "Wavelength",
+            "D": "Temperature"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Sound waves do not have a color.",
+            "B": "Incorrect: Polarity is not a property of sound waves.",
+            "C": "Correct: Wavelength is a key physical property of sound waves, affecting aspects like pitch and frequency.",
+            "D": "Incorrect: Temperature is not a property of sound waves, though it can affect their speed."
+          }
+        },
+        {
+          "question": "What factor is crucial in determining the sound quality in a concert hall?",
+          "level": 1,
+          "options": {
+            "A": "The brightness of stage lights",
+            "B": "The color scheme of the interior",
+            "C": "The material of the seats",
+            "D": "The acoustics of the building"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Stage lights affect visibility, not sound quality.",
+            "B": "Incorrect: The color scheme of the interior is more about aesthetics than sound quality.",
+            "C": "Incorrect: While the material of the seats can have a minor effect, it's not the crucial factor.",
+            "D": "Correct: The acoustics of the building, which includes its design and materials used, are crucial in determining the sound quality in a concert hall."
+          }
+        },
+        {
+          "question": "How does temperature affect the speed of sound in air?",
+          "level": 1,
+          "options": {
+            "A": "Higher temperature decreases sound speed",
+            "B": "Temperature has no effect on sound speed",
+            "C": "Higher temperature increases sound speed",
+            "D": "Only extremely low temperatures affect sound speed"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Higher temperatures actually increase the speed of sound in air.",
+            "B": "Incorrect: Temperature does have an effect on the speed of sound in air.",
+            "C": "Correct: Higher temperatures increase the speed of sound in air due to faster movement of air molecules.",
+            "D": "Incorrect: Both high and low temperatures affect sound speed, not just extremely low temperatures."
+          }
+        },
+        {
+          "question": "Which is a common use of ultrasound in medical diagnostics?",
+          "level": 1,
+          "options": {
+            "A": "Measuring blood sugar levels",
+            "B": "Observing the movement of the heart",
+            "C": "Testing muscle strength",
+            "D": "Determining skin elasticity"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Ultrasound is not used for measuring blood sugar levels.",
+            "B": "Correct: Ultrasound is commonly used in echocardiograms to observe the movement and health of the heart.",
+            "C": "Incorrect: Ultrasound is not typically used for testing muscle strength.",
+            "D": "Incorrect: While ultrasound may assess tissue properties, it's not specifically used for determining skin elasticity."
+          }
+        },
+        {
+          "question": "Which part of the human ear is primarily responsible for converting sound waves into electrical signals?",
+          "level": 1,
+          "options": {
+            "A": "Auditory Canal",
+            "B": "Eustachian Tube",
+            "C": "Cochlea",
+            "D": "Tympanic Membrane"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The auditory canal transmits sound waves to the eardrum, but does not convert them into electrical signals.",
+            "B": "Incorrect: The Eustachian tube helps in balancing air pressure but is not involved in sound conversion.",
+            "C": "Correct: The cochlea, a spiral-shaped organ, is where sound vibrations are converted into electrical signals for the brain.",
+            "D": "Incorrect: The tympanic membrane (eardrum) vibrates upon sound wave impact, but does not convert these waves into electrical signals."
+          }
+        },
+        {
+          "question": "What is a major cause of environmental noise pollution?",
+          "level": 1,
+          "options": {
+            "A": "Natural phenomena like thunder",
+            "B": "Bird songs in the morning",
+            "C": "Traffic and industrial activities",
+            "D": "Conversations in public spaces"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: While natural phenomena like thunder can be loud, they are not considered a major cause of ongoing noise pollution.",
+            "B": "Incorrect: Bird songs are generally not considered noise pollution.",
+            "C": "Correct: Traffic and industrial activities are significant contributors to environmental noise pollution.",
+            "D": "Incorrect: Conversations in public spaces usually do not contribute significantly to environmental noise pollution."
+          }
+        },
+        {
+          "question": "How does the intensity of a sound wave change as it travels away from its source?",
+          "level": 2,
+          "options": {
+            "A": "Increases linearly with distance",
+            "B": "Decreases linearly with distance",
+            "C": "Increases exponentially with distance",
+            "D": "Decreases inversely with the square of the distance"
+          },
+          "answer": "D",
+          "explanations": {
+            "A": "Incorrect: Intensity does not increase with distance; it decreases.",
+            "B": "Incorrect: The decrease in intensity is not a linear relationship.",
+            "C": "Incorrect: Intensity does not increase exponentially or otherwise with distance.",
+            "D": "Correct: The intensity of a sound wave decreases inversely with the square of the distance from the source, following the inverse square law."
+          }
+        },
+        {
+          "question": "What are overtones in musical sounds?",
+          "level": 2,
+          "options": {
+            "A": "The primary frequency produced by a musical instrument",
+            "B": "Frequencies that are lower than the fundamental frequency",
+            "C": "Frequencies that are whole number multiples of the fundamental frequency",
+            "D": "The reverberation of sound in a concert hall"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The primary frequency is known as the fundamental frequency, not an overtone.",
+            "B": "Incorrect: Overtones are not lower but higher than the fundamental frequency.",
+            "C": "Correct: Overtones are frequencies that are whole number multiples of the fundamental frequency and contribute to the timbre of the sound.",
+            "D": "Incorrect: Reverberation is related to the acoustics of a space, not to the production of overtones."
+          }
+        },
+        {
+          "question": "What is the principle of sound wave interference?",
+          "level": 2,
+          "options": {
+            "A": "Sound waves of different frequencies cancel each other out",
+            "B": "Sound waves amplify each other when they have the same frequency and phase",
+            "C": "Higher frequency sound waves travel faster than lower frequency waves",
+            "D": "Sound waves always interfere destructively"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Different frequencies do not necessarily cancel each other out; this depends on phase and amplitude.",
+            "B": "Correct: When sound waves of the same frequency and phase meet, they can amplify each other, a phenomenon known as constructive interference.",
+            "C": "Incorrect: Sound wave speed is independent of frequency in a given medium.",
+            "D": "Incorrect: Sound waves can interfere constructively as well as destructively."
+          }
+        },
+        {
+          "question": "What is the significance of ultrasound frequencies beyond human hearing?",
+          "level": 2,
+          "options": {
+            "A": "They can cause physical discomfort to humans",
+            "B": "They are used in medical imaging and diagnostics",
+            "C": "They are typically inaudible and therefore of no practical use",
+            "D": "They are only produced by large industrial machines"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: While certain frequencies can be uncomfortable, this is not the primary significance of ultrasound.",
+            "B": "Correct: Ultrasound frequencies, which are beyond human hearing, are extensively used in medical imaging and diagnostics.",
+            "C": "Incorrect: Despite being inaudible, they have significant practical applications, particularly in medicine.",
+            "D": "Incorrect: Ultrasound is produced by various sources, not just large industrial machines."
+          }
+        },
+        {
+          "question": "What is the significance of phase difference in sound waves?",
+          "level": 2,
+          "options": {
+            "A": "It determines the speed of sound in different media",
+            "B": "It affects the constructive and destructive interference of waves",
+            "C": "It changes the fundamental frequency of the sound",
+            "D": "It is related to the Doppler Effect"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Phase difference does not determine the speed of sound.",
+            "B": "Correct: Phase difference between sound waves is crucial in determining whether they will interfere constructively (in-phase) or destructively (out-of-phase).",
+            "C": "Incorrect: Phase difference does not change the fundamental frequency of sound.",
+            "D": "Incorrect: While the Doppler Effect involves changes in frequency due to motion, it's not directly about phase difference."
+          }
+        },
+        {
+          "question": "How does altitude affect sound propagation?",
+          "level": 2,
+          "options": {
+            "A": "Sound travels faster at higher altitudes due to lower air density",
+            "B": "Sound cannot travel at high altitudes due to lack of oxygen",
+            "C": "Altitude has no effect on sound propagation",
+            "D": "Sound travels slower at higher altitudes due to colder temperatures"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: At higher altitudes, the lower air density can cause sound to travel faster, although this effect is often counterbalanced by lower temperatures.",
+            "B": "Incorrect: Sound can travel at high altitudes; oxygen levels do not directly affect sound propagation.",
+            "C": "Incorrect: Altitude, through its effects on air density and temperature, does have an impact on sound propagation.",
+            "D": "Incorrect: While colder temperatures at higher altitudes can slow sound down, the effect of lower air density often results in faster sound propagation."
+          }
+        },
+        {
+          "question": "What is the focus of psychoacoustics?",
+          "level": 2,
+          "options": {
+            "A": "The study of sound production in different environments",
+            "B": "The interaction between sound and psychological processes",
+            "C": "The physics of sound wave propagation",
+            "D": "The use of ultrasound in therapy"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Psychoacoustics is not primarily concerned with sound production in environments.",
+            "B": "Correct: Psychoacoustics is the study of the psychological and physiological responses associated with sound, including perception and interpretation.",
+            "C": "Incorrect: While it involves sound, psychoacoustics is more about human perception than the physics of sound propagation.",
+            "D": "Incorrect: Psychoacoustics does not specifically focus on the therapeutic use of ultrasound."
+          }
+        },
+        {
+          "question": "What does non-linear acoustics study?",
+          "level": 2,
+          "options": {
+            "A": "The effects of sound in linear media like air",
+            "B": "Sound propagation in ideal conditions without any obstacles",
+            "C": "The behavior of sound waves in non-linear media or at high amplitudes",
+            "D": "The linear relationship between frequency and wavelength"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Non-linear acoustics does not focus on linear media but on complexities beyond linear behavior.",
+            "B": "Incorrect: It is not about ideal conditions but about more complex scenarios.",
+            "C": "Correct: Non-linear acoustics studies the behavior of sound waves in situations where non-linear effects become significant, such as in certain materials or at high sound intensities.",
+            "D": "Incorrect: Non-linear acoustics is not about the linear relationship between frequency and wavelength."
+          }
+        },
+        {
+          "question": "Can sound waves be polarized?",
+          "level": 2,
+          "options": {
+            "A": "Yes, like light waves, sound waves can be polarized",
+            "B": "No, only transverse waves can be polarized, and sound waves are longitudinal",
+            "C": "Yes, but only in certain rarefied gases",
+            "D": "No, because sound waves do not have a magnetic component"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Unlike light waves, sound waves typically cannot be polarized because they are longitudinal.",
+            "B": "Correct: Sound waves are longitudinal waves and cannot be polarized, unlike transverse waves like light.",
+            "C": "Incorrect: The nature of the medium (like rarefied gases) does not allow sound waves to be polarized.",
+            "D": "Incorrect: The lack of a magnetic component is not the primary reason; it's because sound waves are longitudinal."
+          }
+        },
+        {
+          "question": "How does humidity affect the propagation of sound?",
+          "level": 2,
+          "options": {
+            "A": "Higher humidity lowers the speed of sound",
+            "B": "Humidity has no significant effect on sound",
+            "C": "Higher humidity increases the speed of sound",
+            "D": "Humidity affects only the intensity, not the speed of sound"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Higher humidity does not lower the speed of sound; it typically has the opposite effect.",
+            "B": "Incorrect: Humidity does have a significant effect on the propagation of sound.",
+            "C": "Correct: Higher humidity can increase the speed of sound, as moist air is less dense than dry air.",
+            "D": "Incorrect: While humidity might affect intensity to some extent, its primary effect is on the speed of sound."
+          }
+        },
+        {
+          "question": "What is 'beat frequency' in acoustics?",
+          "level": 2,
+          "options": {
+            "A": "The frequency at which sound becomes inaudible to humans",
+            "B": "The frequency produced when two sounds of slightly different frequencies interfere",
+            "C": "The highest frequency produced by a musical instrument",
+            "D": "A special frequency used in sound equalization"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Beat frequency is not about the audibility threshold of human hearing.",
+            "B": "Correct: Beat frequency is the frequency of the amplitude modulations produced when two waves of slightly different frequencies interfere with each other.",
+            "C": "Incorrect: It does not refer to the highest frequency produced by an instrument.",
+            "D": "Incorrect: Beat frequency is a natural phenomenon of wave interference, not a frequency used in sound equalization."
+          }
+        },
+        {
+          "question": "What does acoustic impedance refer to?",
+          "level": 2,
+          "options": {
+            "A": "The resistance to sound waves in a vacuum",
+            "B": "The absorption of sound by materials",
+            "C": "The ratio of sound pressure to particle velocity in a medium",
+            "D": "The threshold of pain caused by loud sounds"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Acoustic impedance is not about sound in a vacuum, as sound cannot propagate in a vacuum.",
+            "B": "Incorrect: While related to absorption, acoustic impedance specifically refers to the resistance a medium offers to sound propagation.",
+            "C": "Correct: Acoustic impedance is defined as the ratio of sound pressure to particle velocity at a given point in a medium.",
+            "D": "Incorrect: It is not related to the threshold of pain or loudness of sounds."
           }
         }
       ]

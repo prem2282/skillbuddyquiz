@@ -4,15 +4,8 @@
       "board": "CBSE",
       "grade": "9",
       "subject": "Civics",
-      "chapter": "Chapter 1",
-      "quizId": "quiz_id1"
-    },
-    {
-      "board": "CBSE",
-      "grade": "9",
-      "subject": "Civics",
       "chapter": "Electoral Politics",
-      "quizId": "quiz_id2"
+      "quizId": "CBSE_9_Civics_1"
     },
     {
       "board": "CBSE",
@@ -58,10 +51,38 @@
     },
     {
       "board": "CBSE",
-      "grade": "10",
+      "grade": "9",
       "subject": "Science",
-      "chapter": "1: Dummy",
-      "quizId": "CBSE_10_Science_1"
-    }    
+      "chapter": "7: Motion",
+      "quizId": "CBSE_9_Science_7"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Science",
+      "chapter": "8: Force and Laws of Motion",
+      "quizId": "CBSE_9_Science_8"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Science",
+      "chapter": "9: Gravitation",
+      "quizId": "CBSE_9_Science_9"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Science",
+      "chapter": "10: Work and Energy",
+      "quizId": "CBSE_9_Science_10"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Science",
+      "chapter": "11: Sound",
+      "quizId": "CBSE_9_Science_11"
+    }
   ]
 }

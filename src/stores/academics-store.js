@@ -1,5 +1,6 @@
 import { defineStore } from "pinia";
 import { useRoute, useRouter } from "vue-router";
+import { useQuizStore } from "./quiz-store";
 
 export const useAcademicsStore = defineStore("academics", {
   state: () => ({
@@ -46,7 +47,10 @@ export const useAcademicsStore = defineStore("academics", {
     },
     getChapterListForSubject(state) {
       return  state.academics.data.filter((item) => item.board === state.selectedBoard && item.grade === state.selectedGrade && item.subject === state.selectedSubject);
-    },
+    },  
+    getSelectedChapter(state) {
+      return state.selectedChapter;
+    }
   },
 
   actions: {
@@ -65,6 +69,8 @@ export const useAcademicsStore = defineStore("academics", {
       console.log("item", item);
       this.selectedChapter = item.chapter;
       this.selectedQuizId = item.quizId;
+      const quizStore = useQuizStore()
+      quizStore.loadQuizList(item.quizId);
     },
     selectBoard(board) {
       this.selectedBoard = board;
@@ -75,6 +81,11 @@ export const useAcademicsStore = defineStore("academics", {
     selectSubject(subject) {
       this.selectedSubject = subject;
     },
- 
+    resetAcademics() {
+      this.selectedBoard = null;
+      this.selectedGrade = null;
+      this.selectedSubject = null;
+      this.selectedChapter = null;
+    }
   },
 });

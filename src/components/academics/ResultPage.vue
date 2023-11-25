@@ -5,7 +5,7 @@
         <div class="text-center text-h6">Score : {{ score }}</div>
         <div
           class="q-ma-md"
-          v-for="(currentQuiz, quiz_index) in quizDetails"
+          v-for="(currentQuiz, quiz_index) in quizList"
           :key="quiz_index"
         >
           <div class="text-center bg-blue-3 q-pa-sm text-white">
@@ -49,7 +49,7 @@
                   {{ explanation(quiz_index) }}</q-item-section
                 >
                 <q-item-section v-if="questionResult(quiz_index) !== 'Correct'">
-                  {{ quizDetails[quiz_index].answer }} :
+                  {{ quizList[quiz_index].answer }} :
                   {{ correctExplanation(quiz_index) }}</q-item-section
                 >
               </div>
@@ -77,8 +77,8 @@ export default {
     quizProgress() {
       return this.quizStore.quizProgress;
     },
-    quizDetails() {
-      return this.quizStore.quizDetails;
+    quizList() {
+      return this.quizStore.quizList;
     },
     userResponse() {
       return this.quizStore.userResponse;
@@ -99,7 +99,7 @@ export default {
   methods: {
     optionColor(option_index, quiz_index) {
       const userResponse = this.userResponse[quiz_index];
-      const correctAnswer = this.quizDetails[quiz_index].answer;
+      const correctAnswer = this.quizList[quiz_index].answer;
       if (option_index === userResponse && userResponse === correctAnswer) {
         return "bg-green-3";
       } else if (
@@ -115,7 +115,7 @@ export default {
     },
     questionResult(quiz_index) {
       const userResponse = this.userResponse[quiz_index];
-      const correctAnswer = this.quizDetails[quiz_index].answer;
+      const correctAnswer = this.quizList[quiz_index].answer;
       if (userResponse === correctAnswer) {
         return "Correct";
       } else {
@@ -123,13 +123,13 @@ export default {
       }
     },
     explanation(quiz_index) {
-      return this.quizDetails[quiz_index].explanations[
+      return this.quizList[quiz_index].explanations[
         this.userResponse[quiz_index]
       ];
     },
     correctExplanation(quiz_index) {
-      return this.quizDetails[quiz_index].explanations[
-        this.quizDetails[quiz_index].answer
+      return this.quizList[quiz_index].explanations[
+        this.quizList[quiz_index].answer
       ];
     },
   },

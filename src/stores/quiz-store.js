@@ -3,13 +3,16 @@ import { useRoute, useRouter } from "vue-router";
 
 export const useQuizStore = defineStore("quiz", {
   state: () => ({
-    quizList: [],
+    fullQuizList: [],
     currentQuestion: 0,
     userResponse: [],
+    selectedLevel: null,
+    sampleChapterSummary: null,
+    quizCount: 0,
   }),
   getters: {
     totalQuestions(state) {
-      return state.quizList?.quizDetails?.length || 0;
+      return state.quizList?.length || 0;
     },
     quizProgress(state) {
       return state.currentQuestion / this.totalQuestions;
@@ -17,16 +20,31 @@ export const useQuizStore = defineStore("quiz", {
     currentQuestionIndex(state) {
       return state.currentQuestion;
     },
-    quizDetails(state) {
-      return state.quizList?.quizDetails || [];
+    quizList(state) {
+      let newlist = state.fullQuizList?.quizDetails?.filter((question) => question.level === state.selectedLevel);
+      
+      // Shuffle the newlist array
+      for (let i = newlist.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [newlist[i], newlist[j]] = [newlist[j], newlist[i]];
+      }
+
+      if (state.quizCount) {
+        newlist = newlist?.slice(0, state.quizCount);
+      }
+      
+      return newlist;
     },
     currentQuiz(state) {
-      return state.quizList?.quizDetails?.[state.currentQuestion];
+      return this.quizList?.[state.currentQuestion];
+    },
+    chapterSummary(state) {
+      return state.fullQuizList?.summaryData 
     },
     score(state) {
       let score = 0;
       state.userResponse.forEach((response, index) => {
-        if (response === state.quizDetails[index].answer) {
+        if (response === state.quizList[index].answer) {
           score++;
         }
       });
@@ -34,11 +52,29 @@ export const useQuizStore = defineStore("quiz", {
     },
     levels(state) {
 
-      let levels = state.quizList?.quizDetails?.map((question) => question.level);
+      let levels = state.fullQuizList?.quizDetails?.map((question) => question.level);
       // unique levels
       return [...new Set(levels)].sort((a, b) => a - b);
-
-
+    },
+    getSelectedLevel(state) {
+      return state.selectedLevel;
+    },
+    getLevelsText() {
+      let levelTexts = this.levels?.map((level) => {
+        if (level === 1) {
+          return "MCQs";
+        }
+        if (level === 2) {
+          return "Hard MCQs";
+        }
+        if (level === 3) {
+          return "True/False";
+        }
+      });
+      return levelTexts;
+    },
+    getSelectedCount(state) {
+      return state.quizCount;
     }
   },
   actions: {
@@ -51,19 +87,33 @@ export const useQuizStore = defineStore("quiz", {
           (quiz) => quiz.quizId === quizId
         );
         console.log("selectedQuiz", selectedQuiz);
-        // filter questions with level 2
-        // selectedQuiz.quizDetails = selectedQuiz.quizDetails.filter(
-        //   (question) => question.level === 2
-        // );
-        this.quizList = selectedQuiz;
+        this.fullQuizList = selectedQuiz;
       } catch (error) {
         console.error("Failed to load quiz data:", error);
       }
+    },   
+  
+
+    async fetchFileContent() {
+      try {
+        const response = await fetch('/data/samplehtmldata.txt'); // Adjust the path to your file
+        if (!response.ok) {
+          throw new Error('Failed to fetch file');
+        }
+        this.sampleChapterSummary = await response.text();
+      } catch (error) {
+        console.error('Error fetching file:', error);
+      }
     },
+
     resetQuizData() {
       this.userResponse = [];
       this.currentQuestion = 0;
-      this.quizList = {};
+      this.fullQuizList = {};
+      this.selectedLevel = null;
+    },
+    selectQuizType(level) {
+      this.selectedLevel = level;
     },
     goToNextQuestion(selectedOption) {
       this.userResponse.push(selectedOption);
@@ -75,5 +125,9 @@ export const useQuizStore = defineStore("quiz", {
         this.currentQuestion++;
       }
     },
+    selectQuizCount(count) {
+      this.quizCount = count;
+    }
+
   },
 });

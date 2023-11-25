@@ -55,14 +55,15 @@ export default defineComponent({
   methods: {
     gotoHome() {
       quizStore.resetQuizData();
+      academicsStore.resetAcademics();
       this.$router.push("/");
     },
   },
   setup() {
     onMounted(() => {
       console.log("academicsStore.quizId", academicsStore.selectedQuizId);
-      quizStore.loadQuizList(academicsStore.selectedQuizId);
-      quizStore.resetQuizData();
+      // quizStore.loadQuizList(academicsStore.selectedQuizId);
+      // quizStore.resetQuizData();
     });
 
     return {};

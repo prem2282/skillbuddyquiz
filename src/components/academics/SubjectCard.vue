@@ -1,17 +1,24 @@
 <template>
   <div>
-    <div v-for="(item, index) in getSubjectListForGrade" :key="index" class="card">
-    <q-card
-      clickable
-      @click="selectSubject(item)"
-      style="width: 200px"
-      class="q-pa-sm q-ma-md"
-    >
-      <q-card-section>
-        <div>{{ item }}</div>
-      </q-card-section>
-    </q-card>
-    </div>
+    <!-- <div class="card bg-blue-1">
+      <div class="q-gutter-md q-pa-md q-mx-md q-my-sm" style="display: flex; justify-content: center;">
+        <q-btn v-for="(item, index) in getSubjectListForGrade" :key="index" class="q-ma-md bg-blue-6" @click="selectSubject(item)">
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <div class="q-pa-md text-white" style="font-size: 1rem; text-align: center;"></div>
+            <div class="q-pb-md text-white" style="font-size: 2.5rem; text-align: center;">{{ item }}</div>
+          </div>
+        </q-btn>
+      </div>
+    </div>      -->
+    <div class="button-container">
+      <div v-for="(item, index) in getSubjectListForGrade" :key="index">
+        <q-btn class="subject-button" @click="selectSubject(item)">
+          <div class="button-content">
+            <div class="subject-text">{{ item }}</div>
+          </div>
+        </q-btn>
+      </div>
+    </div>    
   </div>
 
 </template>

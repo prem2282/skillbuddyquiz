@@ -1,1 +1,161 @@
 // app global css in SCSS form
+  h1 {
+    font-family: 'Arial', sans-serif; // Example font family
+    font-size: 1.8rem; // Example font size
+    line-height: 1.8rem;
+    // You can add more styles like color, line-height, etc.
+  }
+  h2 {
+    font-family: 'Arial', sans-serif; // Example font family
+    font-size: 1.5rem; // Example font size
+    line-height: 1.5rem;
+    font-style: italic;
+    // You can add more styles like color, line-height, etc.
+  }  
+
+  h3 {
+    font-family: 'Arial', sans-serif; // Example font family
+    font-size: 1.2rem; // Example font size
+    // You can add more styles like color, line-height, etc.
+  }  
+  strong {
+    background-color: antiquewhite;
+    margin-right: .5rem;
+  }
+  li {
+    list-style-type: none;
+    padding-bottom: 1rem;
+  }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5vh 10vw 10vh 10vw;
+}
+
+.board-button {
+  background-color: #6d6c12; /* blue-6 color */
+  color: white;
+  width: calc(25vw); /* Adjust to fit 3 in a row, considering margins */
+  text-transform: none;
+  margin: .5rem;
+}
+
+.grade-button {
+  background-color: #464513; /* blue-6 color */
+  color: white;
+  width: calc(15vw); /* Adjust to fit 3 in a row, considering margins */
+  text-transform: none;
+  margin: .5rem;
+}
+
+.subject-button {
+  background-color: #2f2f13; /* blue-6 color */
+  color: white;
+  width: calc(30vw); /* Adjust to fit 3 in a row, considering margins */
+  text-transform: none;
+  margin: .5rem;
+}
+
+.chapter-button {
+    background-color: #1E88E5; /* blue-6 color */
+    color: white;
+    width: calc(25vw); /* Adjust to fit 3 in a row, considering margins */
+    text-transform: none;
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+.button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+}
+
+.button-text {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.board-text {
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+}
+
+.grade-text {
+  font-size: 4.0rem;
+  line-height: 4.0rem;
+  text-align: center;
+}
+
+.subject-text {
+  font-size: 2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+
+.chapter-text {
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  text-align: left;
+}
+
+.selection-chip-box{
+  margin-top: .5rem;
+  display: flex;
+
+  justify-content: center;
+}
+
+/* Mobile Portrait */
+@media (max-width: 600px) {
+  .chapter-button {
+      width: 80vw; /* Full width for vertical stacking */
+      margin: .5rem;
+  }
+  .board-button {
+    width: 60vw; /* Full width for vertical stacking */
+  }
+  .grade-button {
+    width: 40vw; /* Full width for vertical stacking */
+  }
+  .subject-button {
+    width: 75vw; /* Full width for vertical stacking */
+  }    
+  .subject-text{
+    font-size: 2rem;
+  }      
+  .chapter-text{
+    font-size: 1rem;
+  }
+}
+
+/* Mobile Landscape */
+@media (min-width: 601px) and (max-width: 900px) {
+  .chapter-button {
+      width: calc(45vw); /* Adjust to fit 2 in a row */
+      margin: .5rem;
+  }
+  .board-button {
+    width: 40vw; 
+  }    
+  .grade-button {
+    width: 25vw; 
+  }    
+  .subject-button {
+    width: 40vw; 
+  }  
+  .button-container{
+    margin: 5vh 1vw 5vh 1vw;
+  }   
+  .subject-text{
+    font-size: 2rem;
+  }     
+  .chapter-text{
+    font-size: 1rem;
+  } 
+}

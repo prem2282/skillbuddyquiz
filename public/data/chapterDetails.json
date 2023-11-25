@@ -1,0 +1,126 @@
+{
+    "chapterDetails": {
+        "chapterId": "CBSE_9_Science_1",
+        "summaryData": {
+            "Chapter_Title": "Matter in our Surroundings",
+            "Key_Points": {
+              "Definition_of_Matter": "Anything that occupies space and has mass, including air, food, stones, clouds, stars, plants, animals, and even small particles like water or sand.",
+              "Early_Classifications_of_Matter": "Ancient Indian and Greek philosophers categorized matter into basic elements like air, earth, fire, water, and sky.",
+              "Modern_Classifications_of_Matter": "Based on physical properties and chemical nature.",
+              "Physical_Nature_of_Matter": "Matter is made up of particles.",
+              "Particle_Nature_and_Behavior": {
+                "Small_Size": "Particles of matter are extremely small.",
+                "Spaces_Between_Particles": "There is space between particles, allowing for diffusion and movement.",
+                "Constant_Motion": "Particles are always moving, and this movement increases with temperature.",
+                "Forces_of_Attraction": "Different strengths of attraction exist between particles in different states of matter."
+              }
+            },
+            "States_of_Matter": {
+              "Solid": {
+                "Properties": "Definite shape, distinct boundaries, fixed volume, and are not easily compressible.",
+                "Behavior": "Particles are closely packed with strong forces of attraction."
+              },
+              "Liquid": {
+                "Properties": "No fixed shape but fixed volume, takes the shape of the container, and is less compressible than gases.",
+                "Behavior": "Particles are less tightly packed than in solids and can move freely."
+              },
+              "Gas": {
+                "Properties": "No fixed shape or volume, highly compressible.",
+                "Behavior": "Particles move randomly at high speeds with large spaces and weak attraction between them."
+              }
+            },
+            "Changes_in_State": {
+              "Melting": "Solid to liquid by increasing temperature.",
+              "Boiling": "Liquid to gas by increasing temperature.",
+              "Sublimation": "Direct change from solid to gas.",
+              "Deposition": "Direct change from gas to solid.",
+              "Effect_of_Pressure": "Changing the state of matter by applying pressure."
+            },
+            "Evaporation": {
+              "Definition": "Change of liquid into vapors below its boiling point.",
+              "Factors_Affecting": "Surface area, temperature, humidity, wind speed.",
+              "Cause_of_Cooling": "Energy is absorbed from surroundings during evaporation, causing a cooling effect."
+            },
+            "Important_Concepts": {
+              "Diffusion": "Intermixing of particles of two different types of matter due to their kinetic energy.",
+              "Latent_Heat": {
+                "Latent_Heat_of_Fusion": "Heat required to change a solid to a liquid at its melting point.",
+                "Latent_Heat_of_Vaporization": "Heat required to change a liquid to a gas at its boiling point."
+              }
+            },
+            "Exercises_and_Activities": "Various activities and questions to reinforce the concepts of the properties and behavior of matter in different states."
+        },
+        "tables": {
+            "States_of_Matter": {
+                "Solid": {
+                "Shape": "Definite",
+                "Volume": "Fixed",
+                "Compressibility": "Not easily compressible",
+                "Particle_Movement": "Vibrational",
+                "Particle_Arrangement": "Closely packed",
+                "Force_of_Attraction": "Strong"
+                },
+                "Liquid": {
+                "Shape": "Indefinite, takes shape of container",
+                "Volume": "Fixed",
+                "Compressibility": "Less compressible than gases",
+                "Particle_Movement": "Free to move",
+                "Particle_Arrangement": "Less tightly packed than solids",
+                "Force_of_Attraction": "Moderate"
+                },
+                "Gas": {
+                "Shape": "Indefinite",
+                "Volume": "Indefinite",
+                "Compressibility": "Highly compressible",
+                "Particle_Movement": "Random and fast",
+                "Particle_Arrangement": "Far apart",
+                "Force_of_Attraction": "Very weak"
+                }
+            },
+            "Changes_in_State": [
+                {
+                "Change": "Melting",
+                "From_State": "Solid",
+                "To_State": "Liquid",
+                "Process": "Increasing temperature"
+                },
+                {
+                "Change": "Boiling",
+                "From_State": "Liquid",
+                "To_State": "Gas",
+                "Process": "Increasing temperature"
+                },
+                {
+                "Change": "Sublimation",
+                "From_State": "Solid",
+                "To_State": "Gas",
+                "Process": "Direct change"
+                },
+                {
+                "Change": "Deposition",
+                "From_State": "Gas",
+                "To_State": "Solid",
+                "Process": "Direct change"
+                },
+                {
+                "Change": "Condensation",
+                "From_State": "Gas",
+                "To_State": "Liquid",
+                "Process": "Decreasing temperature"
+                },
+                {
+                "Change": "Freezing",
+                "From_State": "Liquid",
+                "To_State": "Solid",
+                "Process": "Decreasing temperature"
+                }
+            ],
+            "Factors_Affecting_Evaporation": {
+                "Surface_Area": "Larger surface area increases evaporation rate",
+                "Temperature": "Higher temperature increases evaporation rate",
+                "Humidity": "Lower humidity increases evaporation rate",
+                "Wind_Speed": "Higher wind speed increases evaporation rate"
+            }
+        }          
+    }
+}
