@@ -21,8 +21,9 @@ export const useQuizStore = defineStore("quiz", {
       return state.currentQuestion;
     },
     quizList(state) {
-      let newlist = state.fullQuizList?.quizDetails?.filter((question) => question.level === state.selectedLevel);
-      
+      let newlist = []
+      newlist = state.fullQuizList?.quizDetails?.filter((question) => question.level === state.selectedLevel) || [];
+
       // Shuffle the newlist array
       for (let i = newlist.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -32,7 +33,7 @@ export const useQuizStore = defineStore("quiz", {
       if (state.quizCount) {
         newlist = newlist?.slice(0, state.quizCount);
       }
-      
+
       return newlist;
     },
     currentQuiz(state) {

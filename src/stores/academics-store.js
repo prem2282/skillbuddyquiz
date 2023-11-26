@@ -86,6 +86,29 @@ export const useAcademicsStore = defineStore("academics", {
       this.selectedGrade = null;
       this.selectedSubject = null;
       this.selectedChapter = null;
+    },
+    backButtonClicked() {
+      if (this.selectedChapter) {
+        console.log("this.selectedChapter", this.selectedChapter);
+        this.selectedChapter = null;
+        this.selectedQuizId = null;
+        return
+      }
+      if (this.selectedSubject) {
+        console.log("this.selectedSubject", this.selectedSubject);
+        this.selectedSubject = null;
+        return
+      }
+      if (this.selectedGrade) {
+        console.log("this.selectedGrade", this.selectedGrade);
+        this.selectedGrade = null;
+        return
+      }
+      if (this.selectedBoard) {
+        console.log("this.selectedBoard", this.selectedBoard);
+        this.selectedBoard = null;
+        return
+      }
     }
   },
 });
