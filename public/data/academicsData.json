@@ -83,6 +83,13 @@
       "subject": "Science",
       "chapter": "11: Sound",
       "quizId": "CBSE_9_Science_11"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Geography",
+      "chapter": "4: Climate",
+      "quizId": "CBSE_9_Geography_4"
     }
   ]
 }
