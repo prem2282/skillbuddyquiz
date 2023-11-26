@@ -88,8 +88,44 @@
       "board": "CBSE",
       "grade": "9",
       "subject": "Geography",
+      "chapter": "1: India - Size and Location",
+      "quizId": "CBSE_9_Geography_1"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Geography",
+      "chapter": "2: Physical Features of India",
+      "quizId": "CBSE_9_Geography_2"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Geography",
+      "chapter": "3: Drainage",
+      "quizId": "CBSE_9_Geography_3"
+    },    
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Geography",
       "chapter": "4: Climate",
       "quizId": "CBSE_9_Geography_4"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Geography",
+      "chapter": "5: Natural Vegetation and Wildlife",
+      "quizId": "CBSE_9_Geography_5"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Geography",
+      "chapter": "6: Population",
+      "quizId": "CBSE_9_Geography_6"
     }
+
   ]
 }
