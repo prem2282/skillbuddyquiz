@@ -8,9 +8,12 @@ export const useQuizStore = defineStore("quiz", {
     userResponse: [],
     selectedLevel: null,
     sampleChapterSummary: null,
-    quizCount: 0,
+    quizCount: 5,
   }),
   getters: {
+    level3Options() {
+      return { "A":"True", "B":"False"};
+    },
     totalQuestions(state) {
       return state.quizList?.length || 0;
     },
@@ -39,6 +42,17 @@ export const useQuizStore = defineStore("quiz", {
     currentQuiz(state) {
       return this.quizList?.[state.currentQuestion];
     },
+    currentQuizOptions() {
+      let quiz = this.currentQuiz;
+      if (!quiz) {
+        return [];
+      }
+      if (quiz.level === 1 || quiz.level === 2) {
+        return quiz.options;
+      } else {                        // for now only true/false is the level 3 quiz
+        return this.level3Options
+      }
+    },       
     chapterSummary(state) {
       return state.fullQuizList?.summaryData 
     },
@@ -128,7 +142,21 @@ export const useQuizStore = defineStore("quiz", {
     },
     selectQuizCount(count) {
       this.quizCount = count;
-    }
+    },
+    explanation(quizIndex, optionIndex) {
+      console.log("quiz_index", quizIndex);
+      console.log("selectedOption", optionIndex);
+      let quiz = this.quizList[quizIndex];
+      if (quiz.level === 3) {
+        return quiz.answer === this.level3Options[optionIndex] ? "Correct" : "Incorrect";
+      }
 
+      return quiz.explanations[optionIndex];
+    },    
+    correctExplanation(quiz_index) {
+      return this.quizList[quiz_index].explanations?.[
+        this.quizList[quiz_index].answer
+      ];
+    },
   },
 });

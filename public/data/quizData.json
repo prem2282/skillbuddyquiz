@@ -1097,6 +1097,156 @@
             "C": "Incorrect because molecular bonds do not break down at high pressures in the context of ideal gas behavior.",
             "D": "Incorrect because gravitational forces are negligible in the behavior of gas molecules under high pressure."
           }
+        },
+        {
+          "level": 3,
+          "question": "Everything in the universe is made up of matter, including air, food, stones, and water.",
+          "answer": "True"
+        },
+        {
+          "level": 3,
+          "question": "According to early Indian philosophers, there are only four basic elements of matter: air, earth, fire, and water.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "Matter is made up of small particles that are continuously moving.",
+          "answer": "True"
+        },
+        {
+          "level": 3,
+          "question": "Particles of matter do not have space between them.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "Solids have a definite shape, distinct boundaries, and fixed volumes.",
+          "answer": "True"
+        },
+        {
+          "level": 3,
+          "question": "Liquids have a fixed shape but no fixed volume.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "Gases are highly compressible compared to solids and liquids.",
+          "answer": "True"
+        },
+        {
+          "level": 3,
+          "question": "The boiling point of water is 373 Kelvin.",
+          "answer": "True"
+        },
+        {
+          "level": 3,
+          "question": "Sublimation is the change of a gas directly to a solid state without going through the liquid state.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "Evaporation is a bulk phenomenon, where particles from the whole of the liquid change into vapor state.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "Diffusion occurs faster in gases than in liquids and solids.",
+          "answer": "True"
+        },
+        {
+          "level": 3,
+          "question": "When a substance changes from solid to liquid, its temperature continues to rise even during the change of state.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "Evaporation of a liquid occurs only at its boiling point.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "The boiling point of a liquid is the temperature at which it can turn into a gas under any pressure conditions.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "The process of a solid changing directly to a gas is called deposition.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "Latent heat of vaporization is the heat required to convert a liquid into a gas at its boiling point.",
+          "answer": "True"
+        },
+        {
+          "level": 3,
+          "question": "Increase in humidity decreases the rate of evaporation.",
+          "answer": "True"
+        },
+        {
+          "level": 3,
+          "question": "Particles of matter attract each other more strongly in gases than in liquids.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "The melting point of ice is 273.15 Kelvin.",
+          "answer": "True"
+        },
+        {
+          "level": 3,
+          "question": "Liquids are generally more compressible than gases.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "The forces of attraction between particles are strongest in gases and weakest in solids.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "In the gaseous state, particles move about randomly at high speed.",
+          "answer": "True"
+        },
+        {
+          "level": 3,
+          "question": "The process of a liquid changing into a gas at any temperature below its boiling point is called boiling.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "The rate of evaporation increases with an increase in surface area.",
+          "answer": "True"
+        },
+        {
+          "level": 3,
+          "question": "Evaporation is a bulk phenomenon.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "The melting point of a solid is an indication of the strength of the force of attraction between its particles.",
+          "answer": "True"
+        },
+        {
+          "level": 3,
+          "question": "Particles in steam at 373 Kelvin have less energy than water at the same temperature.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "During the process of evaporation, the temperature of the liquid remains constant.",
+          "answer": "False"
+        },
+        {
+          "level": 3,
+          "question": "The latent heat of vaporization is the amount of heat required to change 1 kg of a liquid to a gas at atmospheric pressure at its boiling point.",
+          "answer": "True"
+        },
+        {
+          "level": 3,
+          "question": "Sublimation is the process where a gas changes directly to a liquid without becoming a solid first.",
+          "answer": "False"
         }
       ]
     },

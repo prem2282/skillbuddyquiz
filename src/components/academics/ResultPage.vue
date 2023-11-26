@@ -4,7 +4,7 @@
       <q-col cols="6" sm="12" class="q-ma-auto">
         <div class="text-center text-h6">Score : {{ score }}</div>
         <div
-          class="q-ma-md"
+          class="q-ma-sm"
           v-for="(currentQuiz, quiz_index) in quizList"
           :key="quiz_index"
         >
@@ -22,18 +22,18 @@
             Question {{ quiz_index + 1 }} of {{ totalQuestions }} -
             {{ questionResult(quiz_index) }}
           </div>
-          <div class="q-pa-md q-ma-md">
+          <div class="q-pa-sm">
             <q-card>
               <q-card-section>
                 <q-item-section>{{ currentQuiz.question }}</q-item-section>
               </q-card-section>
             </q-card>
 
-            <q-list class="q-pa-md q-ma-md">
+            <q-list class="q-pa-sm">
               <q-item
                 v-for="(option, index) in currentQuiz.options"
                 :key="option"
-                class="q-mb-sm"
+                class=""
                 :class="optionColor(index, quiz_index)"
               >
                 <q-item-section
@@ -44,14 +44,19 @@
                 </q-item-section>
               </q-item>
               <div>
-                <q-item-section
-                  >{{ userResponse[quiz_index] }} :
-                  {{ explanation(quiz_index) }}</q-item-section
-                >
-                <q-item-section v-if="questionResult(quiz_index) !== 'Correct'">
-                  {{ quizList[quiz_index].answer }} :
-                  {{ correctExplanation(quiz_index) }}</q-item-section
-                >
+                <q-item>
+                  <q-item-section> 
+                  Your Answer: {{ userResponse[quiz_index] }} :
+                  {{ explanation(quiz_index) }}
+                  </q-item-section>
+                </q-item>
+                <q-item>
+                  <q-item-section v-if="questionResult(quiz_index) !== 'Correct'">
+                  Correct Answer: {{ quizList[quiz_index].answer }} 
+                  {{ correctExplanation(quiz_index) }}
+                </q-item-section>
+
+                </q-item>
               </div>
             </q-list>
           </div>
@@ -123,14 +128,11 @@ export default {
       }
     },
     explanation(quiz_index) {
-      return this.quizList[quiz_index].explanations[
-        this.userResponse[quiz_index]
-      ];
+      const optionIndex = this.userResponse[quiz_index];
+      return this.quizStore.explanation(quiz_index, optionIndex);
     },
     correctExplanation(quiz_index) {
-      return this.quizList[quiz_index].explanations[
-        this.quizList[quiz_index].answer
-      ];
+      return this.quizStore.correctExplanation(quiz_index);
     },
   },
 };

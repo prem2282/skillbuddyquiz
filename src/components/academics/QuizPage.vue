@@ -20,7 +20,7 @@
 
           <q-list class="q-pa-md q-ma-md">
             <q-item
-              v-for="(option, index) in currentQuiz.options"
+              v-for="(option, index) in currentQuizOptions"
               :key="option"
               clickable
               :disable="submitted"
@@ -45,7 +45,7 @@
               <q-card-section
                 :class="{ 'streaming-text': showStreamingEffect }"
               >
-                <q-item-section>{{ explanation }}</q-item-section>
+                <q-item-section>{{ explanation(currentQuestionIndex, selectedOption) }}</q-item-section>
               </q-card-section>
             </q-card>
           </div>
@@ -106,21 +106,21 @@ export default {
     quizProgress() {
       return this.quizStore.quizProgress;
     },
-
+    currentQuizOptions() {
+      return this.quizStore.currentQuizOptions;
+    },
     questionResult() {
-      const userResponse = this.selectedOption;
+      let userResponse = this.selectedOption;
+      if (this.currentQuiz.level === 3) {
+        console.log("here 1");
+        userResponse = this.currentQuizOptions[this.selectedOption];
+      }
       const correctAnswer = this.currentQuiz.answer;
       if (userResponse === correctAnswer) {
         return "Correct";
       } else {
         return "Incorrect";
       }
-    },
-    explanation() {
-      return this.currentQuiz.explanations[this.selectedOption];
-    },
-    correctExplanation() {
-      return this.currentQuiz.explanations[this.currentQuiz.answer];
     },
     showExplanation() {
       return this.selectedOption !== null;
@@ -144,6 +144,10 @@ export default {
       this.submitted = true;
       this.streamingEffect();
     },
+
+    explanation(quizIndex,optionIndex) {
+      return this.quizStore.explanation(quizIndex,optionIndex);
+    },    
   },
 };
 </script>
