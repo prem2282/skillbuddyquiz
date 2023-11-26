@@ -20,7 +20,7 @@
 
           <q-list class="q-pa-md q-ma-md">
             <q-item
-              v-for="(option, index) in currentQuizOptions"
+              v-for="(option, index) in currentQuizOptions(currentQuestionIndex)"
               :key="option"
               clickable
               :disable="submitted"
@@ -106,15 +106,13 @@ export default {
     quizProgress() {
       return this.quizStore.quizProgress;
     },
-    currentQuizOptions() {
-      return this.quizStore.currentQuizOptions;
-    },
+
     questionResult() {
       let userResponse = this.selectedOption;
-      if (this.currentQuiz.level === 3) {
-        console.log("here 1");
-        userResponse = this.currentQuizOptions[this.selectedOption];
-      }
+      // if (this.currentQuiz.level === 3) {
+      //   console.log("here 1");
+      //   userResponse = this.currentQuizOptions(this.currentQuestionIndex)[this.selectedOption];
+      // }
       const correctAnswer = this.currentQuiz.answer;
       if (userResponse === correctAnswer) {
         return "Correct";
@@ -147,6 +145,9 @@ export default {
 
     explanation(quizIndex,optionIndex) {
       return this.quizStore.explanation(quizIndex,optionIndex);
+    },    
+    currentQuizOptions(quizIndex) {
+      return this.quizStore.currentQuizOptions(quizIndex);
     },    
   },
 };
