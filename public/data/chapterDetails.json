@@ -1,6 +1,281 @@
 {
   "chapterData": [
     {
+      "chapterId": "CBSE_9_History_1",
+      "tables": [
+        {
+          "title": "Timeline of Major Events",
+          "columns": [
+            {
+              "name": "year",
+              "label": "Year",
+              "align": "left",
+              "field": "year",
+              "sortable": "True"
+            },
+            {
+              "name": "event",
+              "label": "Event",
+              "align": "left",
+              "field": "event",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            { "year": "1789", "event": "Storming of the Bastille" },
+            { "year": "1789", "event": "Formation of the National Assembly" },
+            { "year": "1792", "event": "France declared a Republic" },
+            { "year": "1793-1794", "event": "Reign of Terror" },
+            { "year": "1794", "event": "Execution of Robespierre" },
+            { "year": "1799", "event": "Rise of Napoleon Bonaparte" }
+          ]
+        },
+        {
+          "title": "Important Figures",
+          "columns": [
+            {
+              "name": "name",
+              "label": "Name",
+              "align": "left",
+              "field": "name",
+              "sortable": "True"
+            },
+            {
+              "name": "role",
+              "label": "Role/Contribution",
+              "align": "left",
+              "field": "role",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            { "name": "Louis XVI", "role": "King of France" },
+            { "name": "Marie Antoinette", "role": "Queen of France" },
+            {
+              "name": "Maximilian Robespierre",
+              "role": "Leading figure in the Reign of Terror"
+            },
+            {
+              "name": "Georges Danton",
+              "role": "Early leader in the Revolution"
+            }
+          ]
+        },
+        {
+          "title": "Social Classes and Their Characteristics",
+          "columns": [
+            {
+              "name": "estate",
+              "label": "Estate",
+              "align": "left",
+              "field": "estate",
+              "sortable": "True"
+            },
+            {
+              "name": "characteristics",
+              "label": "Characteristics",
+              "align": "left",
+              "field": "characteristics",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "estate": "First Estate (Clergy)",
+              "characteristics": "Privileges, exempt from taxes"
+            },
+            {
+              "estate": "Second Estate (Nobility)",
+              "characteristics": "Privileges, feudal dues"
+            },
+            {
+              "estate": "Third Estate (Commoners)",
+              "characteristics": "Paid taxes, no privileges"
+            }
+          ]
+        },
+        {
+          "title": "Constitutional Changes",
+          "columns": [
+            {
+              "name": "period",
+              "label": "Period",
+              "align": "left",
+              "field": "period",
+              "sortable": "True"
+            },
+            {
+              "name": "system",
+              "label": "Political System",
+              "align": "left",
+              "field": "system",
+              "sortable": "True"
+            },
+            {
+              "name": "features",
+              "label": "Key Features",
+              "align": "left",
+              "field": "features",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "period": "Pre-1789",
+              "system": "Absolute Monarchy",
+              "features": "King held all power"
+            },
+            {
+              "period": "1789-1792",
+              "system": "Constitutional Monarchy",
+              "features": "King shared power with elected body"
+            },
+            {
+              "period": "Post-1792",
+              "system": "Republic",
+              "features": "Elected government, no monarchy"
+            }
+          ]
+        },
+        {
+          "title": "Women's Role and Rights",
+          "columns": [
+            {
+              "name": "period",
+              "label": "Period",
+              "align": "left",
+              "field": "period",
+              "sortable": "True"
+            },
+            {
+              "name": "role_rights",
+              "label": "Role/Rights",
+              "align": "left",
+              "field": "role_rights",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "period": "During Revolution",
+              "role_rights": "Active participation, demanded rights"
+            },
+            {
+              "period": "Constitution of 1791",
+              "role_rights": "Classed as passive citizens"
+            },
+            {
+              "period": "Reign of Terror",
+              "role_rights": "Political activities banned, clubs closed"
+            }
+          ]
+        },
+        {
+          "title": "Economic Factors",
+          "columns": [
+            {
+              "name": "factor",
+              "label": "Factor",
+              "align": "left",
+              "field": "factor",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "factor": "State of Treasury",
+              "description": "Empty due to long years of war and extravagant spending"
+            },
+            {
+              "factor": "National Debt",
+              "description": "Increased significantly, leading to high interest rates"
+            },
+            {
+              "factor": "Taxation",
+              "description": "Burden primarily on the Third Estate, with clergy and nobility mostly exempt"
+            }
+          ]
+        },
+        {
+          "title": "Outcomes and Impact of the French Revolution",
+          "columns": [
+            {
+              "name": "outcome",
+              "label": "Outcome/Impact",
+              "align": "left",
+              "field": "outcome",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "False"
+            }
+          ],
+          "rows": [
+            {
+              "outcome": "Spread of Revolutionary Ideas",
+              "description": "The ideas of liberty and democratic rights spread from France to the rest of Europe, influencing modern laws and the abolition of feudal systems"
+            },
+            {
+              "outcome": "Legislation on Slavery",
+              "description": "The Convention legislated to free all slaves in French overseas possessions in 1794, although Napoleon reintroduced slavery ten years later, which was finally abolished in 1848"
+            },
+            {
+              "outcome": "Influence on Global Movements",
+              "description": "The notions of equality and freedom influenced anti-colonial movements in India, China, Africa, and South America, contributing to the spread of these ideas globally."
+            },
+            {
+              "outcome": "Socio-Economic Impact",
+              "description": "The revolutionary wars caused economic difficulties and societal changes, leading to the rise of political clubs and actions advocating for extended rights beyond the richer sections of society."
+            }
+          ]
+        },
+        {
+          "title": "Phases of the French Revolution",
+          "columns": [
+            {
+              "name": "phase",
+              "label": "Phase",
+              "align": "left",
+              "field": "phase",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "False"
+            }
+          ],
+          "rows": [
+            {
+              "phase": "National Assembly",
+              "description": "The Third Estate declared themselves a National Assembly, intending to draft a constitution that would limit the monarch's powers. This phase was marked by democratic aspirations and reforms"
+            },
+            {
+              "phase": "Reign of Terror",
+              "description": "Under Robespierre's rule, the government issued strict laws, instituted price controls, and practiced widespread use of the guillotine. This phase was characterized by radical policies and mass executions"
+            },
+            {
+              "phase": "Directory Phase",
+              "description": "Following the Reign of Terror, the Directory was established, leading to a period of political stability. This phase saw significant social and educational reforms, although political struggles continued"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "chapterId": "CBSE_9_History_2",
       "tables": [
         {
