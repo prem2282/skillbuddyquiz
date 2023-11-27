@@ -10349,7 +10349,702 @@
     },
     {
       "quizId": "CBSE_9_History_1",
-      "quizDetails": []
+      "quizDetails": [
+        {
+          "question": "What event marked the beginning of the French Revolution?",
+          "level": 1,
+          "options": {
+            "A": "The execution of Louis XVI",
+            "B": "The storming of the Bastille",
+            "C": "The formation of the National Assembly",
+            "D": "The Tennis Court Oath"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The execution of Louis XVI was a significant event during the revolution, but it happened after the revolution had begun.",
+            "B": "Correct: The storming of the Bastille on 14 July 1789 is widely recognized as the symbolic start of the French Revolution.",
+            "C": "Incorrect: The formation of the National Assembly was a key development, but it occurred after the storming of the Bastille.",
+            "D": "Incorrect: The Tennis Court Oath was an important event in rallying the Third Estate, but it wasn't the event that marked the beginning of the revolution."
+          }
+        },
+        {
+          "question": "Why was the Bastille stormed by the revolutionaries?",
+          "level": 1,
+          "options": {
+            "A": "To free political prisoners",
+            "B": "As a protest against King Louis XVI",
+            "C": "To acquire arms and ammunition",
+            "D": "To overthrow the monarchy"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: While the Bastille was a symbol of royal authority, there were only seven prisoners at the time of its storming, and freeing them was not the primary objective.",
+            "B": "Incorrect: Although the storming was indirectly a protest against the monarchy, the immediate reason was not directly related to King Louis XVI.",
+            "C": "Correct: Revolutionaries stormed the Bastille primarily to find and seize arms and ammunition.",
+            "D": "Incorrect: Overthrowing the monarchy was a broader goal of the revolution, but not the immediate reason for storming the Bastille."
+          }
+        },
+        {
+          "question": "What was a key financial problem faced by Louis XVI when he ascended the throne?",
+          "level": 1,
+          "options": {
+            "A": "Excessive spending on luxuries",
+            "B": "Empty state treasury and increasing debt",
+            "C": "Decline in overseas trade",
+            "D": "High military expenditures"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Although there was extravagant spending, the key problem was the state of the treasury and debt.",
+            "B": "Correct: Louis XVI inherited an empty treasury and a state burdened with debt, which was a major financial issue.",
+            "C": "Incorrect: While trade issues were present, they were not the key financial problem Louis XVI faced initially.",
+            "D": "Incorrect: High military expenditures were part of the problem, but the primary issue was the overall state of the treasury and debt."
+          }
+        },
+        {
+          "question": "What system of societal organization in France was abolished by the National Assembly?",
+          "level": 1,
+          "options": {
+            "A": "Capitalist system",
+            "B": "Feudal system",
+            "C": "Monarchical system",
+            "D": "Democratic system"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The capitalist system was not the focus of the National Assembly's reforms at this stage.",
+            "B": "Correct: The feudal system, with its obligations and taxes, was abolished by the National Assembly.",
+            "C": "Incorrect: While the revolution led to changes in the monarchy, the National Assembly's specific action was against the feudal system.",
+            "D": "Incorrect: The democratic system was what the revolutionaries were aiming to achieve, not abolish."
+          }
+        },
+        {
+          "question": "Which of the following best describes the primary cause of the subsistence crisis in France before the Revolution?",
+          "level": 1,
+          "options": {
+            "A": "Decline in overseas trade",
+            "B": "Rapid population growth and inadequate food production",
+            "C": "Excessive spending by the monarchy",
+            "D": "Industrialization leading to unemployment"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: While trade issues existed, they were not the primary cause of the subsistence crisis.",
+            "B": "Correct: The rapid increase in population coupled with inadequate grain production led to the subsistence crisis.",
+            "C": "Incorrect: While monarchy spending was extravagant, it was not the direct cause of the subsistence crisis.",
+            "D": "Incorrect: Industrialization was not a significant factor in France's subsistence crisis at this time."
+          }
+        },
+        {
+          "question": "What was the main objective of the National Assembly formed by the Third Estate in 1789?",
+          "level": 1,
+          "options": {
+            "A": "To declare war on Britain",
+            "B": "To draft a constitution for France",
+            "C": "To support Louis XVI",
+            "D": "To abolish the monarchy immediately"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The National Assembly's objective was not to declare war on Britain.",
+            "B": "Correct: The main aim of the National Assembly was to draft a constitution for France.",
+            "C": "Incorrect: The National Assembly did not form with the intention to support Louis XVI.",
+            "D": "Incorrect: The immediate abolition of the monarchy was not the initial aim of the National Assembly."
+          }
+        },
+        {
+          "question": "What significant decision did the French government make regarding slavery in 1794?",
+          "level": 1,
+          "options": {
+            "A": "It abolished slavery in French colonies",
+            "B": "It expanded the slave trade",
+            "C": "It imposed additional taxes on slave trade",
+            "D": "It ignored the issue of slavery"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: In 1794, the French government legislated to free all slaves in the French overseas possessions.",
+            "B": "Incorrect: The French government did not expand the slave trade in 1794; it abolished it.",
+            "C": "Incorrect: Imposing additional taxes on slave trade was not the decision made.",
+            "D": "Incorrect: The issue of slavery was not ignored; it was addressed through abolition."
+          }
+        },
+        {
+          "question": "How did the French Revolution influence women's rights in the long term?",
+          "level": 1,
+          "options": {
+            "A": "Immediate voting rights for women",
+            "B": "Formation of women's political clubs",
+            "C": "Women gained the right to vote in 1946",
+            "D": "Complete equality with men in all spheres"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Women did not gain immediate voting rights as a result of the Revolution.",
+            "B": "Incorrect: Although women formed political clubs, this is not a long-term influence on women's rights.",
+            "C": "Correct: Women in France won the right to vote in 1946, influenced by the revolutionary ideas.",
+            "D": "Incorrect: Complete equality with men in all spheres was not achieved as a direct outcome of the Revolution."
+          }
+        },
+        {
+          "question": "What role did the financial crisis play in triggering the French Revolution?",
+          "level": 1,
+          "options": {
+            "A": "It led to increased military spending and expansion",
+            "B": "It caused widespread unemployment in urban areas",
+            "C": "It forced the government to raise taxes and reduce privileges",
+            "D": "It prompted the king to seek foreign loans"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The financial crisis did not lead to increased military spending or expansion.",
+            "B": "Incorrect: While there was unemployment, the financial crisis specifically led to the government's decision to raise taxes.",
+            "C": "Correct: The financial crisis forced the government to raise taxes and consider reducing privileges, leading to discontent among the populace.",
+            "D": "Incorrect: Seeking foreign loans was not the primary action the government took due to the financial crisis."
+          }
+        },
+        {
+          "question": "How did the National Assembly aim to change the structure of French society?",
+          "level": 1,
+          "options": {
+            "A": "By promoting the feudal system",
+            "B": "By abolishing privileges based on birth",
+            "C": "By increasing the power of the monarchy",
+            "D": "By enforcing religious uniformity"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The National Assembly aimed to abolish, not promote, the feudal system.",
+            "B": "Correct: One of the main aims of the National Assembly was to abolish privileges that were based on birth.",
+            "C": "Incorrect: The National Assembly sought to reduce, not increase, the power of the monarchy.",
+            "D": "Incorrect: Enforcing religious uniformity was not a focus of the National Assembly."
+          }
+        },
+        {
+          "question": "What was the significance of the 'Tennis Court Oath' during the French Revolution?",
+          "level": 1,
+          "options": {
+            "A": "It was a pledge by the Third Estate to continue meeting until a constitution was established",
+            "B": "It marked the beginning of military action against the monarchy",
+            "C": "It was an agreement to support the king against the revolutionaries",
+            "D": "It symbolized the end of the National Assembly's work"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The Tennis Court Oath was a pivotal moment where the Third Estate pledged not to disperse until a constitution was created.",
+            "B": "Incorrect: The oath did not mark the beginning of military action against the monarchy.",
+            "C": "Incorrect: It was not an agreement to support the king but rather a stand against the existing order.",
+            "D": "Incorrect: Rather than symbolizing the end, it marked a crucial phase in the work of the National Assembly."
+          }
+        },
+        {
+          "question": "Which group primarily composed the Third Estate in French society before the Revolution?",
+          "level": 1,
+          "options": {
+            "A": "The clergy and the nobility",
+            "B": "Merchants, artisans, and peasants",
+            "C": "The military and law enforcement",
+            "D": "Royal family members and court officials"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The clergy and nobility were part of the First and Second Estates, respectively.",
+            "B": "Correct: The Third Estate was primarily composed of merchants, artisans, and peasants.",
+            "C": "Incorrect: The military and law enforcement were not the primary components of the Third Estate.",
+            "D": "Incorrect: Royal family members and court officials were not part of the Third Estate."
+          }
+        },
+        {
+          "question": "What was the main reason for the increase in the French government's debt in the late 18th century?",
+          "level": 1,
+          "options": {
+            "A": "Investment in industrialization",
+            "B": "Support for the American Revolution",
+            "C": "Expansion of the French Empire",
+            "D": "Excessive spending on scientific research"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Industrialization was not a primary factor for the debt increase during this period.",
+            "B": "Correct: Supporting the American Revolution significantly added to the existing debt of the French government.",
+            "C": "Incorrect: Although the French Empire did expand, it was not the main reason for the debt increase.",
+            "D": "Incorrect: Excessive spending on scientific research was not a significant contributor to the national debt."
+          }
+        },
+        {
+          "question": "Which group was a part of the Third Estate in French society before the Revolution?",
+          "level": 1,
+          "options": {
+            "A": "Clergy",
+            "B": "Nobility",
+            "C": "Artisans",
+            "D": "Royal family"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The clergy constituted the First Estate.",
+            "B": "Incorrect: The nobility was the Second Estate.",
+            "C": "Correct: Artisans, along with peasants and the bourgeoisie, were part of the Third Estate.",
+            "D": "Incorrect: The royal family was not a part of any of the three estates."
+          }
+        },
+        {
+          "question": "What was the main objective of the Declaration of the Rights of Man and Citizen?",
+          "level": 1,
+          "options": {
+            "A": "To establish a new monarchy",
+            "B": "To declare war against Britain",
+            "C": "To affirm the natural rights of all male citizens",
+            "D": "To promote the Church's influence in government"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The declaration did not aim to establish a new monarchy.",
+            "B": "Incorrect: It was not a declaration of war, but of rights.",
+            "C": "Correct: The declaration aimed to affirm the natural and inalienable rights of all male citizens.",
+            "D": "Incorrect: It did not seek to promote the Church’s influence in government."
+          }
+        },
+        {
+          "question": "What was the role of women in the French Revolution?",
+          "level": 1,
+          "options": {
+            "A": "They were mostly passive observers",
+            "B": "They played a significant role in revolutionary events",
+            "C": "They were limited to supporting the military",
+            "D": "They were excluded from all revolutionary activities"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Women were not merely passive observers during the Revolution.",
+            "B": "Correct: Women actively participated in and significantly influenced various events of the Revolution.",
+            "C": "Incorrect: Women's roles were not limited to supporting the military.",
+            "D": "Incorrect: Women were not excluded from revolutionary activities; they were quite involved."
+          }
+        },
+        {
+          "question": "What significant social reform did the Jacobin regime implement in the French colonies?",
+          "level": 1,
+          "options": {
+            "A": "Establishment of universal education",
+            "B": "Abolition of the feudal system",
+            "C": "Abolition of slavery",
+            "D": "Granting voting rights to all colonies"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: While education reforms were part of the revolution, universal education was not the specific reform implemented in the colonies by the Jacobins.",
+            "B": "Incorrect: The abolition of the feudal system was a domestic reform, not specifically targeted at the colonies.",
+            "C": "Correct: The Jacobin regime is noted for abolishing slavery in the French colonies in 1794.",
+            "D": "Incorrect: Granting voting rights to all colonies was not the reform implemented by the Jacobin regime."
+          }
+        },
+        {
+          "question": "What was the main objective of the Declaration of the Rights of Man and Citizen as introduced by the National Assembly?",
+          "level": 1,
+          "options": {
+            "A": "To declare France a republic",
+            "B": "To affirm fundamental rights of citizens",
+            "C": "To establish a new monarchy",
+            "D": "To support the feudal system"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Declaring France a republic was not the main focus of the Declaration.",
+            "B": "Correct: The Declaration aimed to affirm the fundamental rights of citizens, such as liberty, property, and resistance to oppression.",
+            "C": "Incorrect: The Declaration did not seek to establish a new monarchy.",
+            "D": "Incorrect: The Declaration was part of moving away from the feudal system, not supporting it."
+          }
+        },
+        {
+          "question": "How did the Constitution of 1791 change the political system in France?",
+          "level": 1,
+          "options": {
+            "A": "It established France as a republic",
+            "B": "It maintained the absolute monarchy",
+            "C": "It introduced a constitutional monarchy",
+            "D": "It formed a direct democracy"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: France was not established as a republic by the Constitution of 1791; that occurred later.",
+            "B": "Incorrect: The Constitution did not maintain the absolute monarchy but rather limited the monarch's powers.",
+            "C": "Correct: The Constitution of 1791 introduced a constitutional monarchy, limiting the powers of the king.",
+            "D": "Incorrect: A direct democracy was not formed; the system was a constitutional monarchy with representative bodies."
+          }
+        },
+        {
+          "question": "What role did women play in the French Revolution?",
+          "level": 1,
+          "options": {
+            "A": "They were restricted to domestic roles",
+            "B": "They had no participation in the revolution",
+            "C": "They were active participants in various capacities",
+            "D": "They solely supported the military efforts"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Women were not restricted only to domestic roles during the revolution.",
+            "B": "Incorrect: Women actively participated in the revolution.",
+            "C": "Correct: Women played various roles in the revolution, from political activism to participating in riots and clubs.",
+            "D": "Incorrect: Women's roles were not limited to military support; they were involved in many aspects of the revolution."
+          }
+        },
+        {
+          "question": "Which philosophical principle influenced the French Revolution and is reflected in the Declaration of the Rights of Man and Citizen?",
+          "level": 2,
+          "options": {
+            "A": "Utilitarianism",
+            "B": "Absolutism",
+            "C": "Social Contract Theory",
+            "D": "Existentialism"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Utilitarianism, which advocates for the greatest good for the greatest number, was not a direct influence on the Declaration.",
+            "B": "Incorrect: Absolutism, the principle of absolute monarchal rule, was contrary to the revolutionary principles.",
+            "C": "Correct: Social Contract Theory, as proposed by Rousseau and others, which argues for the legitimacy of authority based on the consent of the governed, influenced the Declaration.",
+            "D": "Incorrect: Existentialism, a philosophy centered on individual freedom and choice, was not a significant influence during this period."
+          }
+        },
+        {
+          "question": "What was the main economic cause of the subsistence crisis that triggered the French Revolution?",
+          "level": 2,
+          "options": {
+            "A": "Industrial decline leading to unemployment",
+            "B": "Failure of commercial crops",
+            "C": "Rapid increase in population outpacing food supply",
+            "D": "Foreign trade disruptions"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Industrial decline was not a major factor in the subsistence crisis of the late 18th century.",
+            "B": "Incorrect: The crisis was not primarily caused by the failure of commercial crops.",
+            "C": "Correct: A rapid increase in the population, which outpaced the supply of food, was a major economic cause of the crisis.",
+            "D": "Incorrect: While trade disruptions occurred, they were not the main economic cause of the crisis."
+          }
+        },
+        {
+          "question": "How did the French Revolution fundamentally alter the traditional societal structure in France?",
+          "level": 2,
+          "options": {
+            "A": "By establishing a direct democracy",
+            "B": "By abolishing the estate system and feudal privileges",
+            "C": "By transitioning to a purely capitalist economy",
+            "D": "By implementing a system of meritocracy in government"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The revolution did not establish a direct democracy.",
+            "B": "Correct: The French Revolution's most fundamental societal change was the abolition of the estate system and feudal privileges.",
+            "C": "Incorrect: The revolution did not result in a transition to a purely capitalist economy.",
+            "D": "Incorrect: While meritocracy was a valued principle, the immediate and fundamental change was the abolition of the estate system."
+          }
+        },
+        {
+          "question": "What role did the Enlightenment philosophers play in shaping the ideologies of the French Revolution?",
+          "level": 2,
+          "options": {
+            "A": "They directly led the political movements and governance",
+            "B": "Their works were largely ignored during the revolution",
+            "C": "They provided the intellectual foundation for revolutionary ideas",
+            "D": "They advocated for the restoration of the monarchy"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: While influential, Enlightenment philosophers did not directly lead political movements or governance.",
+            "B": "Incorrect: Their works were not ignored but were highly influential.",
+            "C": "Correct: Enlightenment philosophers like Rousseau and Voltaire provided the intellectual foundations for the revolutionary ideas of liberty, equality, and fraternity.",
+            "D": "Incorrect: They did not advocate for the restoration of the monarchy but rather critiqued its absolute power."
+          }
+        },
+        {
+          "question": "Which concept from the Enlightenment philosophy was notably absent in the initial phases of the French Revolution, particularly in the context of the Declaration of the Rights of Man and Citizen?",
+          "level": 2,
+          "options": {
+            "A": "Freedom of speech",
+            "B": "Equality of all before law",
+            "C": "Women's rights",
+            "D": "Right to property"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Freedom of speech was a key Enlightenment concept that was included in the early stages of the Revolution.",
+            "B": "Incorrect: Equality before law was one of the central themes of the Revolution and was embraced early on.",
+            "C": "Correct: Despite the Enlightenment's emphasis on universal rights, the rights of women were notably absent in the initial declarations and reforms of the French Revolution.",
+            "D": "Incorrect: The right to property was acknowledged and respected in the initial phases of the Revolution."
+          }
+        },
+        {
+          "question": "What was the main reason behind the Convention's decision to abolish slavery in the French colonies in 1794?",
+          "level": 2,
+          "options": {
+            "A": "Economic profitability of free labor over slave labor",
+            "B": "Pressure from other European powers",
+            "C": "Moral and philosophical alignment with revolutionary ideals",
+            "D": "Lack of sufficient slaves to sustain the colonial economies"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The decision was not based on the economic comparison of free labor and slave labor.",
+            "B": "Incorrect: The decision was not primarily due to pressure from other European powers.",
+            "C": "Correct: The abolition of slavery in 1794 was largely motivated by the revolutionary ideals of liberty and equality, aligning morally and philosophically with the broader goals of the Revolution.",
+            "D": "Incorrect: The availability of slaves was not the primary concern behind this decision."
+          }
+        },
+        {
+          "question": "What was the significant impact of the Reign of Terror on French society?",
+          "level": 2,
+          "options": {
+            "A": "It led to the strengthening of the monarchy",
+            "B": "It created a sense of unity among the French people",
+            "C": "It resulted in widespread fear and suspicion in society",
+            "D": "It marked the beginning of a peaceful era"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The Reign of Terror did not strengthen the monarchy; it was a period of radical republican rule.",
+            "B": "Incorrect: Rather than unifying, the Reign of Terror created divisions and fear among the French people.",
+            "C": "Correct: The Reign of Terror led to a climate of fear and suspicion, with widespread arrests and executions.",
+            "D": "Incorrect: This period was marked by violence and turmoil, not the beginning of peace."
+          }
+        },
+        {
+          "question": "How did the French Revolution influence subsequent political thought and revolutions in Europe?",
+          "level": 2,
+          "options": {
+            "A": "By promoting the idea of absolute monarchy",
+            "B": "By discouraging any form of political reform",
+            "C": "By inspiring democratic movements and nationalist uprisings",
+            "D": "By endorsing religious authority in politics"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The French Revolution was against absolute monarchy and did not promote it.",
+            "B": "Incorrect: The Revolution encouraged, rather than discouraged, political reforms.",
+            "C": "Correct: The French Revolution had a profound impact on Europe, inspiring democratic movements and nationalist uprisings in the 19th century.",
+            "D": "Incorrect: The Revolution was largely secular and did not endorse religious authority in politics."
+          }
+        },
+        {
+          "question": "In what way did the economic policies of the French government contribute to the subsistence crisis preceding the French Revolution?",
+          "level": 2,
+          "options": {
+            "A": "By enforcing strict price controls on bread",
+            "B": "By reducing taxes on the Third Estate",
+            "C": "By imposing high indirect taxes on essential goods",
+            "D": "By investing heavily in overseas colonies"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The crisis was not directly caused by price controls on bread, but rather by a lack of bread due to poor harvests and rising prices.",
+            "B": "Incorrect: The government did not reduce taxes on the Third Estate; in fact, the Third Estate bore the brunt of taxation.",
+            "C": "Correct: High indirect taxes on essential goods such as salt and tobacco exacerbated the economic hardship for the Third Estate, contributing to the crisis.",
+            "D": "Incorrect: Heavy investment in overseas colonies was not the primary economic policy contributing to the subsistence crisis."
+          }
+        },
+        {
+          "question": "Which of the following best represents the role of the Estates-General in the French Revolution?",
+          "level": 2,
+          "options": {
+            "A": "It was a revolutionary body that led the overthrow of the monarchy",
+            "B": "It served as a constitutional assembly to draft a new constitution",
+            "C": "It was a legislative body called by the king to address the financial crisis",
+            "D": "It was a permanent governing council representing all three estates"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The Estates-General did not lead the overthrow of the monarchy; it was a body called by the king.",
+            "B": "Incorrect: While it played a role in the lead-up to constitutional changes, it was not itself a constitutional assembly.",
+            "C": "Correct: The Estates-General was convened by Louis XVI primarily to address the severe financial crisis.",
+            "D": "Incorrect: It was not a permanent governing council but rather a rarely convened assembly."
+          }
+        },
+        {
+          "question": "How did the political philosophy of Jean-Jacques Rousseau influence the French Revolution?",
+          "level": 2,
+          "options": {
+            "A": "By promoting the restoration of the monarchy",
+            "B": "By advocating for a return to traditional feudal values",
+            "C": "By endorsing the concept of popular sovereignty and general will",
+            "D": "By supporting the establishment of a military dictatorship"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Rousseau did not advocate for the restoration of the monarchy.",
+            "B": "Incorrect: Rousseau's philosophy was opposed to feudal values and instead focused on democratic principles.",
+            "C": "Correct: Rousseau's ideas about popular sovereignty and the general will were influential in shaping the revolutionary thought.",
+            "D": "Incorrect: Rousseau did not support a military dictatorship; his political philosophy centered on democratic governance."
+          }
+        },
+        {
+          "question": "What was the impact of the French Revolution on the Church?",
+          "level": 2,
+          "options": {
+            "A": "It strengthened the Church's influence in state matters",
+            "B": "It led to the separation of church and state and secularization of society",
+            "C": "It resulted in the Church taking a leading role in governance",
+            "D": "It had no significant impact on the Church"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The Revolution did not strengthen the Church's influence; it reduced it.",
+            "B": "Correct: One of the significant outcomes was the separation of church and state and the secularization of society.",
+            "C": "Incorrect: The Church did not take a leading role in governance post-Revolution.",
+            "D": "Incorrect: The Revolution had a significant impact on the Church, reducing its power and influence."
+          }
+        },
+        {
+          "question": "The French Revolution led to the establishment of a constitutional monarchy in France in 1791.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Louis XVI was the king of France at the time of the French Revolution.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The storming of the Bastille occurred on 14 July 1790.",
+          "answer": "B",
+          "level": 3
+        },
+        {
+          "question": "The Declaration of the Rights of Man and Citizen was announced during the French Revolution.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Napoleon Bonaparte came to power in France before the French Revolution.",
+          "answer": "B",
+          "level": 3
+        },
+        {
+          "question": "The French Revolution began in 1789.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "During the French Revolution, the guillotine was used as a method of execution.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Reign of Terror was a period of peace and stability during the French Revolution.",
+          "answer": "B",
+          "level": 3
+        },
+        {
+          "question": "The Women's March on Versailles took place during the French Revolution.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Estates-General was convened by Louis XVI in 1792.",
+          "answer": "B",
+          "level": 3
+        },
+        {
+          "question": "Louis XVI was 20 years old when he ascended the throne of France in 1774.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The French society in the eighteenth century was not divided into estates.",
+          "answer": "B",
+          "level": 3
+        },
+        {
+          "question": "The clergy and the nobility were exempt from paying taxes to the state in pre-revolutionary France.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "During the French Revolution, the Estates-General was convened by Louis XVI in 1789 after a gap of more than a century.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The National Assembly was formed by the representatives of the Third Estate in 1789.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Constitution of 1791 in France allowed all men and women to vote.",
+          "answer": "B",
+          "level": 3
+        },
+        {
+          "question": "Napoleon Bonaparte reintroduced slavery in the French colonies ten years after its abolition by the Convention.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Reign of Terror was initiated under the leadership of Maximilian Robespierre.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Jacobin club was mainly composed of wealthy middle-class members.",
+          "answer": "B",
+          "level": 3
+        },
+        {
+          "question": "French women gained the right to vote in 1946.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Constitution of 1791 in France vested the power to make laws solely in the hands of the king.",
+          "answer": "B",
+          "level": 3
+        },
+        {
+          "question": "During the French Revolution, the National Assembly voted in 1792 to declare war against Prussia and Austria.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Marseillaise, composed by Roget de L’Isle, became the national anthem of France during the French Revolution.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Jacobin club included members mainly from the wealthier sections of society.",
+          "answer": "B",
+          "level": 3
+        },
+        {
+          "question": "In 1792, the Jacobins planned an insurrection due to the scarcity and high prices of food.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Reign of Terror was a period marked by the policy of severe control and punishment led by Maximilian Robespierre.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Napoleon Bonaparte reintroduced censorship in France after the French Revolution.",
+          "answer": "B",
+          "level": 3
+        },
+        {
+          "question": "The French Revolution inspired the abolition of feudal systems throughout Europe during the nineteenth century.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Olympe de Gouges wrote the 'Declaration of the Rights of Woman and Citizen' in response to the French Revolution's exclusion of women from basic rights.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The National Assembly held long debates about extending the rights of man to include those in the French colonies, leading to the immediate abolition of slavery.",
+          "answer": "B",
+          "level": 3
+        }
+      ]
     },
     {
       "quizId": "CBSE_9_History_2",
@@ -11048,8 +11743,7 @@
           "answer": "A",
           "level": 3
         }
-             
       ]
     }
-    ]
+  ]
 }
