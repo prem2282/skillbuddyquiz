@@ -1,12 +1,31 @@
 <template>
-  <div class="button-container">
+  <div>
     <div>
-      <div class="selection-chip-box">
-          <q-btn class="q-mx-sm" :class="getSelectedCount === 5 ? 'bg-green-6' : 'bg-white'" rounded @click="selectQuizCount(5)">5</q-btn>
-          <q-btn class="q-mx-sm" :class="getSelectedCount === 10 ? 'bg-green-6' : 'bg-white'"  rounded @click="selectQuizCount(10)">10</q-btn>
-          <q-btn class="q-mx-sm" :class="getSelectedCount === 0 ? 'bg-green-6' : 'bg-white'" rounded @click="selectQuizCount(0)">all</q-btn>
-    </div> 
-    </div>
+        <div class="selection-chip-box">
+          <q-btn
+            class="q-mx-sm"
+            :class="getSelectedCount === 5 ? 'bg-green-6' : 'bg-white'"
+            rounded
+            @click="selectQuizCount(5)"
+            >5</q-btn
+          >
+          <q-btn
+            class="q-mx-sm"
+            :class="getSelectedCount === 10 ? 'bg-green-6' : 'bg-white'"
+            rounded
+            @click="selectQuizCount(10)"
+            >10</q-btn
+          >
+          <q-btn
+            class="q-mx-sm"
+            :class="getSelectedCount === 0 ? 'bg-green-6' : 'bg-white'"
+            rounded
+            @click="selectQuizCount(0)"
+            >all</q-btn
+          >
+        </div>
+      </div>    
+    <div class="level-container">
       <div v-for="(item, index) in levels" :key="index">
         <q-btn class="chapter-button" @click="selectQuizType(item)">
           <div class="button-content">
@@ -14,10 +33,11 @@
           </div>
         </q-btn>
       </div>
-      <div v-for="(item, index) in getChapterTables" :key="index">
-        <ChapterTable :tableData="item" />
-      </div>
-    </div>   
+    </div>
+    <div v-for="(item, index) in getChapterTables" :key="index">
+      <ChapterTable :tableData="item" />
+    </div>
+  </div>
 </template>
 
 <script>
@@ -45,18 +65,18 @@ export default {
     selectedQuizId() {
       return this.academicsStore.selectedQuizId;
     },
-    sampleChapterSummary(){
+    sampleChapterSummary() {
       return this.quizStore.sampleChapterSummary;
     },
-    getLevelsText(){
+    getLevelsText() {
       return this.quizStore.getLevelsText;
     },
-    getSelectedCount(){
+    getSelectedCount() {
       return this.quizStore.getSelectedCount;
     },
-    getChapterTables(){
+    getChapterTables() {
       return this.quizStore.getChapterTables;
-    }
+    },
   },
   methods: {
     selectQuizType(level) {

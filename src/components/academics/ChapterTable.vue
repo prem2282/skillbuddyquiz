@@ -1,13 +1,20 @@
 <template>
-    <div class="q-pa-md">
+    <div class="q-pa-sm">
       <q-table
-        flat bordered
         :grid="isPortrait"
         :title=title
         :rows="rows"
         :columns="columns"
         row-key="name"
-        hide-header
+        separator="cell"
+        hide-no-data
+        hide-pagination
+        wrap-cells="true"
+        class="q-pa-sm subtitle1 bg-blue-1"
+        :pagination="{
+          rowsPerPage: 10,
+          options: [10, 20],
+        }"
       >
       </q-table>
     </div>

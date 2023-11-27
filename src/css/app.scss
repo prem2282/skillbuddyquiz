@@ -34,6 +34,14 @@
   margin: 5vh 10vw 10vh 10vw;
 }
 
+.level-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
 .board-button {
   background-color: #6d6c12; /* blue-6 color */
   color: white;
@@ -105,9 +113,8 @@
 }
 
 .selection-chip-box{
-  margin-top: .5rem;
+  margin: .5rem;
   display: flex;
-
   justify-content: center;
 }
 
@@ -132,6 +139,7 @@
   .chapter-text{
     font-size: 1rem;
   }
+  
 }
 
 /* Mobile Landscape */
