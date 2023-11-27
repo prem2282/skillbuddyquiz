@@ -1,46 +1,41 @@
 <template>
   <div class="q-pa-md">
     <q-table
-      title="Treats"
+      flat bordered
+      grid
+      :title=title
       :rows="rows"
       :columns="columns"
       row-key="name"
-    />
+      hide-header
+    >
+    </q-table>
   </div>
 </template>
 
 <script>
 
-export default {
+  export default {
   data() {
     return {
-      tabledata : {
-          "name": "SI Units",
-          "columns": [
-              {"name": "quantity", "label": "Quantity", "align": "left", "field": "quantity", "sortable": "True"},
-              {"name": "unit", "label": "Unit", "align": "left", "field": "unit", "sortable": "True"},
-              {"name": "symbol", "label": "Symbol", "align": "left", "field": "symbol", "sortable": "True"}
-          ],
-          "rows": [
-              {"quantity": "Temperature", "unit": "Kelvin", "symbol": "K"},
-              {"quantity": "Length", "unit": "Metre", "symbol": "m"},
-              {"quantity": "Mass", "unit": "Kilogram", "symbol": "kg"},
-              {"quantity": "Weight", "unit": "Newton", "symbol": "N"},
-              {"quantity": "Volume", "unit": "Cubic Metre", "symbol": "m³"},
-              {"quantity": "Density", "unit": "Kilogram per Cubic Metre", "symbol": "kg/m³"},
-              {"quantity": "Pressure", "unit": "Pascal", "symbol": "Pa"}
-          ]
-      }
-    }
-  },  
+    };
+  },
+  props: [tableData],
   computed: {
-    rows() {
-      return this.tabledata.rows;
+    tableData() {
+      return this.props.tableData;
+    },
+    title() {
+      return this.tableData.title;
     },
     columns() {
-      return this.tabledata.columns;
-    }
+      return this.tableData.columns;
+    },
+    rows() {
+      return this.tableData.rows;
+    },
+  },
   },
 
-}
+};
 </script>

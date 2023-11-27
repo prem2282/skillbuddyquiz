@@ -71,6 +71,7 @@ export const useAcademicsStore = defineStore("academics", {
       this.selectedQuizId = item.quizId;
       const quizStore = useQuizStore()
       quizStore.loadQuizList(item.quizId);
+      quizStore.loadChapterDetails(item.quizId);
     },
     selectBoard(board) {
       this.selectedBoard = board;

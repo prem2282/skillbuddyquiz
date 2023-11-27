@@ -14,18 +14,23 @@
           </div>
         </q-btn>
       </div>
+      <div v-for="(item, index) in getChapterTables" :key="index">
+        <ChapterTable :tableData="item" />
+      </div>
     </div>   
 </template>
 
 <script>
 import { useAcademicsStore } from "stores/academics-store";
 import { useQuizStore } from "stores/quiz-store";
+import ChapterTable from "./ChapterTable.vue";
 
 export default {
   data() {
     return {};
   },
   components: {
+    ChapterTable,
   },
   computed: {
     academicsStore() {
@@ -48,6 +53,9 @@ export default {
     },
     getSelectedCount(){
       return this.quizStore.getSelectedCount;
+    },
+    getChapterTables(){
+      return this.quizStore.getChapterTables;
     }
   },
   methods: {

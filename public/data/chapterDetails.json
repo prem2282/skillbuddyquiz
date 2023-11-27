@@ -1,126 +1,257 @@
 {
-    "chapterDetails": {
-        "chapterId": "CBSE_9_Science_1",
-        "summaryData": {
-            "Chapter_Title": "Matter in our Surroundings",
-            "Key_Points": {
-              "Definition_of_Matter": "Anything that occupies space and has mass, including air, food, stones, clouds, stars, plants, animals, and even small particles like water or sand.",
-              "Early_Classifications_of_Matter": "Ancient Indian and Greek philosophers categorized matter into basic elements like air, earth, fire, water, and sky.",
-              "Modern_Classifications_of_Matter": "Based on physical properties and chemical nature.",
-              "Physical_Nature_of_Matter": "Matter is made up of particles.",
-              "Particle_Nature_and_Behavior": {
-                "Small_Size": "Particles of matter are extremely small.",
-                "Spaces_Between_Particles": "There is space between particles, allowing for diffusion and movement.",
-                "Constant_Motion": "Particles are always moving, and this movement increases with temperature.",
-                "Forces_of_Attraction": "Different strengths of attraction exist between particles in different states of matter."
-              }
+  "chapterData": [
+    {
+      "chapterId": "CBSE_9_History_2",
+      "tables": [
+        {
+          "title": "PoliticalGroups",
+          "columns": [
+            {
+              "name": "group",
+              "label": "Group",
+              "align": "left",
+              "field": "group",
+              "sortable": true
             },
-            "States_of_Matter": {
-              "Solid": {
-                "Properties": "Definite shape, distinct boundaries, fixed volume, and are not easily compressible.",
-                "Behavior": "Particles are closely packed with strong forces of attraction."
-              },
-              "Liquid": {
-                "Properties": "No fixed shape but fixed volume, takes the shape of the container, and is less compressible than gases.",
-                "Behavior": "Particles are less tightly packed than in solids and can move freely."
-              },
-              "Gas": {
-                "Properties": "No fixed shape or volume, highly compressible.",
-                "Behavior": "Particles move randomly at high speeds with large spaces and weak attraction between them."
-              }
-            },
-            "Changes_in_State": {
-              "Melting": "Solid to liquid by increasing temperature.",
-              "Boiling": "Liquid to gas by increasing temperature.",
-              "Sublimation": "Direct change from solid to gas.",
-              "Deposition": "Direct change from gas to solid.",
-              "Effect_of_Pressure": "Changing the state of matter by applying pressure."
-            },
-            "Evaporation": {
-              "Definition": "Change of liquid into vapors below its boiling point.",
-              "Factors_Affecting": "Surface area, temperature, humidity, wind speed.",
-              "Cause_of_Cooling": "Energy is absorbed from surroundings during evaporation, causing a cooling effect."
-            },
-            "Important_Concepts": {
-              "Diffusion": "Intermixing of particles of two different types of matter due to their kinetic energy.",
-              "Latent_Heat": {
-                "Latent_Heat_of_Fusion": "Heat required to change a solid to a liquid at its melting point.",
-                "Latent_Heat_of_Vaporization": "Heat required to change a liquid to a gas at its boiling point."
-              }
-            },
-            "Exercises_and_Activities": "Various activities and questions to reinforce the concepts of the properties and behavior of matter in different states."
-        },
-        "tables": {
-            "States_of_Matter": {
-                "Solid": {
-                "Shape": "Definite",
-                "Volume": "Fixed",
-                "Compressibility": "Not easily compressible",
-                "Particle_Movement": "Vibrational",
-                "Particle_Arrangement": "Closely packed",
-                "Force_of_Attraction": "Strong"
-                },
-                "Liquid": {
-                "Shape": "Indefinite, takes shape of container",
-                "Volume": "Fixed",
-                "Compressibility": "Less compressible than gases",
-                "Particle_Movement": "Free to move",
-                "Particle_Arrangement": "Less tightly packed than solids",
-                "Force_of_Attraction": "Moderate"
-                },
-                "Gas": {
-                "Shape": "Indefinite",
-                "Volume": "Indefinite",
-                "Compressibility": "Highly compressible",
-                "Particle_Movement": "Random and fast",
-                "Particle_Arrangement": "Far apart",
-                "Force_of_Attraction": "Very weak"
-                }
-            },
-            "Changes_in_State": [
-                {
-                "Change": "Melting",
-                "From_State": "Solid",
-                "To_State": "Liquid",
-                "Process": "Increasing temperature"
-                },
-                {
-                "Change": "Boiling",
-                "From_State": "Liquid",
-                "To_State": "Gas",
-                "Process": "Increasing temperature"
-                },
-                {
-                "Change": "Sublimation",
-                "From_State": "Solid",
-                "To_State": "Gas",
-                "Process": "Direct change"
-                },
-                {
-                "Change": "Deposition",
-                "From_State": "Gas",
-                "To_State": "Solid",
-                "Process": "Direct change"
-                },
-                {
-                "Change": "Condensation",
-                "From_State": "Gas",
-                "To_State": "Liquid",
-                "Process": "Decreasing temperature"
-                },
-                {
-                "Change": "Freezing",
-                "From_State": "Liquid",
-                "To_State": "Solid",
-                "Process": "Decreasing temperature"
-                }
-            ],
-            "Factors_Affecting_Evaporation": {
-                "Surface_Area": "Larger surface area increases evaporation rate",
-                "Temperature": "Higher temperature increases evaporation rate",
-                "Humidity": "Lower humidity increases evaporation rate",
-                "Wind_Speed": "Higher wind speed increases evaporation rate"
+            {
+              "name": "beliefs",
+              "label": "Beliefs",
+              "align": "left",
+              "field": "beliefs",
+              "sortable": true
             }
-        }          
+          ],
+          "rows": [
+            {
+              "group": "Liberals",
+              "beliefs": "Wanted a nation which tolerated all religions, opposed uncontrolled power of dynastic rulers, argued for a representative, elected parliamentary government."
+            },
+            {
+              "group": "Radicals",
+              "beliefs": "Wanted a nation in which government was based on the majority of a country’s population, supported women’s suffragette movements, opposed the privileges of great landowners and wealthy factory owners."
+            },
+            {
+              "group": "Conservatives",
+              "beliefs": "Initially opposed to the idea of change, but by the nineteenth century, they accepted that some change was inevitable and believed in a slow process of change."
+            }
+          ]
+        },
+        {
+          "title": "RussianRevolutionStages",
+          "columns": [
+            {
+              "name": "stage",
+              "label": "Stage",
+              "align": "left",
+              "field": "stage",
+              "sortable": true
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": true
+            },
+            {
+              "name": "year",
+              "label": "Year",
+              "align": "left",
+              "field": "year",
+              "sortable": true
+            }
+          ],
+          "rows": [
+            {
+              "stage": "February Revolution",
+              "description": "Overthrow of the monarchy in February 1917, led by workers and soldiers.",
+              "year": "1917"
+            },
+            {
+              "stage": "October Revolution",
+              "description": "Bolshevik uprising in October, leading to a socialist seizure of power.",
+              "year": "1917"
+            }
+          ]
+        },
+        {
+          "title": "ImpactsOfSocialism",
+          "columns": [
+            {
+              "name": "aspect",
+              "label": "Aspect",
+              "align": "left",
+              "field": "aspect",
+              "sortable": true
+            },
+            {
+              "name": "impact",
+              "label": "Impact",
+              "align": "left",
+              "field": "impact",
+              "sortable": true
+            }
+          ],
+          "rows": [
+            {
+              "aspect": "Property Ownership",
+              "impact": "Most industry and banks were nationalised; land declared social property."
+            },
+            {
+              "aspect": "Agriculture",
+              "impact": "Collectivisation of farms; peasants allowed to seize the land of the nobility."
+            },
+            {
+              "aspect": "Social Changes",
+              "impact": "Redistribution of land; establishment of collective farms and state-controlled large farms."
+            }
+          ]
+        },
+        {
+          "title": "KeyYearsHistory",
+          "columns": [
+            {
+              "name": "year",
+              "label": "Year",
+              "align": "left",
+              "field": "year",
+              "sortable": true
+            },
+            {
+              "name": "event",
+              "label": "Event",
+              "align": "left",
+              "field": "event",
+              "sortable": true
+            },
+            {
+              "name": "impact",
+              "label": "Impact",
+              "align": "left",
+              "field": "impact",
+              "sortable": true
+            }
+          ],
+          "rows": [
+            {
+              "year": "1904",
+              "event": "Putilov Iron Works Strike and Bloody Sunday",
+              "impact": "Prices of essential goods rose, real wages declined by 20%, leading to strikes and Bloody Sunday, starting the 1905 Revolution."
+            },
+            {
+              "year": "1914",
+              "event": "Outbreak of World War I",
+              "impact": "War between European alliances, including Russia, leading to political and social upheavals."
+            },
+            {
+              "year": "1929-1933",
+              "event": "Industrial Growth under First Five Year Plans",
+              "impact": "100% increase in production of oil, coal, and steel, leading to rapid urbanization but poor living and working conditions."
+            }
+          ]
+        },
+        {
+          "title": "KeyPersonalities",
+          "columns": [
+            {
+              "name": "name",
+              "label": "Name",
+              "align": "left",
+              "field": "name",
+              "sortable": true
+            },
+            {
+              "name": "role",
+              "label": "Role",
+              "align": "left",
+              "field": "role",
+              "sortable": true
+            },
+            {
+              "name": "contribution",
+              "label": "Contribution/Influence",
+              "align": "left",
+              "field": "contribution",
+              "sortable": true
+            }
+          ],
+          "rows": [
+            {
+              "name": "Tsar Nicholas II",
+              "role": "Last Emperor of Russia",
+              "contribution": "Led Russia during the early years of the First World War; his leadership was marked by military defeats and the collapse of the Tsarist regime."
+            },
+            {
+              "name": "Tsarina Alexandra",
+              "role": "Empress of Russia",
+              "contribution": "Her German origins and reliance on poor advisers, including Rasputin, contributed to the unpopularity of the Tsarist regime."
+            },
+            {
+              "name": "Rasputin",
+              "role": "Monk, Adviser to the Tsarina",
+              "contribution": "Influential figure in the late Tsarist regime; his close relationship with Tsarina Alexandra and alleged political influence made him a controversial figure."
+            },
+            {
+              "name": "Stalin",
+              "role": "Leader of the Soviet Union",
+              "contribution": "Headed the Communist Party after Lenin's death; played a key role in the collectivisation of agriculture and the early Soviet planned economy."
+            }
+          ]
+        },
+        {
+          "title": "SignificantEventsTimeline",
+          "columns": [
+            {
+              "name": "period",
+              "label": "Period",
+              "align": "left",
+              "field": "period",
+              "sortable": true
+            },
+            {
+              "name": "event",
+              "label": "Event",
+              "align": "left",
+              "field": "event",
+              "sortable": true
+            }
+          ],
+          "rows": [
+            {
+              "period": "1850s-1880s",
+              "event": "Debates over socialism in Russia."
+            },
+            {
+              "period": "1898",
+              "event": "Formation of the Russian Social Democratic Workers Party."
+            },
+            {
+              "period": "1905",
+              "event": "The Bloody Sunday and the Revolution of 1905."
+            },
+            {
+              "period": "2nd March 1917",
+              "event": "Abdication of the Tsar."
+            },
+            {
+              "period": "24th October 1917",
+              "event": "Bolshevik uprising in Petrograd."
+            },
+            {
+              "period": "1918-1920",
+              "event": "The Civil War."
+            },
+            {
+              "period": "1919",
+              "event": "Formation of Comintern."
+            },
+            {
+              "period": "1929",
+              "event": "Beginning of Collectivisation."
+            }
+          ]
+        }
+      ]
     }
+  ]
 }

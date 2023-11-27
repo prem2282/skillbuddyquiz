@@ -7729,6 +7729,56 @@
           "question": "The Deccan Plateau is triangular in shape and is higher in the west and slopes gently eastwards.",
           "answer": "True",
           "level": 3
+        },
+        {
+          "question": "The Purvachal ranges are part of the Himalayan mountain system.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "The Northern Plains of India are primarily made up of volcanic soil.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "The Deccan Plateau is flanked by the Eastern and Western Ghats.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "The Indian Desert is known for its perennial rivers.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "The Coastal Plains of India are divided into the Konkan, Kannad Plain, and Malabar coast.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "The Lakshadweep Islands are volcanic in origin.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "The Eastern Ghats are more continuous and higher than the Western Ghats.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "The Chotanagpur plateau is part of the Peninsular Plateau.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "The Aravali range is the oldest mountain range in India.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "The Thar Desert in India is a cold desert.",
+          "answer": "False",
+          "level": 3
         }
       ]
     },
@@ -10296,6 +10346,710 @@
           }
         }
       ]
+    },
+    {
+      "quizId": "CBSE_9_History_1",
+      "quizDetails": []
+    },
+    {
+      "quizId": "CBSE_9_History_2",
+      "quizDetails": [
+        {
+          "question": "What was the main aim of liberals in Europe during the 19th century?",
+          "level": 1,
+          "options": {
+            "A": "Establishment of absolute monarchy",
+            "B": "Promotion of universal adult franchise",
+            "C": "Safeguarding individual rights against governments",
+            "D": "Abolishment of private property"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Liberals were opposed to the uncontrolled power of dynastic rulers, not in favor of absolute monarchy.",
+            "B": "Incorrect: Liberals did not believe in universal adult franchise; they felt that mainly men of property should have the vote.",
+            "C": "Correct: Liberals aimed to safeguard the rights of individuals against governments and were in favor of a representative, elected parliamentary government.",
+            "D": "Incorrect: The abolishment of private property was a socialist, not a liberal, idea."
+          }
+        },
+        {
+          "question": "Which group in 19th century Europe was primarily concerned with the welfare of the working class and opposed the privileges of landowners and wealthy factory owners?",
+          "level": 1,
+          "options": {
+            "A": "Conservatives",
+            "B": "Liberals",
+            "C": "Radicals",
+            "D": "Monarchists"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Conservatives typically supported gradual change and often defended traditional privileges.",
+            "B": "Incorrect: While liberals sought individual rights and parliamentary governance, their focus was not primarily on the working class.",
+            "C": "Correct: Radicals wanted a nation based on the majority of a country’s population and were opposed to the privileges of landowners and wealthy factory owners.",
+            "D": "Incorrect: Monarchists would support the monarchy, not the welfare of the working class."
+          }
+        },
+        {
+          "question": "What was the key difference in the approach towards change between the conservatives and radicals in 19th century Europe?",
+          "level": 1,
+          "options": {
+            "A": "Conservatives were against any form of change, while radicals embraced rapid transformation.",
+            "B": "Conservatives accepted gradual change, while radicals sought radical restructuring of society.",
+            "C": "Conservatives promoted industrialization, whereas radicals were against it.",
+            "D": "Conservatives aimed to abolish monarchy, while radicals supported it."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Conservatives, especially by the 19th century, accepted that some change was inevitable, though they preferred it to be gradual.",
+            "B": "Correct: Conservatives were open to gradual change, respecting the past, whereas radicals advocated for a radical restructuring of society.",
+            "C": "Incorrect: The stance on industrialization is not described as a primary differentiator between these groups in the text.",
+            "D": "Incorrect: Neither group’s primary aim was centered around the abolition or support of monarchy as described in the text."
+          }
+        },
+        {
+          "question": "What role did the Russian Social Democratic Workers Party play in Russia before 1914?",
+          "level": 1,
+          "options": {
+            "A": "It operated as a legal political party within the Tsarist regime.",
+            "B": "It mobilized workers and organized strikes as an illegal organization.",
+            "C": "It focused solely on promoting agricultural reforms.",
+            "D": "It supported the Tsarist regime’s policies."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The Russian Social Democratic Workers Party had to operate as an illegal organization due to government policing.",
+            "B": "Correct: The party, influenced by Marxist ideas, operated illegally, mobilizing workers and organizing strikes.",
+            "C": "Incorrect: While the party was involved in various social issues, its focus was not solely on agricultural reforms.",
+            "D": "Incorrect: The party was opposed to the Tsarist regime, not in support of it."
+          }
+        },
+        {
+          "question": "What was the 'Duma' established in Russia in 1905?",
+          "level": 1,
+          "options": {
+            "A": "An elected consultative parliament",
+            "B": "A secret police organization",
+            "C": "A socialist political party",
+            "D": "A workers' trade union"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The Duma was an elected consultative parliament, formed after the 1905 revolution as a concession by the Tsar.",
+            "B": "Incorrect: The Duma was not a secret police organization; it was a legislative body.",
+            "C": "Incorrect: The Duma was not a political party but a parliamentary body.",
+            "D": "Incorrect: The Duma was a political institution, not a trade union."
+          }
+        },
+        {
+          "question": "Which of the following ideologies did Karl Marx and Friedrich Engels advocate?",
+          "level": 1,
+          "options": {
+            "A": "Conservatism",
+            "B": "Liberalism",
+            "C": "Socialism",
+            "D": "Monarchism"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Marx and Engels were critical of conservatism, advocating for revolutionary changes.",
+            "B": "Incorrect: While liberalism emphasizes individual freedoms, Marx and Engels advocated for collective social welfare.",
+            "C": "Correct: Marx and Engels were key figures in the development of socialist thought.",
+            "D": "Incorrect: Marx and Engels opposed monarchism and advocated for a classless and stateless society."
+          }
+        },
+        {
+          "question": "What event in 1917 marked the end of the monarchy in Russia?",
+          "level": 1,
+          "options": {
+            "A": "The Bloody Sunday massacre",
+            "B": "The signing of the Treaty of Brest-Litovsk",
+            "C": "The February Revolution",
+            "D": "The October Revolution"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Bloody Sunday (1905) was a significant event but did not end the monarchy.",
+            "B": "Incorrect: The Treaty of Brest-Litovsk (1918) was significant in WWI but unrelated to the end of the monarchy.",
+            "C": "Correct: The February Revolution in 1917 led to the abdication of Tsar Nicholas II and the end of the monarchy in Russia.",
+            "D": "Incorrect: The October Revolution (1917) led to the Bolsheviks taking power, following the end of the monarchy."
+          }
+        },
+        {
+          "question": "What was the main contribution of Vladimir Lenin in the context of the Russian Revolution?",
+          "level": 1,
+          "options": {
+            "A": "He established the principles of liberal democracy in Russia.",
+            "B": "He led the Bolshevik Party in overthrowing the provisional government.",
+            "C": "He advocated for the continuation of the Tsarist regime.",
+            "D": "He played a key role in the February Revolution of 1917."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Lenin did not advocate for liberal democracy but for a socialist state.",
+            "B": "Correct: Lenin's crucial role was leading the Bolshevik Party to overthrow the provisional government in the October Revolution.",
+            "C": "Incorrect: Lenin was a revolutionary opposed to the Tsarist regime.",
+            "D": "Incorrect: Lenin's main role was in the October Revolution, not the February Revolution."
+          }
+        },
+        {
+          "question": "What significant impact did the Russian Revolution of 1917 have on industries?",
+          "level": 1,
+          "options": {
+            "A": "Privatization of industries",
+            "B": "Nationalization of industries",
+            "C": "Decentralization of industrial control",
+            "D": "Introduction of capitalist policies in industries"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The Revolution led to the opposite of privatization, with industries being taken over by the state.",
+            "B": "Correct: One of the key impacts of the Russian Revolution was the nationalization of industries.",
+            "C": "Incorrect: The Revolution centralized control under the state, rather than decentralizing it.",
+            "D": "Incorrect: The Revolution moved away from capitalist policies, not towards them."
+          }
+        },
+        {
+          "question": "Which social group was the main supporter of the Bolsheviks during the Russian Revolution?",
+          "level": 1,
+          "options": {
+            "A": "The peasantry",
+            "B": "The industrial working class",
+            "C": "The bourgeoisie",
+            "D": "The landowning nobility"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: While peasants were a significant part of the revolution, the main supporters of the Bolsheviks were the industrial workers.",
+            "B": "Correct: The industrial working class, particularly in urban areas, was the primary support base for the Bolsheviks.",
+            "C": "Incorrect: The bourgeoisie were not the main supporters of the Bolsheviks, who were oriented towards the working class.",
+            "D": "Incorrect: The landowning nobility generally opposed the Bolsheviks and their revolutionary goals."
+          }
+        },
+        {
+          "question": "What was the 'Collectivization' policy implemented by the Soviet government?",
+          "level": 1,
+          "options": {
+            "A": "Privatizing farmland and encouraging individual farming",
+            "B": "Centralizing all industries under state control",
+            "C": "Combining smaller farms into larger, collective farms run by the state",
+            "D": "Promoting capitalist trade practices"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Collectivization involved the opposite of privatization; it focused on collective ownership of farms.",
+            "B": "Incorrect: While centralization of industries was a Soviet policy, collectivization specifically referred to agriculture.",
+            "C": "Correct: Collectivization in the Soviet Union meant combining small farms into larger collective units controlled by the state.",
+            "D": "Incorrect: Collectivization was a socialist policy and opposed to capitalist trade practices."
+          }
+        },
+        {
+          "question": "Which of the following best describes the role of the 'Comintern' established in 1919?",
+          "level": 1,
+          "options": {
+            "A": "To promote liberal democratic ideologies in Europe",
+            "B": "To manage the Soviet Union's foreign policies",
+            "C": "To encourage worldwide communist revolutions",
+            "D": "To support industrial development in Russia"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The Comintern was not focused on promoting liberal democracy but rather on spreading communism.",
+            "B": "Incorrect: While involved in international affairs, the Comintern's main aim was not managing Soviet foreign policy.",
+            "C": "Correct: The Comintern, or Communist International, aimed to encourage communist revolutions around the world.",
+            "D": "Incorrect: The Comintern's focus was on spreading communism internationally, not specifically on industrial development in Russia."
+          }
+        },
+        {
+          "question": "Which treaty marked Russia's exit from World War I in 1918?",
+          "level": 1,
+          "options": {
+            "A": "Treaty of Versailles",
+            "B": "Treaty of Brest-Litovsk",
+            "C": "Treaty of Nanking",
+            "D": "Treaty of Trianon"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The Treaty of Versailles was the peace treaty that ended WWI, but it did not specifically involve Russia's exit.",
+            "B": "Correct: The Treaty of Brest-Litovsk was signed by Soviet Russia, marking its exit from WWI.",
+            "C": "Incorrect: The Treaty of Nanking was related to the First Opium War, not WWI.",
+            "D": "Incorrect: The Treaty of Trianon was related to Hungary after WWI, not Russia."
+          }
+        },
+        {
+          "question": "What was the primary goal of the 'New Economic Policy' (NEP) introduced by Lenin in 1921?",
+          "level": 1,
+          "options": {
+            "A": "To fully establish a communist economy",
+            "B": "To encourage foreign investment in Russia",
+            "C": "To recover the economy by allowing limited private enterprise",
+            "D": "To nationalize all forms of private industry and agriculture"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: While the NEP was a step towards a communist economy, its immediate goal was more pragmatic and less ideologically driven.",
+            "B": "Incorrect: The NEP was not primarily focused on foreign investment but on internal economic recovery.",
+            "C": "Correct: The NEP allowed some private business and small-scale private farming to help recover the economy.",
+            "D": "Incorrect: The NEP actually moved away from complete nationalization, allowing for some private enterprise."
+          }
+        },
+        {
+          "question": "How did the Russian Revolution of 1917 affect the status of women in Russia?",
+          "level": 1,
+          "options": {
+            "A": "It had little impact on the status of women",
+            "B": "It granted women equal rights as men, including the right to vote",
+            "C": "It restricted women's rights in public life",
+            "D": "It focused only on women in the urban working class"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The Revolution had a significant impact on the status of women.",
+            "B": "Correct: One of the outcomes of the Revolution was the granting of equal rights to women, including suffrage.",
+            "C": "Incorrect: Rather than restricting, the Revolution aimed to expand the rights and participation of women in public life.",
+            "D": "Incorrect: The changes in women's rights were not limited to the urban working class but were more broadly applied."
+          }
+        },
+        {
+          "question": "What was the central belief of the 'Mensheviks' in early 20th-century Russian politics?",
+          "level": 1,
+          "options": {
+            "A": "Immediate and total overthrow of the capitalist system",
+            "B": "Support for the continuation of the Tsarist regime",
+            "C": "Gradual progress towards socialism through mass participation",
+            "D": "Complete isolation of Russia from Western influences"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The Mensheviks, unlike the Bolsheviks, did not advocate for an immediate, total overthrow of capitalism.",
+            "B": "Incorrect: The Mensheviks did not support the Tsarist regime; they were a socialist faction.",
+            "C": "Correct: The Mensheviks believed in a more gradual approach to achieving socialism, emphasizing mass participation and democratic methods.",
+            "D": "Incorrect: Isolation from Western influences was not a central aspect of Menshevik ideology."
+          }
+        },
+        {
+          "question": "Who led the Provisional Government in Russia immediately after the February Revolution of 1917?",
+          "level": 1,
+          "options": {
+            "A": "Vladimir Lenin",
+            "B": "Alexander Kerensky",
+            "C": "Joseph Stalin",
+            "D": "Leon Trotsky"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: Vladimir Lenin was the leader of the Bolsheviks and did not lead the Provisional Government.",
+            "B": "Correct: Alexander Kerensky played a key role in the Provisional Government following the February Revolution.",
+            "C": "Incorrect: Joseph Stalin was a prominent Bolshevik leader but not the head of the Provisional Government.",
+            "D": "Incorrect: Leon Trotsky was a leading Bolshevik, not a leader of the Provisional Government."
+          }
+        },
+        {
+          "question": "Which of the following best describes the 'Bloody Sunday' incident in 1905?",
+          "level": 1,
+          "options": {
+            "A": "A peaceful protest that led to the establishment of the Duma",
+            "B": "A violent worker strike in St. Petersburg",
+            "C": "The massacre of peaceful protesters by Tsar's troops",
+            "D": "A Bolshevik-led armed uprising"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: While Bloody Sunday did lead to significant political consequences, the incident itself was not a peaceful protest.",
+            "B": "Incorrect: It involved a workers' procession, but it was not characterized as a strike.",
+            "C": "Correct: Bloody Sunday was a massacre where the Tsar's troops fired upon a peaceful procession of workers.",
+            "D": "Incorrect: The Bolsheviks were not involved in Bloody Sunday; it occurred before the Bolsheviks' prominence."
+          }
+        },
+        {
+          "question": "What was a key reason for the decline of the Provisional Government in Russia in 1917?",
+          "level": 1,
+          "options": {
+            "A": "Its failure to continue the war effort against Germany",
+            "B": "Its decision to redistribute land to the peasants",
+            "C": "Its inability to deal with the issues of land, peace, and bread",
+            "D": "Its alliance with the Bolsheviks"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The Provisional Government's continuation of the war effort was actually unpopular.",
+            "B": "Incorrect: The Provisional Government did not effectively address the land distribution issue.",
+            "C": "Correct: The Provisional Government's failure to adequately address the pressing issues of land, peace, and bread led to its decline.",
+            "D": "Incorrect: The Provisional Government did not form an alliance with the Bolsheviks; they were in opposition."
+          }
+        },
+        {
+          "question": "What was the primary focus of the Socialist Revolutionaries in early 20th-century Russia?",
+          "level": 1,
+          "options": {
+            "A": "Promoting industrialization and modernization",
+            "B": "Supporting the Bolsheviks' immediate goals",
+            "C": "Striving for the redistribution of land among peasants",
+            "D": "Establishing a constitutional monarchy"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: While industrialization was a broad goal, it was not the primary focus of the Socialist Revolutionaries.",
+            "B": "Incorrect: The Socialist Revolutionaries had significant differences with the Bolsheviks.",
+            "C": "Correct: The Socialist Revolutionaries mainly focused on the redistribution of land to peasants.",
+            "D": "Incorrect: Their goal was not to establish a constitutional monarchy but to address peasant issues."
+          }
+        },
+        {
+          "question": "Which ideological difference primarily distinguished the Mensheviks from the Bolsheviks in early 20th-century Russian politics?",
+          "level": 2,
+          "options": {
+            "A": "The Mensheviks favored a democratic parliamentary system, while the Bolsheviks sought a socialist state.",
+            "B": "The Mensheviks supported the war effort in World War I, whereas the Bolsheviks opposed it.",
+            "C": "The Mensheviks believed in a mass party with broad membership, while the Bolsheviks favored a party of professional revolutionaries.",
+            "D": "The Mensheviks advocated for immediate revolution, while the Bolsheviks proposed a gradual approach."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Both factions sought a socialist state, though with different approaches.",
+            "B": "Incorrect: The stance on WWI was not the primary ideological difference between them.",
+            "C": "Correct: A key difference was in party organization; the Mensheviks favored a broad, mass party, whereas the Bolsheviks advocated for a tightly knit group of professional revolutionaries.",
+            "D": "Incorrect: The Bolsheviks, not the Mensheviks, were more in favor of immediate revolution."
+          }
+        },
+        {
+          "question": "In the context of the Russian Revolution, what was the significance of the 'April Theses' presented by Lenin in 1917?",
+          "level": 2,
+          "options": {
+            "A": "They outlined the Bolshevik plan for an agrarian socialist economy.",
+            "B": "They were a call to end the war and start peace negotiations.",
+            "C": "They proposed immediate peace, land reform, and transfer of power to the Soviets.",
+            "D": "They suggested forming an alliance with the Mensheviks and Socialist Revolutionaries."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: While agrarian reform was a component, the theses were broader in scope.",
+            "B": "Incorrect: Although ending the war was an aspect, it was not the sole focus.",
+            "C": "Correct: The 'April Theses' were pivotal, advocating for an end to the war, land to the peasants, and all power to the Soviets.",
+            "D": "Incorrect: Lenin did not advocate for an alliance with these groups in the 'April Theses'."
+          }
+        },
+        {
+          "question": "Which event marked the beginning of the October Revolution in Russia?",
+          "level": 2,
+          "options": {
+            "A": "The storming of the Winter Palace",
+            "B": "Lenin's return to Russia from exile",
+            "C": "The abdication of Tsar Nicholas II",
+            "D": "The establishment of the Provisional Government"
+          },
+          "answer": "A",
+          "explanations": {
+            "A": "Correct: The storming of the Winter Palace in Petrograd in October 1917 is often cited as the beginning of the October Revolution.",
+            "B": "Incorrect: Lenin's return was significant, but it preceded the actual start of the October Revolution.",
+            "C": "Incorrect: The abdication of the Tsar occurred earlier, leading to the establishment of the Provisional Government.",
+            "D": "Incorrect: The establishment of the Provisional Government was a result of the February Revolution, not the beginning of the October Revolution."
+          }
+        },
+        {
+          "question": "What was the primary reason for the Kronstadt Rebellion in 1921 against the Bolshevik regime?",
+          "level": 2,
+          "options": {
+            "A": "Demand for the restoration of the Tsarist regime",
+            "B": "Opposition to the New Economic Policy (NEP)",
+            "C": "Protest against the harsh conditions imposed by War Communism",
+            "D": "Support for the Mensheviks against the Bolsheviks"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The rebels did not demand the restoration of the Tsarist regime.",
+            "B": "Incorrect: The NEP was actually introduced as a response to the rebellion and its causes.",
+            "C": "Correct: The Kronstadt Rebellion was largely a reaction to the economic hardships and repressions of War Communism.",
+            "D": "Incorrect: The rebellion was not about supporting the Mensheviks; it focused on specific grievances against the Bolshevik government's policies."
+          }
+        },
+        {
+          "question": "How did the Russo-Japanese War (1904-1905) influence the political climate in Russia?",
+          "level": 2,
+          "options": {
+            "A": "It strengthened the Tsar's position by showcasing military might.",
+            "B": "It led to significant territorial gains for Russia.",
+            "C": "It triggered a national crisis and weakened the Tsar's authority.",
+            "D": "It was inconsequential to the political situation in Russia."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The war did not strengthen the Tsar's position; it had the opposite effect.",
+            "B": "Incorrect: Russia did not gain territory; it faced setbacks in the war.",
+            "C": "Correct: The Russo-Japanese War exposed the weaknesses of Tsarist Russia, triggering a national crisis and contributing to the erosion of the Tsar's authority.",
+            "D": "Incorrect: The war had significant political consequences in Russia."
+          }
+        },
+        {
+          "question": "What was the main argument of Lenin's 'What Is To Be Done?' (1902)?",
+          "level": 2,
+          "options": {
+            "A": "Support for immediate peace negotiations to end World War I",
+            "B": "The need for a professional revolutionary vanguard to lead the proletariat",
+            "C": "Promotion of a democratic parliamentary system in Russia",
+            "D": "Call for a worldwide communist revolution"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: 'What Is To Be Done?' was written before WWI and did not address it.",
+            "B": "Correct: Lenin argued for the creation of a tightly organized group of professional revolutionaries to lead the working class.",
+            "C": "Incorrect: Lenin did not advocate for a democratic parliamentary system in this work.",
+            "D": "Incorrect: While Lenin was interested in worldwide revolution, this was not the main focus of 'What Is To Be Done?'."
+          }
+        },
+        {
+          "question": "In the context of early 20th-century Russian politics, what differentiated the Socialist Revolutionaries from the Bolsheviks?",
+          "level": 2,
+          "options": {
+            "A": "The Socialist Revolutionaries were in favor of immediate peace with Germany.",
+            "B": "The Socialist Revolutionaries prioritized urban industrial workers over peasants.",
+            "C": "The Socialist Revolutionaries advocated for a federative democratic republic.",
+            "D": "The Socialist Revolutionaries supported the continuation of the Tsarist regime."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Both parties initially sought an end to the war, but this was not a key differentiator.",
+            "B": "Incorrect: The Socialist Revolutionaries, unlike the Bolsheviks, placed greater emphasis on the peasantry.",
+            "C": "Correct: A major difference was that the Socialist Revolutionaries advocated for a federative democratic republic.",
+            "D": "Incorrect: The Socialist Revolutionaries were opposed to the Tsarist regime."
+          }
+        },
+        {
+          "question": "What was the primary objective of the 'War Communism' policy implemented by the Bolsheviks during the Russian Civil War?",
+          "level": 2,
+          "options": {
+            "A": "To establish long-term economic policies for a communist society",
+            "B": "To ensure military supplies and support through direct state control of the economy",
+            "C": "To redistribute wealth equally among all citizens",
+            "D": "To encourage private enterprise in support of the war effort"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: War Communism was a temporary measure during the Civil War, not a long-term economic plan.",
+            "B": "Correct: The main aim of War Communism was to meet the urgent needs of the Civil War, particularly military supplies, through state control.",
+            "C": "Incorrect: While redistribution was a goal, the immediate objective was supporting the war effort.",
+            "D": "Incorrect: War Communism involved the state taking over private enterprises, not encouraging them."
+          }
+        },
+        {
+          "question": "Which factor significantly contributed to the February Revolution in Russia in 1917?",
+          "level": 2,
+          "options": {
+            "A": "The influence of socialist ideas among the Russian nobility",
+            "B": "Economic hardship and military defeats in World War I",
+            "C": "The assassination of a key political leader",
+            "D": "A coup d'état led by the Bolsheviks"
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The Russian nobility was largely conservative and not influenced by socialist ideas.",
+            "B": "Correct: Economic hardship and military defeats during World War I were significant factors leading to the February Revolution.",
+            "C": "Incorrect: There was no specific assassination that triggered the February Revolution.",
+            "D": "Incorrect: The Bolsheviks did not lead a coup during the February Revolution; they became more prominent later in 1917."
+          }
+        },
+        {
+          "question": "What was the primary goal of the Zemstvas established in Russia in the 1860s?",
+          "level": 2,
+          "options": {
+            "A": "To oversee industrial development in urban centers",
+            "B": "To provide a platform for revolutionary activities",
+            "C": "To administer local government and public services",
+            "D": "To coordinate military conscription efforts"
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: The Zemstvas were not primarily focused on industrial development.",
+            "B": "Incorrect: They were not intended as platforms for revolutionary activities.",
+            "C": "Correct: The Zemstvas were established to manage local government and public services in Russian provinces.",
+            "D": "Incorrect: Military conscription was not the primary function of the Zemstvas."
+          }
+        },
+        {
+          "question": "In the context of the 1905 Russian Revolution, what was the significance of the Potemkin Mutiny?",
+          "level": 2,
+          "options": {
+            "A": "It marked the beginning of the Bolshevik movement.",
+            "B": "It represented widespread discontent within the military.",
+            "C": "It directly led to the abdication of Tsar Nicholas II.",
+            "D": "It was the first instance of peasant uprising."
+          },
+          "answer": "B",
+          "explanations": {
+            "A": "Incorrect: The mutiny predated the Bolshevik movement and was not directly connected to it.",
+            "B": "Correct: The Potemkin Mutiny was significant as it represented the growing discontent and revolutionary sentiment within the military ranks.",
+            "C": "Incorrect: The abdication of Tsar Nicholas II occurred later, in 1917, not as a direct result of the Potemkin Mutiny.",
+            "D": "Incorrect: Peasant uprisings had occurred earlier, and the mutiny was primarily a naval, not peasant, event."
+          }
+        },
+        {
+          "question": "What role did the Treaty of Brest-Litovsk play in the context of the Russian Revolution?",
+          "level": 2,
+          "options": {
+            "A": "It marked the entry of Russia into World War I.",
+            "B": "It signified the formal end of the Tsarist regime.",
+            "C": "It resulted in Russia's withdrawal from World War I.",
+            "D": "It initiated the Russian Civil War."
+          },
+          "answer": "C",
+          "explanations": {
+            "A": "Incorrect: Russia's entry into WWI occurred earlier, not due to this treaty.",
+            "B": "Incorrect: The end of the Tsarist regime was not formalized by this treaty.",
+            "C": "Correct: The Treaty of Brest-Litovsk, signed in 1918, led to Russia's withdrawal from WWI.",
+            "D": "Incorrect: While the treaty had significant repercussions, it did not directly initiate the Russian Civil War."
+          }
+        },
+        {
+          "question": "Liberals in Europe during the 19th century were in favor of universal adult franchise.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "The Russian Social Democratic Workers Party was illegal in Russia before 1914.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "Karl Marx believed that a communist society would emerge after the overthrow of capitalism.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "The Bolsheviks gained majority support in the elections to the Constituent Assembly in November 1917.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "Before the 1917 Russian Revolution, most of Russia's population earned their living from agriculture.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "The 1905 Revolution in Russia led to the creation of an elected consultative Parliament or Duma.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "The Bolsheviks were totally opposed to private property and nationalized most industry and banks in November 1917.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "During the civil war in Russia, the 'whites' were backed by French, American, British, and Japanese troops.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "Stalin’s collectivization programme led to an immediate increase in agricultural production.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "By the end of the twentieth century, the international reputation of the USSR as a socialist country had improved significantly.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "The Bolsheviks renamed their party to the Russian Communist Party (Bolshevik) after the October Revolution.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "The Russian Social Democratic Workers Party, founded in 1898, was legal and operated openly in Russia before 1914.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "Karl Marx and Friedrich Engels believed that a communist society would result from the gradual reform of capitalist society.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "The Russian Revolution of 1905 led to the establishment of an elected consultative Parliament known as the Duma.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "The Russian Empire in 1914 included current-day Finland, Latvia, Lithuania, Estonia, parts of Poland, Ukraine, and Belarus.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "During the First World War, the Russian army did not suffer any significant defeats and maintained a strong position against Germany and Austria.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "The Provisional Government formed after the February Revolution in Russia was dominated by Bolsheviks.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "Stalin's collectivization programme in the Soviet Union led to immediate increases in agricultural production.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "The Bolsheviks used terror tactics during the Civil War and later to suppress opposition.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "By the end of the 1950s, the Soviet Union was recognized internationally as a successful example of socialism in practice.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "The Russian Revolution of 1905 resulted in the creation of a fully democratic government in Russia.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "Tsar Nicholas II abdicated his throne in March 1917 as a result of the February Revolution.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "During the First World War, Russia did not suffer any significant defeats against Germany and Austria.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "In the Russian Revolution of 1917, the Bolsheviks initially received majority support in the elections to the Constituent Assembly.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "Vladimir Lenin's 'April Theses' included the demand for the end of the war, land transfer to the peasants, and the nationalization of banks.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "After the October Revolution, the Bolsheviks faced no significant military opposition from other Russian factions.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "Stalin's collectivization programme in the Soviet Union was met with widespread approval and smooth implementation.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "By the 1930s, the Soviet Union had become a major industrial power due to its centralized planning and Five-Year Plans.",
+          "answer": "True",
+          "level": 3
+        },
+        {
+          "question": "Under Stalin, the Soviet Union was a multi-party state with free and fair elections.",
+          "answer": "False",
+          "level": 3
+        },
+        {
+          "question": "The Russian Revolution and the USSR had a significant influence on the global spread of socialist ideas, inspiring many countries and movements worldwide.",
+          "answer": "True",
+          "level": 3
+        }
+             
+      ]
     }
-  ]
+    ]
 }

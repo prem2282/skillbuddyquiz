@@ -125,7 +125,22 @@
       "subject": "Geography",
       "chapter": "6: Population",
       "quizId": "CBSE_9_Geography_6"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "History",
+      "chapter": "1: The French Revolution",
+      "quizId": "CBSE_9_History_1"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "History",
+      "chapter": "2: Socialism in Europe and Russian Revolution",
+      "quizId": "CBSE_9_History_2"
     }
+           
 
   ]
 }

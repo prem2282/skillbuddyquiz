@@ -9,6 +9,7 @@ export const useQuizStore = defineStore("quiz", {
     selectedLevel: null,
     sampleChapterSummary: null,
     quizCount: 5,
+    chapterDetails: null,
   }),
   getters: {
     level3Options() {
@@ -80,7 +81,10 @@ export const useQuizStore = defineStore("quiz", {
     },
     getSelectedCount(state) {
       return state.quizCount;
-    }
+    },
+    getChapterTables(state) {
+      return state.chapterDetails?.tables;
+    },
   },
   actions: {
     async loadQuizList(quizId) {
@@ -98,6 +102,20 @@ export const useQuizStore = defineStore("quiz", {
       }
     },   
   
+    async loadChapterDetails(quizId) {
+      console.log("quizId", quizId);
+      try {
+        const response = await fetch("/data/chapterDetails.json");
+        const data = await response.json();
+        const chapterDetails = data.chapterData.find(
+          (quiz) => quiz.chapterId === quizId
+        );
+        console.log("chapterDetails", chapterDetails);
+        this.chapterDetails = chapterDetails;
+      } catch (error) {
+        console.error("Failed to load quiz data:", error);
+      }
+    },  
 
     async fetchFileContent() {
       try {
