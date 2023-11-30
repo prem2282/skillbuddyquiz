@@ -13,8 +13,8 @@
 
         <div class="q-pa-md q-ma-md">
           <q-card>
-            <q-card-section class="text-subtitle1">
-              <q-item-section>{{ currentQuiz.question }}</q-item-section>
+            <q-card-section>
+              <q-item-section><span class="quiz-question-text">{{ currentQuiz.question }}</span></q-item-section>
             </q-card-section>
           </q-card>
 
@@ -25,7 +25,7 @@
               clickable
               :disable="submitted"
               @click="selectOption(index)"
-              class="q-mb-sm"
+              class="q-mb-sm quiz-option-text"
               :class="selectedOption === index ? 'bg-grey-6' : 'bg-grey-3'"
             >
               <q-item-section
@@ -45,7 +45,7 @@
               <q-card-section
                 :class="{ 'streaming-text': showStreamingEffect }"
               >
-                <q-item-section>{{ explanation(currentQuestionIndex, selectedOption) }}</q-item-section>
+                <q-item-section class="quiz-explanation-text">{{ explanation(currentQuestionIndex, selectedOption) }}</q-item-section>
               </q-card-section>
             </q-card>
           </div>
