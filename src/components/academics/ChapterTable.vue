@@ -10,7 +10,7 @@
         hide-no-data
         hide-pagination
         wrap-cells="true"
-        class="q-pa-sm subtitle1 bg-blue-1"
+        class="q-pa-sm custom-table-class bg-blue-1"
         :pagination="{
           rowsPerPage: 10,
           options: [10, 20],

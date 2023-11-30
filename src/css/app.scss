@@ -128,6 +128,22 @@
   justify-content: center;
 }
 
+.custom-table-class .q-table__middle td{
+  font-size: medium; /* or any other size */
+}
+
+.custom-table-class .q-table__middle th{
+  font-size: large; /* or any other size */
+}
+
+.custom-table-class .q-table__grid-item-title{
+  font-size: small; /* or any other size */
+}
+
+.custom-table-class .q-table__grid-item-value{
+  font-size: medium; /* or any other size */
+}
+
 /* Mobile Portrait */
 @media (max-width: 600px) {
   .chapter-button {
