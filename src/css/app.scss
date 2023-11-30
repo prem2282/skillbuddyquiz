@@ -144,6 +144,29 @@
   font-size: medium; /* or any other size */
 }
 
+
+.custom-table-class .q-table__grid-item-card .q-table__grid-item-row:first-child .q-table__grid-item-value {
+  font-size: larger; /* Adjust the font size as needed */
+  color: #1E88E5; /* blue-6 color */
+}
+
+
+.custom-table-class .q-table__grid-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.custom-table-class .q-table__grid-item {
+  display: flex;
+  flex: 1 1 auto; /* Adjust this to control how the items grow and shrink */
+  align-items: stretch; /* Makes items stretch to cover the full height */
+}
+
+.custom-table-class .q-table__grid-item-card {
+  width: 100%; /* Ensures the card stretches to fill its container */
+}
+
+
 /* Mobile Portrait */
 @media (max-width: 600px) {
   .chapter-button {
