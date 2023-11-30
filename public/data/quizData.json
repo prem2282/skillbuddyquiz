@@ -4947,6 +4947,171 @@
             "C": "Incorrect: The decrease in temperature of the liquid due to the loss of high energy particles does indeed cause cooling.",
             "D": "Correct: The surrounding air does not transfer heat to the liquid during evaporation; in fact, the liquid absorbs heat from the surroundings, which causes the cooling effect."
           }
+        },
+        {
+          "question": "Matter is made up of small particles.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The three states of matter are solid, liquid, and plasma.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The three states of matter are solid, liquid, and gas."
+        },
+        {
+          "question": "Particles of matter are continuously moving.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The forces of attraction between particles are maximum in gases and minimum in solids.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The forces of attraction between particles are maximum in solids and minimum in gases."
+        },
+        {
+          "question": "Sublimation is the change of a solid state directly to a gaseous state without going through a liquid state.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Evaporation is a bulk phenomenon.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Evaporation is a surface phenomenon."
+        },
+        {
+          "question": "Latent heat of vaporization is the heat energy required to change 1 kg of a solid to a liquid at atmospheric pressure at its melting point.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Latent heat of fusion is the heat energy required to change 1 kg of a solid into a liquid at atmospheric pressure at its melting point."
+        },
+        {
+          "question": "The melting point of ice is 273.15 K.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Particles in a gas are packed closely together.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "In a gas, the particles move about randomly at high speed and are not packed closely together."
+        },
+        {
+          "question": "In the liquid state, particles have a fixed volume but no fixed shape.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The rate of evaporation decreases with an increase in humidity.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Evaporation causes heating of the surroundings.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Evaporation causes cooling of the surroundings."
+        },
+        {
+          "question": "The SI unit of temperature is Celsius.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The SI unit of temperature is Kelvin."
+        },
+        {
+          "question": "Boiling is a surface phenomenon.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Boiling is a bulk phenomenon."
+        },
+        {
+          "question": "The kinetic energy of particles increases with a decrease in temperature.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The kinetic energy of particles increases with an increase in temperature."
+        },
+        {
+          "question": "Diffusion occurs faster in gases than in liquids.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Particles of matter do not have spaces between them.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Particles of matter have space between them."
+        },
+        {
+          "question": "Solids do not have a definite volume.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Solids have a definite shape and a definite volume."
+        },
+        {
+          "question": "Liquids are not compressible.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The process of a solid directly changing to gas without passing through the liquid state is called deposition.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The process is called sublimation."
+        },
+        {
+          "question": "Increase in temperature decreases the rate of evaporation.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Increase in temperature increases the rate of evaporation."
+        },
+        {
+          "question": "Gases are highly compressible.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The latent heat of vaporization is the heat energy required to change 1 kg of a liquid to gas at atmospheric pressure at its boiling point.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The density of a substance is defined as its mass per unit volume.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The boiling point of water is 373 K.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "During evaporation, the temperature of the liquid increases.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "During evaporation, the temperature of the liquid decreases."
+        },
+        {
+          "question": "Water has a higher density in its solid state than in its liquid state.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Water is less dense in its solid state than in its liquid state, which is why ice floats on water."
+        },
+        {
+          "question": "Substances generally expand on heating.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The SI unit of pressure is Pascal.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Liquids do not have a fixed shape but have a fixed volume.",
+          "answer": "A",
+          "level": 3
         }
       ]
     },
@@ -5462,6 +5627,173 @@
             "C": "Incorrect: While variations in neutron number create isotopes, this option doesn't directly explain the non-whole number atomic mass.",
             "D": "Incorrect: Binding energies affect energy states, not the calculation of atomic mass."
           }
+        },
+        {
+          "question": "Maharishi Kanad postulated that upon continuous division of matter, one would ultimately reach indivisible particles called 'Parmanu'.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The law of conservation of mass states that mass is created and destroyed in a chemical reaction.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The law of conservation of mass states that mass can neither be created nor destroyed in a chemical reaction."
+        },
+        {
+          "question": "Atoms of a given element are identical in mass and chemical properties according to Dalton's atomic theory.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Atoms are divisible particles, which can be created or destroyed in a chemical reaction.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Atoms are indivisible particles, which cannot be created or destroyed in a chemical reaction."
+        },
+        {
+          "question": "The atomic radius is measured in nanometers.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "John Dalton was the first scientist to use symbols for elements.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Dalton was not the first to use symbols; Berzelius suggested that the symbols of elements be made from one or two letters of the element's name."
+        },
+        {
+          "question": "The atomic mass unit (amu) is now referred to as 'u' for unified mass.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "One atomic mass unit is equal to exactly one-sixteenth (1/16th) the mass of one atom of carbon-12.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "One atomic mass unit is equal to exactly one-twelfth (1/12th) the mass of one atom of carbon-12."
+        },
+        {
+          "question": "A molecule is defined as the smallest particle of an element or a compound that can exist independently and show all the properties of that substance.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Helium is an example of a diatomic molecule.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Helium is a monoatomic molecule, not diatomic."
+        },
+        {
+          "question": "The molecules of compounds are formed by the combination of atoms of different elements in definite proportions.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "An ion is a group of atoms carrying no net charge.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "An ion is a group of atoms carrying a net charge, either positive or negative."
+        },
+        {
+          "question": "In ionic compounds, the positive and negative charges must balance each other.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The molecular mass of a substance is calculated by adding the atomic masses of all the atoms in a molecule of the substance.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The formula unit mass is used for substances whose constituent particles are not ions.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The formula unit mass is used for substances whose constituent particles are ions."
+        },
+        {
+          "question": "Atoms of most elements are able to exist independently.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Atoms of most elements are not able to exist independently; they form molecules and ions."
+        },
+        {
+          "question": "The atomic mass of nitrogen is 14 u.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "John Dalton was the first scientist to suggest the use of chemical symbols.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "John Dalton was not the first to suggest the use of chemical symbols; it was Berzelius who suggested using one or two letters of the element's name."
+        },
+        {
+          "question": "The law of definite proportions was stated by John Dalton.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The law of definite proportions was stated by Joseph Proust."
+        },
+        {
+          "question": "A molecule of ozone consists of three atoms of oxygen.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "In a binary compound, the valencies of the combining atoms must not be criss-crossed to write the formula.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "In a binary compound, the valencies of the combining atoms must be criss-crossed to write the formula."
+        },
+        {
+          "question": "The relative atomic mass of an element is defined as the average mass of the atom compared to 1/12th the mass of one carbon-12 atom.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Sodium chloride (NaCl) is an example of a molecular compound.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Sodium chloride (NaCl) is an ionic compound, not a molecular compound."
+        },
+        {
+          "question": "The formula unit mass is used for substances whose constituent particles are molecules.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The formula unit mass is used for substances whose constituent particles are ions."
+        },
+        {
+          "question": "Atoms of the same element can have different masses and chemical properties.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Atoms of a given element are identical in mass and chemical properties."
+        },
+        {
+          "question": "Argon and helium are examples of diatomic molecules.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Argon and helium are examples of monoatomic molecules."
+        },
+        {
+          "question": "The chemical formula of a compound shows its constituent elements and the number of atoms of each combining element.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Oxygen and hydrogen combine in the ratio of 1:8 by mass to form water.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The molecular mass of a substance is calculated by subtracting the atomic masses of all the atoms in a molecule of the substance.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The molecular mass of a substance is calculated by adding the atomic masses of all the atoms in a molecule of the substance."
+        },
+        {
+          "question": "Polyatomic ions are clusters of atoms that carry no charge.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Polyatomic ions are clusters of atoms that carry a fixed charge."
         }
       ]
     },
@@ -5977,6 +6309,171 @@
             "C": "Incorrect: Both 2p and 2s orbitals are located in the same shell, the second shell.",
             "D": "Correct: The 2p orbitals have a different (dumbbell) shape and are at a higher energy level than the spherical 2s orbitals."
           }
+        },
+        {
+          "question": "Dalton's atomic theory suggested that atoms are indivisible.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The electron was identified by E. Goldstein.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The electron was identified by J.J. Thomson, not E. Goldstein."
+        },
+        {
+          "question": "Rutherford's model of the atom proposed that electrons revolve around a central nucleus.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Bohr's model of the atom states that electrons radiate energy while revolving in discrete orbits.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "According to Bohr's model, electrons do not radiate energy while revolving in discrete orbits."
+        },
+        {
+          "question": "The neutron was discovered by J.J. Thomson.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The neutron was discovered by J. Chadwick, not J.J. Thomson."
+        },
+        {
+          "question": "In Thomson's model of an atom, the negative and positive charges are equal in magnitude.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The mass of a proton is approximately 2000 times that of an electron.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Isobars are atoms of different elements with the same atomic number but different mass numbers.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Isobars are atoms of different elements with the same mass number but different atomic numbers."
+        },
+        {
+          "question": "Atoms of an element can have different mass numbers but the same atomic number.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Valency is determined by the number of electrons in the outermost shell of an atom.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The atomic number is defined as the total number of neutrons in an atom's nucleus.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The atomic number is defined as the total number of protons in an atom's nucleus."
+        },
+        {
+          "question": "The mass number of an atom is equal to the sum of protons and electrons in the nucleus.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The mass number of an atom is equal to the sum of protons and neutrons in the nucleus."
+        },
+        {
+          "question": "Helium atoms have two electrons in their outermost shell.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The shells of an atom are designated as A, B, C, D, ...",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The shells of an atom are designated as K, L, M, N, ..."
+        },
+        {
+          "question": "The atomic number of carbon is 6.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "According to Dalton's atomic theory, atoms are divisible.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Dalton's atomic theory suggested that atoms were indivisible."
+        },
+        {
+          "question": "E. Goldstein discovered the presence of canal rays in 1886.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Rutherford's gold foil experiment led to the discovery of the electron.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Rutherford's gold foil experiment led to the discovery of the atomic nucleus, not the electron."
+        },
+        {
+          "question": "The Bohr model of the atom proposes that electrons move in fixed orbits around the nucleus.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "In Bohr's model, electrons radiate energy as they revolve in their orbits.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "In Bohr's model, electrons do not radiate energy while revolving in discrete orbits."
+        },
+        {
+          "question": "The mass of a neutron is approximately equal to the mass of a proton.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The maximum number of electrons in the M shell of an atom is 32.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Atoms with a completely filled outermost shell are highly reactive.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Atoms with a completely filled outermost shell are generally inert or less reactive."
+        },
+        {
+          "question": "The atomic number is equal to the number of neutrons in an atom's nucleus.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The atomic number is equal to the number of protons in an atom's nucleus."
+        },
+        {
+          "question": "Isotopes of an element have different atomic numbers but the same mass number.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Isotopes of an element have the same atomic number but different mass numbers."
+        },
+        {
+          "question": "Isobars are atoms of different elements with the same atomic number.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Isobars are atoms of different elements with the same mass number but different atomic numbers."
+        },
+        {
+          "question": "The chemical properties of isotopes of an element are different.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The chemical properties of isotopes of an element are similar."
+        },
+        {
+          "question": "The mass of an electron is about 1/2000 times the mass of a hydrogen atom.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "An isotope of uranium is used as a fuel in nuclear reactors.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "J.J. Thomson's model of the atom was based on the plum pudding model.",
+          "answer": "A",
+          "level": 3
         }
       ]
     },
@@ -6458,6 +6955,172 @@
             "C": "Incorrect: Both facilitated and simple diffusion move substances down their concentration gradient, not against it.",
             "D": "Incorrect: Facilitated diffusion is not limited to water molecules; it can move a variety of substances."
           }
+        },
+        {
+          "question": "Robert Hooke discovered cells in 1665 by observing a thin slice of cork.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Cell theory suggests that all living organisms are composed of cells and that the cell is the basic unit of life.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Prokaryotic cells have a well-defined nucleus with a nuclear membrane.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Prokaryotic cells do not have a well-defined nucleus with a nuclear membrane; this feature is characteristic of eukaryotic cells."
+        },
+        {
+          "question": "Mitochondria are known as the 'powerhouses' of the cell.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Plant cells do not have cell walls.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Plant cells do have cell walls, which are mainly composed of cellulose."
+        },
+        {
+          "question": "The process of osmosis involves the movement of water molecules through a selectively permeable membrane.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "In multicellular organisms, different cells perform the same functions.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "In multicellular organisms, different cells perform different functions as there is a division of labor."
+        },
+        {
+          "question": "Chloroplasts are found in animal cells.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Chloroplasts are not found in animal cells; they are present in plant cells."
+        },
+        {
+          "question": "The Golgi apparatus is involved in the synthesis of proteins.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The Golgi apparatus is involved in the storage, modification, and packaging of products, not in the synthesis of proteins."
+        },
+        {
+          "question": "Ribosomes are attached to the surface of rough endoplasmic reticulum.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The cell is the basic structural and functional unit of all living organisms.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The plasma membrane is not selectively permeable.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The plasma membrane is selectively permeable, allowing or permitting the entry and exit of some materials in and out of the cell."
+        },
+        {
+          "question": "Mitochondria are responsible for generating most of the cell's supply of adenosine triphosphate (ATP).",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Prokaryotic cells contain membrane-bound organelles.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Prokaryotic cells do not contain membrane-bound organelles."
+        },
+        {
+          "question": "In plants, chloroplasts are involved in the process of photosynthesis.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The nucleus contains chromosomes, which become visible only during cell division.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Golgi apparatus is mainly involved in the synthesis of proteins.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The Golgi apparatus is involved in the storage, modification, and packaging of products, not in the synthesis of proteins."
+        },
+        {
+          "question": "Plant cells have a large central vacuole that helps maintain the turgidity of the cell.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The endoplasmic reticulum (ER) is involved in detoxifying poisons and drugs in animal cells.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Lysosomes are involved in the digestion of foreign material and worn-out cell organelles.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Ribosomes are not involved in protein synthesis.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Ribosomes are the sites of protein synthesis."
+        },
+        {
+          "question": "Osmosis is the movement of solute particles across a membrane.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Osmosis is the movement of water molecules through a selectively permeable membrane."
+        },
+        {
+          "question": "Amoeba obtains its food through the process of endocytosis.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "All cells in a multicellular organism have the same shape and size.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Cells in a multicellular organism have different shapes and sizes, related to their specific functions."
+        },
+        {
+          "question": "Cell walls are found in animal cells.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Cell walls are not found in animal cells; they are a feature of plant cells, fungi, and bacteria."
+        },
+        {
+          "question": "The endoplasmic reticulum (ER) is involved in the synthesis of proteins and lipids.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Lysosomes are known for their role in photosynthesis.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Lysosomes are involved in the digestion of foreign material and worn-out cell organelles, not in photosynthesis."
+        },
+        {
+          "question": "Mitochondria have a single membrane covering.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Mitochondria have two membrane coverings, an outer membrane and a deeply folded inner membrane."
+        },
+        {
+          "question": "Plastids are present in animal cells.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Plastids, including chloroplasts, are present only in plant cells."
+        },
+        {
+          "question": "Cell division by mitosis results in daughter cells with half the number of chromosomes of the mother cell.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "In mitosis, the daughter cells have the same number of chromosomes as the mother cell."
         }
       ]
     },
@@ -7007,6 +7670,173 @@
             "C": "Incorrect: Ciliated epithelium is specialized for moving materials across the surface, not for rigidity.",
             "D": "Incorrect: Cuboidal epithelium is adapted for secretion and absorption, not for rapid division."
           }
+        },
+        {
+          "question": "In multicellular organisms, a single cell performs all basic functions.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "In multicellular organisms, there are millions of specialized cells, each performing specific functions."
+        },
+        {
+          "question": "Vascular tissues in plants conduct food and water.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Animal tissues are generally made up of dead cells.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Most of the tissues in animals are made up of living cells."
+        },
+        {
+          "question": "The growth in plants is limited to certain regions.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Parenchyma cells are usually dead and have thick cell walls.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Parenchyma cells are living cells with thin cell walls."
+        },
+        {
+          "question": "Sclerenchyma tissues are found in the husk of a coconut.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Epidermal cells in plants are loosely arranged with large intercellular spaces.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Epidermal cells form a continuous layer without intercellular spaces."
+        },
+        {
+          "question": "Phloem transports water and minerals in plants.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Phloem transports food from leaves to other parts of the plant."
+        },
+        {
+          "question": "Cardiac muscles are involuntary and show rhythmic contraction and relaxation.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Muscular tissue is responsible for movement in plants.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Muscular tissue is responsible for movement in animals, not plants."
+        },
+        {
+          "question": "Nervous tissue is made up of cells called neurons.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "All epithelial tissue is separated from the underlying tissue by a muscular basement membrane.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "All epithelial tissue is usually separated from the underlying tissue by an extracellular fibrous basement membrane."
+        },
+        {
+          "question": "Bone is a type of connective tissue.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The cork cells in plants contain chlorophyll for photosynthesis.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Cork cells are dead and do not contain chlorophyll; they are involved in protection."
+        },
+        {
+          "question": "Striated muscles are mostly attached to bones and help in body movement.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The epidermal tissue system in plants is composed of multiple cell layers.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The epidermal tissue system in plants is usually made of a single layer of cells."
+        },
+        {
+          "question": "Ligaments connect muscles to bones.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Tendons connect muscles to bones, while ligaments connect bones to bones."
+        },
+        {
+          "question": "Adipose tissue is a type of connective tissue that stores fats.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Collenchyma cells in plants are dead and provide mechanical support.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Collenchyma cells are living and provide flexibility and mechanical support to plants."
+        },
+        {
+          "question": "Neurons are capable of transmitting impulses rapidly within the body.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Striated muscles are involuntary and found in the walls of blood vessels.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Striated muscles are voluntary and mostly attached to bones, while smooth muscles are involuntary and found in blood vessels."
+        },
+        {
+          "question": "Sclerenchyma is a type of simple permanent tissue in plants.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The primary function of phloem in plants is water transportation.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The primary function of phloem is to transport food from the leaves to other parts of the plant."
+        },
+        {
+          "question": "Meristematic tissue in plants is responsible for secondary growth.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Cartilage is a type of muscular tissue.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Cartilage is a type of connective tissue, not muscular tissue."
+        },
+        {
+          "question": "Smooth muscles are found in the heart.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Cardiac muscles, not smooth muscles, are found in the heart."
+        },
+        {
+          "question": "Parenchyma cells in plants are involved in storage and photosynthesis.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Xylem tissues in plants are primarily made of living cells.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Most of the cells in xylem tissue, such as tracheids and vessels, are dead."
+        },
+        {
+          "question": "Cuboidal epithelium is composed of tall and slender cells.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Cuboidal epithelium is composed of cube-shaped cells."
+        },
+        {
+          "question": "Areolar tissue connects skin to muscles.",
+          "answer": "A",
+          "level": 3
         }
       ]
     },
@@ -7556,6 +8386,172 @@
             "C": "Incorrect: The different times to reach the same speed indicate different accelerations.",
             "D": "Incorrect: The relationship is inverse; car B accelerates slower, not faster."
           }
+        },
+        {
+          "question": "An object's motion is only perceived when its position changes with time.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The shortest distance measured from the initial to the final position of an object is known as the distance.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The shortest distance measured from the initial to the final position of an object is known as the displacement."
+        },
+        {
+          "question": "In uniform motion, an object covers unequal distances in equal intervals of time.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "In uniform motion, an object covers equal distances in equal intervals of time."
+        },
+        {
+          "question": "The SI unit of speed is metre per second (m/s).",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Average speed is obtained by dividing the total distance travelled by the total time taken.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Velocity refers to the speed of an object without considering its direction of motion.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Velocity is the speed of an object in a definite direction."
+        },
+        {
+          "question": "Acceleration is the change in speed per unit time.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Acceleration is the change in velocity per unit time."
+        },
+        {
+          "question": "In a distance-time graph for uniform motion, the graph is a straight line.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The area under the velocity-time graph represents the total time taken by the object.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The area under the velocity-time graph represents the distance travelled (magnitude of displacement) by the object."
+        },
+        {
+          "question": "Uniform circular motion refers to the motion in a circular path with varying speed.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Uniform circular motion refers to the motion in a circular path with constant speed."
+        },
+        {
+          "question": "The equation v = u + at relates velocity and time in uniformly accelerated motion.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The distance travelled in uniform acceleration can be calculated using the equation s = ut + ½at^2.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "A body in uniform circular motion is not accelerating.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "A body in uniform circular motion is accelerating due to the continuous change in the direction of motion."
+        },
+        {
+          "question": "Velocity-time graphs for uniformly accelerated motion are always curved lines.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Velocity-time graphs for uniformly accelerated motion are straight lines."
+        },
+        {
+          "question": "When an object travels equal distances in equal intervals of time, it is said to be in non-uniform motion.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "When an object travels equal distances in equal intervals of time, it is said to be in uniform motion."
+        },
+        {
+          "question": "The motion of an object is always uniform if it covers equal distances in unequal intervals of time.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The motion of an object is uniform if it covers equal distances in equal intervals of time."
+        },
+        {
+          "question": "The total path length covered by an object is always equal to the magnitude of its displacement.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The total path length covered by an object can be different from the magnitude of its displacement."
+        },
+        {
+          "question": "In a distance-time graph for non-uniform motion, the graph is a curved line.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "An object with zero displacement cannot have moved through a distance.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "An object can move through a distance and still have zero displacement if it returns to its starting point."
+        },
+        {
+          "question": "The average velocity of an object is the total displacement divided by the total time taken.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "A car moving on a crowded street typically exhibits uniform motion.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "A car moving on a crowded street typically exhibits non-uniform motion."
+        },
+        {
+          "question": "The SI unit of acceleration is metre per second squared (m/s²).",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The magnitude of average velocity of an object can be greater than its average speed.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The magnitude of average velocity of an object cannot be greater than its average speed."
+        },
+        {
+          "question": "If an object's speed is constant, then its acceleration is zero.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The area under a velocity-time graph represents the object's acceleration.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The area under a velocity-time graph represents the displacement of the object."
+        },
+        {
+          "question": "The equation s = ut + ½at² is used to calculate the distance travelled by an object in uniformly accelerated motion.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Uniform circular motion involves a change in the direction of velocity but not its magnitude.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "An object moving in a straight line with a constant velocity is an example of non-uniform motion.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "An object moving in a straight line with a constant velocity is an example of uniform motion."
+        },
+        {
+          "question": "In uniform circular motion, the acceleration of the object is always directed towards the center of the circle.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The average speed of a trip is calculated by dividing the total distance of the trip by the total time of the trip.",
+          "answer": "A",
+          "level": 3
         }
       ]
     },
@@ -7969,6 +8965,173 @@
             "C": "Incorrect: Reducing the distance has a more significant effect than just halving the force.",
             "D": "Incorrect: Gravitational force changes significantly with changes in distance between objects."
           }
+        },
+        {
+          "question": "An object remains in a state of rest or of uniform motion in a straight line unless compelled to change that state by an applied force.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Friction always acts in the direction of motion of objects.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Friction always opposes the motion of objects."
+        },
+        {
+          "question": "The first law of motion is also known as the law of inertia.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Momentum is defined as the product of an object's mass and its acceleration.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Momentum is the product of an object's mass and its velocity."
+        },
+        {
+          "question": "The second law of motion states that the rate of change of momentum of an object is proportional to the applied unbalanced force in the direction of the force.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Inertia is the natural tendency of an object to resist a change in its state of motion or of rest, and is measured by its weight.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Inertia is measured by the mass of an object, not its weight."
+        },
+        {
+          "question": "The third law of motion states that to every action, there is an equal and opposite reaction.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The SI unit of force is the kilogram.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The SI unit of force is the newton."
+        },
+        {
+          "question": "An object experiencing a net zero external unbalanced force can travel with a non-zero velocity.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The mass of an object is not a measure of its inertia.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The mass of an object is a measure of its inertia."
+        },
+        {
+          "question": "When a force is applied to a car with a dead battery, it's the duration of the force, not just its magnitude, that determines the change in the car's momentum.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "According to Newton's second law of motion, a larger mass requires a greater force to achieve the same acceleration as a smaller mass.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "If two forces of the same magnitude act on an object in opposite directions, they always cancel each other out.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Whether they cancel each other out depends on whether they are balanced or unbalanced."
+        },
+        {
+          "question": "The momentum of an object is directly proportional to its velocity.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The force necessary to change the momentum of an object depends only on the magnitude of the force applied, not on the time over which it is applied.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The force necessary to change the momentum of an object depends on both the magnitude of the force and the time over which it is applied."
+        },
+        {
+          "question": "Objects move with a constant speed when no force acts on them, as observed by Galileo on inclined planes.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "A force can only change the speed of an object, not its direction of motion.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "A force can change both the speed and the direction of motion of an object."
+        },
+        {
+          "question": "Inertia is the tendency of objects to resist changes in motion, and it depends only on the shape of the object.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Inertia is the tendency of objects to resist changes in motion, and it depends on the mass of the object, not its shape."
+        },
+        {
+          "question": "Momentum has both direction and magnitude.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The SI unit of momentum is newton-second.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The SI unit of momentum is kilogram-meter per second (kg m/s)."
+        },
+        {
+          "question": "The rate of change of momentum of an object is proportional to the applied unbalanced force in the direction of the force.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Safety belts in vehicles are unnecessary since passengers naturally resist motion changes due to inertia.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Safety belts are essential because they exert a force on our body to make the forward motion slower, preventing injuries in case of sudden stops."
+        },
+        {
+          "question": "To every action, there is an equal and opposite reaction.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Action and reaction forces always cancel each other out, making the net force zero.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Action and reaction forces act on different objects and do not cancel each other out in terms of net force on a single object."
+        },
+        {
+          "question": "An object with zero net force acting on it must be at rest.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "An object with zero net force acting on it can be moving with a constant velocity."
+        },
+        {
+          "question": "The force of friction always acts in the direction of motion.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The force of friction always opposes the direction of motion."
+        },
+        {
+          "question": "When catching a fast-moving cricket ball, a fielder pulls his hands backwards with the ball to reduce the rate of change of momentum.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The third law of motion suggests that forces always act in pairs on the same object.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The third law of motion suggests that forces always act in pairs on different objects."
+        },
+        {
+          "question": "In a car crash, a heavier car will always experience a smaller force than a lighter car.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "In a car crash, the force experienced depends on the rate of change of momentum, not just the car's weight."
+        },
+        {
+          "question": "An object thrown in space (away from gravitational forces) will stop eventually due to its inertia.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "An object in space, away from significant gravitational forces, will continue to move indefinitely due to its inertia."
         }
       ]
     },
@@ -8518,6 +9681,172 @@
             "C": "Incorrect: Gravitational waves are not sound waves and cannot be detected with microphones.",
             "D": "Incorrect: Gravitational waves are not related to Earth's gravitational field specifically and are not detected by seismographs."
           }
+        },
+        {
+          "question": "The gravitational force is the same force responsible for an object falling towards Earth and the planets revolving around the Sun.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Universal Law of Gravitation states that the force between two objects is inversely proportional to the cube of the distance between them.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The force is inversely proportional to the square of the distance between them, not the cube."
+        },
+        {
+          "question": "The gravitational force between two objects is directly proportional to the product of their masses.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "According to the Universal Law of Gravitation, the force between two objects decreases as the distance between them increases.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The value of acceleration due to gravity (g) is constant everywhere on Earth.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The value of g varies slightly depending on the altitude and the location on Earth."
+        },
+        {
+          "question": "The weight of an object on Earth is the same as its weight on the Moon.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The weight of an object on the Moon is about 1/6th of its weight on Earth."
+        },
+        {
+          "question": "All objects, regardless of their mass, fall at the same rate in the absence of air resistance.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Universal Law of Gravitation was formulated by Galileo Galilei.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The Universal Law of Gravitation was formulated by Isaac Newton."
+        },
+        {
+          "question": "The mass of an object varies depending on its location in the universe.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The mass of an object remains constant regardless of its location."
+        },
+        {
+          "question": "The force of buoyancy always acts in a downward direction.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The force of buoyancy acts in an upward direction, opposing the weight of the object."
+        },
+        {
+          "question": "Archimedes’ Principle is used in designing ships and submarines.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Objects with a density higher than that of a fluid will float in that fluid.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Objects with a density less than that of the fluid will float; those with higher density will sink."
+        },
+        {
+          "question": "The Universal Law of Gravitation only applies to objects within our solar system.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The Universal Law of Gravitation applies to all objects in the universe."
+        },
+        {
+          "question": "The SI unit of gravitational constant (G) is N m²/kg².",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "A piece of paper falls slower than a crumpled ball of paper due to greater air resistance.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The law of gravitation applies only to objects on Earth and not to celestial bodies.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The law of gravitation is universal and applies to all objects, whether on Earth or celestial bodies."
+        },
+        {
+          "question": "Archimedes’ principle states that a body immersed in a fluid experiences an upward force equal to the weight of the fluid displaced by it.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The force of gravity increases with altitude.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The force of gravity decreases with altitude."
+        },
+        {
+          "question": "The weight of an object is equal to its mass multiplied by the acceleration due to gravity.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Universal Law of Gravitation was discovered by Albert Einstein.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The Universal Law of Gravitation was formulated by Isaac Newton."
+        },
+        {
+          "question": "The value of the gravitational constant (G) is 6.673 × 10^-11 N m²/kg².",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Objects of density greater than that of a liquid will float in that liquid.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Objects of density greater than that of a liquid will sink in that liquid."
+        },
+        {
+          "question": "Free fall occurs only in vacuum.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Free fall can occur in any environment where gravity is the only significant force acting on the object, not just in vacuum."
+        },
+        {
+          "question": "The acceleration due to gravity is different on different planets.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The mass of an object changes when it is taken to the moon.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The mass of an object remains constant regardless of its location, including the moon."
+        },
+        {
+          "question": "Gravitational force is the weakest of the fundamental forces in nature.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Pressure in fluids is the same at all depths.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Pressure in fluids increases with depth."
+        },
+        {
+          "question": "Buoyancy is a force that acts in a downward direction on an object submerged in a fluid.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Buoyancy is an upward force exerted by a fluid that opposes the weight of an immersed object."
+        },
+        {
+          "question": "The Universal Law of Gravitation explains the motion of planets around the Sun.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "An object's weight on the Moon is about one-sixth of its weight on Earth.",
+          "answer": "A",
+          "level": 3
         }
       ]
     },
