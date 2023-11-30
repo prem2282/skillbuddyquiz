@@ -1,6 +1,1319 @@
 {
   "chapterData": [
     {
+      "chapterId": "CBSE_9_Civics_1",
+      "tables": [
+        {
+          "title": "Features of Democracy",
+          "columns": [
+            {
+              "name": "feature",
+              "label": "Feature",
+              "align": "left",
+              "field": "feature",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "feature": "Rulers Elected by the People",
+              "description": "Rulers elected by the people take all the major decisions."
+            },
+            {
+              "feature": "Elections with Choice and Fair Opportunity",
+              "description": "Elections offer a choice and fair opportunity to the people to change the current rulers."
+            },
+            {
+              "feature": "Equal Access to Choice and Opportunity",
+              "description": "This choice and opportunity is available to all the people on an equal basis."
+            },
+            {
+              "feature": "Government Limited by Constitution and Citizens' Rights",
+              "description": "The exercise of this choice leads to a government limited by basic rules of the constitution and citizens’ rights."
+            }
+          ]
+        },
+        {
+          "title": "Comparative Analysis of Governments",
+          "columns": [
+            {
+              "name": "type",
+              "label": "Type of Government",
+              "align": "left",
+              "field": "type",
+              "sortable": "True"
+            },
+            {
+              "name": "keyCharacteristics",
+              "label": "Key Characteristics",
+              "align": "left",
+              "field": "keyCharacteristics",
+              "sortable": "True"
+            },
+            {
+              "name": "examples",
+              "label": "Examples",
+              "align": "left",
+              "field": "examples",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "type": "Democratic",
+              "keyCharacteristics": "Accountable, based on consultation and discussion, involves free and fair elections with a real choice and the possibility of changing rulers.",
+              "examples": "Multiparty elections, press freedom, fair opportunity for all to change rulers."
+            },
+            {
+              "type": "Non-Democratic",
+              "keyCharacteristics": "May respond to people's needs depending on ruler's wishes, lack of real choice in elections, leaders may not have to act according to people's wishes.",
+              "examples": "One-party rule, no fair elections, no accountability to the public."
+            }
+          ]
+        },
+        {
+          "title": "Arguments For and Against Democracy",
+          "columns": [
+            {
+              "name": "argumentType",
+              "label": "Argument Type",
+              "align": "left",
+              "field": "argumentType",
+              "sortable": "True"
+            },
+            {
+              "name": "argument",
+              "label": "Argument",
+              "align": "left",
+              "field": "argument",
+              "sortable": "True"
+            },
+            {
+              "name": "details",
+              "label": "Details",
+              "align": "left",
+              "field": "details",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "argumentType": "Against",
+              "argument": "Instability",
+              "details": "Leaders keep changing in a democracy, leading to instability."
+            },
+            {
+              "argumentType": "Against",
+              "argument": "Lack of Morality",
+              "details": "Democracy is all about political competition and power play, with no scope for morality."
+            },
+            {
+              "argumentType": "Against",
+              "argument": "Decision Delays",
+              "details": "So many people have to be consulted in a democracy that it leads to delays."
+            },
+            {
+              "argumentType": "Against",
+              "argument": "Bad Decisions",
+              "details": "Elected leaders do not always know the best interest of the people, leading to bad decisions."
+            },
+            {
+              "argumentType": "Against",
+              "argument": "Corruption",
+              "details": "Democracy leads to corruption as it is based on electoral competition."
+            },
+            {
+              "argumentType": "Against",
+              "argument": "Incompetent Decision-Making",
+              "details": "Ordinary people don’t know what is good for them; they should not decide anything."
+            },
+            {
+              "argumentType": "For",
+              "argument": "Enhances Dignity",
+              "details": "Democracy enhances the dignity of citizens and is based on political equality."
+            },
+            {
+              "argumentType": "For",
+              "argument": "Better Decision-Making",
+              "details": "Offers better chances of a good decision, respecting people’s wishes."
+            },
+            {
+              "argumentType": "For",
+              "argument": "Inclusivity",
+              "details": "Allows different kinds of people to live together and corrects its own mistakes."
+            }
+          ]
+        },
+        {
+          "title": "Historical and Global Examples of Democracy",
+          "columns": [
+            {
+              "name": "countryRegion",
+              "label": "Country/Region",
+              "align": "left",
+              "field": "countryRegion",
+              "sortable": "True"
+            },
+            {
+              "name": "example",
+              "label": "Specific Example",
+              "align": "left",
+              "field": "example",
+              "sortable": "True"
+            },
+            {
+              "name": "type",
+              "label": "Type of Government",
+              "align": "left",
+              "field": "type",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "countryRegion": "Bhutan",
+              "example": "King declared guidance by elected representatives.",
+              "type": "Transitioning to Democracy"
+            },
+            {
+              "countryRegion": "Sri Lanka",
+              "example": "Denial of voting rights to Tamil workers from India.",
+              "type": "Non-Democratic Practice"
+            },
+            {
+              "countryRegion": "India",
+              "example": "Supreme Court held dissolution of Bihar assembly unconstitutional.",
+              "type": "Democratic Practice"
+            },
+            {
+              "countryRegion": "Bangladesh",
+              "example": "Agreement for a neutral government at election time.",
+              "type": "Democratic Practice"
+            },
+            {
+              "countryRegion": "Pakistan",
+              "example": "Military coup led by General Pervez Musharraf in 1999.",
+              "type": "Non-Democratic Government"
+            },
+            {
+              "countryRegion": "Syria",
+              "example": "Ba'ath Party as the only allowed party.",
+              "type": "Non-Democratic Government"
+            },
+            {
+              "countryRegion": "China (1958-1961)",
+              "example": "Famine under non-democratic rule.",
+              "type": "Non-Democratic Government"
+            },
+            {
+              "countryRegion": "India (During China's Famine)",
+              "example": "No similar famine under democratic governance.",
+              "type": "Democratic Government"
+            }
+          ]
+        },
+        {
+          "title": "Democracy in Different Contexts",
+          "columns": [
+            {
+              "name": "context",
+              "label": "Context",
+              "align": "left",
+              "field": "context",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            },
+            {
+              "name": "example",
+              "label": "Example",
+              "align": "left",
+              "field": "example",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "context": "Political System",
+              "description": "Rule through elected representatives, with decisions based on majority rule and equal participation.",
+              "example": "Parliamentary and Presidential Democracies"
+            },
+            {
+              "context": "Education",
+              "description": "Democratic principles applied in educational institutions, promoting equal opportunity and participation.",
+              "example": "Student Council Elections, Participatory Classroom Decision-Making"
+            },
+            {
+              "context": "Workplace",
+              "description": "Implementing democratic processes in the workplace for decision-making and leadership selection.",
+              "example": "Employee-elected Boards, Collaborative Project Management"
+            },
+            {
+              "context": "Community Governance",
+              "description": "Local governance based on community participation and equal representation.",
+              "example": "Local Councils, Community Meetings"
+            },
+            {
+              "context": "Social Movements",
+              "description": "Organizing and decision-making within social movements based on democratic principles.",
+              "example": "Grassroots Campaigns, Collective Advocacy Groups"
+            }
+          ]
+        },
+        {
+          "title": "Key Years and Events in Democracy",
+          "columns": [
+            {
+              "name": "country",
+              "label": "Country",
+              "align": "left",
+              "field": "country",
+              "sortable": "True"
+            },
+            {
+              "name": "year",
+              "label": "Year",
+              "align": "left",
+              "field": "year",
+              "sortable": "True"
+            },
+            {
+              "name": "event",
+              "label": "Event",
+              "align": "left",
+              "field": "event",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "country": "China",
+              "year": "2002-03",
+              "event": "Elections for the National People’s Congress; only Communist Party or allied party members allowed to contest."
+            },
+            {
+              "country": "Mexico",
+              "year": "1930-Onwards",
+              "event": "Regular elections every six years since independence; until 2000, all elections won by the same party."
+            },
+            {
+              "country": "Zimbabwe",
+              "year": "2017",
+              "event": "President Mugabe forced out of office; history of elections won by ZANU-PF with unfair practices."
+            }
+          ]
+        },
+        {
+          "title": "Democratic Events and Election Cycles",
+          "columns": [
+            {
+              "name": "country",
+              "label": "Country",
+              "align": "left",
+              "field": "country",
+              "sortable": "True"
+            },
+            {
+              "name": "year",
+              "label": "Year",
+              "align": "left",
+              "field": "year",
+              "sortable": "True"
+            },
+            {
+              "name": "event",
+              "label": "Event",
+              "align": "left",
+              "field": "event",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "country": "China",
+              "year": "2002-03",
+              "event": "Elections for National People’s Congress with candidates primarily from the Chinese Communist Party."
+            },
+            {
+              "country": "Mexico",
+              "year": "1930-Onwards",
+              "event": "Regular presidential elections every six years since independence, with all elections won by the same party until 2000."
+            },
+            {
+              "country": "Zimbabwe",
+              "year": "2017",
+              "event": "President Mugabe, who used unfair practices in elections and increased presidential powers, was forced out of office."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "CBSE_9_Civics_2",
+      "tables": [
+        {
+          "title": "Comparison of South African and Indian Constitutions",
+          "columns": [
+            {
+              "name": "aspect",
+              "label": "Aspect",
+              "align": "left",
+              "field": "aspect",
+              "sortable": "True"
+            },
+            {
+              "name": "south_africa",
+              "label": "South Africa",
+              "align": "left",
+              "field": "south_africa",
+              "sortable": "True"
+            },
+            {
+              "name": "india",
+              "label": "India",
+              "align": "left",
+              "field": "india",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "aspect": "Historical Context",
+              "south_africa": "End of apartheid, transition to democracy",
+              "india": "Post-independence, partition of India and Pakistan"
+            },
+            {
+              "aspect": "Main Challenges",
+              "south_africa": "Racial segregation, establishing equality",
+              "india": "Diverse population, integrating princely states"
+            },
+            {
+              "aspect": "Constitutional Development",
+              "south_africa": "Negotiated transition, inclusion of extensive rights",
+              "india": "Adoption of values from freedom struggle, influenced by other constitutions"
+            },
+            {
+              "aspect": "Foundational Values",
+              "south_africa": "Equality, human rights, social justice",
+              "india": "Justice, Liberty, Equality, Fraternity"
+            }
+          ]
+        },
+        {
+          "title": "Key Values in the Preamble of the Indian Constitution",
+          "columns": [
+            {
+              "name": "value",
+              "label": "Value",
+              "align": "left",
+              "field": "value",
+              "sortable": "True"
+            },
+            {
+              "name": "explanation",
+              "label": "Explanation",
+              "align": "left",
+              "field": "explanation",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "value": "Justice",
+              "explanation": "Social, economic, and political justice for all citizens"
+            },
+            {
+              "value": "Liberty",
+              "explanation": "Freedom of thought, expression, belief, faith, and worship"
+            },
+            {
+              "value": "Equality",
+              "explanation": "Equal status and opportunity for all individuals"
+            },
+            {
+              "value": "Fraternity",
+              "explanation": "Promoting a spirit of brotherhood among all citizens"
+            },
+            {
+              "value": "Dignity",
+              "explanation": "Respect for all individuals and their rights"
+            },
+            {
+              "value": "Unity",
+              "explanation": "Unity and integrity of the nation"
+            },
+            {
+              "value": "Secularism",
+              "explanation": "Freedom of religion and separation of religion and state"
+            },
+            {
+              "value": "Democracy",
+              "explanation": "Government by the people, for the people, and of the people"
+            },
+            {
+              "value": "Sovereignty",
+              "explanation": "Supreme power of the people to govern themselves"
+            },
+            {
+              "value": "Republic",
+              "explanation": "Head of state elected by the people"
+            },
+            {
+              "value": "Socialism",
+              "explanation": "Social and economic equality for all citizens"
+            }
+          ]
+        },
+        {
+          "title": "Major Leaders in the Making of the Indian Constitution",
+          "columns": [
+            {
+              "name": "leader",
+              "label": "Leader",
+              "align": "left",
+              "field": "leader",
+              "sortable": "True"
+            },
+            {
+              "name": "role",
+              "label": "Role",
+              "align": "left",
+              "field": "role",
+              "sortable": "True"
+            },
+            {
+              "name": "contribution",
+              "label": "Contribution",
+              "align": "left",
+              "field": "contribution",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "leader": "Dr. B.R. Ambedkar",
+              "role": "Chairman of the Drafting Committee",
+              "contribution": "Principal architect of the constitution"
+            },
+            {
+              "leader": "Jawaharlal Nehru",
+              "role": "First Prime Minister of India",
+              "contribution": "Played a key role in conceptualizing the constitution"
+            },
+            {
+              "leader": "Sardar Vallabhbhai Patel",
+              "role": "First Home Minister",
+              "contribution": "Instrumental in integrating the princely states"
+            },
+            {
+              "leader": "Dr. Rajendra Prasad",
+              "role": "First President of India",
+              "contribution": "Played a key role in conceptualizing the constitution"
+            },
+            {
+              "leader": "K.M. Munshi",
+              "role": "Constituent Assembly Member",
+              "contribution": "Chairman of the Drafting Committee"
+            },
+            {
+              "leader": "Alladi Krishnaswamy Iyer",
+              "role": "Constituent Assembly Member",
+              "contribution": "Chairman of the Drafting Committee"
+            },
+            {
+              "leader": "Dr. K.M. Roy",
+              "role": "Constituent Assembly Member",
+              "contribution": "Chairman of the Drafting Committee"
+            },
+            {
+              "leader": "Dr. Sachchidananda Sinha",
+              "role": "Constituent Assembly Member",
+              "contribution": "Chairman of the Drafting Committee"
+            },
+            {
+              "leader": "Dr. B.N. Rau",
+              "role": "Constituent Assembly Member",
+              "contribution": "Chairman of the Drafting Committee"
+            },
+            {
+              "leader": "Dr. Shyama Prasad Mukherjee",
+              "role": "Constituent Assembly Member",
+              "contribution": "Chairman of the Drafting Committee"
+            },
+            {
+              "leader": "Dr. Hansa Mehta",
+              "role": "Constituent Assembly Member",
+              "contribution": "Chairman of the Drafting Committee"
+            },
+            {
+              "leader": "Dr. D.P. Khaitan",
+              "role": "Constituent Assembly Member",
+              "contribution": "Chairman of the Drafting Committee"
+            },
+            {
+              "leader": "Dr. B.L. Mitter",
+              "role": "Constituent Assembly Member",
+              "contribution": "Chairman of the Drafting Committee"
+            },
+            {
+              "leader": "N. Gopalaswami Ayyangar",
+              "role": "Constituent Assembly Member",
+              "contribution": "Chairman of the Drafting Committee"
+            },
+            {
+              "leader": "B. Pattabhi Sitaramayya",
+              "role": "Constituent Assembly Member",
+              "contribution": "Chairman of the Drafting Committee"
+            },
+            {
+              "leader": "Alladi Krishnaswamy Iyer",
+              "role": "Constituent Assembly Member",
+              "contribution": "Chairman of the Drafting Committee"
+            }
+          ]
+        },
+        {
+          "title": "Main Features of a Constitution",
+          "columns": [
+            {
+              "name": "feature",
+              "label": "Feature",
+              "align": "left",
+              "field": "feature",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "feature": "Structure of Government",
+              "description": "Defines the framework of the government and its branches"
+            },
+            {
+              "feature": "Separation of Powers",
+              "description": "Delineates the division of responsibilities among different branches of government"
+            },
+            {
+              "feature": "Checks and Balances",
+              "description": "Mechanisms to prevent any one branch from becoming too powerful"
+            },
+            {
+              "feature": "Fundamental Rights",
+              "description": "Guarantees basic rights and freedoms to all citizens"
+            },
+            {
+              "feature": "Rule of Law",
+              "description": "Establishes that all citizens, including government officials, are subject to the law"
+            },
+            {
+              "feature": "Amendment Procedure",
+              "description": "Provides a method for modifying the constitution"
+            }
+          ]
+        },
+        {
+          "title": "Constitutional Amendments in India",
+          "columns": [
+            {
+              "name": "amendment_number",
+              "label": "Amendment Number",
+              "align": "left",
+              "field": "amendment_number",
+              "sortable": "True"
+            },
+            {
+              "name": "year",
+              "label": "Year",
+              "align": "left",
+              "field": "year",
+              "sortable": "True"
+            },
+            {
+              "name": "purpose",
+              "label": "Purpose",
+              "align": "left",
+              "field": "purpose",
+              "sortable": "True"
+            },
+            {
+              "name": "impact",
+              "label": "Impact",
+              "align": "left",
+              "field": "impact",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "amendment_number": "1st",
+              "year": "1951",
+              "purpose": "Land reform and curtailment of property rights",
+              "impact": "Facilitated land redistribution and social reform"
+            },
+            {
+              "amendment_number": "42nd",
+              "year": "1976",
+              "purpose": "To spell out the high ideals of socialism, secularism, and the integrity of the nation",
+              "impact": "Introduction of Fundamental Duties, changes in the Preamble"
+            },
+            {
+              "amendment_number": "73rd",
+              "year": "1992",
+              "purpose": "Introduction of Panchayati Raj (local self-government)",
+              "impact": "Decentralization of power, empowerment of local bodies"
+            },
+            {
+              "amendment_number": "74th",
+              "year": "1992",
+              "purpose": "Introduction of Nagarpalikas (municipalities)",
+              "impact": "Decentralization of power, empowerment of local bodies"
+            },
+            {
+              "amendment_number": "86th",
+              "year": "2002",
+              "purpose": "Free and compulsory education for children aged 6-14",
+              "impact": "Introduction of Article 21A, Right to Education"
+            }
+          ]
+        },
+        {
+          "name": "Guiding Values of the Indian Constitution and their Meanings",
+          "columns": [
+            {
+              "name": "value",
+              "label": "Value",
+              "align": "left",
+              "field": "value",
+              "sortable": "True"
+            },
+            {
+              "name": "meaning",
+              "label": "Meaning",
+              "align": "left",
+              "field": "meaning",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "value": "Sovereignty",
+              "meaning": "India's freedom from external control"
+            },
+            {
+              "value": "Socialism",
+              "meaning": "Focus on achieving social and economic equality"
+            },
+            {
+              "value": "Secularism",
+              "meaning": "State's impartiality towards all religions"
+            },
+            {
+              "value": "Democracy",
+              "meaning": "Government by the people, ensuring majority rule and minority rights"
+            },
+            {
+              "value": "Republic",
+              "meaning": "Head of state elected by the people, not a hereditary monarch"
+            },
+            {
+              "value": "Justice",
+              "meaning": "Social, economic, and political justice for all citizens"
+            },
+            {
+              "value": "Liberty",
+              "meaning": "Freedom of thought, expression, belief, faith, and worship"
+            },
+            {
+              "value": "Equality",
+              "meaning": "Equal status and opportunity for all individuals"
+            },
+            {
+              "value": "Fraternity",
+              "meaning": "Promoting a spirit of brotherhood among all citizens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "CBSE_9_Civics_3",
+      "tables": [
+        {
+          "title": "Types of Elections in India",
+          "columns": [
+            {
+              "name": "election_type",
+              "label": "Election Type",
+              "align": "left",
+              "field": "election_type",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            },
+            {
+              "name": "frequency",
+              "label": "Frequency",
+              "align": "left",
+              "field": "frequency",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "election_type": "Lok Sabha",
+              "description": "Election for the national parliament",
+              "frequency": "Every 5 years"
+            },
+            {
+              "election_type": "Vidhan Sabha",
+              "description": "Election for the state legislative assembly",
+              "frequency": "Every 5 years"
+            },
+            {
+              "election_type": "Local Body",
+              "description": "Elections for local government bodies",
+              "frequency": "Varies by state"
+            }
+          ]
+        },
+        {
+          "title": "Conditions for Democratic Elections",
+          "columns": [
+            {
+              "name": "condition",
+              "label": "Condition",
+              "align": "left",
+              "field": "condition",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "condition": "Universal Suffrage",
+              "description": "Right to vote for all adult citizens"
+            },
+            {
+              "condition": "Fair Representation",
+              "description": "Equal value for all votes"
+            },
+            {
+              "condition": "Regular Intervals",
+              "description": "Elections at fixed, regular intervals"
+            },
+            {
+              "condition": "Free & Fair Conduct",
+              "description": "No coercion or undue influence on voters"
+            }
+          ]
+        },
+        {
+          "title": "Electoral Constituencies in India",
+          "columns": [
+            {
+              "name": "type",
+              "label": "Type",
+              "align": "left",
+              "field": "type",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "type": "Lok Sabha",
+              "description": "543 constituencies for national parliament elections"
+            },
+            {
+              "type": "Vidhan Sabha",
+              "description": "Variable, depending on the state"
+            },
+            {
+              "type": "Local Bodies",
+              "description": "Constituencies for local body elections"
+            }
+          ]
+        },
+        {
+          "title": "Role of the Election Commission of India",
+          "columns": [
+            {
+              "name": "responsibility",
+              "label": "Responsibility",
+              "align": "left",
+              "field": "responsibility",
+              "sortable": "True"
+            },
+            {
+              "name": "details",
+              "label": "Details",
+              "align": "left",
+              "field": "details",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "responsibility": "Conduct of Elections",
+              "details": "Organizing and conducting elections to Parliament, State Legislatures, etc."
+            },
+            {
+              "responsibility": "Voters List",
+              "details": "Preparation and revision of electoral rolls"
+            },
+            {
+              "responsibility": "Monitoring",
+              "details": "Monitoring election campaign, including expenditure and media"
+            }
+          ]
+        },
+        {
+          "title": "Key Electoral Practices and Procedures",
+          "columns": [
+            {
+              "name": "practice",
+              "label": "Practice",
+              "align": "left",
+              "field": "practice",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "practice": "Nomination",
+              "description": "Process for a candidate to file for election"
+            },
+            {
+              "practice": "Campaign",
+              "description": "Official period for political campaigning"
+            },
+            {
+              "practice": "Polling",
+              "description": "Process of casting votes"
+            },
+            {
+              "practice": "Counting",
+              "description": "Tallying of votes to determine winners"
+            }
+          ]
+        },
+        {
+          "title": "Voter Turnout Comparison",
+          "columns": [
+            {
+              "name": "country",
+              "label": "Country",
+              "align": "left",
+              "field": "country",
+              "sortable": "True"
+            },
+            {
+              "name": "year",
+              "label": "Year",
+              "align": "left",
+              "field": "year",
+              "sortable": "True"
+            },
+            {
+              "name": "voter_turnout",
+              "label": "Voter Turnout (%)",
+              "align": "left",
+              "field": "voter_turnout",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            { "country": "India", "year": "1991", "voter_turnout": "56" },
+            { "country": "India", "year": "2015", "voter_turnout": "66" },
+            { "country": "UK", "year": "1991", "voter_turnout": "58" },
+            { "country": "UK", "year": "2015", "voter_turnout": "62" }
+          ]
+        },
+        {
+          "title": "Challenges to Free and Fair Elections",
+          "columns": [
+            {
+              "name": "challenge",
+              "label": "Challenge",
+              "align": "left",
+              "field": "challenge",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "challenge": "Money Power",
+              "description": "Influence of wealth in election outcomes"
+            },
+            {
+              "challenge": "Criminalization",
+              "description": "Candidates with criminal backgrounds"
+            },
+            {
+              "challenge": "Family Politics",
+              "description": "Dominance of certain families in politics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "CBSE_9_Civics_4",
+      "tables": [
+        {
+          "title": "Major Political Institutions and Their Roles",
+          "columns": [
+            {
+              "name": "institution",
+              "label": "Institution",
+              "align": "left",
+              "field": "institution",
+              "sortable": "True"
+            },
+            {
+              "name": "role",
+              "label": "Role",
+              "align": "left",
+              "field": "role",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "institution": "Legislature",
+              "role": "Makes laws, controls finances, and oversees the executive"
+            },
+            {
+              "institution": "Executive",
+              "role": "Implements laws and policies, administers day-to-day functions"
+            },
+            {
+              "institution": "Judiciary",
+              "role": "Interprets laws, adjudicates legal disputes, and ensures justice"
+            }
+          ]
+        },
+        {
+          "title": "Key Steps in Major Policy Decision Making",
+          "columns": [
+            {
+              "name": "step",
+              "label": "Step",
+              "align": "left",
+              "field": "step",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "step": "Policy Proposal",
+              "description": "Proposal of policy by the executive or legislative members"
+            },
+            {
+              "step": "Discussion and Approval",
+              "description": "Discussion in legislative bodies and approval or rejection"
+            },
+            {
+              "step": "Implementation",
+              "description": "Execution of policy by the executive branch"
+            },
+            {
+              "step": "Judicial Review",
+              "description": "Review of policy by the judiciary in case of disputes or constitutional challenges"
+            }
+          ]
+        },
+        {
+          "title": "Example of a Major Decision: Reservation Policy",
+          "columns": [
+            {
+              "name": "stage",
+              "label": "Stage of Decision",
+              "align": "left",
+              "field": "stage",
+              "sortable": "True"
+            },
+            {
+              "name": "action",
+              "label": "Action Taken",
+              "align": "left",
+              "field": "action",
+              "sortable": "True"
+            },
+            {
+              "name": "institution",
+              "label": "Institution Involved",
+              "align": "left",
+              "field": "institution",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "stage": "Proposal",
+              "action": "Introduction of reservation policy",
+              "institution": "Executive"
+            },
+            {
+              "stage": "Legislative Discussion",
+              "action": "Debate and discussion in Parliament",
+              "institution": "Legislature"
+            },
+            {
+              "stage": "Implementation",
+              "action": "Issuance of Government Order",
+              "institution": "Executive"
+            },
+            {
+              "stage": "Judicial Review",
+              "action": "Upholding of policy by Supreme Court",
+              "institution": "Judiciary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "CBSE_9_Civics_5",
+      "tables": [
+        {
+          "title": "Life Without Rights Examples",
+          "columns": [
+            {
+              "name": "case_title",
+              "label": "Case Title",
+              "align": "left",
+              "field": "case_title",
+              "sortable": "True"
+            },
+            {
+              "name": "location",
+              "label": "Location",
+              "align": "left",
+              "field": "location",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "case_title": "Guantanamo Bay Prison",
+              "location": "Cuba",
+              "description": "About 600 people were secretly picked up by US forces and put in a prison in Guantanamo Bay without trial or informing their governments."
+            },
+            {
+              "case_title": "Citizens' Rights in Saudi Arabia",
+              "location": "Saudi Arabia",
+              "description": "Citizens cannot form political parties or any political organizations and there's no freedom of religion."
+            },
+            {
+              "case_title": "Ethnic Massacre in Kosovo",
+              "location": "Kosovo",
+              "description": "Ethnic Albanian population faced hostility and violence from the Serb nationalist government."
+            }
+          ]
+        },
+        {
+          "title": "Fundamental Rights in the Indian Constitution",
+          "columns": [
+            {
+              "name": "right",
+              "label": "Right",
+              "align": "left",
+              "field": "right",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "right": "Right to Equality",
+              "description": "Includes equality before the law, the prohibition of discrimination, equality of opportunity in matters of employment."
+            },
+            {
+              "right": "Right to Freedom",
+              "description": "Includes freedom of speech and expression, assembly, association, movement, residence, and right to practice any profession."
+            },
+            {
+              "right": "Right against Exploitation",
+              "description": "Prohibits all forms of forced labor and child labor."
+            },
+            {
+              "right": "Right to Freedom of Religion",
+              "description": "Ensures religious freedom and allows all individuals to practice, profess and propagate their religion."
+            },
+            {
+              "right": "Cultural and Educational Rights",
+              "description": "Protects the interests of minorities by allowing them to preserve their traditions, culture and language."
+            },
+            {
+              "right": "Right to Constitutional Remedies",
+              "description": "Allows individuals to approach the Supreme Court or High Courts for enforcement of other Fundamental Rights."
+            }
+          ]
+        },
+        {
+          "title": "Rights in a Democracy",
+          "columns": [
+            {
+              "name": "right",
+              "label": "Right",
+              "align": "left",
+              "field": "right",
+              "sortable": "True"
+            },
+            {
+              "name": "importance",
+              "label": "Importance",
+              "align": "left",
+              "field": "importance",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "right": "Right to Vote",
+              "importance": "Essential for democratic elections and citizen participation."
+            },
+            {
+              "right": "Freedom of Expression",
+              "importance": "Allows citizens to express opinions, criticize the government, and share ideas."
+            },
+            {
+              "right": "Protection of Minority Rights",
+              "importance": "Ensures that the majority cannot suppress the rights of minorities."
+            },
+            {
+              "right": "Right to Information",
+              "importance": "Enables citizens to access information from the government, promoting transparency."
+            },
+            {
+              "right": "Right to Education",
+              "importance": "Guarantees education for all, essential for an informed and educated citizenry."
+            },
+            {
+              "right": "Right to Privacy",
+              "importance": "Protects individual privacy and personal data from unauthorized use."
+            }
+          ]
+        },
+        {
+          "title": "Expanding Scope of Rights",
+          "columns": [
+            {
+              "name": "right",
+              "label": "Right",
+              "align": "left",
+              "field": "right",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "right": "Right to Freedom of Press",
+              "description": "Derived from the fundamental right to freedom of speech and expression."
+            },
+            {
+              "right": "Right to Information",
+              "description": "Allows citizens to request information from the government, enhancing transparency."
+            },
+            {
+              "right": "Right to Education",
+              "description": "Recognized as a right, mandating free and compulsory education for children."
+            },
+            {
+              "right": "Right to Food",
+              "description": "Expanded interpretation of the right to life, including the right to adequate food."
+            },
+            {
+              "right": "Right to Internet Access",
+              "description": "Emerging right, recognizing access to the internet as part of the freedom of expression."
+            },
+            {
+              "right": "Right to Privacy",
+              "description": "Includes protection against unauthorized use of personal data and privacy infringements."
+            }
+            
+          ]
+        }
+      ]
+    },
+    {
       "chapterId": "CBSE_9_History_1",
       "tables": [
         {
@@ -286,14 +1599,14 @@
               "label": "Group",
               "align": "left",
               "field": "group",
-              "sortable": true
+              "sortable": "True"
             },
             {
               "name": "beliefs",
               "label": "Beliefs",
               "align": "left",
               "field": "beliefs",
-              "sortable": true
+              "sortable": "True"
             }
           ],
           "rows": [
@@ -319,21 +1632,21 @@
               "label": "Stage",
               "align": "left",
               "field": "stage",
-              "sortable": true
+              "sortable": "True"
             },
             {
               "name": "description",
               "label": "Description",
               "align": "left",
               "field": "description",
-              "sortable": true
+              "sortable": "True"
             },
             {
               "name": "year",
               "label": "Year",
               "align": "left",
               "field": "year",
-              "sortable": true
+              "sortable": "True"
             }
           ],
           "rows": [
@@ -357,14 +1670,14 @@
               "label": "Aspect",
               "align": "left",
               "field": "aspect",
-              "sortable": true
+              "sortable": "True"
             },
             {
               "name": "impact",
               "label": "Impact",
               "align": "left",
               "field": "impact",
-              "sortable": true
+              "sortable": "True"
             }
           ],
           "rows": [
@@ -390,21 +1703,21 @@
               "label": "Year",
               "align": "left",
               "field": "year",
-              "sortable": true
+              "sortable": "True"
             },
             {
               "name": "event",
               "label": "Event",
               "align": "left",
               "field": "event",
-              "sortable": true
+              "sortable": "True"
             },
             {
               "name": "impact",
               "label": "Impact",
               "align": "left",
               "field": "impact",
-              "sortable": true
+              "sortable": "True"
             }
           ],
           "rows": [
@@ -433,21 +1746,21 @@
               "label": "Name",
               "align": "left",
               "field": "name",
-              "sortable": true
+              "sortable": "True"
             },
             {
               "name": "role",
               "label": "Role",
               "align": "left",
               "field": "role",
-              "sortable": true
+              "sortable": "True"
             },
             {
               "name": "contribution",
               "label": "Contribution/Influence",
               "align": "left",
               "field": "contribution",
-              "sortable": true
+              "sortable": "True"
             }
           ],
           "rows": [
@@ -481,14 +1794,14 @@
               "label": "Period",
               "align": "left",
               "field": "period",
-              "sortable": true
+              "sortable": "True"
             },
             {
               "name": "event",
               "label": "Event",
               "align": "left",
               "field": "event",
-              "sortable": true
+              "sortable": "True"
             }
           ],
           "rows": [

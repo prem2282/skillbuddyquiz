@@ -4,9 +4,37 @@
       "board": "CBSE",
       "grade": "9",
       "subject": "Civics",
-      "chapter": "Electoral Politics",
+      "chapter": "1: What is Democracy?",
       "quizId": "CBSE_9_Civics_1"
     },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Civics",
+      "chapter": "2: Constitutional design",
+      "quizId": "CBSE_9_Civics_2"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Civics",
+      "chapter": "3: Electoral Politics",
+      "quizId": "CBSE_9_Civics_3"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Civics",
+      "chapter": "4: Working of institutions",
+      "quizId": "CBSE_9_Civics_4"
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "Civics",
+      "chapter": "5: Democratic Rights",
+      "quizId": "CBSE_9_Civics_5"
+    },    
     {
       "board": "CBSE",
       "grade": "9",
@@ -153,7 +181,14 @@
       "subject": "History",
       "chapter": "4: Forest Society and colonialism",
       "quizId": "CBSE_9_History_4"
-    }
+    },
+    {
+      "board": "CBSE",
+      "grade": "9",
+      "subject": "History",
+      "chapter": "5: Pastoralists in the Modern World",
+      "quizId": "CBSE_9_History_5"
+    }    
            
 
   ]
