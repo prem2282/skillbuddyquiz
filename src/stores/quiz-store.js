@@ -7,13 +7,13 @@ export const useQuizStore = defineStore("quiz", {
     currentQuestion: 0,
     userResponse: [],
     selectedLevel: null,
-    sampleChapterSummary: null,
     quizCount: 5,
     chapterDetails: null,
+    chapterSummary: null,
   }),
   getters: {
     level3Options() {
-      return { "A":"True", "B":"False"};
+      return { A: "True", B: "False" };
     },
     totalQuestions(state) {
       return state.quizList?.length || 0;
@@ -25,8 +25,11 @@ export const useQuizStore = defineStore("quiz", {
       return state.currentQuestion;
     },
     quizList(state) {
-      let newlist = []
-      newlist = state.fullQuizList?.quizDetails?.filter((question) => question.level === state.selectedLevel) || [];
+      let newlist = [];
+      newlist =
+        state.fullQuizList?.quizDetails?.filter(
+          (question) => question.level === state.selectedLevel
+        ) || [];
 
       // Shuffle the newlist array
       for (let i = newlist.length - 1; i > 0; i--) {
@@ -43,10 +46,7 @@ export const useQuizStore = defineStore("quiz", {
     currentQuiz(state) {
       return this.quizList?.[state.currentQuestion];
     },
-      
-    chapterSummary(state) {
-      return state.fullQuizList?.summaryData 
-    },
+
     score(state) {
       let score = 0;
       state.userResponse.forEach((response, index) => {
@@ -57,8 +57,9 @@ export const useQuizStore = defineStore("quiz", {
       return score;
     },
     levels(state) {
-
-      let levels = state.fullQuizList?.quizDetails?.map((question) => question.level);
+      let levels = state.fullQuizList?.quizDetails?.map(
+        (question) => question.level
+      );
       // unique levels
       return [...new Set(levels)].sort((a, b) => a - b);
     },
@@ -85,6 +86,9 @@ export const useQuizStore = defineStore("quiz", {
     getChapterTables(state) {
       return state.chapterDetails?.tables;
     },
+    getChapterSummary(state) {
+      return state.chapterSummary?.summary;
+    },
   },
   actions: {
     async loadQuizList(quizId) {
@@ -100,32 +104,32 @@ export const useQuizStore = defineStore("quiz", {
       } catch (error) {
         console.error("Failed to load quiz data:", error);
       }
-    },   
-  
-    async loadChapterDetails(quizId) {
-      console.log("quizId", quizId);
+    },
+
+    async loadChapterDetails(chapterId) {
       try {
         const response = await fetch("/data/chapterDetails.json");
         const data = await response.json();
         const chapterDetails = data.chapterData.find(
-          (quiz) => quiz.chapterId === quizId
+          (chapter) => chapter.chapterId === chapterId
         );
         console.log("chapterDetails", chapterDetails);
         this.chapterDetails = chapterDetails;
       } catch (error) {
-        console.error("Failed to load quiz data:", error);
+        console.error("Failed to load chapter data:", error);
       }
-    },  
+    },
 
-    async fetchFileContent() {
+    async loadChapterSummary(chapterId) {
       try {
-        const response = await fetch('/data/samplehtmldata.txt'); // Adjust the path to your file
-        if (!response.ok) {
-          throw new Error('Failed to fetch file');
-        }
-        this.sampleChapterSummary = await response.text();
+        const response = await fetch("/data/chapterSummary.json");
+        const data = await response.json();
+        const chapterSummary = data.chapterSummary.find(
+          (chapter) => chapter.chapterId === chapterId
+        );
+        this.chapterSummary = chapterSummary;
       } catch (error) {
-        console.error('Error fetching file:', error);
+        console.error("Failed to load chapter data:", error);
       }
     },
 
@@ -156,11 +160,12 @@ export const useQuizStore = defineStore("quiz", {
       console.log("selectedOption", optionIndex);
       let quiz = this.quizList[quizIndex];
       if (quiz.level === 3) {
-        return quiz.answer === optionIndex ? "Correct" : "Incorrect";
+        let explanation_text = quiz.explanation ? " : " + quiz.explanation : "";
+        return this.level3Options[quiz.answer] + explanation_text;
       }
 
       return quiz.explanations[optionIndex];
-    },    
+    },
     correctExplanation(quiz_index) {
       return this.quizList[quiz_index].explanations?.[
         this.quizList[quiz_index].answer
@@ -173,9 +178,10 @@ export const useQuizStore = defineStore("quiz", {
       }
       if (quiz.level === 1 || quiz.level === 2) {
         return quiz.options;
-      } else {                        // for now only true/false is the level 3 quiz
-        return this.level3Options
+      } else {
+        // for now only true/false is the level 3 quiz
+        return this.level3Options;
       }
-    },     
+    },
   },
 });

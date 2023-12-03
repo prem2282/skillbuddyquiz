@@ -1,34 +1,38 @@
 <template>
   <div>
     <div class="selection-chip-box">
-          <q-chip v-if="getSelectedBoard">{{ getSelectedBoard }} </q-chip>
-          <q-chip v-if="getSelectedGrade">{{ getSelectedGrade }} </q-chip>
-          <q-chip v-if="getSelectedSubject">{{ getSelectedSubject }} </q-chip>
-    </div>  
+      <q-chip v-if="getSelectedBoard">{{ getSelectedBoard }} </q-chip>
+      <q-chip v-if="getSelectedGrade">{{ getSelectedGrade }} </q-chip>
+      <q-chip v-if="getSelectedSubject">{{ getSelectedSubject }} </q-chip>
+    </div>
 
     <div class="selection-chip-box">
       <q-chip v-if="getSelectedChapter">{{ getSelectedChapter }} </q-chip>
-    </div>          
+    </div>
     <div v-if="getBoardList && !getSelectedBoard">
       <BoardCard />
     </div>
     <div v-if="getSelectedBoard && !getSelectedGrade">
       <GradeCard />
-    </div>    
+    </div>
     <div v-if="getSelectedGrade && !getSelectedSubject">
       <SubjectCard />
-    </div>        
+    </div>
     <div v-if="getSelectedSubject && !getSelectedChapter">
       <div>
-
         <div>
-           <ChapterCard />
+          <ChapterCard />
         </div>
       </div>
     </div>
     <div v-if="getSelectedChapter && !getSelectedLevel">
       <div>
-        <ChapterQuizType/>
+        <ChapterQuizType />
+      </div>
+    </div>
+    <div v-if="getSelectedChapter && !getSelectedLevel">
+      <div>
+        <div class="summary-text quiz-container" v-html="htmlContent"></div>
       </div>
     </div>
   </div>
@@ -40,6 +44,7 @@ import BoardCard from "./BoardCard.vue";
 import GradeCard from "./GradeCard.vue";
 import SubjectCard from "./SubjectCard.vue";
 import ChapterQuizType from "./ChapterQuizType.vue";
+import { marked } from "marked";
 
 import { useAcademicsStore } from "stores/academics-store";
 import { useQuizStore } from "stores/quiz-store";
@@ -51,10 +56,13 @@ export default {
     SubjectCard,
     ChapterQuizType,
   },
-  data() {
-    return {};
-  },
+  data() {},
   computed: {
+    htmlContent() {
+      if (!this.getChapterSummary) return "";
+      const chapterSummary = this.getChapterSummary;
+      return marked(chapterSummary);
+    },
     academicsStore() {
       return useAcademicsStore();
     },
@@ -81,6 +89,9 @@ export default {
     },
     getSelectedLevel() {
       return this.quizStore.selectedLevel;
+    },
+    getChapterSummary() {
+      return this.quizStore.getChapterSummary;
     },
   },
 };

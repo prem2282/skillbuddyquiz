@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <q-page-container class="row justify-center">
+    <q-page-container class="row justify-center quiz-container">
       <q-col cols="6" sm="12" class="q-ma-auto">
         <div class="text-center text-h6">Score : {{ score }}</div>
         <div
@@ -47,12 +47,13 @@
               </q-item>
               <div>
                 <div v-if="quizList[quiz_index].level === 3">
-                  <q-item>
-                    <q-chip class="q-mr-md" :class="yourAnswerColor(quiz_index)"
-                      >Your Answer {{ userResponse[quiz_index] }} is
-                      {{ explanation(quiz_index) }}
+                  <q-chip class="q-mr-md" :class="yourAnswerColor(quiz_index)"
+                      >Your Answer {{ userResponse[quiz_index] }} is {{ questionResult(quiz_index) }}
+                      
                     </q-chip>
-                    <q-item-section> </q-item-section>
+
+                  <q-item>
+                    <q-item-section> {{ explanation(quiz_index) }} </q-item-section>
                   </q-item>
                 </div>
 

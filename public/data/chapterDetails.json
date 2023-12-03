@@ -1308,7 +1308,6 @@
               "right": "Right to Privacy",
               "description": "Includes protection against unauthorized use of personal data and privacy infringements."
             }
-            
           ]
         }
       ]
@@ -1836,6 +1835,1252 @@
             {
               "period": "1929",
               "event": "Beginning of Collectivisation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "CBSE_9_Science_1",
+      "tables": [
+        {
+          "title": "Physical Nature of Matter",
+          "columns": [
+            {
+              "name": "concept",
+              "label": "Concept",
+              "align": "left",
+              "field": "concept",
+              "sortable": "True"
+            },
+            {
+              "name": "activity",
+              "label": "Activity",
+              "align": "left",
+              "field": "activity",
+              "sortable": "True"
+            },
+            {
+              "name": "observation",
+              "label": "Observation",
+              "align": "left",
+              "field": "observation",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "concept": "Nature of Matter",
+              "activity": "Dissolving salt/sugar in water",
+              "observation": "Salt/sugar disappears in water indicating particulate nature"
+            },
+            {
+              "concept": "Particle Size",
+              "activity": "Dissolving potassium permanganate in water",
+              "observation": "Color spreads in water showing small particle size"
+            }
+          ]
+        },
+        {
+          "title": "Characteristics of Particles of Matter",
+          "columns": [
+            {
+              "name": "characteristic",
+              "label": "Characteristic",
+              "align": "left",
+              "field": "characteristic",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            },
+            {
+              "name": "example",
+              "label": "Example",
+              "align": "left",
+              "field": "example",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "characteristic": "Space Between Particles",
+              "description": "Particles have spaces between them",
+              "example": "Dissolution of sugar in water"
+            },
+            {
+              "characteristic": "Particle Motion",
+              "description": "Particles are continuously moving",
+              "example": "Spreading of perfume"
+            },
+            {
+              "characteristic": "Forces of Attraction",
+              "description": "Particles attract each other",
+              "example": "Formation of liquid droplets"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "CBSE_9_Science_2",
+      "tables": [
+        {
+          "title": "States of Matter and Their Characteristics",
+          "columns": [
+            {
+              "name": "state",
+              "label": "State of Matter",
+              "align": "left",
+              "field": "state",
+              "sortable": "True"
+            },
+            {
+              "name": "shape",
+              "label": "Definite Shape",
+              "align": "left",
+              "field": "shape",
+              "sortable": "True"
+            },
+            {
+              "name": "volume",
+              "label": "Definite Volume",
+              "align": "left",
+              "field": "volume",
+              "sortable": "True"
+            },
+            {
+              "name": "compressibility",
+              "label": "Compressibility",
+              "align": "left",
+              "field": "compressibility",
+              "sortable": "True"
+            },
+            {
+              "name": "rigidity",
+              "label": "Rigidity",
+              "align": "left",
+              "field": "rigidity",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "state": "Solid",
+              "shape": "Yes",
+              "volume": "Yes",
+              "compressibility": "Negligible",
+              "rigidity": "High"
+            },
+            {
+              "state": "Liquid",
+              "shape": "No",
+              "volume": "Yes",
+              "compressibility": "Low",
+              "rigidity": "Low"
+            },
+            {
+              "state": "Gas",
+              "shape": "No",
+              "volume": "No",
+              "compressibility": "High",
+              "rigidity": "No"
+            }
+          ]
+        },
+        {
+          "title": "Factors Affecting Evaporation",
+          "columns": [
+            {
+              "name": "factor",
+              "label": "Factor",
+              "align": "left",
+              "field": "factor",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            },
+            {
+              "name": "effect",
+              "label": "Effect on Evaporation",
+              "align": "left",
+              "field": "effect",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "factor": "Surface Area",
+              "description": "The extent of the surface exposed to the atmosphere",
+              "effect": "Increase in surface area increases the rate of evaporation"
+            },
+            {
+              "factor": "Temperature",
+              "description": "The degree of heat present in the substance or environment",
+              "effect": "Higher temperature increases the rate of evaporation as more particles gain enough kinetic energy"
+            },
+            {
+              "factor": "Humidity",
+              "description": "The amount of water vapor present in air",
+              "effect": "Lower humidity increases the rate of evaporation as the air can hold more water vapor"
+            },
+            {
+              "factor": "Wind Speed",
+              "description": "The velocity of wind in the environment",
+              "effect": "Higher wind speed increases the rate of evaporation by moving water vapor away from the surface"
+            }
+          ]
+        },
+        {
+          "title": "Characteristics of Particles of Matter",
+          "columns": [
+            {
+              "name": "state",
+              "label": "State of Matter",
+              "align": "left",
+              "field": "state",
+              "sortable": "True"
+            },
+            {
+              "name": "force_of_attraction",
+              "label": "Force of Attraction",
+              "align": "left",
+              "field": "force_of_attraction",
+              "sortable": "True"
+            },
+            {
+              "name": "spaces_between_particles",
+              "label": "Spaces Between Particles",
+              "align": "left",
+              "field": "spaces_between_particles",
+              "sortable": "True"
+            },
+            {
+              "name": "kinetic_energy",
+              "label": "Kinetic Energy of Particles",
+              "align": "left",
+              "field": "kinetic_energy",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "state": "Solid",
+              "force_of_attraction": "Maximum",
+              "spaces_between_particles": "Minimum",
+              "kinetic_energy": "Minimum"
+            },
+            {
+              "state": "Liquid",
+              "force_of_attraction": "Intermediate",
+              "spaces_between_particles": "Intermediate",
+              "kinetic_energy": "Intermediate"
+            },
+            {
+              "state": "Gas",
+              "force_of_attraction": "Minimum",
+              "spaces_between_particles": "Maximum",
+              "kinetic_energy": "Maximum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "CBSE_9_Science_3",
+      "tables": [
+        {
+          "title": "Laws of Chemical Combination",
+          "columns": [
+            {
+              "name": "law",
+              "label": "Law",
+              "align": "left",
+              "field": "law",
+              "sortable": "True"
+            },
+            {
+              "name": "definition",
+              "label": "Definition",
+              "align": "left",
+              "field": "definition",
+              "sortable": "True"
+            },
+            {
+              "name": "example",
+              "label": "Example",
+              "align": "left",
+              "field": "example",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "law": "Law of Conservation of Mass",
+              "definition": "Matter can neither be created nor destroyed in a chemical reaction.",
+              "example": "When magnesium burns in air, the mass of magnesium oxide produced is equal to the sum of the masses of magnesium and oxygen."
+            },
+            {
+              "law": "Law of Constant Proportions",
+              "definition": "A chemical compound always contains the same elements in the same proportion by mass, regardless of the size of the sample or source of the compound.",
+              "example": "Water (H2O) always contains hydrogen and oxygen in a 1:8 ratio by mass."
+            }
+          ]
+        },
+        {
+          "title": "Dalton’s Atomic Theory",
+          "columns": [
+            {
+              "name": "postulateNumber",
+              "label": "Postulate Number",
+              "align": "center",
+              "field": "postulateNumber",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "postulateNumber": 1,
+              "description": "All matter is made of very tiny particles called atoms."
+            },
+            {
+              "postulateNumber": 2,
+              "description": "Atoms are indivisible particles, which cannot be created or destroyed in a chemical reaction."
+            },
+            {
+              "postulateNumber": 3,
+              "description": "Atoms of a given element are identical in mass and chemical properties."
+            },
+            {
+              "postulateNumber": 4,
+              "description": "Atoms of different elements have different masses and chemical properties."
+            },
+            {
+              "postulateNumber": 5,
+              "description": "Atoms combine in the ratio of small whole numbers to form compounds."
+            },
+            {
+              "postulateNumber": 6,
+              "description": "The relative number and kinds of atoms are constant in a given compound."
+            }
+          ]
+        },
+        {
+          "title": "Atomic Mass of Elements",
+          "columns": [
+            {
+              "name": "element",
+              "label": "Element",
+              "align": "left",
+              "field": "element",
+              "sortable": "True"
+            },
+            {
+              "name": "atomicMass",
+              "label": "Atomic Mass (u)",
+              "align": "right",
+              "field": "atomicMass",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            { "element": "Hydrogen", "atomicMass": "1" },
+            { "element": "Carbon", "atomicMass": "12" },
+            { "element": "Nitrogen", "atomicMass": "14" },
+            { "element": "Oxygen", "atomicMass": "16" },
+            { "element": "Sodium", "atomicMass": "23" },
+            { "element": "Magnesium", "atomicMass": "24" },
+            { "element": "Sulphur", "atomicMass": "32" },
+            { "element": "Chlorine", "atomicMass": "35.5" },
+            { "element": "Calcium", "atomicMass": "40" }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "CBSE_9_Science_4",
+      "tables": [
+        {
+          "title": "Sub-atomic Particles",
+          "columns": [
+            {
+              "name": "particle",
+              "label": "Particle",
+              "align": "left",
+              "field": "particle",
+              "sortable": "True"
+            },
+            {
+              "name": "symbol",
+              "label": "Symbol",
+              "align": "left",
+              "field": "symbol",
+              "sortable": "True"
+            },
+            {
+              "name": "charge",
+              "label": "Charge",
+              "align": "left",
+              "field": "charge",
+              "sortable": "True"
+            },
+            {
+              "name": "relativeMass",
+              "label": "Relative Mass",
+              "align": "left",
+              "field": "relativeMass",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "particle": "Electron",
+              "symbol": "e⁻",
+              "charge": "-1",
+              "relativeMass": "1/1840"
+            },
+            {
+              "particle": "Proton",
+              "symbol": "p⁺",
+              "charge": "+1",
+              "relativeMass": "1"
+            },
+            {
+              "particle": "Neutron",
+              "symbol": "n⁰",
+              "charge": "0",
+              "relativeMass": "1"
+            }
+          ]
+        },
+        {
+          "title": "Atomic Models",
+          "columns": [
+            {
+              "name": "scientist",
+              "label": "Scientist",
+              "align": "left",
+              "field": "scientist",
+              "sortable": "True"
+            },
+            {
+              "name": "model",
+              "label": "Model",
+              "align": "left",
+              "field": "model",
+              "sortable": "True"
+            },
+            {
+              "name": "features",
+              "label": "Main Features",
+              "align": "left",
+              "field": "features",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "scientist": "J.J. Thomson",
+              "model": "Plum Pudding Model",
+              "features": "Atoms are composed of electrons scattered within a 'soup' of positive charge to balance the electron's negative charges, like plums within a pudding."
+            },
+            {
+              "scientist": "Ernest Rutherford",
+              "model": "Nuclear Model",
+              "features": "Atoms have a small, dense, positively charged nucleus at their center with electrons orbiting this nucleus, similar to planets orbiting the sun."
+            },
+            {
+              "scientist": "Niels Bohr",
+              "model": "Bohr Model",
+              "features": "Electrons orbit the nucleus in distinct, fixed orbits with specific energy levels, not in random orbits."
+            }
+          ]
+        },
+        {
+          "title": "Electron Distribution in Orbits (Shells)",
+          "columns": [
+            {
+              "name": "shell",
+              "label": "Shell",
+              "align": "left",
+              "field": "shell",
+              "sortable": "True"
+            },
+            {
+              "name": "symbol",
+              "label": "Symbol",
+              "align": "left",
+              "field": "symbol",
+              "sortable": "True"
+            },
+            {
+              "name": "maxElectrons",
+              "label": "Maximum Electrons",
+              "align": "left",
+              "field": "maxElectrons",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            { "shell": "First (K)", "symbol": "K", "maxElectrons": "2" },
+            { "shell": "Second (L)", "symbol": "L", "maxElectrons": "8" },
+            { "shell": "Third (M)", "symbol": "M", "maxElectrons": "18" },
+            { "shell": "Fourth (N)", "symbol": "N", "maxElectrons": "32" },
+            { "shell": "Fifth (O)", "symbol": "O", "maxElectrons": "32" },
+            { "shell": "Sixth (P)", "symbol": "P", "maxElectrons": "18" },
+            { "shell": "Seventh (Q)", "symbol": "Q", "maxElectrons": "8" }
+          ]
+        },
+
+        {
+          "title": "Composition of Atoms of the First Eighteen Elements",
+          "columns": [
+            {
+              "name": "element",
+              "label": "Element",
+              "align": "left",
+              "field": "element",
+              "sortable": "True"
+            },
+            {
+              "name": "atomicNumber",
+              "label": "Atomic Number",
+              "align": "left",
+              "field": "atomicNumber",
+              "sortable": "True"
+            },
+            {
+              "name": "protons",
+              "label": "Protons",
+              "align": "left",
+              "field": "protons",
+              "sortable": "True"
+            },
+            {
+              "name": "neutrons",
+              "label": "Neutrons",
+              "align": "left",
+              "field": "neutrons",
+              "sortable": "True"
+            },
+            {
+              "name": "electrons",
+              "label": "Electrons",
+              "align": "left",
+              "field": "electrons",
+              "sortable": "True"
+            },
+            {
+              "name": "valency",
+              "label": "Valency",
+              "align": "left",
+              "field": "valency",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "element": "Hydrogen",
+              "atomicNumber": "1",
+              "protons": "1",
+              "neutrons": "0",
+              "electrons": "1",
+              "valency": "1"
+            },
+            {
+              "element": "Helium",
+              "atomicNumber": "2",
+              "protons": "2",
+              "neutrons": "2",
+              "electrons": "2",
+              "valency": "0"
+            },
+            {
+              "element": "Lithium",
+              "atomicNumber": "3",
+              "protons": "3",
+              "neutrons": "4",
+              "electrons": "3",
+              "valency": "1"
+            },
+            {
+              "element": "Beryllium",
+              "atomicNumber": "4",
+              "protons": "4",
+              "neutrons": "5",
+              "electrons": "4",
+              "valency": "2"
+            },
+            {
+              "element": "Boron",
+              "atomicNumber": "5",
+              "protons": "5",
+              "neutrons": "6",
+              "electrons": "5",
+              "valency": "3"
+            },
+            {
+              "element": "Carbon",
+              "atomicNumber": "6",
+              "protons": "6",
+              "neutrons": "6",
+              "electrons": "6",
+              "valency": "4"
+            },
+            {
+              "element": "Nitrogen",
+              "atomicNumber": "7",
+              "protons": "7",
+              "neutrons": "7",
+              "electrons": "7",
+              "valency": "3"
+            },
+            {
+              "element": "Oxygen",
+              "atomicNumber": "8",
+              "protons": "8",
+              "neutrons": "8",
+              "electrons": "8",
+              "valency": "2"
+            },
+            {
+              "element": "Fluorine",
+              "atomicNumber": "9",
+              "protons": "9",
+              "neutrons": "10",
+              "electrons": "9",
+              "valency": "1"
+            },
+            {
+              "element": "Neon",
+              "atomicNumber": "10",
+              "protons": "10",
+              "neutrons": "10",
+              "electrons": "10",
+              "valency": "0"
+            },
+            {
+              "element": "Sodium",
+              "atomicNumber": "11",
+              "protons": "11",
+              "neutrons": "12",
+              "electrons": "11",
+              "valency": "1"
+            },
+            {
+              "element": "Magnesium",
+              "atomicNumber": "12",
+              "protons": "12",
+              "neutrons": "12",
+              "electrons": "12",
+              "valency": "2"
+            },
+            {
+              "element": "Aluminium",
+              "atomicNumber": "13",
+              "protons": "13",
+              "neutrons": "14",
+              "electrons": "13",
+              "valency": "3"
+            },
+            {
+              "element": "Silicon",
+              "atomicNumber": "14",
+              "protons": "14",
+              "neutrons": "14",
+              "electrons": "14",
+              "valency": "4"
+            },
+            {
+              "element": "Phosphorus",
+              "atomicNumber": "15",
+              "protons": "15",
+              "neutrons": "16",
+              "electrons": "15",
+              "valency": "3, 5"
+            },
+            {
+              "element": "Sulphur",
+              "atomicNumber": "16",
+              "protons": "16",
+              "neutrons": "16",
+              "electrons": "16",
+              "valency": "2"
+            },
+            {
+              "element": "Chlorine",
+              "atomicNumber": "17",
+              "protons": "17",
+              "neutrons": "18",
+              "electrons": "17",
+              "valency": "1"
+            },
+            {
+              "element": "Argon",
+              "atomicNumber": "18",
+              "protons": "18",
+              "neutrons": "22",
+              "electrons": "18",
+              "valency": "0"
+            }
+          ]
+        },
+
+        {
+          "title": "Valency of Elements",
+          "columns": [
+            {
+              "name": "element",
+              "label": "Element",
+              "align": "left",
+              "field": "element",
+              "sortable": "True"
+            },
+            {
+              "name": "symbol",
+              "label": "Symbol",
+              "align": "left",
+              "field": "symbol",
+              "sortable": "True"
+            },
+            {
+              "name": "valency",
+              "label": "Valency",
+              "align": "left",
+              "field": "valency",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            { "element": "Hydrogen", "symbol": "H", "valency": "1" },
+            { "element": "Helium", "symbol": "He", "valency": "0" },
+            { "element": "Lithium", "symbol": "Li", "valency": "1" },
+            { "element": "Beryllium", "symbol": "Be", "valency": "2" },
+            { "element": "Boron", "symbol": "B", "valency": "3" },
+            { "element": "Carbon", "symbol": "C", "valency": "4" },
+            { "element": "Nitrogen", "symbol": "N", "valency": "3" },
+            { "element": "Oxygen", "symbol": "O", "valency": "2" },
+            { "element": "Fluorine", "symbol": "F", "valency": "1" },
+            { "element": "Neon", "symbol": "Ne", "valency": "0" }
+          ]
+        },
+
+        {
+          "title": "Atomic Number and Mass Number",
+          "columns": [
+            {
+              "name": "element",
+              "label": "Element",
+              "align": "left",
+              "field": "element",
+              "sortable": "True"
+            },
+            {
+              "name": "atomicNumber",
+              "label": "Atomic Number (Z)",
+              "align": "left",
+              "field": "atomicNumber",
+              "sortable": "True"
+            },
+            {
+              "name": "massNumber",
+              "label": "Mass Number (A)",
+              "align": "left",
+              "field": "massNumber",
+              "sortable": "True"
+            },
+            {
+              "name": "explanation",
+              "label": "Explanation",
+              "align": "left",
+              "field": "explanation",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "element": "Hydrogen",
+              "atomicNumber": "1",
+              "massNumber": "1",
+              "explanation": "1 proton and 0 neutrons"
+            },
+            {
+              "element": "Helium",
+              "atomicNumber": "2",
+              "massNumber": "4",
+              "explanation": "2 protons and 2 neutrons"
+            },
+            {
+              "element": "Lithium",
+              "atomicNumber": "3",
+              "massNumber": "7",
+              "explanation": "3 protons and 4 neutrons"
+            },
+            {
+              "element": "Beryllium",
+              "atomicNumber": "4",
+              "massNumber": "9",
+              "explanation": "4 protons and 5 neutrons"
+            },
+            {
+              "element": "Boron",
+              "atomicNumber": "5",
+              "massNumber": "11",
+              "explanation": "5 protons and 6 neutrons"
+            },
+            {
+              "element": "Carbon",
+              "atomicNumber": "6",
+              "massNumber": "12",
+              "explanation": "6 protons and 6 neutrons"
+            },
+            {
+              "element": "Nitrogen",
+              "atomicNumber": "7",
+              "massNumber": "14",
+              "explanation": "7 protons and 7 neutrons"
+            },
+            {
+              "element": "Oxygen",
+              "atomicNumber": "8",
+              "massNumber": "16",
+              "explanation": "8 protons and 8 neutrons"
+            },
+            {
+              "element": "Fluorine",
+              "atomicNumber": "9",
+              "massNumber": "19",
+              "explanation": "9 protons and 10 neutrons"
+            },
+            {
+              "element": "Neon",
+              "atomicNumber": "10",
+              "massNumber": "20",
+              "explanation": "10 protons and 10 neutrons"
+            },
+            {
+              "element": "Sodium",
+              "atomicNumber": "11",
+              "massNumber": "23",
+              "explanation": "11 protons and 12 neutrons"
+            },
+            {
+              "element": "Magnesium",
+              "atomicNumber": "12",
+              "massNumber": "24",
+              "explanation": "12 protons and 12 neutrons"
+            },
+            {
+              "element": "Aluminium",
+              "atomicNumber": "13",
+              "massNumber": "27",
+              "explanation": "13 protons and 14 neutrons"
+            },
+            {
+              "element": "Silicon",
+              "atomicNumber": "14",
+              "massNumber": "28",
+              "explanation": "14 protons and 14 neutrons"
+            },
+            {
+              "element": "Phosphorus",
+              "atomicNumber": "15",
+              "massNumber": "31",
+              "explanation": "15 protons and 16 neutrons"
+            },
+            {
+              "element": "Sulphur",
+              "atomicNumber": "16",
+              "massNumber": "32",
+              "explanation": "16 protons and 16 neutrons"
+            },
+            {
+              "element": "Chlorine",
+              "atomicNumber": "17",
+              "massNumber": "35",
+              "explanation": "17 protons and 18 neutrons"
+            },
+            {
+              "element": "Argon",
+              "atomicNumber": "18",
+              "massNumber": "40",
+              "explanation": "18 protons and 22 neutrons"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "CBSE_9_Science_5",
+      "tables": [
+        {
+          "title": "Comparison of Prokaryotic and Eukaryotic Cells",
+          "columns": [
+            {
+              "name": "feature",
+              "label": "Feature",
+              "align": "left",
+              "field": "feature",
+              "sortable": "True"
+            },
+            {
+              "name": "prokaryotic",
+              "label": "Prokaryotic Cells",
+              "align": "left",
+              "field": "prokaryotic",
+              "sortable": "True"
+            },
+            {
+              "name": "eukaryotic",
+              "label": "Eukaryotic Cells",
+              "align": "left",
+              "field": "eukaryotic",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "feature": "Size",
+              "prokaryotic": "Generally smaller (1-10 μm)",
+              "eukaryotic": "Larger (10-100 μm)"
+            },
+            {
+              "feature": "Nuclear Region",
+              "prokaryotic": "Nucleoid (not enclosed by a membrane)",
+              "eukaryotic": "Nucleus (enclosed by a nuclear membrane)"
+            },
+            {
+              "feature": "Chromosome Number",
+              "prokaryotic": "Usually one chromosome",
+              "eukaryotic": "More than one chromosome"
+            },
+            {
+              "feature": "Membrane-bound Organelles",
+              "prokaryotic": "Absent",
+              "eukaryotic": "Present"
+            },
+            {
+              "feature": "Example",
+              "prokaryotic": "Bacteria, Archaea",
+              "eukaryotic": "Plants, Animals, Fungi, Protists"
+            }
+          ]
+        },
+        {
+          "title": "Types of Cell Division",
+          "columns": [
+            {
+              "name": "type",
+              "label": "Type of Division",
+              "align": "left",
+              "field": "type",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            },
+            {
+              "name": "function",
+              "label": "Function",
+              "align": "left",
+              "field": "function",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "type": "Mitosis",
+              "description": "Division of a single cell into two genetically identical daughter cells",
+              "function": "Growth and repair in multicellular organisms"
+            },
+            {
+              "type": "Meiosis",
+              "description": "Two successive cell divisions with only one round of DNA replication, resulting in four daughter cells",
+              "function": "Production of gametes for sexual reproduction"
+            }
+          ]
+        },
+        {
+          "title": "Cell Organelles and Their Functions",
+          "columns": [
+            {
+              "name": "organelle",
+              "label": "Organelle",
+              "align": "left",
+              "field": "organelle",
+              "sortable": "True"
+            },
+            {
+              "name": "function",
+              "label": "Function",
+              "align": "left",
+              "field": "function",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "organelle": "Endoplasmic Reticulum",
+              "function": "Synthesis and transport of proteins and lipids"
+            },
+            {
+              "organelle": "Golgi Apparatus",
+              "function": "Modification and packaging of proteins and lipids"
+            },
+            {
+              "organelle": "Lysosomes",
+              "function": "Digestion of cellular waste"
+            },
+            {
+              "organelle": "Mitochondria",
+              "function": "ATP production, energy powerhouse of the cell"
+            },
+            {
+              "organelle": "Plastids",
+              "function": "Photosynthesis in plant cells, storage of pigments"
+            }
+          ]
+        },
+        {
+          "title": "Types of Plastids in Plant Cells",
+          "columns": [
+            {
+              "name": "plastidType",
+              "label": "Plastid Type",
+              "align": "left",
+              "field": "plastidType",
+              "sortable": "True"
+            },
+            {
+              "name": "function",
+              "label": "Function",
+              "align": "left",
+              "field": "function",
+              "sortable": "True"
+            },
+            {
+              "name": "characteristics",
+              "label": "Characteristics",
+              "align": "left",
+              "field": "characteristics",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "plastidType": "Chloroplasts",
+              "function": "Photosynthesis",
+              "characteristics": "Contain green pigment chlorophyll"
+            },
+            {
+              "plastidType": "Chromoplasts",
+              "function": "Pigment synthesis and storage",
+              "characteristics": "Contain pigments other than chlorophyll"
+            },
+            {
+              "plastidType": "Leucoplasts",
+              "function": "Storage of starch, oils, and proteins",
+              "characteristics": "Colorless, found in roots and non-photosynthetic tissues"
+            }
+          ]
+        },
+        {
+          "title": "Cellular Structures and Their Functions",
+          "columns": [
+            {
+              "name": "structure",
+              "label": "Structure",
+              "align": "left",
+              "field": "structure",
+              "sortable": "True"
+            },
+            {
+              "name": "function",
+              "label": "Function",
+              "align": "left",
+              "field": "function",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "structure": "Plasma Membrane",
+              "function": "Protects the cell, controls the movement of substances in and out"
+            },
+            {
+              "structure": "Nucleus",
+              "function": "Controls cell activities, contains genetic material"
+            },
+            {
+              "structure": "Cytoplasm",
+              "function": "Site of metabolic processes, contains cell organelles"
+            },
+            {
+              "structure": "Cell Wall",
+              "function": "Provides shape and protection to plant cells"
+            },
+            {
+              "structure": "Vacuoles",
+              "function": "Storage of water, nutrients, and waste products"
+            }
+          ]
+        },
+        {
+          "title": "Historical Discoveries in Cell Biology",
+          "columns": [
+            {
+              "name": "year",
+              "label": "Year",
+              "align": "left",
+              "field": "year",
+              "sortable": "True"
+            },
+            {
+              "name": "scientist",
+              "label": "Scientist/Researchers",
+              "align": "left",
+              "field": "scientist",
+              "sortable": "True"
+            },
+            {
+              "name": "discovery",
+              "label": "Discovery/Contribution",
+              "align": "left",
+              "field": "discovery",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "year": "1665",
+              "scientist": "Robert Hooke",
+              "discovery": "Discovery of cells"
+            },
+            {
+              "year": "1838-1839",
+              "scientist": "Schleiden and Schwann",
+              "discovery": "Cell theory formulation"
+            },
+            {
+              "year": "1858",
+              "scientist": "Rudolf Virchow",
+              "discovery": "Proposed that all cells come from pre-existing cells"
+            },
+            {
+              "year": "1931",
+              "scientist": "Ernst Ruska",
+              "discovery": "Development of the electron microscope"
+            }
+          ]
+        },
+        {
+          "title": "Comparison of Plant and Animal Cells",
+          "columns": [
+            {
+              "name": "feature",
+              "label": "Feature",
+              "align": "left",
+              "field": "feature",
+              "sortable": "True"
+            },
+            {
+              "name": "plantCell",
+              "label": "Plant Cell",
+              "align": "left",
+              "field": "plantCell",
+              "sortable": "True"
+            },
+            {
+              "name": "animalCell",
+              "label": "Animal Cell",
+              "align": "left",
+              "field": "animalCell",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "feature": "Cell Wall",
+              "plantCell": "Present",
+              "animalCell": "Absent"
+            },
+            {
+              "feature": "Shape",
+              "plantCell": "Fixed, rectangular",
+              "animalCell": "Irregular, round"
+            },
+            {
+              "feature": "Chloroplasts",
+              "plantCell": "Present for photosynthesis",
+              "animalCell": "Absent"
+            },
+            {
+              "feature": "Vacuoles",
+              "plantCell": "Large central vacuole",
+              "animalCell": "Small or absent"
+            },
+            {
+              "feature": "Centrioles",
+              "plantCell": "Absent",
+              "animalCell": "Present"
+            }
+          ]
+        },
+        {
+          "title": "Structure and Function of Chromosomes and DNA",
+          "columns": [
+            {
+              "name": "component",
+              "label": "Component",
+              "align": "left",
+              "field": "component",
+              "sortable": "True"
+            },
+            {
+              "name": "structure",
+              "label": "Structure",
+              "align": "left",
+              "field": "structure",
+              "sortable": "True"
+            },
+            {
+              "name": "function",
+              "label": "Function",
+              "align": "left",
+              "field": "function",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "component": "Chromosomes",
+              "structure": "Thread-like structures located in the nucleus of animal and plant cells",
+              "function": "Carry genetic information in the form of genes"
+            },
+            {
+              "component": "DNA",
+              "structure": "Double helix composed of nucleotides",
+              "function": "Stores genetic information, guides protein synthesis"
             }
           ]
         }

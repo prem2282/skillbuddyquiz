@@ -11,7 +11,7 @@
           color="primary"
         ></q-linear-progress>
 
-        <div class="q-pa-md q-ma-md">
+        <div class="quiz-container q-pa-md q-ma-md">
           <q-card>
             <q-card-section>
               <q-item-section><span class="quiz-question-text">{{ currentQuiz.question }}</span></q-item-section>

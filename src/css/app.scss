@@ -1,40 +1,48 @@
 // app global css in SCSS form
-  h1 {
-    font-family: 'Arial', sans-serif; // Example font family
-    font-size: 1.8rem; // Example font size
-    line-height: 1.8rem;
-    // You can add more styles like color, line-height, etc.
-  }
-  h2 {
-    font-family: 'Arial', sans-serif; // Example font family
-    font-size: 1.5rem; // Example font size
-    line-height: 1.5rem;
-    font-style: italic;
-    // You can add more styles like color, line-height, etc.
-  }  
+h1 {
+  font-family: "Arial", sans-serif; // Example font family
+  font-size: 1.8rem; // Example font size
+  line-height: 1.8rem;
+  // You can add more styles like color, line-height, etc.
+}
+h2 {
+  font-family: "Arial", sans-serif; // Example font family
+  font-size: 1.5rem; // Example font size
+  line-height: 1.5rem;
+  // You can add more styles like color, line-height, etc.
+}
 
-  h3 {
-    font-family: 'Arial', sans-serif; // Example font family
-    font-size: 1.2rem; // Example font size
-    // You can add more styles like color, line-height, etc.
-  }  
-  strong {
-    background-color: antiquewhite;
-    margin-right: .5rem;
-  }
-  li {
-    list-style-type: none;
-    padding-bottom: 1rem;
-  }
+h3 {
+  font-family: "Arial", sans-serif; // Example font family
+  font-size: 1.2rem; // Example font size
+  // You can add more styles like color, line-height, etc.
+}
+strong {
+  background-color: antiquewhite;
+  margin-right: 0.5rem;
+}
+li {
+  list-style-type: none;
+  padding-bottom: 1rem;
+}
+
+.summary-text {
+  padding: 1rem;
+  font-size: 1rem;
+
+  font-family: "Courier New", Courier, monospace;
+}
 
 .quiz-question-text {
-  font-size: medium;
+  font-size: large;
+  font-weight: strong;
+  color: blue;
 }
 .quiz-option-text {
   font-size: medium;
 }
 .quiz-explanation-text {
-  font-size: small;
+  font-size: medium;
 }
 
 .button-container {
@@ -51,13 +59,12 @@
   flex-direction: column;
 }
 
-
 .board-button {
   background-color: #6d6c12; /* blue-6 color */
   color: white;
   width: calc(25vw); /* Adjust to fit 3 in a row, considering margins */
   text-transform: none;
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 .grade-button {
@@ -65,7 +72,7 @@
   color: white;
   width: calc(15vw); /* Adjust to fit 3 in a row, considering margins */
   text-transform: none;
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 .subject-button {
@@ -73,28 +80,28 @@
   color: white;
   width: calc(30vw); /* Adjust to fit 3 in a row, considering margins */
   text-transform: none;
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 .chapter-button {
-    background-color: #1E88E5; /* blue-6 color */
-    color: white;
-    width: calc(25vw); /* Adjust to fit 3 in a row, considering margins */
-    text-transform: none;
-    margin: 1rem 2rem 1rem 2rem;
+  background-color: #1e88e5; /* blue-6 color */
+  color: white;
+  width: calc(25vw); /* Adjust to fit 3 in a row, considering margins */
+  text-transform: none;
+  margin: 1rem 2rem 1rem 2rem;
 }
 
 .button-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
 }
 
 .button-text {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
 }
 
 .board-text {
@@ -104,8 +111,8 @@
 }
 
 .grade-text {
-  font-size: 4.0rem;
-  line-height: 4.0rem;
+  font-size: 4rem;
+  line-height: 4rem;
   text-align: center;
 }
 
@@ -115,41 +122,41 @@
   text-align: center;
 }
 
-
 .chapter-text {
   font-size: 1.3rem;
   line-height: 1.3rem;
   text-align: left;
 }
 
-.selection-chip-box{
-  margin: .5rem;
+.selection-chip-box {
+  margin: 0.5rem;
   display: flex;
   justify-content: center;
 }
 
-.custom-table-class .q-table__middle td{
+.custom-table-class .q-table__middle td {
   font-size: medium; /* or any other size */
 }
 
-.custom-table-class .q-table__middle th{
+.custom-table-class .q-table__middle th {
   font-size: large; /* or any other size */
 }
 
-.custom-table-class .q-table__grid-item-title{
+.custom-table-class .q-table__grid-item-title {
   font-size: small; /* or any other size */
 }
 
-.custom-table-class .q-table__grid-item-value{
+.custom-table-class .q-table__grid-item-value {
   font-size: medium; /* or any other size */
 }
 
-
-.custom-table-class .q-table__grid-item-card .q-table__grid-item-row:first-child .q-table__grid-item-value {
+.custom-table-class
+  .q-table__grid-item-card
+  .q-table__grid-item-row:first-child
+  .q-table__grid-item-value {
   font-size: larger; /* Adjust the font size as needed */
-  color: #1E88E5; /* blue-6 color */
+  color: #1e88e5; /* blue-6 color */
 }
-
 
 .custom-table-class .q-table__grid-content {
   display: flex;
@@ -166,12 +173,17 @@
   width: 100%; /* Ensures the card stretches to fill its container */
 }
 
+.quiz-container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Mobile Portrait */
 @media (max-width: 600px) {
   .chapter-button {
-      width: 80vw; /* Full width for vertical stacking */
-      margin: .5rem;
+    width: 80vw; /* Full width for vertical stacking */
+    margin: 0.5rem;
   }
   .board-button {
     width: 60vw; /* Full width for vertical stacking */
@@ -181,38 +193,43 @@
   }
   .subject-button {
     width: 75vw; /* Full width for vertical stacking */
-  }    
-  .subject-text{
+  }
+  .subject-text {
     font-size: 2rem;
-  }      
-  .chapter-text{
+  }
+  .chapter-text {
     font-size: 1rem;
   }
-  
+  .quiz-container {
+    width: 100%;
+  }
 }
 
 /* Mobile Landscape */
 @media (min-width: 601px) and (max-width: 900px) {
   .chapter-button {
-      width: calc(45vw); /* Adjust to fit 2 in a row */
-      margin: .5rem;
+    width: calc(45vw); /* Adjust to fit 2 in a row */
+    margin: 0.5rem;
   }
   .board-button {
-    width: 40vw; 
-  }    
+    width: 40vw;
+  }
   .grade-button {
-    width: 25vw; 
-  }    
+    width: 25vw;
+  }
   .subject-button {
-    width: 40vw; 
-  }  
-  .button-container{
+    width: 40vw;
+  }
+  .button-container {
     margin: 5vh 1vw 5vh 1vw;
-  }   
-  .subject-text{
+  }
+  .subject-text {
     font-size: 2rem;
-  }     
-  .chapter-text{
+  }
+  .chapter-text {
     font-size: 1rem;
-  } 
+  }
+  .quiz-container {
+    width: 50%;
+  }
 }

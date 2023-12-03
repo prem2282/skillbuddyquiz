@@ -10396,6 +10396,175 @@
             "C": "Incorrect: This value is half the correct maximum height.",
             "D": "Incorrect: This value is not supported by the calculations."
           }
+        },
+        {
+          "question": "Work done on an object by a force would be zero if the displacement of the object is zero.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The kinetic energy of an object is solely dependent on its mass and not its velocity.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The kinetic energy of an object depends on both its mass and its velocity."
+        },
+        {
+          "question": "Potential energy is the energy possessed by a body due to its change in position or shape.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "According to the law of conservation of energy, energy can be created and destroyed.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "According to the law of conservation of energy, energy can neither be created nor destroyed, only transformed from one form to another."
+        },
+        {
+          "question": "The unit of work is the joule, where 1 joule equals 1 newton multiplied by 1 meter.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Power is defined as the rate of transfer of momentum.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Power is defined as the rate of doing work or the rate of transfer of energy."
+        },
+        {
+          "question": "The gravitational potential energy of an object is independent of its height above the ground.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The gravitational potential energy of an object depends on its height above the ground."
+        },
+        {
+          "question": "An object in motion does not possess kinetic energy.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "An object in motion possesses kinetic energy."
+        },
+        {
+          "question": "The sum of the kinetic and potential energies of an object is called its mechanical energy.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The SI unit of power is the Newton.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The SI unit of power is the Watt."
+        },
+        {
+          "question": "Energy exists in nature only in kinetic and potential forms.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Energy exists in several forms such as kinetic energy, potential energy, heat energy, chemical energy, etc."
+        },
+        {
+          "question": "When an object falls freely, its potential energy is transformed into kinetic energy.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The work done by a force on an object is equal to the force multiplied by the distance moved by the object in any direction.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The work done by a force on an object is equal to the force multiplied by the distance moved by the object in the direction of the applied force."
+        },
+        {
+          "question": "1 Watt is equivalent to 1 Joule per second.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The potential energy of an object at a height depends on the path along which the object is moved.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The potential energy of an object at a height depends on the height itself, not the path along which the object is moved."
+        },
+        {
+          "question": "Work done by a force on an object is equal to the magnitude of the force multiplied by the distance moved in the direction of the force.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The scientific definition of work includes mental labor such as studying or thinking.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "In science, work is defined as the product of the force and the displacement in the direction of the force, and does not include mental labor."
+        },
+        {
+          "question": "The unit of work, joule, can also be expressed as a newton meter.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The kinetic energy of an object decreases as its speed increases.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The kinetic energy of an object increases with its speed."
+        },
+        {
+          "question": "Potential energy of an object is only due to its position in a gravitational field.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Potential energy can be due to an object's position in a gravitational field or due to its configuration, such as in a stretched or compressed spring."
+        },
+        {
+          "question": "The potential energy of a raised object is defined as the work done against gravity to lift it.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "A battery lighting a bulb is an example of transformation of chemical energy to kinetic energy.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "In a battery lighting a bulb, chemical energy is transformed into electrical energy and then into light energy."
+        },
+        {
+          "question": "When a person holds a heavy object without moving it, they are doing work on the object according to the scientific definition of work.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Scientifically, work is done only when a force causes displacement of an object in the direction of the force. Holding an object stationary does not meet this criteria."
+        },
+        {
+          "question": "The SI unit of power is the Newton.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The SI unit of power is the Watt."
+        },
+        {
+          "question": "1 Watt is defined as 1 Joule per second.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The gravitational potential energy of an object is independent of its height above the ground.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The gravitational potential energy of an object depends on its height above the ground."
+        },
+        {
+          "question": "A freely falling object violates the law of conservation of energy.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "In a freely falling object, potential energy is converted into kinetic energy, complying with the law of conservation of energy."
+        },
+        {
+          "question": "Energy can be created and destroyed, but cannot be transformed from one form to another.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "According to the law of conservation of energy, energy cannot be created or destroyed, only transformed from one form to another."
+        },
+        {
+          "question": "The potential energy of an object is always equal to its kinetic energy.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Potential energy and kinetic energy are different forms of energy and are not always equal to each other."
+        },
+        {
+          "question": "If no external force is acting on a system, the total mechanical energy of the system remains constant.",
+          "answer": "A",
+          "level": 3
         }
       ]
     },
@@ -10945,6 +11114,170 @@
             "C": "Correct: Acoustic impedance is defined as the ratio of sound pressure to particle velocity at a given point in a medium.",
             "D": "Incorrect: It is not related to the threshold of pain or loudness of sounds."
           }
+        },
+        {
+          "question": "Sound is a form of energy that produces a sensation of hearing in our ears.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Sound can be produced without the vibration of objects.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Sound is produced by the vibration of objects."
+        },
+        {
+          "question": "Sound waves are a type of mechanical wave.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "In sound propagation, the particles of the medium travel from the source to the ear.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "In sound propagation, it is the energy of the sound that travels, not the particles of the medium."
+        },
+        {
+          "question": "Sound cannot travel through vacuum.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Sound travels faster in solids than in gases.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The frequency of a sound wave determines its pitch.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The amplitude of a sound wave is related to its loudness.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Ultrasound is used in echocardiography to create images of the heart.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The human ear can hear sounds with frequencies as high as 30 kHz.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The audible range of hearing for average human beings is 20 Hz to 20 kHz."
+        },
+        {
+          "question": "Infrasonic sounds are those with frequencies below 20 Hz.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The speed of sound is independent of the medium through which it travels.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The speed of sound depends on the properties of the medium through which it travels."
+        },
+        {
+          "question": "An echo occurs when sound is reflected and the time interval between the original sound and the reflected one is at least 0.1 s.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Reverberation is the repeated reflection of sound.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Ultrasound can be used to break kidney stones into smaller pieces.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Sound waves in air are examples of transverse waves.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Sound waves in air are longitudinal waves, not transverse waves."
+        },
+        {
+          "question": "The human voice is produced by vibrations in the vocal cords.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Sound cannot travel through liquids and solids.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Sound can travel through all states of matter, including liquids and solids."
+        },
+        {
+          "question": "The speed of sound is affected by the temperature of the medium.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Infrasound frequencies are above 20 kHz.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Infrasound frequencies are below 20 Hz."
+        },
+        {
+          "question": "Ultrasound is not utilized in medical imaging.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Ultrasound is extensively used in medical imaging."
+        },
+        {
+          "question": "A sound wave's amplitude is unrelated to its loudness.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The amplitude of a sound wave is directly related to its loudness."
+        },
+        {
+          "question": "The speed of sound is the same in all media.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The speed of sound varies depending on the medium it travels through."
+        },
+        {
+          "question": "The human ear can typically hear sounds with frequencies as low as 5 Hz.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The typical human audible range is from 20 Hz to 20 kHz."
+        },
+        {
+          "question": "Echo is a result of the absorption of sound.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Echo is a result of the reflection of sound, not absorption."
+        },
+        {
+          "question": "Ultrasonic waves are used in echocardiography.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "A stethoscope operates based on the principle of multiple reflections of sound.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The frequency of a sound wave is measured in meters.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The frequency of a sound wave is measured in hertz (Hz)."
+        },
+        {
+          "question": "Reverberation is the repeated absorption of sound.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Reverberation is the repeated reflection of sound, not absorption."
+        },
+        {
+          "question": "Ultrasound can be employed to break small stones in the kidneys.",
+          "answer": "A",
+          "level": 3
         }
       ]
     },
@@ -14292,6 +14625,169 @@
             "C": "Incorrect: Proximity to marine ecosystems is not a relevant factor for the Thar Desert's flora and fauna.",
             "D": "Incorrect: Human settlements impact the area, but the key influence is the desert's climatic condition, especially rainfall patterns."
           }
+        },
+        {
+          "question": "India is one of the 12 mega bio-diversity countries of the world.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "India has about 25,000 species of animals.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "India has approximately 90,000 species of animals."
+        },
+        {
+          "question": "Natural vegetation refers to plant communities that have grown without human aid and have been undisturbed by humans for a long time.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Tropical Evergreen Forests in India are found in regions with less than 100 cm of rainfall.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Tropical Evergreen Forests are found in areas with more than 200 cm of rainfall."
+        },
+        {
+          "question": "Tropical Deciduous Forests in India are also known as monsoon forests.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Montane Forests are predominantly found in the coastal regions of India.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Montane Forests are found in mountainous areas and their vegetation changes with altitude."
+        },
+        {
+          "question": "Mangrove Forests are typically found in desert regions.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Mangrove Forests are found in areas of coasts influenced by tides."
+        },
+        {
+          "question": "The Sundarbans are known for their dense mangrove forests.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "India has about 2,000 species of birds, constituting 13% of the world’s total.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "India's Wildlife Protection Act was implemented in 1982.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The Wildlife Protection Act in India was implemented in 1972."
+        },
+        {
+          "question": "The Gir Forest in Gujarat is the natural habitat of the Indian lion.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Sundarbans Nanda Devi is included in the world network of biosphere reserves.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "India's natural vegetation includes both endemic and exotic plant species.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Tropical Thorn Forests and Scrubs are found in regions with heavy rainfall.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Tropical Thorn Forests and Scrubs are found in regions with less than 70 cm of rainfall."
+        },
+        {
+          "question": "The Royal Bengal Tiger is a famous animal in the mangrove forests.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "India has about 47,000 plant species, ranking tenth in the world in plant diversity.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "India has approximately 15,000 non-flowering plants.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "India has many non-flowering plants like ferns, algae, and fungi, but their exact number is not specified."
+        },
+        {
+          "question": "Tropical Evergreen Forests in India are found in areas with rainfall more than 200 cm.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The trees in Tropical Evergreen Forests shed their leaves during a particular season.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "In Tropical Evergreen Forests, there is no definite time for trees to shed their leaves, so these forests appear green all year round."
+        },
+        {
+          "question": "Tropical Deciduous Forests are the most widespread forests in India.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Montane Forests are characterized by the presence of tropical trees like palms and mangroves.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Montane Forests, found in mountainous areas, mainly consist of coniferous trees like pine, deodar, silver fir, spruce, and cedar."
+        },
+        {
+          "question": "Mangrove Forests in India are primarily located in the deltas of major rivers.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Royal Bengal Tigers are predominantly found in the desert regions of India.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Royal Bengal Tigers are famously found in the mangrove forests, especially in the Sundarbans."
+        },
+        {
+          "question": "India has about 2,546 species of fish.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The flora of India only consists of indigenous plant species.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "India's flora includes both endemic (indigenous) and exotic plant species."
+        },
+        {
+          "question": "There are 18 biosphere reserves in India, with several being part of the world network of biosphere reserves.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Indian elephant is primarily found in the desert regions of Rajasthan.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The Indian elephant is found in the hot wet forests of Assam, Karnataka, and Kerala, not in desert regions."
+        },
+        {
+          "question": "India's Wildlife Protection Act was implemented in 1972.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The Gir Forest in Gujarat is the natural habitat of the Indian bison.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The Gir Forest in Gujarat is the natural habitat of the Indian lion, not the Indian bison."
+        },
+        {
+          "question": "Sarpagandha, a plant used to treat blood pressure, is found only in India.",
+          "answer": "A",
+          "level": 3
         }
       ]
     },
@@ -14909,6 +15405,172 @@
             "C": "Correct: The text discusses that the increasing number of 'million plus cities' in India reflects a concentration of population in urban areas.",
             "D": "Incorrect: An increase in 'million plus cities' is indicative of increasing, not decreasing, urbanization."
           }
+        },
+        {
+          "question": "As of March 2011, India's population was approximately 1.21 billion.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "India accounts for 17.5% of the world's total land area.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "India accounts for 2.4% of the world's total land area."
+        },
+        {
+          "question": "Uttar Pradesh is the most populous state in India.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The first complete census in India was conducted in 1872.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The first complete census in India was conducted in 1881."
+        },
+        {
+          "question": "The population density of India in 2011 was 382 persons per square kilometer.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Bihar has the highest population density among Indian states.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "India's annual population growth rate was increasing from 1951 to 1981.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Migration does not affect the distribution of population within a nation.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Migration plays a significant role in changing the composition and distribution of population within a nation."
+        },
+        {
+          "question": "The adolescent population constitutes about one-fifth of the total population in India.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The National Population Policy (NPP) 2000 aims to provide compulsory school education up to 12 years of age.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The NPP 2000 provides a policy framework for imparting free and compulsory school education up to 14 years of age."
+        },
+        {
+          "question": "Rural-urban migration in India has led to a decrease in the urban population.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Rural-urban migration in India has resulted in a steady increase in the percentage of population in cities and towns."
+        },
+        {
+          "question": "Birth rate is defined as the number of live births per thousand persons in a year.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Death rate in India has been the primary cause for the increase in population growth.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "India's growth rate of population is calculated over a decade rather than annually.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The growth rate of population can be measured annually or over a decade."
+        },
+        {
+          "question": "India may overtake China to become the most populous country by 2045.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "India's population in 2011 was more than 17.5% of the world's population.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "India's population as of March 2011 was 1,210.6 million, accounting for 17.5% of the world's population."
+        },
+        {
+          "question": "Rajasthan, in terms of area, has the largest population in India.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Rajasthan, the largest state in terms of area, has only 5.5% of India's total population."
+        },
+        {
+          "question": "The 2011 Census data shows that Sikkim has a population of just about 0.6 million.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "India's population density in 2011 was over 400 persons per square kilometer.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The population density of India in 2011 was 382 persons per square kilometer."
+        },
+        {
+          "question": "As of 2011, Bihar had a lower population density compared to West Bengal.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Bihar had the highest population density in 2011 with 1,102 persons per square kilometer."
+        },
+        {
+          "question": "From 1951 to 1981, the annual rate of population growth in India was steadily decreasing.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "From 1951 to 1981, the annual rate of population growth in India was steadily increasing."
+        },
+        {
+          "question": "The 2011 Census shows a decline in India's population growth rate compared to previous decades.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "Migration within a country influences the size of the population.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Internal migration does not change the size of the population but influences its distribution within the nation."
+        },
+        {
+          "question": "Adolescents constitute approximately 20% of India's population.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The National Population Policy 2000 aimed to reduce infant mortality rate to below 20 per 1000 live births.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "The National Population Policy 2000 aimed to reduce infant mortality rate to below 30 per 1000 live births."
+        },
+        {
+          "question": "According to the 2011 Census, rural-urban migration resulted in a decrease in the urban population percentage.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Rural-urban migration has resulted in a steady increase in the percentage of population in cities and towns."
+        },
+        {
+          "question": "The birth rate is the number of live births per 1000 persons in a year.",
+          "answer": "A",
+          "level": 3
+        },
+        {
+          "question": "The death rate in India has been the primary factor for the decline in population growth since 1981.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "Since 1981, both birth rates and death rates have started declining, resulting in a gradual decline in the rate of population growth."
+        },
+        {
+          "question": "India may surpass China as the most populous country by 2030.",
+          "answer": "B",
+          "level": 3,
+          "explanation": "India is projected to overtake China in 2045 to become the most populous country."
+        },
+        {
+          "question": "The adolescent population of India faces challenges such as poor nutrition and high rates of anaemia.",
+          "answer": "A",
+          "level": 3
         }
       ]
     },
