@@ -1,30 +1,33 @@
 <template>
   <div>
     <div>
-        <div class="selection-chip-box">
-          <q-btn
-            class="q-mx-sm"
-            :class="getSelectedCount === 5 ? 'bg-green-6' : 'bg-white'"
-            rounded
-            @click="selectQuizCount(5)"
-            >5</q-btn
-          >
-          <q-btn
-            class="q-mx-sm"
-            :class="getSelectedCount === 10 ? 'bg-green-6' : 'bg-white'"
-            rounded
-            @click="selectQuizCount(10)"
-            >10</q-btn
-          >
-          <q-btn
-            class="q-mx-sm"
-            :class="getSelectedCount === 0 ? 'bg-green-6' : 'bg-white'"
-            rounded
-            @click="selectQuizCount(0)"
-            >all</q-btn
-          >
-        </div>
-      </div>    
+      <div class="quiz-count-chip-box-text">Number of Questions</div>
+      <div class="quiz-count-chip-box">
+        <q-btn
+          class="q-mx-sm"
+          :class="getSelectedCount === 5 ? 'bg-brown-5 text-white' : 'bg-white'"
+          rounded
+          @click="selectQuizCount(5)"
+          >5</q-btn
+        >
+        <q-btn
+          class="q-mx-sm"
+          :class="
+            getSelectedCount === 10 ? 'bg-brown-5 text-white' : 'bg-white'
+          "
+          rounded
+          @click="selectQuizCount(10)"
+          >10</q-btn
+        >
+        <q-btn
+          class="q-mx-sm"
+          :class="getSelectedCount === 0 ? 'bg-brown-5 text-white' : 'bg-white'"
+          rounded
+          @click="selectQuizCount(0)"
+          >all</q-btn
+        >
+      </div>
+    </div>
     <div class="level-container">
       <div v-for="(item, index) in levels" :key="index">
         <q-btn class="chapter-button" @click="selectQuizType(item)">
@@ -34,8 +37,10 @@
         </q-btn>
       </div>
     </div>
-    <div v-for="(item, index) in getChapterTables" :key="index">
-      <ChapterTable :tableData="item" />
+    <div class="explore-container">
+      <q-btn class="q-mx-sm explore-button" @click="exploreChapter"
+        >Explore Chapter</q-btn
+      >
     </div>
   </div>
 </template>
@@ -43,15 +48,12 @@
 <script>
 import { useAcademicsStore } from "stores/academics-store";
 import { useQuizStore } from "stores/quiz-store";
-import ChapterTable from "./ChapterTable.vue";
 
 export default {
   data() {
     return {};
   },
-  components: {
-    ChapterTable,
-  },
+  components: {},
   computed: {
     academicsStore() {
       return useAcademicsStore();
@@ -74,9 +76,6 @@ export default {
     getSelectedCount() {
       return this.quizStore.getSelectedCount;
     },
-    getChapterTables() {
-      return this.quizStore.getChapterTables;
-    },
   },
   methods: {
     selectQuizType(level) {
@@ -97,6 +96,9 @@ export default {
     },
     selectQuizCount(count) {
       this.quizStore.selectQuizCount(count);
+    },
+    exploreChapter() {
+      this.academicsStore.toggleExploreChapter();
     },
   },
 };

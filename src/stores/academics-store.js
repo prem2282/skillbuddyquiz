@@ -10,6 +10,7 @@ export const useAcademicsStore = defineStore("academics", {
     selectedGrade: null,
     selectedSubject: null,
     selectedChapter: null,
+    exploreChapter: false,
   }),
   getters: {
     getAcademics(state) {
@@ -98,8 +99,16 @@ export const useAcademicsStore = defineStore("academics", {
       this.selectedGrade = null;
       this.selectedSubject = null;
       this.selectedChapter = null;
+      this.exploreChapter = false;
+    },
+    toggleExploreChapter() {
+      this.exploreChapter = !this.exploreChapter;
     },
     backButtonClicked() {
+      if (this.exploreChapter) {
+        this.exploreChapter = false;
+        return;
+      }
       if (this.selectedChapter) {
         console.log("this.selectedChapter", this.selectedChapter);
         this.selectedChapter = null;

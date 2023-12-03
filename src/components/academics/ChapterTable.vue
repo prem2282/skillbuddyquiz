@@ -1,5 +1,5 @@
 <template>
-  <div class="q-pa-sm">
+  <div class="q-pa-sm summary-container">
     <q-table
       :grid="isPortrait"
       :title="title"
@@ -35,7 +35,7 @@ export default {
   props: ["tableData"],
   computed: {
     isPortrait() {
-      return this.quasar.screen.lt.md;
+      return this.quasar.screen.lt.sm;
     },
 
     title() {

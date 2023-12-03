@@ -1,13 +1,23 @@
 <template>
   <div>
-    <div class="selection-chip-box">
-      <q-chip v-if="getSelectedBoard">{{ getSelectedBoard }} </q-chip>
-      <q-chip v-if="getSelectedGrade">{{ getSelectedGrade }} </q-chip>
-      <q-chip v-if="getSelectedSubject">{{ getSelectedSubject }} </q-chip>
+    <div v-if="!getExploreChapter" class="selection-chip-box">
+      <q-chip class="bg-blue-1" v-if="getSelectedBoard"
+        >{{ getSelectedBoard }}
+      </q-chip>
+      <q-chip class="bg-blue-1" v-if="getSelectedGrade"
+        >{{ getSelectedGrade }}
+      </q-chip>
+      <q-chip class="bg-blue-1" v-if="getSelectedSubject"
+        >{{ getSelectedSubject }}
+      </q-chip>
     </div>
 
-    <div class="selection-chip-box">
-      <q-chip v-if="getSelectedChapter">{{ getSelectedChapter }} </q-chip>
+    <div class="selection-chip-box-chapter">
+      <q-chip
+        class="text-subtitle1 bg-orange-6 text-white text-weight-bold"
+        v-if="getSelectedChapter"
+        >{{ getSelectedChapter }}
+      </q-chip>
     </div>
     <div v-if="getBoardList && !getSelectedBoard">
       <BoardCard />
@@ -26,13 +36,11 @@
       </div>
     </div>
     <div v-if="getSelectedChapter && !getSelectedLevel">
-      <div>
-        <ChapterQuizType />
+      <div v-if="getExploreChapter">
+        <ChapterDetails />
       </div>
-    </div>
-    <div v-if="getSelectedChapter && !getSelectedLevel">
-      <div>
-        <div class="summary-text quiz-container" v-html="htmlContent"></div>
+      <div v-else>
+        <ChapterQuizType />
       </div>
     </div>
   </div>
@@ -44,7 +52,7 @@ import BoardCard from "./BoardCard.vue";
 import GradeCard from "./GradeCard.vue";
 import SubjectCard from "./SubjectCard.vue";
 import ChapterQuizType from "./ChapterQuizType.vue";
-import { marked } from "marked";
+import ChapterDetails from "./ChapterDetails.vue";
 
 import { useAcademicsStore } from "stores/academics-store";
 import { useQuizStore } from "stores/quiz-store";
@@ -55,14 +63,10 @@ export default {
     GradeCard,
     SubjectCard,
     ChapterQuizType,
+    ChapterDetails,
   },
   data() {},
   computed: {
-    htmlContent() {
-      if (!this.getChapterSummary) return "";
-      const chapterSummary = this.getChapterSummary;
-      return marked(chapterSummary);
-    },
     academicsStore() {
       return useAcademicsStore();
     },
@@ -90,8 +94,8 @@ export default {
     getSelectedLevel() {
       return this.quizStore.selectedLevel;
     },
-    getChapterSummary() {
-      return this.quizStore.getChapterSummary;
+    getExploreChapter() {
+      return this.academicsStore.exploreChapter;
     },
   },
 };
