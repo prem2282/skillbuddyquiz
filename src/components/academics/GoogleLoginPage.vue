@@ -12,7 +12,7 @@
 import { defineComponent } from "vue";
 import { useUserStore } from "stores/user-store";
 import { GoogleLogin, decodeCredential } from "vue3-google-login";
-const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
+const GOOGLE_CLIENT_ID = process.env.VUE_APP_GOOGLE_CLIENT_ID;
 export default defineComponent({
   name: "GoogleLoginPage",
 

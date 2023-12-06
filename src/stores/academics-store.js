@@ -3,7 +3,7 @@ import { useRoute, useRouter } from "vue-router";
 import { useQuizStore } from "./quiz-store";
 import CryptoJS from "crypto-js";
 
-const decrypt_key = process.env.ANACONDA;
+const decrypt_key = process.env.VUE_APP_ANACONDA;
 
 export const useAcademicsStore = defineStore("academics", {
   state: () => ({

@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 import axios from "axios";
 
-const user_lambda_url = process.env.USER_STORE_LAMBDA_URL;
+const user_lambda_url = process.env.VUE_APP_USER_STORE_LAMBDA_URL;
 console.log({ user_lambda_url });
 
 export const useUserStore = defineStore("user", {
