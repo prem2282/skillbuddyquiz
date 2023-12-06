@@ -1,6 +1,9 @@
 import { defineStore } from "pinia";
 import { useRoute, useRouter } from "vue-router";
 import { useQuizStore } from "./quiz-store";
+import CryptoJS from "crypto-js";
+
+const decrypt_key = process.env.ANACONDA;
 
 export const useAcademicsStore = defineStore("academics", {
   state: () => ({
@@ -37,23 +40,23 @@ export const useAcademicsStore = defineStore("academics", {
       return state.selectedSubject;
     },
     getGradeListForBoard(state) {
-      const filteredData = state.academics.data.filter(
+      const filteredData = state.academics.data?.filter(
         (item) => item.board === state.selectedBoard
       );
-      const grades = filteredData.map((item) => item.grade);
+      const grades = filteredData?.map((item) => item.grade);
       return [...new Set(grades)];
     },
     getSubjectListForGrade(state) {
-      const filteredData = state.academics.data.filter(
+      const filteredData = state.academics.data?.filter(
         (item) =>
           item.board === state.selectedBoard &&
           item.grade === state.selectedGrade
       );
-      const subjects = filteredData.map((item) => item.subject);
+      const subjects = filteredData?.map((item) => item.subject);
       return [...new Set(subjects)];
     },
     getChapterListForSubject(state) {
-      return state.academics.data.filter(
+      return state.academics.data?.filter(
         (item) =>
           item.board === state.selectedBoard &&
           item.grade === state.selectedGrade &&
@@ -74,6 +77,26 @@ export const useAcademicsStore = defineStore("academics", {
         this.academics = data;
       } catch (error) {
         console.error("Failed to load academics data:", error);
+      }
+    },
+
+    async fetchAndDecrypt() {
+      try {
+        const response = await fetch("/data/academicsData.enc");
+        const encryptedData = await response.json();
+
+        const key = CryptoJS.enc.Base64.parse(decrypt_key);
+        const iv = CryptoJS.enc.Base64.parse(encryptedData.iv);
+
+        const decrypted = CryptoJS.AES.decrypt(encryptedData.ciphertext, key, {
+          iv: iv,
+          mode: CryptoJS.mode.CBC,
+          padding: CryptoJS.pad.Pkcs7,
+        });
+
+        this.academics = JSON.parse(decrypted.toString(CryptoJS.enc.Utf8));
+      } catch (error) {
+        console.error("Decryption failed:", error);
       }
     },
     selectChapter(item) {
@@ -110,23 +133,19 @@ export const useAcademicsStore = defineStore("academics", {
         return;
       }
       if (this.selectedChapter) {
-        console.log("this.selectedChapter", this.selectedChapter);
         this.selectedChapter = null;
         this.selectedQuizId = null;
         return;
       }
       if (this.selectedSubject) {
-        console.log("this.selectedSubject", this.selectedSubject);
         this.selectedSubject = null;
         return;
       }
       if (this.selectedGrade) {
-        console.log("this.selectedGrade", this.selectedGrade);
         this.selectedGrade = null;
         return;
       }
       if (this.selectedBoard) {
-        console.log("this.selectedBoard", this.selectedBoard);
         this.selectedBoard = null;
         return;
       }

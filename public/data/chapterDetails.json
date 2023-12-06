@@ -3085,6 +3085,1187 @@
           ]
         }
       ]
+    },
+    {
+      "chapterId": "CBSE_9_Science_6",
+      "tables": [
+        {
+          "title": "Types of Tissues",
+          "columns": [
+            {
+              "name": "tissue_type",
+              "label": "Tissue Type",
+              "align": "left",
+              "field": "tissue_type",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description/Characteristic",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "tissue_type": "Simple Tissue (Plant)",
+              "description": "Includes parenchyma, collenchyma, and sclerenchyma"
+            },
+            {
+              "tissue_type": "Complex Tissue (Plant)",
+              "description": "Includes xylem and phloem"
+            },
+            {
+              "tissue_type": "Epithelial Tissue (Animal)",
+              "description": "Classified as squamous, cuboidal, columnar, ciliated, and glandular"
+            },
+            {
+              "tissue_type": "Connective Tissue (Animal)",
+              "description": "Includes areolar tissue, adipose tissue, bone, tendon, ligament, cartilage, and blood"
+            },
+            {
+              "tissue_type": "Muscle Tissue (Animal)",
+              "description": "Includes striated, unstriated, and cardiac"
+            },
+            {
+              "tissue_type": "Nervous Tissue (Animal)",
+              "description": "Made of neurons that receive and conduct impulses"
+            }
+          ]
+        },
+        {
+          "title": "Plant Tissues Classification",
+          "columns": [
+            {
+              "name": "tissue_category",
+              "label": "Tissue Category",
+              "align": "left",
+              "field": "tissue_category",
+              "sortable": "True"
+            },
+            {
+              "name": "tissue_type",
+              "label": "Tissue Type",
+              "align": "left",
+              "field": "tissue_type",
+              "sortable": "True"
+            },
+            {
+              "name": "examples",
+              "label": "Examples",
+              "align": "left",
+              "field": "examples",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "tissue_category": "Meristematic Tissue",
+              "tissue_type": "Growth-related",
+              "examples": "Apical, Lateral, Intercalary (not explicitly mentioned in the text but commonly known)"
+            },
+            {
+              "tissue_category": "Permanent Tissue",
+              "tissue_type": "Simple",
+              "examples": "Parenchyma, Collenchyma, Sclerenchyma"
+            },
+            {
+              "tissue_category": "Permanent Tissue",
+              "tissue_type": "Complex",
+              "examples": "Xylem, Phloem"
+            }
+          ]
+        },
+        {
+          "title": "Animal Tissues Classification",
+          "columns": [
+            {
+              "name": "tissue_type",
+              "label": "Tissue Type",
+              "align": "left",
+              "field": "tissue_type",
+              "sortable": "True"
+            },
+            {
+              "name": "examples",
+              "label": "Examples",
+              "align": "left",
+              "field": "examples",
+              "sortable": "True"
+            },
+            {
+              "name": "functions",
+              "label": "Functions",
+              "align": "left",
+              "field": "functions",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "tissue_type": "Epithelial Tissue",
+              "examples": "Squamous, Cuboidal, Columnar, Ciliated, Glandular",
+              "functions": "Covers and protects body surfaces, lines organs and cavities"
+            },
+            {
+              "tissue_type": "Connective Tissue",
+              "examples": "Areolar, Adipose, Bone, Tendon, Ligament, Cartilage, Blood",
+              "functions": "Supports, connects, and protects organs; transports materials"
+            },
+            {
+              "tissue_type": "Muscle Tissue",
+              "examples": "Striated, Unstriated, Cardiac",
+              "functions": "Facilitates movement of the body and internal organs"
+            },
+            {
+              "tissue_type": "Nervous Tissue",
+              "examples": "Neurons",
+              "functions": "Receives and conducts impulses throughout the body"
+            }
+          ]
+        },
+        {
+          "title": "Meristematic Tissue Types",
+          "columns": [
+            {
+              "name": "tissue_type",
+              "label": "Tissue Type",
+              "align": "left",
+              "field": "tissue_type",
+              "sortable": "True"
+            },
+            {
+              "name": "location",
+              "label": "Location",
+              "align": "left",
+              "field": "location",
+              "sortable": "True"
+            },
+            {
+              "name": "function",
+              "label": "Function",
+              "align": "left",
+              "field": "function",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "tissue_type": "Apical Meristem",
+              "location": "Tips of roots and shoots",
+              "function": "Primary growth - lengthening of roots and shoots"
+            },
+            {
+              "tissue_type": "Lateral Meristem",
+              "location": "Sides of stems and roots",
+              "function": "Secondary growth - increasing thickness/girth"
+            },
+            {
+              "tissue_type": "Intercalary Meristem",
+              "location": "Between mature tissues (e.g., at the base of leaves or internodes)",
+              "function": "Regrowth of tissues and elongation of internodes"
+            }
+          ]
+        },
+        {
+          "title": "Permanent Tissue Types in Plants",
+          "columns": [
+            {
+              "name": "tissue_type",
+              "label": "Tissue Type",
+              "align": "left",
+              "field": "tissue_type",
+              "sortable": "True"
+            },
+            {
+              "name": "characteristics",
+              "label": "Characteristics",
+              "align": "left",
+              "field": "characteristics",
+              "sortable": "True"
+            },
+            {
+              "name": "functions",
+              "label": "Functions",
+              "align": "left",
+              "field": "functions",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "tissue_type": "Parenchyma",
+              "characteristics": "Unspecialised cells with thin walls, living cells, loosely arranged",
+              "functions": "Stores food, sometimes contains chlorophyll (chlorenchyma) or air cavities (aerenchyma)"
+            },
+            {
+              "tissue_type": "Collenchyma",
+              "characteristics": "Living cells, elongated, irregularly thickened at corners, little intercellular space",
+              "functions": "Provides flexibility and mechanical support, found in leaf stalks and stems"
+            },
+            {
+              "tissue_type": "Sclerenchyma",
+              "characteristics": "Dead cells, long and narrow, thickened walls due to lignin",
+              "functions": "Makes plant parts hard and stiff, provides strength, present in stems, vascular bundles, leaf veins, seeds, nuts"
+            }
+          ]
+        },
+        {
+          "title": "Complex Permanent Tissues in Plants",
+          "columns": [
+            {
+              "name": "tissue_type",
+              "label": "Tissue Type",
+              "align": "left",
+              "field": "tissue_type",
+              "sortable": "True"
+            },
+            {
+              "name": "components",
+              "label": "Components",
+              "align": "left",
+              "field": "components",
+              "sortable": "True"
+            },
+            {
+              "name": "function",
+              "label": "Function",
+              "align": "left",
+              "field": "function",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "tissue_type": "Xylem",
+              "components": "Tracheids, Vessels, Xylem Parenchyma, Xylem Fibres",
+              "function": "Transports water and minerals from roots to other parts of the plant, provides support"
+            },
+            {
+              "tissue_type": "Phloem",
+              "components": "Sieve Cells, Sieve Tubes, Companion Cells, Phloem Fibres, Phloem Parenchyma",
+              "function": "Transports food from leaves to other parts of the plant"
+            }
+          ]
+        },
+        {
+          "title": "Types of Muscle Tissues in Animals",
+          "columns": [
+            {
+              "name": "muscle_type",
+              "label": "Muscle Type",
+              "align": "left",
+              "field": "muscle_type",
+              "sortable": "True"
+            },
+            {
+              "name": "characteristics",
+              "label": "Characteristics",
+              "align": "left",
+              "field": "characteristics",
+              "sortable": "True"
+            },
+            {
+              "name": "location",
+              "label": "Location in Body",
+              "align": "left",
+              "field": "location",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "muscle_type": "Striated Muscle",
+              "characteristics": "Voluntary, have striations",
+              "location": "Attached to bones, helps in body movement"
+            },
+            {
+              "muscle_type": "Unstriated Muscle",
+              "characteristics": "Involuntary, no striations",
+              "location": "Walls of internal organs like intestines, bladder"
+            },
+            {
+              "muscle_type": "Cardiac Muscle",
+              "characteristics": "Involuntary, striated, rhythmic contractions",
+              "location": "Heart"
+            }
+          ]
+        },
+        {
+          "title": "Types of Epithelial Tissues in Animals",
+          "columns": [
+            {
+              "name": "epithelial_type",
+              "label": "Epithelial Type",
+              "align": "left",
+              "field": "epithelial_type",
+              "sortable": "True"
+            },
+            {
+              "name": "shape_function",
+              "label": "Shape and Function",
+              "align": "left",
+              "field": "shape_function",
+              "sortable": "True"
+            },
+            {
+              "name": "location",
+              "label": "Location in Body",
+              "align": "left",
+              "field": "location",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "epithelial_type": "Squamous Epithelium",
+              "shape_function": "Flat and thin, for protective lining",
+              "location": "Skin, lining of mouth and oesophagus"
+            },
+            {
+              "epithelial_type": "Cuboidal Epithelium",
+              "shape_function": "Cube-shaped, for secretion and absorption",
+              "location": "Kidney tubules, ducts of glands"
+            },
+            {
+              "epithelial_type": "Columnar Epithelium",
+              "shape_function": "Pillar-like, facilitates movement across barrier",
+              "location": "Inner lining of intestine, respiratory tract (ciliated)"
+            },
+            {
+              "epithelial_type": "Ciliated Epithelium",
+              "shape_function": "Hair-like projections, moves mucus",
+              "location": "Respiratory tract"
+            },
+            {
+              "epithelial_type": "Glandular Epithelium",
+              "shape_function": "Specialized for secretion",
+              "location": "Glands"
+            }
+          ]
+        },
+        {
+          "title": "Connective Tissues in Animals",
+          "columns": [
+            {
+              "name": "tissue_type",
+              "label": "Tissue Type",
+              "align": "left",
+              "field": "tissue_type",
+              "sortable": "True"
+            },
+            {
+              "name": "characteristics",
+              "label": "Characteristics",
+              "align": "left",
+              "field": "characteristics",
+              "sortable": "True"
+            },
+            {
+              "name": "functions",
+              "label": "Functions",
+              "align": "left",
+              "field": "functions",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "tissue_type": "Ligament",
+              "characteristics": "Elastic, strong, little matrix",
+              "functions": "Connects bones to bones"
+            },
+            {
+              "tissue_type": "Tendon",
+              "characteristics": "Fibrous, strong, limited flexibility",
+              "functions": "Connects muscles to bones"
+            },
+            {
+              "tissue_type": "Cartilage",
+              "characteristics": "Widely spaced cells, protein and sugar matrix",
+              "functions": "Smoothens bone surfaces at joints, present in nose, ear, trachea, larynx"
+            },
+            {
+              "tissue_type": "Areolar Tissue",
+              "characteristics": "Found between skin and muscles, around blood vessels and nerves",
+              "functions": "Fills space inside organs, supports internal organs, helps in tissue repair"
+            }
+          ]
+        },
+        {
+          "title": "Nervous Tissue Structure",
+          "columns": [
+            {
+              "name": "component",
+              "label": "Component",
+              "align": "left",
+              "field": "component",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "component": "Neuron",
+              "description": "Basic unit of nervous tissue"
+            },
+            {
+              "component": "Cell Body",
+              "description": "Contains nucleus and cytoplasm"
+            },
+            {
+              "component": "Dendrites",
+              "description": "Short, branched parts extending from cell body"
+            },
+            {
+              "component": "Axon",
+              "description": "Single long part, transmits impulses away from cell body"
+            },
+            {
+              "component": "Nerve Ending",
+              "description": "End part of neuron, involved in transmitting signals to other cells"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "CBSE_9_Science_7",
+      "tables": [
+        {
+          "title": "Types of Motion",
+          "columns": [
+            {
+              "name": "type",
+              "label": "Type of Motion",
+              "align": "left",
+              "field": "type",
+              "sortable": "True"
+            },
+            {
+              "name": "definition",
+              "label": "Definition",
+              "align": "left",
+              "field": "definition",
+              "sortable": "True"
+            },
+            {
+              "name": "example",
+              "label": "Example",
+              "align": "left",
+              "field": "example",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "type": "Uniform Motion",
+              "definition": "Motion at a constant speed in a straight line",
+              "example": "A car traveling on a straight road at a constant speed"
+            },
+            {
+              "type": "Non-uniform Motion",
+              "definition": "Motion where speed or direction (or both) changes",
+              "example": "A car accelerating or decelerating on a road"
+            },
+            {
+              "type": "Circular Motion",
+              "definition": "Motion in a circular path at a constant or varying speed",
+              "example": "A merry-go-round or a planet orbiting the sun"
+            }
+          ]
+        },
+        {
+          "title": "Distance and Displacement Examples",
+          "columns": [
+            {
+              "name": "scenario",
+              "label": "Scenario",
+              "align": "left",
+              "field": "scenario",
+              "sortable": "True"
+            },
+            {
+              "name": "distanceTraveled",
+              "label": "Distance Traveled (meters)",
+              "align": "left",
+              "field": "distanceTraveled",
+              "sortable": "True"
+            },
+            {
+              "name": "displacement",
+              "label": "Displacement (meters)",
+              "align": "left",
+              "field": "displacement",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "scenario": "Scenario 1",
+              "distanceTraveled": "100",
+              "displacement": "100",
+              "description": "Straight path from point A to B"
+            },
+            {
+              "scenario": "Scenario 2",
+              "distanceTraveled": "150",
+              "displacement": "100",
+              "description": "Curved path from point A to B"
+            },
+            {
+              "scenario": "Scenario 3",
+              "distanceTraveled": "0",
+              "displacement": "0",
+              "description": "Staying at point A"
+            },
+            {
+              "scenario": "Scenario 4",
+              "distanceTraveled": "200",
+              "displacement": "0",
+              "description": "Circular path starting and ending at point A"
+            }
+          ]
+        },
+        {
+          "title": "Uniform and Non-uniform Motion Examples",
+          "columns": [
+            {
+              "name": "exampleNumber",
+              "label": "Example Number",
+              "align": "left",
+              "field": "exampleNumber",
+              "sortable": "True"
+            },
+            {
+              "name": "distanceTraveled",
+              "label": "Distance Traveled (meters)",
+              "align": "left",
+              "field": "distanceTraveled",
+              "sortable": "True"
+            },
+            {
+              "name": "timeTaken",
+              "label": "Time Taken (seconds)",
+              "align": "left",
+              "field": "timeTaken",
+              "sortable": "True"
+            },
+            {
+              "name": "motionType",
+              "label": "Type of Motion",
+              "align": "left",
+              "field": "motionType",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "exampleNumber": "1",
+              "distanceTraveled": "50",
+              "timeTaken": "10",
+              "motionType": "Uniform",
+              "description": "Car traveling at a constant speed"
+            },
+            {
+              "exampleNumber": "2",
+              "distanceTraveled": "75",
+              "timeTaken": "10",
+              "motionType": "Non-uniform",
+              "description": "Car accelerating"
+            },
+            {
+              "exampleNumber": "3",
+              "distanceTraveled": "30",
+              "timeTaken": "10",
+              "motionType": "Uniform",
+              "description": "Bicycle moving at a steady pace"
+            },
+            {
+              "exampleNumber": "4",
+              "distanceTraveled": "100",
+              "timeTaken": "10",
+              "motionType": "Non-uniform",
+              "description": "Runner starting slow and finishing fast"
+            }
+          ]
+        },
+        {
+          "title": "Speed and Velocity Comparisons",
+          "columns": [
+            {
+              "name": "exampleNumber",
+              "label": "Example Number",
+              "align": "left",
+              "field": "exampleNumber",
+              "sortable": "True"
+            },
+            {
+              "name": "speed",
+              "label": "Speed (m/s)",
+              "align": "left",
+              "field": "speed",
+              "sortable": "True"
+            },
+            {
+              "name": "velocity",
+              "label": "Velocity (m/s)",
+              "align": "left",
+              "field": "velocity",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "exampleNumber": "1",
+              "speed": "20",
+              "velocity": "20",
+              "description": "Car traveling east at a constant speed"
+            },
+            {
+              "exampleNumber": "2",
+              "speed": "30",
+              "velocity": "-30",
+              "description": "Car moving west (opposite direction)"
+            },
+            {
+              "exampleNumber": "3",
+              "speed": "15",
+              "velocity": "0",
+              "description": "Car moving in a circle, returning to start"
+            },
+            {
+              "exampleNumber": "4",
+              "speed": "25",
+              "velocity": "25",
+              "description": "Bicycle moving north without changing direction"
+            }
+          ]
+        },
+        {
+          "title": "Acceleration Examples",
+          "columns": [
+            {
+              "name": "scenario",
+              "label": "Scenario",
+              "align": "left",
+              "field": "scenario",
+              "sortable": "True"
+            },
+            {
+              "name": "initialVelocity",
+              "label": "Initial Velocity (m/s)",
+              "align": "left",
+              "field": "initialVelocity",
+              "sortable": "True"
+            },
+            {
+              "name": "finalVelocity",
+              "label": "Final Velocity (m/s)",
+              "align": "left",
+              "field": "finalVelocity",
+              "sortable": "True"
+            },
+            {
+              "name": "time",
+              "label": "Time (seconds)",
+              "align": "left",
+              "field": "time",
+              "sortable": "True"
+            },
+            {
+              "name": "acceleration",
+              "label": "Acceleration (m/s²)",
+              "align": "left",
+              "field": "acceleration",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "scenario": "1",
+              "initialVelocity": "0",
+              "finalVelocity": "10",
+              "time": "2",
+              "acceleration": "5",
+              "description": "Car starting from rest and speeding up"
+            },
+            {
+              "scenario": "2",
+              "initialVelocity": "20",
+              "finalVelocity": "15",
+              "time": "5",
+              "acceleration": "-1",
+              "description": "Car slowing down"
+            },
+            {
+              "scenario": "3",
+              "initialVelocity": "10",
+              "finalVelocity": "30",
+              "time": "4",
+              "acceleration": "5",
+              "description": "Bike accelerating"
+            },
+            {
+              "scenario": "4",
+              "initialVelocity": "0",
+              "finalVelocity": "0",
+              "time": "1",
+              "acceleration": "0",
+              "description": "Object at rest"
+            }
+          ]
+        },
+        {
+          "title": "Equations of Motion",
+          "columns": [
+            {
+              "name": "equationNumber",
+              "label": "Equation Number",
+              "align": "left",
+              "field": "equationNumber",
+              "sortable": "True"
+            },
+            {
+              "name": "equation",
+              "label": "Equation",
+              "align": "left",
+              "field": "equation",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            },
+            {
+              "name": "example",
+              "label": "Example",
+              "align": "left",
+              "field": "example",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "equationNumber": "1",
+              "equation": "v = u + at",
+              "description": "Final velocity (v) after time (t) with initial velocity (u) and acceleration (a)",
+              "example": "Car accelerating from 20 m/s to 30 m/s in 5 seconds"
+            },
+            {
+              "equationNumber": "2",
+              "equation": "s = ut + 0.5at²",
+              "description": "Distance (s) covered in time (t) with initial velocity (u) and acceleration (a)",
+              "example": "Car traveling for 3 seconds with an initial velocity of 10 m/s and acceleration of 5 m/s²"
+            },
+            {
+              "equationNumber": "3",
+              "equation": "v² = u² + 2as",
+              "description": "Relation of final velocity (v) with initial velocity (u), acceleration (a) and distance (s)",
+              "example": "Determining the final speed of a bike that accelerates over 50 meters"
+            }
+          ]
+        },
+        {
+          "title": "Graphical Representations in Motion",
+          "columns": [
+            {
+              "name": "graphType",
+              "label": "Graph Type",
+              "align": "left",
+              "field": "graphType",
+              "sortable": "True"
+            },
+            {
+              "name": "characteristics",
+              "label": "Characteristics",
+              "align": "left",
+              "field": "characteristics",
+              "sortable": "True"
+            },
+            {
+              "name": "interpretation",
+              "label": "Interpretation",
+              "align": "left",
+              "field": "interpretation",
+              "sortable": "True"
+            },
+            {
+              "name": "example",
+              "label": "Example",
+              "align": "left",
+              "field": "example",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "graphType": "Distance-Time",
+              "characteristics": "Straight ascending line",
+              "interpretation": "Uniform motion",
+              "example": "Car traveling at a constant speed"
+            },
+            {
+              "graphType": "Distance-Time",
+              "characteristics": "Curved ascending line",
+              "interpretation": "Accelerating motion",
+              "example": "Car speeding up"
+            },
+            {
+              "graphType": "Velocity-Time",
+              "characteristics": "Horizontal line",
+              "interpretation": "Constant velocity",
+              "example": "Bike moving at a steady speed"
+            },
+            {
+              "graphType": "Velocity-Time",
+              "characteristics": "Ascending line",
+              "interpretation": "Increasing velocity",
+              "example": "Motorcycle accelerating"
+            }
+          ]
+        },
+        {
+          "title": "Uniform Circular Motion Examples",
+          "columns": [
+            {
+              "name": "exampleNumber",
+              "label": "Example Number",
+              "align": "left",
+              "field": "exampleNumber",
+              "sortable": "True"
+            },
+            {
+              "name": "radius",
+              "label": "Radius of Path (meters)",
+              "align": "left",
+              "field": "radius",
+              "sortable": "True"
+            },
+            {
+              "name": "timeTaken",
+              "label": "Time Taken (seconds)",
+              "align": "left",
+              "field": "timeTaken",
+              "sortable": "True"
+            },
+            {
+              "name": "speed",
+              "label": "Speed (m/s)",
+              "align": "left",
+              "field": "speed",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "exampleNumber": "1",
+              "radius": "5",
+              "timeTaken": "10",
+              "speed": "3.14",
+              "description": "Merry-go-round with 5m radius completing one rotation in 10 seconds"
+            },
+            {
+              "exampleNumber": "2",
+              "radius": "2",
+              "timeTaken": "5",
+              "speed": "2.51",
+              "description": "Miniature Ferris wheel with 2m radius completing one rotation in 5 seconds"
+            },
+            {
+              "exampleNumber": "3",
+              "radius": "10",
+              "timeTaken": "20",
+              "speed": "3.14",
+              "description": "Satellite orbiting in a circular path with 10m radius every 20 seconds"
+            },
+            {
+              "exampleNumber": "4",
+              "radius": "8",
+              "timeTaken": "15",
+              "speed": "3.35",
+              "description": "Car driving around a circular track with 8m radius in 15 seconds"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "CBSE_9_Science_8",
+      "tables": [
+        {
+          "title": "Newton's Laws of Motion",
+          "columns": [
+            {
+              "name": "law",
+              "label": "Law",
+              "align": "left",
+              "field": "law",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "law": "First Law of Motion",
+              "description": "An object remains in a state of rest or of uniform motion in a straight line unless compelled to change that state by an applied force. This is also known as the law of inertia, indicating that all objects resist a change in their state of motion&."
+            },
+            {
+              "law": "Second Law of Motion",
+              "description": "The rate of change of momentum of an object is proportional to the applied unbalanced force in the direction of the force. It can be expressed mathematically as F = ma, where F is the force, m is the mass, and a is the acceleration."
+            },
+            {
+              "law": "Third Law of Motion",
+              "description": "When one object exerts a force on another object, the second object instantaneously exerts a force back on the first. These two forces are always equal in magnitude but opposite in direction, and they act on different objects."
+            }
+          ]
+        },
+        {
+          "title": "Examples of Newton's Laws of Motion",
+          "columns": [
+            {
+              "name": "law",
+              "label": "Law",
+              "align": "left",
+              "field": "law",
+              "sortable": "True"
+            },
+            {
+              "name": "example",
+              "label": "Example",
+              "align": "left",
+              "field": "example",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "law": "First Law of Motion",
+              "example": "When a motorcar makes a sharp turn at high speed, we tend to get thrown to one side due to inertia."
+            },
+            {
+              "law": "Second Law of Motion",
+              "example": "A fielder catching a fast-moving cricket ball pulls his hands backwards with the ball, reducing the ball's acceleration and impact&. Another example is children playing catch with a sandbag on separate carts, showing different accelerations for the same force."
+            },
+            {
+              "law": "Third Law of Motion",
+              "example": "When a sailor jumps out of a rowing boat, the force on the boat moves it backwards. Similarly, in football, colliding with another player results in both players applying force to each other."
+            }
+          ]
+        },
+        {
+          "title": "Concepts and Definitions in Force and Laws of Motion",
+          "columns": [
+            {
+              "name": "concept",
+              "label": "Concept",
+              "align": "left",
+              "field": "concept",
+              "sortable": "True"
+            },
+            {
+              "name": "definition",
+              "label": "Definition",
+              "align": "left",
+              "field": "definition",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "concept": "Force",
+              "definition": "A push, hit, or pull that changes the state of motion of an object. It can change the magnitude of velocity of an object or its direction of motion."
+            },
+            {
+              "concept": "Momentum",
+              "definition": "The product of an object's mass and velocity, having both direction and magnitude. Represented as p = mv&."
+            },
+            {
+              "concept": "Newton (Unit of Force)",
+              "definition": "The SI unit of force, symbolized as N. One newton produces an acceleration of 1 m/s² on an object of mass 1 kg."
+            },
+            {
+              "concept": "Inertia",
+              "definition": "The natural tendency of objects to resist a change in their state of rest or of uniform motion. The mass of an object is a measure of its inertia."
+            }
+          ]
+        },
+        {
+          "title": "Formulas and Equations in Force and Laws of Motion",
+          "columns": [
+            {
+              "name": "concept",
+              "label": "Concept",
+              "align": "left",
+              "field": "concept",
+              "sortable": "True"
+            },
+            {
+              "name": "formula",
+              "label": "Formula/Equation",
+              "align": "left",
+              "field": "formula",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "concept": "Force (Second Law of Motion)",
+              "formula": "F = ma, where F is force, m is mass, and a is acceleration&."
+            },
+            {
+              "concept": "Example of Force Calculation",
+              "formula": "For a mass m1 = 2 kg and acceleration a1 = 5 m/s², Force F = m1 × a1; similarly for m2 = 4 kg and a2 = 2 m/s²."
+            },
+            {
+              "concept": "Change in Momentum (Second Law of Motion)",
+              "formula": "Change in momentum ∝ mv – mu, where m is mass, v is final velocity, and u is initial velocity."
+            }
+          ]
+        },
+        {
+          "title": "Comparative Scenarios in Force and Laws of Motion",
+          "columns": [
+            {
+              "name": "scenario",
+              "label": "Scenario",
+              "align": "left",
+              "field": "scenario",
+              "sortable": "True"
+            },
+            {
+              "name": "comparison",
+              "label": "Comparison",
+              "align": "left",
+              "field": "comparison",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "scenario": "Force Required for Different Masses",
+              "comparison": "Comparing force required to accelerate a 2 kg mass at 5 m/s² and a 4 kg mass at 2 m/s² using the formula F = ma&."
+            },
+            {
+              "scenario": "Slowing Down a Moving Motorcar",
+              "comparison": "Calculating the force required to slow down a motorcar from 90 km/h to 18 km/h in 4 seconds."
+            },
+            {
+              "scenario": "Effect of Force on Two Children on Separate Carts",
+              "comparison": "Observing different accelerations for the same force when two children on separate carts play catch with a sandbag."
+            }
+          ]
+        },
+        {
+          "title": "Historical Figures in Force and Laws of Motion",
+          "columns": [
+            {
+              "name": "figure",
+              "label": "Historical Figure",
+              "align": "left",
+              "field": "figure",
+              "sortable": "True"
+            },
+            {
+              "name": "contributions",
+              "label": "Contributions",
+              "align": "left",
+              "field": "contributions",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "figure": "Galileo Galilei",
+              "contributions": "Galileo Galilei's key contributions include his work on the theory of motion, using inclined planes to study uniformly accelerated objects, and his development of improved telescopes. He also made significant astronomical discoveries, as detailed in his book ‘Starry Messenger’."
+            }
+          ]
+        },
+        {
+          "title": "Activities and Experiments in Force and Laws of Motion",
+          "columns": [
+            {
+              "name": "activity",
+              "label": "Activity",
+              "align": "left",
+              "field": "activity",
+              "sortable": "True"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "align": "left",
+              "field": "description",
+              "sortable": "True"
+            }
+          ],
+          "rows": [
+            {
+              "activity": "Inertia of a Coin (Activity 8.3)",
+              "description": "Flicking a card to let a coin fall into a glass tumbler, demonstrating the inertia of the coin&."
+            },
+            {
+              "activity": "Game of Catch with Sand Bag (Activity 8.4)",
+              "description": "Two children standing on separate carts throw a sand bag to each other, illustrating the second law of motion and different accelerations for the same force."
+            },
+            {
+              "activity": "Coin on a Card (Activity 8.2)",
+              "description": "Placing a five-rupee coin on a stiff card over a glass tumbler and flicking the card to let the coin fall into the tumbler, demonstrating inertia."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

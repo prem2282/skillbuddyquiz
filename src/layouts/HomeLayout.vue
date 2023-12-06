@@ -34,8 +34,13 @@
       <router-view />
     </q-page-container>
     <q-page-sticky position="bottom-left" :offset="[18, 18]">
-      <q-btn round color="blue-4" icon="arrow_back" @click="backButtonClicked" />
-    </q-page-sticky>    
+      <q-btn
+        round
+        color="blue-4"
+        icon="arrow_back"
+        @click="backButtonClicked"
+      />
+    </q-page-sticky>
   </q-layout>
 </template>
 
@@ -54,7 +59,7 @@ export default defineComponent({
       this.$router.push("/");
     },
     backButtonClicked() {
-      academicsStore.backButtonClicked()
+      academicsStore.backButtonClicked();
     },
   },
   setup() {
@@ -62,7 +67,7 @@ export default defineComponent({
     const store = useAcademicsStore();
 
     onMounted(() => {
-      store.loadAcadList();
+      store.fetchAndDecrypt();
     });
 
     return {

@@ -65,7 +65,9 @@ export default {
     ChapterQuizType,
     ChapterDetails,
   },
-  data() {},
+  data() {
+    return {};
+  },
   computed: {
     academicsStore() {
       return useAcademicsStore();

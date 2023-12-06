@@ -15,12 +15,15 @@
   "dependencies": {
     "@quasar/extras": "^1.16.4",
     "axios": "^1.2.1",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.3.1",
     "marked": "9.1.5",
     "pinia": "^2.0.11",
     "quasar": "^2.6.0",
     "vue": "^3.0.0",
     "vue-i18n": "^9.0.0",
     "vue-router": "^4.0.0",
+    "vue3-google-login": "^2.0.25",
     "vuedraggable": "^2.24.3"
   },
   "devDependencies": {
