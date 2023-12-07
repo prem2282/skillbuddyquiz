@@ -67,7 +67,7 @@ export default defineComponent({
     const store = useAcademicsStore();
 
     onMounted(() => {
-      store.fetchAndDecrypt();
+      store.fetchAcademics();
     });
 
     return {

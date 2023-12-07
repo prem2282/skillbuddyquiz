@@ -69,20 +69,20 @@ export const useAcademicsStore = defineStore("academics", {
   },
 
   actions: {
-    async loadAcadList() {
-      try {
-        const response = await fetch("data/academicsData.json");
-        const data = await response.json();
+    // async loadAcadList() {
+    //   try {
+    //     const response = await fetch("data/academicsData.json");
+    //     const data = await response.json();
 
-        this.academics = data;
-      } catch (error) {
-        console.error("Failed to load academics data:", error);
-      }
-    },
+    //     this.academics = data;
+    //   } catch (error) {
+    //     console.error("Failed to load academics data:", error);
+    //   }
+    // },
 
-    async fetchAndDecrypt() {
+    async fetchAndDecrypt(file_path) {
       try {
-        const response = await fetch("/data/academicsData.enc");
+        const response = await fetch(file_path);
         const encryptedData = await response.json();
 
         const key = CryptoJS.enc.Base64.parse(decrypt_key);
@@ -94,10 +94,14 @@ export const useAcademicsStore = defineStore("academics", {
           padding: CryptoJS.pad.Pkcs7,
         });
 
-        this.academics = JSON.parse(decrypted.toString(CryptoJS.enc.Utf8));
+        return JSON.parse(decrypted.toString(CryptoJS.enc.Utf8));
       } catch (error) {
         console.error("Decryption failed:", error);
       }
+    },
+    async fetchAcademics() {
+      const file_path = "/data/academicsData.enc";
+      this.academics = await this.fetchAndDecrypt(file_path);
     },
     selectChapter(item) {
       console.log("item", item);
@@ -105,8 +109,9 @@ export const useAcademicsStore = defineStore("academics", {
       this.selectedQuizId = item.quizId;
       const quizStore = useQuizStore();
       quizStore.loadQuizList(item.quizId);
-      quizStore.loadChapterSummary(item.quizId);
-      quizStore.loadChapterDetails(item.quizId);
+      quizStore.loadChapter(item.quizId);
+      // quizStore.loadChapterSummary(item.quizId);
+      // quizStore.loadChapterDetails(item.quizId);
     },
     selectBoard(board) {
       this.selectedBoard = board;

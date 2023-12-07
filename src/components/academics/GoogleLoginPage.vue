@@ -5,6 +5,7 @@
     prompt
     popupType="TOKEN"
     :callback="callback"
+    v-if="showGoogleLogin"
   />
 </template>
 
@@ -19,6 +20,7 @@ export default defineComponent({
   data() {
     return {
       clientId: GOOGLE_CLIENT_ID,
+      showGoogleLogin: false,
     };
   },
   components: { GoogleLogin },
@@ -29,6 +31,23 @@ export default defineComponent({
       let user = decodeCredential(response.credential);
       this.userStore.setUser(user);
     },
+    checkTokenActive() {
+      let user = JSON.parse(localStorage.getItem("user"));
+      if (user && user.exp) {
+        let currentTime = Math.floor(Date.now() / 1000);
+        if (user.exp > currentTime) {
+          this.userStore.setUser(user);
+        } else {
+          this.showGoogleLogin = true;
+          this.clearLocalStorageUser();
+        }
+      } else {
+        this.showGoogleLogin = true;
+      }
+    },
+    clearLocalStorageUser() {
+      localStorage.removeItem("user");
+    },
   },
   computed: {
     userStore() {
@@ -37,6 +56,9 @@ export default defineComponent({
     getUser() {
       return this.userStore.getUser;
     },
+  },
+  mounted() {
+    this.checkTokenActive();
   },
 });
 </script>

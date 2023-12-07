@@ -1,6 +1,7 @@
 import { defineStore } from "pinia";
 import { useRoute, useRouter } from "vue-router";
-
+import CryptoJS from "crypto-js";
+const decrypt_key = process.env.VUE_APP_ANACONDA;
 export const useQuizStore = defineStore("quiz", {
   state: () => ({
     fullQuizList: [],
@@ -27,7 +28,7 @@ export const useQuizStore = defineStore("quiz", {
     quizList(state) {
       let newlist = [];
       newlist =
-        state.fullQuizList?.quizDetails?.filter(
+        state.fullQuizList?.filter(
           (question) => question.level === state.selectedLevel
         ) || [];
 
@@ -57,9 +58,7 @@ export const useQuizStore = defineStore("quiz", {
       return score;
     },
     levels(state) {
-      let levels = state.fullQuizList?.quizDetails?.map(
-        (question) => question.level
-      );
+      let levels = state.fullQuizList?.map((question) => question.level);
       // unique levels
       return [...new Set(levels)].sort((a, b) => a - b);
     },
@@ -84,50 +83,89 @@ export const useQuizStore = defineStore("quiz", {
       return state.quizCount;
     },
     getChapterTables(state) {
-      return state.chapterDetails?.tables;
+      return state.chapterDetails;
     },
     getChapterSummary(state) {
-      return state.chapterSummary?.summary;
+      return state.chapterSummary;
     },
   },
   actions: {
-    async loadQuizList(quizId) {
-      console.log("quizId", quizId);
+    async fetchAndDecrypt(file_path) {
       try {
-        const response = await fetch("/data/quizData.json");
-        const data = await response.json();
-        const selectedQuiz = data.quizData.find(
-          (quiz) => quiz.quizId === quizId
-        );
-        console.log("selectedQuiz", selectedQuiz);
-        this.fullQuizList = selectedQuiz;
+        const response = await fetch(file_path);
+        const encryptedData = await response.json();
+
+        const key = CryptoJS.enc.Base64.parse(decrypt_key);
+        const iv = CryptoJS.enc.Base64.parse(encryptedData.iv);
+
+        const decrypted = CryptoJS.AES.decrypt(encryptedData.ciphertext, key, {
+          iv: iv,
+          mode: CryptoJS.mode.CBC,
+          padding: CryptoJS.pad.Pkcs7,
+        });
+
+        return JSON.parse(decrypted.toString(CryptoJS.enc.Utf8));
       } catch (error) {
-        console.error("Failed to load quiz data:", error);
+        console.error("Decryption failed:", error);
       }
     },
+    // async loadQuizList(quizId) {
+    //   console.log("quizId", quizId);
+    //   try {
+    //     const response = await fetch("/data/quizData.json");
+    //     const data = await response.json();
+    //     const selectedQuiz = data.quizData.find(
+    //       (quiz) => quiz.quizId === quizId
+    //     );
+    //     console.log("selectedQuiz", selectedQuiz);
+    //     this.fullQuizList = selectedQuiz;
+    //   } catch (error) {
+    //     console.error("Failed to load quiz data:", error);
+    //   }
+    // },
 
-    async loadChapterDetails(chapterId) {
+    async loadQuizList(chapterId) {
       try {
-        const response = await fetch("/data/chapterDetails.json");
-        const data = await response.json();
-        const chapterDetails = data.chapterData.find(
-          (chapter) => chapter.chapterId === chapterId
-        );
-        console.log("chapterDetails", chapterDetails);
-        this.chapterDetails = chapterDetails;
+        const file_path = `/data/quiz/` + chapterId + `.enc `;
+        this.fullQuizList = await this.fetchAndDecrypt(file_path);
       } catch (error) {
         console.error("Failed to load chapter data:", error);
       }
     },
 
-    async loadChapterSummary(chapterId) {
+    // async loadChapterDetails(chapterId) {
+    //   try {
+    //     const response = await fetch("/data/chapterDetails.json");
+    //     const data = await response.json();
+    //     const chapterDetails = data.chapterData.find(
+    //       (chapter) => chapter.chapterId === chapterId
+    //     );
+    //     console.log("chapterDetails", chapterDetails);
+    //     this.chapterDetails = chapterDetails;
+    //   } catch (error) {
+    //     console.error("Failed to load chapter data:", error);
+    //   }
+    // },
+
+    // async loadChapterSummary(chapterId) {
+    //   try {
+    //     const response = await fetch("/data/chapterSummary.json");
+    //     const data = await response.json();
+    //     const chapterSummary = data.chapterSummary.find(
+    //       (chapter) => chapter.chapterId === chapterId
+    //     );
+    //     this.chapterSummary = chapterSummary;
+    //   } catch (error) {
+    //     console.error("Failed to load chapter data:", error);
+    //   }
+    // },
+
+    async loadChapter(chapterId) {
       try {
-        const response = await fetch("/data/chapterSummary.json");
-        const data = await response.json();
-        const chapterSummary = data.chapterSummary.find(
-          (chapter) => chapter.chapterId === chapterId
-        );
-        this.chapterSummary = chapterSummary;
+        const file_path = `/data/chapter/` + chapterId + `.enc `;
+        const chapter = await this.fetchAndDecrypt(file_path);
+        this.chapterSummary = chapter.summary;
+        this.chapterDetails = chapter.tables;
       } catch (error) {
         console.error("Failed to load chapter data:", error);
       }
@@ -136,7 +174,7 @@ export const useQuizStore = defineStore("quiz", {
     resetQuizData() {
       this.userResponse = [];
       this.currentQuestion = 0;
-      this.fullQuizList = {};
+      this.fullQuizList = [];
       this.selectedLevel = null;
     },
     selectQuizType(level) {
