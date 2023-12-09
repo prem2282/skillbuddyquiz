@@ -2,11 +2,18 @@
   <div>
     <div class="button-container">
       <div v-for="(item, index) in getChapterListForSubject" :key="index">
-        <q-btn class="chapter-button" @click="selectChapter(item)">
-          <div class="button-content">
-            <div class="chapter-text">{{ item.chapter }}</div>
-          </div>
-        </q-btn>
+        <transition
+          appear
+          :style="{ 'animation-delay': index * 0.1 + 's' }"
+          enter-active-class="animated fadeIn"
+          leave-active-class="animated fadeOut"
+        >
+          <q-btn class="chapter-button" @click="selectChapter(item)">
+            <div class="button-content">
+              <div class="chapter-text">{{ item.chapter }}</div>
+            </div>
+          </q-btn>
+        </transition>
       </div>
     </div>
   </div>
@@ -37,7 +44,4 @@ export default {
 };
 </script>
 
-
-
-<style scoped>
-</style>
+<style scoped></style>

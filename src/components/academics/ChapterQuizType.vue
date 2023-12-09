@@ -1,61 +1,96 @@
 <template>
   <div>
-    <div>
-      <div class="quiz-count-chip-box-text">Number of Questions</div>
-      <div class="quiz-count-chip-box">
-        <q-btn
-          class="q-mx-sm"
-          :class="getSelectedCount === 5 ? 'bg-brown-5 text-white' : 'bg-white'"
-          rounded
-          @click="selectQuizCount(5)"
-          >5</q-btn
-        >
-        <q-btn
-          class="q-mx-sm"
-          :class="
-            getSelectedCount === 10 ? 'bg-brown-5 text-white' : 'bg-white'
-          "
-          rounded
-          @click="selectQuizCount(10)"
-          >10</q-btn
-        >
-        <q-btn
-          class="q-mx-sm"
-          :class="getSelectedCount === 0 ? 'bg-brown-5 text-white' : 'bg-white'"
-          rounded
-          @click="selectQuizCount(0)"
-          >all</q-btn
-        >
+    <transition
+      appear
+      enter-active-class="animated fadeInDown"
+      leave-active-class="animated fadeOut"
+    >
+      <div>
+        <div class="quiz-count-chip-box-text">Number of Questions</div>
+        <div class="quiz-count-chip-box">
+          <q-btn
+            class="q-mx-sm"
+            :class="
+              getSelectedCount === 5 ? 'bg-brown-5 text-white' : 'bg-white'
+            "
+            rounded
+            @click="selectQuizCount(5)"
+            >5</q-btn
+          >
+          <q-btn
+            class="q-mx-sm"
+            :class="
+              getSelectedCount === 10 ? 'bg-brown-5 text-white' : 'bg-white'
+            "
+            rounded
+            @click="selectQuizCount(10)"
+            >10</q-btn
+          >
+          <q-btn
+            class="q-mx-sm"
+            :class="
+              getSelectedCount === 0 ? 'bg-brown-5 text-white' : 'bg-white'
+            "
+            rounded
+            @click="selectQuizCount(0)"
+            >all</q-btn
+          >
+        </div>
       </div>
-    </div>
+    </transition>
     <div class="level-container">
       <div v-for="(item, index) in levels" :key="index">
-        <q-btn class="chapter-button" @click="selectQuizType(item)">
-          <div class="button-content">
-            <div class="button-text">{{ getLevelsText[index] }}</div>
-          </div>
-        </q-btn>
+        <transition
+          appear
+          :style="{ 'animation-delay': (0.6 + index) * 0.2 + 's' }"
+          enter-active-class="animated fadeIn"
+          leave-active-class="animated fadeOut"
+        >
+          <q-btn class="chapter-button" @click="selectQuizType(item)">
+            <div class="button-content">
+              <div class="button-text">{{ getLevelsText[index] }}</div>
+            </div>
+          </q-btn>
+        </transition>
       </div>
     </div>
     <div v-if="showInProgress" class="explore-container">
-      <q-btn
-        class="q-mx-sm continue-progress-button glossy"
-        @click="loadInprogresQuiz"
-        >Continue In progress Quiz</q-btn
+      <transition
+        appear
+        enter-active-class="animated fadeInUp"
+        leave-active-class="animated fadeOut"
       >
+        <q-btn
+          class="q-mx-sm continue-progress-button glossy"
+          @click="loadInprogresQuiz"
+          >Continue In progress Quiz</q-btn
+        >
+      </transition>
     </div>
 
     <div class="explore-container">
-      <q-btn class="q-mx-sm explore-button" @click="exploreChapter"
-        >Explore Chapter</q-btn
+      <transition
+        appear
+        enter-active-class="animated fadeInUpBig"
+        leave-active-class="animated fadeOut"
       >
+        <q-btn class="q-mx-sm explore-button" @click="exploreChapter"
+          >Explore Chapter</q-btn
+        >
+      </transition>
     </div>
     <div v-if="showCompletedHistory" class="explore-container">
-      <q-btn
-        class="q-mx-sm bg-green-6 explore-button"
-        @click="exploreHistoricalData"
-        >Review Your Completed progress</q-btn
+      <transition
+        appear
+        enter-active-class="animated fadeInUpBig"
+        leave-active-class="animated fadeOut"
       >
+        <q-btn
+          class="q-mx-sm bg-green-6 explore-button"
+          @click="exploreHistoricalData"
+          >Review Your Completed progress</q-btn
+        >
+      </transition>
     </div>
   </div>
 </template>

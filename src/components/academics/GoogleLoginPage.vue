@@ -3,7 +3,6 @@
     :clientId="clientId"
     auto-login
     prompt
-    popupType="TOKEN"
     :callback="callback"
     v-if="showGoogleLogin"
   />

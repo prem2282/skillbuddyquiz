@@ -1,26 +1,21 @@
 <template>
-  <!-- <div>
-    <div class="card bg-blue-1">
-      <div class="q-gutter-md q-pa-md q-mx-md q-my-sm" style="display: flex; justify-content: center;">
-        <q-btn v-for="(item, index) in getGradeListForBoard" :key="index" class="q-ma-md bg-blue-6" @click="selectGrade(item)">
-          <div style="display: flex; flex-direction: column; align-items: center;">
-            <div class="q-pa-md text-white" style="font-size: 1rem; text-align: center;">Class</div>
-            <div class="q-pb-md text-white" style="font-size: 3.5rem; text-align: center;">{{ item }}</div>
-          </div>
-        </q-btn>
-      </div>
-    </div>
-  </div> -->
   <div class="button-container">
-      <div v-for="(item, index) in getGradeListForBoard" :key="index">
+    <div v-for="(item, index) in getGradeListForBoard" :key="index">
+      <transition
+        appear
+        :style="{ 'animation-delay': index * 0.2 + 's' }"
+        enter-active-class="animated fadeIn"
+        leave-active-class="animated fadeOut"
+      >
         <q-btn class="grade-button" @click="selectGrade(item)">
           <div class="button-content">
             <div class="button-text">Class</div>
             <div class="grade-text">{{ item }}</div>
           </div>
         </q-btn>
-      </div>
-    </div>   
+      </transition>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -52,6 +47,5 @@ export default {
       this.academicsStore.selectGrade(this.getGradeListForBoard[0]);
     }
   },
-
 };
 </script>

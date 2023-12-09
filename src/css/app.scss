@@ -1,3 +1,9 @@
+:root {
+  --animate-duration: 0.6s; // Your desired duration
+  --animate-delay: 0.6s; // Your desired delay
+  --animate-repeat: 1; // Your desired repeat count
+}
+
 // app global css in SCSS form
 h1 {
   font-family: "Arial", sans-serif; // Example font family

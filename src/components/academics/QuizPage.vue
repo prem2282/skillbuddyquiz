@@ -12,71 +12,100 @@
         ></q-linear-progress>
 
         <div class="quiz-container q-pa-md q-ma-md">
-          <q-card>
-            <q-card-section>
-              <q-item-section
-                ><span class="quiz-question-text">{{
-                  currentQuiz.question
-                }}</span></q-item-section
-              >
-            </q-card-section>
-          </q-card>
-
+          <transition
+            appear
+            enter-active-class="animated fadeIn"
+            leave-active-class="animated fadeOut"
+          >
+            <q-card>
+              <q-card-section>
+                <q-item-section
+                  ><span class="quiz-question-text">{{
+                    currentQuiz.question
+                  }}</span></q-item-section
+                >
+              </q-card-section>
+            </q-card>
+          </transition>
           <q-list class="q-pa-md q-ma-md">
-            <q-item
+            <div
               v-for="(option, index) in currentQuizOptions(
                 currentQuestionIndex
               )"
               :key="option"
-              clickable
-              :disable="submitted"
-              @click="selectOption(index)"
-              class="q-mb-sm quiz-option-text"
-              :class="selectedOption === index ? 'bg-grey-6' : 'bg-grey-3'"
             >
-              <q-item-section
-                class="option-section"
-                :class="{ 'selected-option': selectedOption === option }"
+              <transition
+                appear
+                :style="{ 'animation-delay': (0.6 + index) * 0.2 + 's' }"
+                enter-active-class="animated fadeInUp"
+                leave-active-class="animated fadeOut"
               >
-                {{ index }}. {{ option }}
-              </q-item-section>
-            </q-item>
+                <q-item
+                  clickable
+                  :disable="submitted"
+                  @click="selectOption(index)"
+                  class="q-mb-sm quiz-option-text"
+                  :class="selectedOption === index ? 'bg-grey-6' : 'bg-grey-3'"
+                >
+                  <q-item-section
+                    class="option-section"
+                    :class="{ 'selected-option': selectedOption === option }"
+                  >
+                    {{ index }}. {{ option }}
+                  </q-item-section>
+                </q-item>
+              </transition>
+            </div>
           </q-list>
 
           <!-- add explanation -->
           <div v-if="submitted" class="q-ma-md">
-            <q-card
-              :class="questionResult === 'Correct' ? 'bg-green-3' : 'bg-red-3'"
+            <transition
+              appear
+              enter-active-class="animated fadeInDown"
+              leave-active-class="animated fadeOut"
             >
-              <q-card-section
-                :class="{ 'streaming-text': showStreamingEffect }"
+              <q-card
+                :class="
+                  questionResult === 'Correct' ? 'bg-green-3' : 'bg-red-3'
+                "
               >
-                <q-item-section class="quiz-explanation-text">{{
-                  explanation(currentQuestionIndex, selectedOption)
-                }}</q-item-section>
-              </q-card-section>
-            </q-card>
+                <q-card-section
+                  :class="{ 'streaming-text': showStreamingEffect }"
+                >
+                  <q-item-section class="quiz-explanation-text">{{
+                    explanation(currentQuestionIndex, selectedOption)
+                  }}</q-item-section>
+                </q-card-section>
+              </q-card>
+            </transition>
           </div>
 
           <!-- add a submit button -->
-          <div class="text-center">
-            <q-btn
-              v-if="submitted"
-              color="primary"
-              :label="nextLable"
-              @click="goToNextQuestion"
-              class="q-mt-md"
-              :disable="selectedOption === null"
-            />
-            <q-btn
-              v-else
-              color="primary"
-              label="Submit"
-              @click="submitAnswer"
-              class="q-mt-md"
-              :disable="selectedOption === null"
-            />
-          </div>
+          <transition
+            appear
+            enter-active-class="animated fadeInDown"
+            leave-active-class="animated fadeOut"
+          >
+            <div class="text-center">
+              <q-btn
+                v-if="submitted"
+                color="primary"
+                :label="nextLable"
+                @click="goToNextQuestion"
+                class="q-mt-md"
+                :disable="selectedOption === null"
+              />
+              <q-btn
+                v-else
+                color="primary"
+                label="Submit"
+                @click="submitAnswer"
+                class="q-mt-md"
+                :disable="selectedOption === null"
+              />
+            </div>
+          </transition>
         </div>
       </q-col>
     </div>
@@ -121,10 +150,6 @@ export default {
 
     questionResult() {
       let userResponse = this.selectedOption;
-      // if (this.currentQuiz.level === 3) {
-      //   console.log("here 1");
-      //   userResponse = this.currentQuizOptions(this.currentQuestionIndex)[this.selectedOption];
-      // }
       const correctAnswer = this.currentQuiz.answer;
       if (userResponse === correctAnswer) {
         return "Correct";

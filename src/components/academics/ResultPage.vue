@@ -3,80 +3,88 @@
     <q-page-container class="row justify-center quiz-container">
       <q-col cols="6" sm="12" class="q-ma-auto">
         <div class="text-center text-h6">Score : {{ score }}</div>
-        <div
-          class="q-ma-sm bg-light-blue-1"
-          v-for="(currentQuiz, quiz_index) in quizResult"
-          :key="quiz_index"
+        <transition-group
+          appear
+          enter-active-class="animated fadeInUp"
+          leave-active-class="animated fadeOut"
         >
-          <div class="q-pa-sm">
-            <q-card class="no-shadow bg-blue-6 text-white text-subtitle1">
-              <q-card-section>
-                <q-chip class="bg-light-blue-6 text-white"
-                  >{{ quiz_index + 1 }} of {{ totalQuestions }}</q-chip
-                >
-                {{ currentQuiz.quiz.question }}
-              </q-card-section>
-            </q-card>
-
-            <q-list class="q-pa-sm">
-              <q-item
-                v-for="(option, index) in currentQuiz.quiz.options"
-                :key="option"
-                :class="optionColor(currentQuiz, index)"
-              >
-                <q-item-section
-                  class="option-section"
-                  :class="{ 'selected-option': selectedOption === option }"
-                >
-                  {{ index }}. {{ option }}
-                </q-item-section>
-              </q-item>
-              <div>
-                <div v-if="currentQuiz.quiz.level === 3">
-                  <q-chip
-                    class="q-mr-md"
-                    :class="yourAnswerColor(currentQuiz.result)"
+          <div
+            class="q-ma-sm bg-light-blue-1"
+            v-for="(currentQuiz, quiz_index) in quizResult"
+            :key="quiz_index"
+          >
+            <div class="q-pa-sm">
+              <q-card class="no-shadow bg-blue-6 text-white text-subtitle1">
+                <q-card-section>
+                  <q-chip class="bg-light-blue-6 text-white"
+                    >{{ quiz_index + 1 }} of {{ totalQuestions }}</q-chip
                   >
-                    <strong>{{ level3Options[currentQuiz.userAnswer] }}</strong>
-                    <pre>is </pre>
-                    <strong> {{ currentQuiz.result }} </strong>
-                  </q-chip>
+                  {{ currentQuiz.quiz.question }}
+                </q-card-section>
+              </q-card>
 
-                  <div v-if="currentQuiz.quiz.answer == 'B'">
+              <q-list class="q-pa-sm">
+                <q-item
+                  v-for="(option, index) in currentQuiz.quiz.options"
+                  :key="option"
+                  :class="optionColor(currentQuiz, index)"
+                >
+                  <q-item-section
+                    class="option-section"
+                    :class="{ 'selected-option': selectedOption === option }"
+                  >
+                    {{ index }}. {{ option }}
+                  </q-item-section>
+                </q-item>
+                <div>
+                  <div v-if="currentQuiz.quiz.level === 3">
+                    <q-chip
+                      class="q-mr-md"
+                      :class="yourAnswerColor(currentQuiz.result)"
+                    >
+                      <strong>{{
+                        level3Options[currentQuiz.userAnswer]
+                      }}</strong>
+                      <pre>is </pre>
+                      <strong> {{ currentQuiz.result }} </strong>
+                    </q-chip>
+
+                    <div v-if="currentQuiz.quiz.answer == 'B'">
+                      <q-item>
+                        <q-item-section>
+                          {{ currentQuiz.quiz.explanation }}
+                        </q-item-section>
+                      </q-item>
+                    </div>
+                  </div>
+
+                  <div v-else>
+                    <q-chip :class="yourAnswerColor(currentQuiz.result)"
+                      >Your Answer is {{ currentQuiz.result }}</q-chip
+                    >
                     <q-item>
                       <q-item-section>
-                        {{ currentQuiz.quiz.explanation }}
+                        {{ currentQuiz.userAnswer }} :
+                        {{ responseExplanation(currentQuiz) }}
                       </q-item-section>
                     </q-item>
                   </div>
-                </div>
-
-                <div v-else>
-                  <q-chip :class="yourAnswerColor(currentQuiz.result)"
-                    >Your Answer is {{ currentQuiz.result }}</q-chip
-                  >
-                  <q-item>
-                    <q-item-section>
-                      {{ currentQuiz.userAnswer }} :
-                      {{ responseExplanation(currentQuiz) }}
-                    </q-item-section>
-                  </q-item>
-                </div>
-                <div v-if="currentQuiz.quiz.level !== 3">
-                  <div v-if="currentQuiz.result !== 'correct'">
-                    <q-chip class="bg-green-2">Correct Answer</q-chip>
-                    <q-item>
-                      <q-item-section>
-                        {{ currentQuiz.quiz.answer }} :
-                        {{ currentQuiz.correctExplanation }}
-                      </q-item-section>
-                    </q-item>
+                  <div v-if="currentQuiz.quiz.level !== 3">
+                    <div v-if="currentQuiz.result !== 'correct'">
+                      <q-chip class="bg-green-2">Correct Answer</q-chip>
+                      <q-item>
+                        <q-item-section>
+                          {{ currentQuiz.quiz.answer }} :
+                          {{ currentQuiz.correctExplanation }}
+                        </q-item-section>
+                      </q-item>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </q-list>
+              </q-list>
+            </div>
           </div>
-        </div>
+        </transition-group>
       </q-col>
     </q-page-container>
   </q-page>
