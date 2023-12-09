@@ -14,13 +14,19 @@
         <div class="quiz-container q-pa-md q-ma-md">
           <q-card>
             <q-card-section>
-              <q-item-section><span class="quiz-question-text">{{ currentQuiz.question }}</span></q-item-section>
+              <q-item-section
+                ><span class="quiz-question-text">{{
+                  currentQuiz.question
+                }}</span></q-item-section
+              >
             </q-card-section>
           </q-card>
 
           <q-list class="q-pa-md q-ma-md">
             <q-item
-              v-for="(option, index) in currentQuizOptions(currentQuestionIndex)"
+              v-for="(option, index) in currentQuizOptions(
+                currentQuestionIndex
+              )"
               :key="option"
               clickable
               :disable="submitted"
@@ -45,7 +51,9 @@
               <q-card-section
                 :class="{ 'streaming-text': showStreamingEffect }"
               >
-                <q-item-section class="quiz-explanation-text">{{ explanation(currentQuestionIndex, selectedOption) }}</q-item-section>
+                <q-item-section class="quiz-explanation-text">{{
+                  explanation(currentQuestionIndex, selectedOption)
+                }}</q-item-section>
               </q-card-section>
             </q-card>
           </div>
@@ -103,9 +111,6 @@ export default {
     totalQuestions() {
       return this.quizStore.totalQuestions;
     },
-    quizProgress() {
-      return this.quizStore.quizProgress;
-    },
 
     questionResult() {
       let userResponse = this.selectedOption;
@@ -130,7 +135,7 @@ export default {
     },
     goToNextQuestion() {
       console.log("goToNextQuestion");
-      this.quizStore.goToNextQuestion(this.selectedOption);
+      this.quizStore.goToNextQuestion();
       this.selectedOption = null;
       this.submitted = false;
     },
@@ -140,15 +145,22 @@ export default {
     },
     submitAnswer() {
       this.submitted = true;
+      this.quizStore.putUserQuizData(this.selectedOption);
+
       this.streamingEffect();
     },
 
-    explanation(quizIndex,optionIndex) {
-      return this.quizStore.explanation(quizIndex,optionIndex);
-    },    
+    explanation(quizIndex, optionIndex) {
+      return this.quizStore.explanation(quizIndex, optionIndex);
+    },
     currentQuizOptions(quizIndex) {
       return this.quizStore.currentQuizOptions(quizIndex);
-    },    
+    },
+  },
+  mounted() {
+    if (this.quizList.length === 0) {
+      this.$router.push("/");
+    }
   },
 };
 </script>

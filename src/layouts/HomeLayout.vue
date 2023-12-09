@@ -47,8 +47,10 @@
 <script>
 import { defineComponent, ref, onMounted } from "vue";
 import { useAcademicsStore } from "stores/academics-store";
+import { useQuizStore } from "stores/quiz-store";
 
 const academicsStore = useAcademicsStore();
+const quizStore = useQuizStore();
 export default defineComponent({
   name: "HomeLayout",
 
@@ -56,6 +58,7 @@ export default defineComponent({
   methods: {
     gotoHome() {
       academicsStore.resetAcademics();
+      quizStore.resetQuizData();
       this.$router.push("/");
     },
     backButtonClicked() {

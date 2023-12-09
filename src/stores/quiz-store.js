@@ -1,7 +1,12 @@
 import { defineStore } from "pinia";
 import { useRoute, useRouter } from "vue-router";
 import CryptoJS from "crypto-js";
+import axios from "axios";
+import { useUserStore } from "./user-store";
+import { useAcademicsStore } from "./academics-store";
+
 const decrypt_key = process.env.VUE_APP_ANACONDA;
+const user_quiz_lambda_url = process.env.VUE_APP_USER_QUIZ_LAMBDA_URL;
 export const useQuizStore = defineStore("quiz", {
   state: () => ({
     fullQuizList: [],
@@ -11,6 +16,10 @@ export const useQuizStore = defineStore("quiz", {
     quizCount: 5,
     chapterDetails: null,
     chapterSummary: null,
+    inProgressData: null,
+    useInprogresQuiz: false,
+    completedQuizReview: false,
+    quizList: [],
   }),
   getters: {
     level3Options() {
@@ -19,44 +28,14 @@ export const useQuizStore = defineStore("quiz", {
     totalQuestions(state) {
       return state.quizList?.length || 0;
     },
-    quizProgress(state) {
-      return state.currentQuestion / this.totalQuestions;
-    },
     currentQuestionIndex(state) {
       return state.currentQuestion;
     },
-    quizList(state) {
-      let newlist = [];
-      newlist =
-        state.fullQuizList?.filter(
-          (question) => question.level === state.selectedLevel
-        ) || [];
 
-      // Shuffle the newlist array
-      for (let i = newlist.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [newlist[i], newlist[j]] = [newlist[j], newlist[i]];
-      }
-
-      if (state.quizCount) {
-        newlist = newlist?.slice(0, state.quizCount);
-      }
-
-      return newlist;
-    },
     currentQuiz(state) {
       return this.quizList?.[state.currentQuestion];
     },
 
-    score(state) {
-      let score = 0;
-      state.userResponse.forEach((response, index) => {
-        if (response === state.quizList[index].answer) {
-          score++;
-        }
-      });
-      return score;
-    },
     levels(state) {
       let levels = state.fullQuizList?.map((question) => question.level);
       // unique levels
@@ -88,6 +67,55 @@ export const useQuizStore = defineStore("quiz", {
     getChapterSummary(state) {
       return state.chapterSummary;
     },
+    quizResult(state) {
+      const questionUids = state.userResponse?.map(
+        (response) => Object.keys(response)[0]
+      );
+
+      return questionUids?.map((questionUid) => {
+        const quiz = state.quizList.find(
+          (question) => question.uid === questionUid
+        );
+
+        const selectedOption = state.userResponse.find((response) => {
+          const user_resp = Object.keys(response)[0];
+          return questionUid === user_resp;
+        })[questionUid];
+        const result = selectedOption === quiz.answer ? "correct" : "incorrect";
+        if (quiz.level === 3) {
+        }
+        let correctExplanation = "";
+        let wrongExplanation = "";
+
+        if (quiz.level === 3) {
+          wrongExplanation = quiz.explanation ? quiz.explanation : "";
+        } else {
+          correctExplanation = quiz.explanations[quiz.answer];
+          wrongExplanation =
+            result === "incorrect" ? quiz.explanations[selectedOption] : "";
+        }
+
+        return {
+          result,
+          quiz,
+          userAnswer: selectedOption,
+          correctExplanation,
+          wrongExplanation,
+        };
+      });
+    },
+    score(state) {
+      const quizResult = state.quizResult;
+      const totalQuestions = quizResult.length;
+      const correctAnswers = quizResult.filter(
+        (result) => result.result === "correct"
+      ).length;
+      const scorePercentage = Math.round(
+        (correctAnswers / totalQuestions) * 100
+      );
+
+      return scorePercentage + "%";
+    },
   },
   actions: {
     async fetchAndDecrypt(file_path) {
@@ -109,20 +137,6 @@ export const useQuizStore = defineStore("quiz", {
         console.error("Decryption failed:", error);
       }
     },
-    // async loadQuizList(quizId) {
-    //   console.log("quizId", quizId);
-    //   try {
-    //     const response = await fetch("/data/quizData.json");
-    //     const data = await response.json();
-    //     const selectedQuiz = data.quizData.find(
-    //       (quiz) => quiz.quizId === quizId
-    //     );
-    //     console.log("selectedQuiz", selectedQuiz);
-    //     this.fullQuizList = selectedQuiz;
-    //   } catch (error) {
-    //     console.error("Failed to load quiz data:", error);
-    //   }
-    // },
 
     async loadQuizList(chapterId) {
       try {
@@ -132,33 +146,6 @@ export const useQuizStore = defineStore("quiz", {
         console.error("Failed to load chapter data:", error);
       }
     },
-
-    // async loadChapterDetails(chapterId) {
-    //   try {
-    //     const response = await fetch("/data/chapterDetails.json");
-    //     const data = await response.json();
-    //     const chapterDetails = data.chapterData.find(
-    //       (chapter) => chapter.chapterId === chapterId
-    //     );
-    //     console.log("chapterDetails", chapterDetails);
-    //     this.chapterDetails = chapterDetails;
-    //   } catch (error) {
-    //     console.error("Failed to load chapter data:", error);
-    //   }
-    // },
-
-    // async loadChapterSummary(chapterId) {
-    //   try {
-    //     const response = await fetch("/data/chapterSummary.json");
-    //     const data = await response.json();
-    //     const chapterSummary = data.chapterSummary.find(
-    //       (chapter) => chapter.chapterId === chapterId
-    //     );
-    //     this.chapterSummary = chapterSummary;
-    //   } catch (error) {
-    //     console.error("Failed to load chapter data:", error);
-    //   }
-    // },
 
     async loadChapter(chapterId) {
       try {
@@ -171,17 +158,173 @@ export const useQuizStore = defineStore("quiz", {
       }
     },
 
+    showResultsofCompletedQuiz() {
+      this.useInprogresQuiz = false;
+      this.completedQuizReview = true;
+      this.userResponse = this.inProgressData.progress_history;
+      this.getQuizList();
+    },
+
+    updateInProgressData(data) {
+      this.inProgressData = data;
+    },
+
+    loadInprogresQuiz() {
+      this.useInprogresQuiz = true;
+      this.userResponse = this.inProgressData.progress;
+      // this.selectedLevel = 2;
+      this.getQuizList();
+      this.currentQuestion = this.userResponse.length;
+    },
+
+    async putUserQuizData(selectedOption) {
+      let currentTime = Math.floor(Date.now() / 1000);
+      let status = "in_progress";
+      if (this.currentQuestion === this.totalQuestions - 1) {
+        status = "completed";
+      }
+      this.userResponse.push({
+        [this.quizList[this.currentQuestionIndex].uid]: selectedOption,
+      });
+      const userStore = useUserStore();
+      const user = userStore.user;
+      const academicsStore = useAcademicsStore();
+      const quizStore = useQuizStore();
+
+      let progress_history = this.inProgressData.progress_history || [];
+
+      if (this.inProgressData.status === "completed") {
+        this.userResponse.forEach((response) => {
+          const key = Object.keys(response)[0];
+          const value = response[key];
+          const existingIndex = progress_history.findIndex(
+            (item) => Object.keys(item)[0] === key
+          );
+          if (existingIndex !== -1) {
+            progress_history[existingIndex][key] = value;
+          } else {
+            progress_history.push(response);
+          }
+        });
+      }
+
+      const response = await axios.put(
+        user_quiz_lambda_url,
+        {
+          user_uid: user.uid,
+          quiz_id: academicsStore.selectedQuizId,
+          progress: quizStore.userResponse,
+          questions_uid: quizStore.quizList.map((question) => question.uid),
+          status: status,
+          update_time: currentTime,
+          progress_history: progress_history,
+        },
+        {
+          headers: {
+            Authorization: `${user.uid}<-->${user.jti}`,
+            // "Content-Type": "application/json",
+          },
+        }
+      );
+    },
+
+    async fetchUserQuizData() {
+      const userStore = useUserStore();
+      const user = userStore.user;
+      const academicsStore = useAcademicsStore();
+      try {
+        const response = await axios.get(
+          `${user_quiz_lambda_url}?user_uid=${user.uid}&quiz_id=${academicsStore.selectedQuizId}`,
+          {
+            headers: {
+              Authorization: `${user.uid}<-->${user.jti}`,
+              // "Content-Type": "application/json",
+            },
+          }
+        );
+        if (response.status === 200) {
+          this.updateInProgressData(response.data);
+        }
+      } catch (error) {
+        console.log("error", error);
+        this.updateInProgressData(null);
+      }
+    },
+    getQuizList() {
+      if (this.useInprogresQuiz) {
+        const newlist =
+          this.fullQuizList?.filter((question) =>
+            this.inProgressData.questions_uid.includes(question.uid)
+          ) || [];
+        this.quizList = newlist;
+        this.selectedLevel = this.quizList[0].level;
+        return;
+      }
+
+      let completed_questions_uid = this.inProgressData?.progress_history?.map(
+        (item) => {
+          return Object.keys(item)[0];
+        }
+      );
+
+      if (this.completedQuizReview) {
+        const newlist =
+          this.fullQuizList?.filter((question) =>
+            completed_questions_uid.includes(question.uid)
+          ) || [];
+        this.quizList = newlist;
+        this.selectedLevel = this.quizList[0].level;
+        return;
+      }
+
+      const freshList = this.fullQuizList?.filter((question) => {
+        return !completed_questions_uid?.includes(question.uid);
+      });
+
+      const freshListOnlyLevel = freshList?.filter((question) => {
+        return question.level === this.selectedLevel;
+      });
+
+      let newlist = [];
+
+      if (freshListOnlyLevel?.length > this.quizCount) {
+        newlist = freshListOnlyLevel;
+      } else {
+        newlist =
+          this.fullQuizList?.filter(
+            (question) => question.level === this.selectedLevel
+          ) || [];
+      }
+
+      // Shuffle the newlist array
+      for (let i = newlist.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [newlist[i], newlist[j]] = [newlist[j], newlist[i]];
+      }
+
+      if (this.quizCount) {
+        newlist = newlist?.slice(0, this.quizCount);
+      }
+
+      this.quizList = newlist;
+    },
     resetQuizData() {
       this.userResponse = [];
       this.currentQuestion = 0;
       this.fullQuizList = [];
       this.selectedLevel = null;
+      this.quizList = [];
+      this.inProgressData = null;
+      this.completedQuizReview = false;
+      this.useInprogresQuiz = false;
+      this.chapterDetails = null;
+      this.chapterSummary = null;
     },
     selectQuizType(level) {
       this.selectedLevel = level;
+      this.getQuizList();
     },
-    goToNextQuestion(selectedOption) {
-      this.userResponse.push(selectedOption);
+    goToNextQuestion() {
       if (this.currentQuestion === this.totalQuestions - 1) {
         this.router.push({
           path: "/result",
@@ -194,8 +337,6 @@ export const useQuizStore = defineStore("quiz", {
       this.quizCount = count;
     },
     explanation(quizIndex, optionIndex) {
-      console.log("quiz_index", quizIndex);
-      console.log("selectedOption", optionIndex);
       let quiz = this.quizList[quizIndex];
       if (quiz.level === 3) {
         let explanation_text = quiz.explanation ? " : " + quiz.explanation : "";

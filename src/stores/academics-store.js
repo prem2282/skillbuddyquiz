@@ -4,7 +4,6 @@ import { useQuizStore } from "./quiz-store";
 import CryptoJS from "crypto-js";
 
 const decrypt_key = process.env.VUE_APP_ANACONDA;
-
 export const useAcademicsStore = defineStore("academics", {
   state: () => ({
     academics: {},
@@ -104,12 +103,12 @@ export const useAcademicsStore = defineStore("academics", {
       this.academics = await this.fetchAndDecrypt(file_path);
     },
     selectChapter(item) {
-      console.log("item", item);
       this.selectedChapter = item.chapter;
       this.selectedQuizId = item.quizId;
       const quizStore = useQuizStore();
       quizStore.loadQuizList(item.quizId);
       quizStore.loadChapter(item.quizId);
+      quizStore.fetchUserQuizData();
       // quizStore.loadChapterSummary(item.quizId);
       // quizStore.loadChapterDetails(item.quizId);
     },

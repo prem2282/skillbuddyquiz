@@ -2,7 +2,6 @@ import { defineStore } from "pinia";
 import axios from "axios";
 
 const user_lambda_url = process.env.VUE_APP_USER_STORE_LAMBDA_URL;
-console.log({ user_lambda_url });
 
 export const useUserStore = defineStore("user", {
   state: () => ({
@@ -46,6 +45,10 @@ export const useUserStore = defineStore("user", {
         );
         if (response.status === 200) {
           this.updateUserUid(response.data.uid);
+          const post_response = await axios.post(user_lambda_url, {
+            user_email: user.email,
+            user_details: this.user,
+          });
         }
 
         // Handle the response data here

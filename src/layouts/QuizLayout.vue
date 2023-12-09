@@ -60,11 +60,7 @@ export default defineComponent({
     },
   },
   setup() {
-    onMounted(() => {
-      console.log("academicsStore.quizId", academicsStore.selectedQuizId);
-      // quizStore.loadQuizList(academicsStore.selectedQuizId);
-      // quizStore.resetQuizData();
-    });
+    onMounted(() => {});
 
     return {};
   },
