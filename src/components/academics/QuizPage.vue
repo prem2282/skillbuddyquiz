@@ -63,7 +63,7 @@
             <q-btn
               v-if="submitted"
               color="primary"
-              label="Next"
+              :label="nextLable"
               @click="goToNextQuestion"
               class="q-mt-md"
               :disable="selectedOption === null"
@@ -110,6 +110,13 @@ export default {
     },
     totalQuestions() {
       return this.quizStore.totalQuestions;
+    },
+    nextLable() {
+      if (this.currentQuestionIndex === this.totalQuestions - 1) {
+        return "View Results";
+      } else {
+        return "Next";
+      }
     },
 
     questionResult() {

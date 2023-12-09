@@ -13,7 +13,7 @@ export const useQuizStore = defineStore("quiz", {
     currentQuestion: 0,
     userResponse: [],
     selectedLevel: null,
-    quizCount: 5,
+    quizCount: 2,
     chapterDetails: null,
     chapterSummary: null,
     inProgressData: null,
@@ -191,9 +191,9 @@ export const useQuizStore = defineStore("quiz", {
       const academicsStore = useAcademicsStore();
       const quizStore = useQuizStore();
 
-      let progress_history = this.inProgressData.progress_history || [];
+      let progress_history = this.inProgressData?.progress_history || [];
 
-      if (this.inProgressData.status === "completed") {
+      if (status === "completed") {
         this.userResponse.forEach((response) => {
           const key = Object.keys(response)[0];
           const value = response[key];
