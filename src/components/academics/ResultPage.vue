@@ -32,7 +32,7 @@
                 </q-item-section>
               </q-item>
               <div>
-                <div v-if="quizList[quiz_index].level === 3">
+                <div v-if="currentQuiz.quiz.level === 3">
                   <q-chip
                     class="q-mr-md"
                     :class="yourAnswerColor(currentQuiz.result)"
@@ -154,14 +154,6 @@ export default {
       } else {
         return currentQuiz.wrongExplanation;
       }
-    },
-    userResponseChoice(quiz_index) {
-      let selectedQuizUid = this.quizList[quiz_index].uid;
-      return this.quizStore.userResponse[selectedQuizUid];
-    },
-
-    currentQuizOptions(quiz_index) {
-      return this.quizStore.currentQuizOptions(quiz_index);
     },
   },
   mounted() {
