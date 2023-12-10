@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <q-page-container class="row justify-center quiz-container">
+    <q-page-container class="row justify-center quiz-container no-padding">
       <q-col cols="6" sm="12" class="q-ma-auto">
         <div class="text-center text-h6">Score : {{ score }}</div>
         <transition-group
@@ -92,6 +92,7 @@
 
 <script>
 import { useQuizStore } from "stores/quiz-store";
+import { useUserStore } from "stores/user-store";
 export default {
   data() {
     return {
@@ -99,9 +100,13 @@ export default {
       headerText: "Quiz Results",
     };
   },
+
   computed: {
     quizStore() {
       return useQuizStore();
+    },
+    userStore() {
+      return useUserStore();
     },
     level3Options() {
       return this.quizStore.level3Options;
@@ -168,6 +173,7 @@ export default {
     },
   },
   mounted() {
+    this.userStore.setCurrentPage("result");
     if (this.quizStore.quizResult.length === 0) {
       this.$router.push("/");
     }

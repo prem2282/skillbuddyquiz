@@ -6,13 +6,20 @@ const user_lambda_url = process.env.VUE_APP_USER_STORE_LAMBDA_URL;
 export const useUserStore = defineStore("user", {
   state: () => ({
     user: null,
+    currentPage: null,
   }),
   getters: {
     getUser() {
       return this.user;
     },
+    getCurrentPage() {
+      return this.currentPage;
+    },
   },
   actions: {
+    setCurrentPage(page) {
+      this.currentPage = page;
+    },
     updateUserUid(uid) {
       this.user.uid = uid;
       localStorage.setItem("user", JSON.stringify(this.user));

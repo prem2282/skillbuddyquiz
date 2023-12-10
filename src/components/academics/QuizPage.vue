@@ -123,6 +123,7 @@
 
 <script>
 import { useQuizStore } from "stores/quiz-store";
+import { useUserStore } from "stores/user-store";
 export default {
   data() {
     return {
@@ -135,6 +136,9 @@ export default {
   computed: {
     quizStore() {
       return useQuizStore();
+    },
+    userStore() {
+      return useUserStore();
     },
 
     currentQuestionIndex() {
@@ -206,6 +210,8 @@ export default {
     },
   },
   mounted() {
+    this.userStore.setCurrentPage("quiz");
+
     if (this.quizList.length === 0) {
       this.$router.push("/");
     }

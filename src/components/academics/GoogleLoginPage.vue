@@ -57,6 +57,7 @@ export default defineComponent({
     },
   },
   mounted() {
+    this.userStore.setCurrentPage("login");
     this.checkTokenActive();
   },
 });

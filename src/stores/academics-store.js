@@ -68,17 +68,6 @@ export const useAcademicsStore = defineStore("academics", {
   },
 
   actions: {
-    // async loadAcadList() {
-    //   try {
-    //     const response = await fetch("data/academicsData.json");
-    //     const data = await response.json();
-
-    //     this.academics = data;
-    //   } catch (error) {
-    //     console.error("Failed to load academics data:", error);
-    //   }
-    // },
-
     async fetchAndDecrypt(file_path) {
       try {
         const response = await fetch(file_path);
@@ -102,15 +91,15 @@ export const useAcademicsStore = defineStore("academics", {
       const file_path = "/data/academicsData.enc";
       this.academics = await this.fetchAndDecrypt(file_path);
     },
+    fetchDataForChapter() {
+      const quizStore = useQuizStore();
+      quizStore.loadQuizList(this.selectedQuizId);
+      quizStore.loadChapter(this.selectedQuizId);
+      quizStore.fetchUserQuizData();
+    },
     selectChapter(item) {
       this.selectedChapter = item.chapter;
       this.selectedQuizId = item.quizId;
-      const quizStore = useQuizStore();
-      quizStore.loadQuizList(item.quizId);
-      quizStore.loadChapter(item.quizId);
-      quizStore.fetchUserQuizData();
-      // quizStore.loadChapterSummary(item.quizId);
-      // quizStore.loadChapterDetails(item.quizId);
     },
     selectBoard(board) {
       this.selectedBoard = board;

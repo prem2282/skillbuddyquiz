@@ -2,41 +2,56 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
-        <!-- <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="toggleLeftDrawer"
-        /> -->
-        <q-btn
-          flat
-          dense
-          round
-          icon="home"
-          aria-label="home"
-          @click="gotoHome"
-        />
-        <q-toolbar-title> Skill Buddy </q-toolbar-title>
+        <div class="q-gutter-xs">
+          <q-btn
+            flat
+            dense
+            round
+            icon="home"
+            aria-label="home"
+            @click="gotoHome"
+          />
+        </div>
+        <div
+          v-if="onQuizPage || onResultPage"
+          class="q-toolbar-title q-mx-auto"
+        >
+          <div v-if="!getExploreChapter" class="selection-chip-box q-mx-auto">
+            <q-chip class="bg-orange-6 text-white">{{
+              getSelectedChapter
+            }}</q-chip>
+          </div>
+        </div>
 
-        <div>Welcome</div>
+        <div v-else class="q-toolbar-title q-mx-auto">
+          <div v-if="!getExploreChapter" class="selection-chip-box q-mx-auto">
+            <q-chip class="bg-blue-1" v-if="getSelectedBoard">{{
+              getSelectedBoard
+            }}</q-chip>
+            <q-chip class="bg-blue-1" v-if="getSelectedGrade">{{
+              getSelectedGrade
+            }}</q-chip>
+            <q-chip class="bg-blue-1" v-if="getSelectedSubject">{{
+              getSelectedSubject
+            }}</q-chip>
+          </div>
+        </div>
+        <div class="q-gutter-xs">
+          <q-avatar size="md">
+            <img :src="userImage" />
+          </q-avatar>
+        </div>
       </q-toolbar>
     </q-header>
-
-    <!-- <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
-      <q-list>
-        <q-item-label header> Apps </q-item-label>
-      </q-list>
-    </q-drawer> -->
 
     <q-page-container>
       <router-view />
     </q-page-container>
-    <q-page-sticky position="bottom-left" :offset="[18, 18]">
+    <q-page-sticky v-if="!onQuizPage" position="bottom-left" :offset="[10, 10]">
       <q-btn
         round
-        color="blue-4"
+        dense
+        color="blue-6"
         icon="arrow_back"
         @click="backButtonClicked"
       />
@@ -48,13 +63,47 @@
 import { defineComponent, ref, onMounted } from "vue";
 import { useAcademicsStore } from "stores/academics-store";
 import { useQuizStore } from "stores/quiz-store";
+import { useUserStore } from "../stores/user-store";
 
 const academicsStore = useAcademicsStore();
 const quizStore = useQuizStore();
+const userStore = useUserStore();
 export default defineComponent({
   name: "HomeLayout",
 
   components: {},
+  computed: {
+    userImage() {
+      return userStore.user.picture;
+    },
+    getExploreChapter() {
+      return academicsStore.getExploreChapter;
+    },
+    getSelectedBoard() {
+      return academicsStore.getSelectedBoard;
+    },
+    getSelectedGrade() {
+      return academicsStore.getSelectedGrade;
+    },
+    getSelectedSubject() {
+      return academicsStore.getSelectedSubject;
+    },
+    getSelectedChapter() {
+      return academicsStore.getSelectedChapter;
+    },
+    currentRoute() {
+      return this.$route.path;
+    },
+    onQuizPage() {
+      return this.currentRoute.includes("quiz");
+    },
+    onResultPage() {
+      return this.currentRoute.includes("result");
+    },
+    getCurrentPage() {
+      return userStore.getCurrentPage;
+    },
+  },
   methods: {
     gotoHome() {
       academicsStore.resetAcademics();
@@ -62,7 +111,12 @@ export default defineComponent({
       this.$router.push("/");
     },
     backButtonClicked() {
-      academicsStore.backButtonClicked();
+      if (this.onResultPage) {
+        quizStore.resetQuizData();
+        this.$router.push("/");
+      } else {
+        academicsStore.backButtonClicked();
+      }
     },
   },
   setup() {

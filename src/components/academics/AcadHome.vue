@@ -1,17 +1,5 @@
 <template>
   <div>
-    <div v-if="!getExploreChapter" class="selection-chip-box">
-      <q-chip class="bg-blue-1" v-if="getSelectedBoard"
-        >{{ getSelectedBoard }}
-      </q-chip>
-      <q-chip class="bg-blue-1" v-if="getSelectedGrade"
-        >{{ getSelectedGrade }}
-      </q-chip>
-      <q-chip class="bg-blue-1" v-if="getSelectedSubject"
-        >{{ getSelectedSubject }}
-      </q-chip>
-    </div>
-
     <div class="selection-chip-box-chapter">
       <q-chip
         class="text-subtitle1 bg-orange-6 text-white text-weight-bold"
@@ -56,6 +44,7 @@ import ChapterDetails from "./ChapterDetails.vue";
 
 import { useAcademicsStore } from "stores/academics-store";
 import { useQuizStore } from "stores/quiz-store";
+import { useUserStore } from "stores/user-store";
 export default {
   components: {
     ChapterCard,
@@ -68,12 +57,18 @@ export default {
   data() {
     return {};
   },
+  mounted() {
+    this.userStore.setCurrentPage("academics");
+  },
   computed: {
     academicsStore() {
       return useAcademicsStore();
     },
     quizStore() {
       return useQuizStore();
+    },
+    userStore() {
+      return useUserStore();
     },
     getBoardList() {
       return this.academicsStore.getBoardList;

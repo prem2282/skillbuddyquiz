@@ -156,6 +156,9 @@ export default {
       return this.quizStore.getProgresBadgeTextForLevels;
     },
   },
+  mounted() {
+    this.academicsStore.fetchDataForChapter();
+  },
   methods: {
     selectQuizType(level) {
       this.quizStore.selectQuizType(level);

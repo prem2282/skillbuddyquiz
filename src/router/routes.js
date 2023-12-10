@@ -6,7 +6,7 @@ const routes = [
   },
   {
     path: "/quiz",
-    component: () => import("layouts/QuizLayout.vue"),
+    component: () => import("layouts/HomeLayout.vue"),
     children: [
       {
         path: "",
@@ -16,7 +16,7 @@ const routes = [
   },
   {
     path: "/result",
-    component: () => import("layouts/QuizLayout.vue"),
+    component: () => import("layouts/HomeLayout.vue"),
     children: [
       {
         path: "",
