@@ -73,8 +73,17 @@
                 <q-card-section
                   :class="{ 'streaming-text': showStreamingEffect }"
                 >
-                  <q-item-section class="quiz-explanation-text">{{
-                    explanation(currentQuestionIndex, selectedOption)
+                  <q-item-section
+                    v-if="quizHasExplanation"
+                    class="quiz-explanation-text"
+                    >{{
+                      explanation(currentQuestionIndex, selectedOption)
+                    }}</q-item-section
+                  >
+                  <q-item-section v-else class="quiz-explanation-text">{{
+                    questionResult === "Correct"
+                      ? "Correct Answer"
+                      : "Incorrect Answer"
                   }}</q-item-section>
                 </q-card-section>
               </q-card>
@@ -156,6 +165,13 @@ export default {
       } else {
         return "Incorrect";
       }
+    },
+    quizHasExplanation() {
+      console.log(
+        "quizHasExplanation",
+        this.currentQuiz.explanations ? true : false
+      );
+      return this.currentQuiz.explanations ? true : false;
     },
     showExplanation() {
       return this.selectedOption !== null;

@@ -148,9 +148,11 @@ export const useQuizStore = defineStore("quiz", {
         if (quiz.level === 3) {
           wrongExplanation = quiz.explanation ? quiz.explanation : "";
         } else {
-          correctExplanation = quiz.explanations[quiz.answer];
-          wrongExplanation =
-            result === "incorrect" ? quiz.explanations[selectedOption] : "";
+          if (quiz.explanations) {
+            correctExplanation = quiz.explanations[quiz.answer];
+            wrongExplanation =
+              result === "incorrect" ? quiz.explanations[selectedOption] : "";
+          }
         }
 
         return {
@@ -401,7 +403,7 @@ export const useQuizStore = defineStore("quiz", {
         return this.level3Options[quiz.answer] + explanation_text;
       }
 
-      return quiz.explanations[optionIndex];
+      return quiz.explanations ? quiz.explanations[optionIndex] : "";
     },
     correctExplanation(quiz_index) {
       return this.quizList[quiz_index].explanations?.[

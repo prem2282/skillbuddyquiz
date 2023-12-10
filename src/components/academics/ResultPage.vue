@@ -59,21 +59,22 @@
 
                   <div v-else>
                     <q-chip :class="yourAnswerColor(currentQuiz.result)"
-                      >Your Answer is {{ currentQuiz.result }}</q-chip
+                      >Your Answer {{ currentQuiz.userAnswer }} is
+                      {{ currentQuiz.result }}</q-chip
                     >
-                    <q-item>
+                    <q-item v-if="responseExplanation(currentQuiz)">
                       <q-item-section>
-                        {{ currentQuiz.userAnswer }} :
                         {{ responseExplanation(currentQuiz) }}
                       </q-item-section>
                     </q-item>
                   </div>
                   <div v-if="currentQuiz.quiz.level !== 3">
                     <div v-if="currentQuiz.result !== 'correct'">
-                      <q-chip class="bg-green-2">Correct Answer</q-chip>
-                      <q-item>
+                      <q-chip class="bg-green-2"
+                        >Correct Answer : {{ currentQuiz.quiz.answer }}
+                      </q-chip>
+                      <q-item v-if="currentQuiz.correctExplanation">
                         <q-item-section>
-                          {{ currentQuiz.quiz.answer }} :
                           {{ currentQuiz.correctExplanation }}
                         </q-item-section>
                       </q-item>
