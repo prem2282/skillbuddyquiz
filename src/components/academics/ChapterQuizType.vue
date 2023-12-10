@@ -46,10 +46,17 @@
           enter-active-class="animated fadeIn"
           leave-active-class="animated fadeOut"
         >
-          <q-btn class="chapter-button" @click="selectQuizType(item)">
+          <q-btn class="chapter-button glossy" @click="selectQuizType(item)">
             <div class="button-content">
               <div class="button-text">{{ getLevelsText[index] }}</div>
             </div>
+            <q-badge
+              class="glossy"
+              color="sb-dark-blue"
+              floating
+              v-if="getProgresBadgeTextForLevels[item] !== ''"
+              >{{ getProgresBadgeTextForLevels[item] }}</q-badge
+            >
           </q-btn>
         </transition>
       </div>
@@ -63,8 +70,11 @@
         <q-btn
           class="q-mx-sm continue-progress-button glossy"
           @click="loadInprogresQuiz"
-          >Continue In progress Quiz</q-btn
-        >
+          >Continue In progress Quiz
+          <q-badge class="glossy" color="sb-dark-blue" floating>{{
+            getInprogressBadgeText
+          }}</q-badge>
+        </q-btn>
       </transition>
     </div>
 
@@ -138,6 +148,12 @@ export default {
     },
     showCompletedHistory() {
       return this.quizStore.inProgressData?.status === "completed";
+    },
+    getInprogressBadgeText() {
+      return this.quizStore.getInprogressBadgeText;
+    },
+    getProgresBadgeTextForLevels() {
+      return this.quizStore.getProgresBadgeTextForLevels;
     },
   },
   methods: {

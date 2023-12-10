@@ -13,7 +13,7 @@ export const useQuizStore = defineStore("quiz", {
     currentQuestion: 0,
     userResponse: [],
     selectedLevel: null,
-    quizCount: 2,
+    quizCount: 5,
     chapterDetails: null,
     chapterSummary: null,
     inProgressData: null,
@@ -66,6 +66,64 @@ export const useQuizStore = defineStore("quiz", {
     },
     getChapterSummary(state) {
       return state.chapterSummary;
+    },
+    getInprogressBadgeText(state) {
+      if (state.inProgressData?.status === "in_progress") {
+        return (
+          state.inProgressData?.progress?.length +
+          "/" +
+          state.inProgressData?.questions_uid?.length
+        );
+      } else {
+        return null;
+      }
+    },
+    getQuestionCountForLevels(state) {
+      const questionCount = {};
+      state.fullQuizList.forEach((question) => {
+        const level = question.level;
+        if (questionCount[level]) {
+          questionCount[level]++;
+        } else {
+          questionCount[level] = 1;
+        }
+      });
+      return questionCount;
+    },
+    getCountForCompletedLevels(state) {
+      const fullQuizList = state.fullQuizList;
+      const progressHistory = state.inProgressData?.progress_history || [];
+      const progressHistoryKeys = progressHistory.map(Object.keys).flat();
+      console.log("progressHistoryKeys", progressHistoryKeys);
+      const filteredQuizList = fullQuizList.filter((quiz) =>
+        progressHistoryKeys.includes(quiz.uid)
+      );
+      console.log("filteredQuizList", filteredQuizList);
+      const questionCount = {};
+      filteredQuizList.forEach((question) => {
+        const level = question.level;
+        if (questionCount[level]) {
+          questionCount[level]++;
+        } else {
+          questionCount[level] = 1;
+        }
+      });
+      return questionCount;
+    },
+
+    getProgresBadgeTextForLevels(state) {
+      const objectA = state.getQuestionCountForLevels;
+      const objectB = state.getCountForCompletedLevels;
+      const result = {};
+
+      // Iterate over each key-value pair in objectA
+      for (const key in objectA) {
+        const valueA = objectA[key];
+        const valueB = objectB[key] || 0; // Use 0 if key is not in objectB
+        result[key] = `${valueB}/${valueA}`;
+      }
+
+      return result;
     },
     quizResult(state) {
       const questionUids = state.userResponse?.map(

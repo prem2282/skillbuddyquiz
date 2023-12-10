@@ -107,7 +107,8 @@ ul {
 }
 
 .explore-button {
-  background-color: #3562a5; /* blue-6 color */
+  // background-color: #3562a5;
+  background-color: $sb-dark-blue;
   color: white;
   // width: calc(25vw); /* Adjust to fit 3 in a row, considering margins */
   text-transform: none;

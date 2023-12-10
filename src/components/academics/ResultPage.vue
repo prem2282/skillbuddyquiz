@@ -22,7 +22,6 @@
                   {{ currentQuiz.quiz.question }}
                 </q-card-section>
               </q-card>
-
               <q-list class="q-pa-sm">
                 <q-item
                   v-for="(option, index) in currentQuiz.quiz.options"
@@ -152,7 +151,10 @@ export default {
         return "bg-red-3";
       }
     },
-
+    speak(text) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      speechSynthesis.speak(utterance);
+    },
     responseExplanation(currentQuiz) {
       if (currentQuiz.quiz.level === 3) {
         return "";
