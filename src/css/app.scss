@@ -244,6 +244,7 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
   width: fit-content;
   font-size: larger;
+  font-weight: bold;
 }
 
 .summary-container h3 {
@@ -254,8 +255,20 @@ ul {
   border-radius: 2rem;
   margin-left: 0rem;
   color: white;
+  font-size: large;
   line-height: 2rem;
   font-weight: bold;
+
+}
+
+.summary-container h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  width: fit-content;
+  font-size: large;
+  margin-left: 0rem;
+  font-weight: bold;
+  line-height: 1rem;
+  color: $sb-dark-blue;
 }
 
 .summary-container strong {
@@ -265,6 +278,7 @@ ul {
   border: #b6b9db;
   border-style: solid;
   border-width: 0.1rem;
+  background-color: #daf0f0;
 }
 
 .summary-text {
