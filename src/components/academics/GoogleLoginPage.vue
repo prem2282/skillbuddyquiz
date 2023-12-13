@@ -1,11 +1,13 @@
 <template>
-  <GoogleLogin
-    :clientId="clientId"
-    auto-login
-    prompt
-    :callback="callback"
-    v-if="showGoogleLogin"
-  />
+  <div class="google-page-container">
+    <GoogleLogin
+      :clientId="clientId"
+      auto-login
+      prompt
+      :callback="callback"
+      v-if="showGoogleLogin"
+    />
+  </div>
 </template>
 
 <script>
