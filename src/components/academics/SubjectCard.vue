@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="button-container">
+    <div class="subject-card-container">
       <div v-for="(item, index) in getSubjectListForGrade" :key="index">
         <transition
           appear
@@ -8,11 +8,13 @@
           enter-active-class="animated fadeIn"
           leave-active-class="animated fadeOut"
         >
-          <q-btn class="subject-button" @click="selectSubject(item)">
-            <div class="button-content">
-              <div class="subject-text">{{ item }}</div>
-            </div>
-          </q-btn>
+        <q-card class="subject-card" @click="selectSubject(item)">
+            <q-img :src="imageSource(item)">
+              <div class="absolute-bottom subject-card-text text-center">
+                {{ item }}
+              </div>
+            </q-img>
+          </q-card>
         </transition>
       </div>
     </div>
@@ -40,6 +42,9 @@ export default {
     selectSubject(item) {
       this.academicsStore.selectSubject(item);
     },
+    imageSource(item) {
+      return `images/${item.toLowerCase()}.png`;
+    },
   },
   mounted() {
     if (this.getSubjectListForGrade.length === 1) {
@@ -48,3 +53,24 @@ export default {
   },
 };
 </script>
+<style lang="sass" scoped>
+.subject-card
+  width: 35vw
+  max-width: 250px
+  margin: .5rem 1rem .5rem 1rem
+  border-radius: 1rem
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2)
+
+.subject-card-text
+  font-size: 1.5rem
+  font-weight: 500
+  color: #fff
+  padding: .1rem
+  background-color: rgba(0, 0, 0, 0.8)
+
+.subject-card-container
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  align-items: center
+</style>
