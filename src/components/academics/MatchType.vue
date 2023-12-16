@@ -235,6 +235,12 @@ export default {
       );
     },
   },
+  watch: {
+    currentQuiz() {
+      this.shuffleItems();
+      this.initSelectedCol2();
+    },
+  },
   mounted() {
     this.shuffleItems();
     this.initSelectedCol2();
