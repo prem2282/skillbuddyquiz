@@ -296,6 +296,74 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.my-table-container {
+  display: table;
+  width: 100%;
+}
+
+.mtf-row {
+  display: table-row;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.mtf-column {
+  display: table-cell;
+  vertical-align: middle;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+  padding: .5rem;
+  border-radius: .7rem;
+  text-align: center;
+  align-self: center;
+  width: 50%;
+  background-color: grey;
+  color: lightgray;
+}
+
+.mtf-column-already-selected {
+  color: white;
+  background-color: $sb-dark-blue;
+}
+
+.mtf-header {
+  vertical-align: middle;
+  padding: .5rem;
+  text-align: center;
+  align-self: center;
+  color: $sb-dark-blue;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.mtf-column-header{
+  display: table-cell;
+  vertical-align: middle;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  padding: .2rem;
+  text-align: center;
+  align-self: center;
+  width: 50%;
+  background-color: $primary;
+  color: aquamarine;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+}
+.tick-mark-class{
+  color: white;
+  background-color: black;
+  font-size: .7rem;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 50%;
+  padding: 0.2rem;
+  border: 0.1rem solid white;
+
+}
 /* Mobile Portrait */
 @media (max-width: 600px) {
   .chapter-button {

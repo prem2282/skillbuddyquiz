@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="button-container">
+      
       <div v-for="(item, index) in getChapterListForSubject" :key="index">
         <transition
           appear
@@ -15,6 +16,7 @@
           </q-btn>
         </transition>
       </div>
+
     </div>
   </div>
 </template>
@@ -40,7 +42,6 @@ export default {
       this.academicsStore.selectChapter(item);
     },
   },
-  // components: { ChapterSummary }
 };
 </script>
 

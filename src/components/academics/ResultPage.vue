@@ -22,7 +22,7 @@
                   {{ currentQuiz.quiz.question }}
                 </q-card-section>
               </q-card>
-              <q-list class="q-pa-sm">
+              <q-list v-if="currentQuiz.quiz.level<4" class="q-pa-sm">
                 <q-item
                   v-for="(option, index) in currentQuiz.quiz.options"
                   :key="option"
@@ -82,6 +82,11 @@
                   </div>
                 </div>
               </q-list>
+              <div v-else>
+                <match-result
+                  :currentQuiz="currentQuiz"
+                  ></match-result>
+                </div>
             </div>
           </div>
         </transition-group>
@@ -93,12 +98,16 @@
 <script>
 import { useQuizStore } from "stores/quiz-store";
 import { useUserStore } from "stores/user-store";
+import MatchResult from "./MatchResult.vue";
 export default {
   data() {
     return {
       selectedOption: null,
       headerText: "Quiz Results",
     };
+  },
+  components: {
+    MatchResult,
   },
 
   computed: {

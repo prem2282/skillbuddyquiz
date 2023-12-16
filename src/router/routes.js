@@ -15,6 +15,16 @@ const routes = [
     ],
   },
   {
+    path: "/match",
+    component: () => import("layouts/HomeLayout.vue"),
+    children: [
+      {
+        path: "",
+        component: () => import("components/academics/MatchType.vue"),
+      },
+    ],
+  },  
+  {
     path: "/result",
     component: () => import("layouts/HomeLayout.vue"),
     children: [

@@ -55,6 +55,9 @@ export const useQuizStore = defineStore("quiz", {
         if (level === 3) {
           return "True/False";
         }
+        if (level === 4) {
+          return "Match 'em";
+        }        
       });
       return levelTexts;
     },
