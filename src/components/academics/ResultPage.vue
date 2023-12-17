@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <q-page-container class="row justify-center quiz-container no-padding">
+    <q-page-container class="row justify-center">
       <q-col cols="6" sm="12" class="q-ma-auto">
         <div class="text-center text-h6">Score : {{ score }}</div>
         <transition-group
@@ -9,14 +9,14 @@
           leave-active-class="animated fadeOut"
         >
           <div
-            class="q-ma-sm bg-light-blue-1"
+            class="q-ma-sm bg-grey-3"
             v-for="(currentQuiz, quiz_index) in quizResult"
             :key="quiz_index"
           >
-            <div class="q-pa-sm">
-              <q-card class="no-shadow bg-blue-6 text-white text-subtitle1">
+            <div class="q-pa-sm q-mb-md shadow-2">
+              <q-card class="no-shadow bg-grey-8 text-white text-subtitle1">
                 <q-card-section>
-                  <q-chip class="bg-light-blue-6 text-white"
+                  <q-chip class="bg-grey-7 text-grey-4 text-bold"
                     >{{ quiz_index + 1 }} of {{ totalQuestions }}</q-chip
                   >
                   {{ currentQuiz.quiz.question }}
@@ -26,13 +26,14 @@
                 <q-item
                   v-for="(option, index) in currentQuiz.quiz.options"
                   :key="option"
+                  class="q-mb-sm quiz-option-text shadow-2"
                   :class="optionColor(currentQuiz, index)"
                 >
                   <q-item-section
                     class="option-section"
                     :class="{ 'selected-option': selectedOption === option }"
                   >
-                    {{ index }}. {{ option }}
+                    <span><span class="choice-index  shadow-2">{{ index }}</span>{{ option }}</span>
                   </q-item-section>
                 </q-item>
                 <div>
@@ -58,8 +59,8 @@
                   </div>
 
                   <div v-else>
-                    <q-chip :class="yourAnswerColor(currentQuiz.result)"
-                      >Your Answer {{ currentQuiz.userAnswer }} is
+                    <q-chip :class="yourAnswerColor(currentQuiz.result)" class="shadow-2"
+                      >Your Answer <span><span class="choice-index shadow-2">{{ currentQuiz.userAnswer }}</span></span> is
                       {{ currentQuiz.result }}</q-chip
                     >
                     <q-item v-if="responseExplanation(currentQuiz)">
@@ -70,8 +71,8 @@
                   </div>
                   <div v-if="currentQuiz.quiz.level !== 3">
                     <div v-if="currentQuiz.result !== 'correct'">
-                      <q-chip class="bg-green-2"
-                        >Correct Answer : {{ currentQuiz.quiz.answer }}
+                      <q-chip class="bg-green-2 shadow-2"
+                        >Correct Answer : <span><span class="choice-index  shadow-2">{{ currentQuiz.quiz.answer }}</span></span>
                       </q-chip>
                       <q-item v-if="currentQuiz.correctExplanation">
                         <q-item-section>
@@ -155,7 +156,7 @@ export default {
       } else if (options_index === currentQuiz.quiz.answer) {
         return "bg-green-3";
       } else {
-        return "bg-grey-3";
+        return "bg-grey-4";
       }
     },
 

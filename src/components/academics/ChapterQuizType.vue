@@ -38,7 +38,7 @@
         </div>
       </div>
     </transition>
-    <div class="subject-card-container">
+    <div class="quiztype-card-container">
       <div v-for="(item, index) in levels" :key="index">
         <transition
           appear

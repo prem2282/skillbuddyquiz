@@ -1,14 +1,14 @@
 <template>
-  <div v-if="currentQuiz">
+  <div class="quiz-page-container bg-grey-4" v-if="currentQuiz">
     <div class="justify-center">
       <q-col class="q-ma-auto">
-        <div class="text-center bg-blue-3 q-pa-sm">
+        <div class="text-center bg-grey-7 q-pa-sm text-white">
           Question {{ currentQuestionIndex + 1 }} of {{ totalQuestions }}
         </div>
         <!-- Add progress bar -->
         <q-linear-progress
           :value="currentQuestionIndex / totalQuestions"
-          color="primary"
+          color="grey-6"
         ></q-linear-progress>
       </q-col>
     </div>

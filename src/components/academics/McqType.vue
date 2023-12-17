@@ -1,5 +1,5 @@
 <template>
-  <div class="quiz-container q-pa-md q-ma-md">
+  <div class="mcq-quiz-container q-pa-md q-ma-md">
     <transition
       appear
       enter-active-class="animated fadeIn"
@@ -28,16 +28,17 @@
         >
           <q-item
             clickable
+            
             :disable="submitted"
             @click="selectOption(index)"
-            class="q-mb-sm quiz-option-text"
-            :class="selectedOption === index ? 'bg-grey-6' : 'bg-grey-3'"
+            class="q-mb-sm quiz-option-text shadow-2"
+            :class="selectedOption === index ? 'bg-grey-6 text-grey-1' : 'bg-grey-3'"
           >
             <q-item-section
               class="option-section"
               :class="{ 'selected-option': selectedOption === option }"
             >
-              {{ index }}. {{ option }}
+              <span ><span class="choice-index">{{ index }}</span> {{ option }}</span>
             </q-item-section>
           </q-item>
         </transition>
@@ -45,7 +46,7 @@
     </q-list>
 
     <!-- add explanation -->
-    <div v-if="submitted" class="q-ma-md">
+    <div v-if="submitted" class="q-ma-sm">
       <transition
         appear
         enter-active-class="animated fadeInDown"
