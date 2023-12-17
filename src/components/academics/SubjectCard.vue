@@ -8,11 +8,9 @@
           enter-active-class="animated fadeIn"
           leave-active-class="animated fadeOut"
         >
-        <q-card class="subject-card" @click="selectSubject(item)">
+        <q-card class="subject-card elevated" @click="selectSubject(item)">
             <q-img :src="imageSource(item)">
-              <div class="absolute-bottom subject-card-text text-center">
-                {{ item }}
-              </div>
+ 
             </q-img>
           </q-card>
         </transition>
@@ -55,11 +53,11 @@ export default {
 </script>
 <style lang="sass" scoped>
 .subject-card
-  width: 35vw
-  max-width: 250px
+  width: 150px
+  max-width: 150px
   margin: .5rem 1rem .5rem 1rem
   border-radius: 1rem
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2)
+  border: 2px solid #fff  
 
 .subject-card-text
   font-size: 1.5rem
@@ -73,4 +71,6 @@ export default {
   flex-wrap: wrap
   justify-content: center
   align-items: center
+  padding: 5vh 0 5vh 0
+  
 </style>

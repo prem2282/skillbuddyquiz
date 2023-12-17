@@ -8,6 +8,7 @@
             dense
             round
             icon="home"
+            color="grey-9"
             aria-label="home"
             @click="gotoHome"
           />
@@ -25,13 +26,13 @@
 
         <div v-else class="q-toolbar-title q-mx-auto">
           <div v-if="!getExploreChapter" class="selection-chip-box q-mx-auto">
-            <q-chip class="bg-blue-1" v-if="getSelectedBoard">{{
+            <q-chip class="bg-grey-9 text-white" v-if="getSelectedBoard">{{
               getSelectedBoard
             }}</q-chip>
-            <q-chip class="bg-blue-1" v-if="getSelectedGrade">{{
+            <q-chip class="bg-grey-9 text-white" v-if="getSelectedGrade">{{
               getSelectedGrade
             }}</q-chip>
-            <q-chip class="bg-blue-1" v-if="getSelectedSubject">{{
+            <q-chip class="bg-grey-9 text-white" v-if="getSelectedSubject">{{
               getSelectedSubject
             }}</q-chip>
           </div>
@@ -44,7 +45,7 @@
       </q-toolbar>
     </q-header>
 
-    <q-page-container>
+    <q-page-container class="no-padding">
       <router-view />
     </q-page-container>
     <q-page-sticky v-if="!onQuizPage" position="bottom-left" :offset="[10, 10]">

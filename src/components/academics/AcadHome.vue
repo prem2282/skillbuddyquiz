@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <div class="selection-chip-box-chapter">
+  <div class="acad-home-container">
+    <div v-if="getSelectedChapter" class="selection-chip-box-chapter">
       <q-chip
-        class="text-subtitle1 bg-orange-6 text-white text-weight-bold"
-        v-if="getSelectedChapter"
+        class="text-subtitle1 bg-orange-9 text-white text-weight-bold"
+        
         >{{ getSelectedChapter }}
       </q-chip>
     </div>

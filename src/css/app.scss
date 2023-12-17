@@ -35,6 +35,9 @@ ul {
   padding-left: 0rem;
 }
 
+.q-header{
+  background-color: #daf0f0;
+}
 .google-page-container {
   display: flex;
   justify-content: center;
@@ -237,6 +240,13 @@ ul {
   width: 100%; /* Ensures the card stretches to fill its container */
 }
 
+.acad-home-container{
+  height: 100vh;
+  width: 100vw;
+  background-color: silver;
+  padding-top: 52px;
+}
+
 .quiz-container {
   width: 50%;
   margin-left: auto;
@@ -402,6 +412,36 @@ ul {
     line-height: 2rem;
     font-weight: normal;
   }
+}
+
+.image-badge-class {
+  border-radius: 2rem;
+  line-height: 0;
+
+}
+
+.subject-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 0 5vh 0;
+}
+
+.subject-card-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  padding: .1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.subject-card {
+  width: 150px;
+  max-width: 150px;
+  margin: .5rem 1rem .5rem 1rem;
+  border-radius: 1rem;
+  border: 2px solid #fff  
 }
 
 /* Mobile Landscape */

@@ -38,7 +38,7 @@
         </div>
       </div>
     </transition>
-    <div class="level-container">
+    <div class="subject-card-container">
       <div v-for="(item, index) in levels" :key="index">
         <transition
           appear
@@ -46,7 +46,18 @@
           enter-active-class="animated fadeIn"
           leave-active-class="animated fadeOut"
         >
-          <q-btn class="chapter-button glossy" @click="selectQuizType(item)">
+        <q-card class="subject-card elevated" @click="selectQuizType(item)">
+            <q-img :src="getLevelsImage[index]">
+              <q-badge
+              class="glossy image-badge-class"
+              floating
+              v-if="getProgresBadgeTextForLevels[item] !== ''"
+              >{{ getProgresBadgeTextForLevels[item] }}</q-badge
+            >
+            </q-img>
+
+          </q-card>
+          <!-- <q-btn class="chapter-button glossy" @click="selectQuizType(item)">
             <div class="button-content">
               <div class="button-text">{{ getLevelsText[index] }}</div>
             </div>
@@ -57,7 +68,7 @@
               v-if="getProgresBadgeTextForLevels[item] !== ''"
               >{{ getProgresBadgeTextForLevels[item] }}</q-badge
             >
-          </q-btn>
+          </q-btn> -->
         </transition>
       </div>
     </div>
@@ -132,6 +143,9 @@ export default {
     },
     getLevelsText() {
       return this.quizStore.getLevelsText;
+    },
+    getLevelsImage() {
+      return this.quizStore.getLevelsImage;
     },
     getSelectedCount() {
       return this.quizStore.getSelectedCount;

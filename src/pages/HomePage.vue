@@ -1,7 +1,7 @@
 <template>
-  <q-page class="">
+
     <AcadHome />
-  </q-page>
+
 </template>
 
 <script>
