@@ -11,10 +11,9 @@
           <div>
             <q-card class="chapter-card shadow-3" @click="selectChapter(item)">
               <q-card-section horizontal>
-                <q-img class="col-5" :src="imageSource(item)"> </q-img>
-                <q-card-section
-                  class="chapter-card-text col-7"
-                >
+                <q-img class="col-5" :src="imageSource(item)" :alt="altSource">
+                </q-img>
+                <q-card-section class="chapter-card-text col-7">
                   {{ item.chapter }}
                 </q-card-section>
               </q-card-section>
@@ -46,6 +45,12 @@ export default {
     },
     getChapterListForSubject() {
       return this.academicsStore.getChapterListForSubject;
+    },
+    selectedSubject() {
+      return this.academicsStore.selectedSubject;
+    },
+    altSource() {
+      return `images/${this.selectedSubject.toLowerCase()}.png`;
     },
   },
   methods: {
