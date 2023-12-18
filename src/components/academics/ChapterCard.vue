@@ -9,10 +9,14 @@
           leave-active-class="animated fadeOut"
         >
           <div>
-            <q-card class="subject-card elevated" @click="selectChapter(item)">
-              <q-img :src="imageSource(item)"> </q-img>
-              <q-card-section class="text-center bg-purple-9 text-white text-bold">
-                {{ item.chapter }}
+            <q-card class="chapter-card shadow-3" @click="selectChapter(item)">
+              <q-card-section horizontal>
+                <q-img class="col-5" :src="imageSource(item)"> </q-img>
+                <q-card-section
+                  class="chapter-card-text col-7"
+                >
+                  {{ item.chapter }}
+                </q-card-section>
               </q-card-section>
             </q-card>
           </div>

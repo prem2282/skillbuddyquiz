@@ -474,6 +474,25 @@ ul {
   border: 2px solid #fff  
 }
 
+.chapter-card {
+  width: 90vw;
+  max-width: 350px;
+  margin: .5rem 1rem .5rem 1rem;
+  border-radius: 1rem;
+  border: 2px solid #fff  
+}
+
+.chapter-card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: wheat;
+  padding: .1rem;
+  background-color: darkslategray
+}
 /* Mobile Landscape */
 @media (min-width: 601px) and (max-width: 900px) {
   .chapter-button {
