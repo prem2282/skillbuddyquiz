@@ -53,8 +53,10 @@
           transition-hide="fade"
         >
           <q-card>
-            <q-card-section class="no-padding">
-              <div class="mtf-header">{{ col_1[selectedIndex] }}</div>
+            <q-card-section class="q-pa-sm text-center">
+              <q-chip class="bg-orange-10 text-white shadow-4 glossy text-h6">{{
+                col_1[selectedIndex]
+              }}</q-chip>
             </q-card-section>
 
             <q-card-section class="no-padding">
@@ -94,7 +96,7 @@
         :disable="allRowsMatched === null"
       />
     </div>
-    <div v-if="submitted" class="my-table-container">
+    <div v-if="submitted && showInCorrectItems" class="my-table-container">
       <q-chip class="bg-green-9 text-yellow">Correct Answer 👇</q-chip>
       <div class="mtf-row" v-for="item in incorrectItems" :key="item.id">
         <div class="mtf-column bg-blue-5 text-white">
@@ -222,6 +224,9 @@ export default {
       return this.items.filter((item, index) => {
         return item.col_2 !== this.selected_col_2[index];
       });
+    },
+    showInCorrectItems() {
+      return this.incorrectItems.length > 0;
     },
     allRowsMatched() {
       if (this.selected_col_2.includes("click to select")) {

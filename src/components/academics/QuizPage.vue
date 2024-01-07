@@ -3,8 +3,18 @@
     <div class="justify-center">
       <q-col class="q-ma-auto">
         <div class="text-center bg-grey-7 q-pa-sm text-white">
+          <q-btn
+            flat
+            dense
+            round
+            :icon="getSound ? 'volume_up' : 'volume_off'"
+            :color="getSound ? 'white' : 'grey-6'"
+            aria-label="volume"
+            @click="toggleSound"
+          />
           Question {{ currentQuestionIndex + 1 }} of {{ totalQuestions }}
         </div>
+
         <!-- Add progress bar -->
         <q-linear-progress
           :value="currentQuestionIndex / totalQuestions"
@@ -12,9 +22,11 @@
         ></q-linear-progress>
       </q-col>
     </div>
-    <mcq-type v-if="currentQuiz.level< 4" :nextLable="nextLable"></mcq-type>
-    <match-type v-else-if="currentQuiz.level === 4" :nextLable="nextLable"></match-type>
-    
+    <mcq-type v-if="currentQuiz.level < 4" :nextLable="nextLable"></mcq-type>
+    <match-type
+      v-else-if="currentQuiz.level === 4"
+      :nextLable="nextLable"
+    ></match-type>
   </div>
 </template>
 
@@ -35,7 +47,7 @@ export default {
   components: {
     McqType,
     MatchType,
-},
+  },
   computed: {
     quizStore() {
       return useQuizStore();
@@ -62,9 +74,15 @@ export default {
       } else {
         return "Next";
       }
-    },    
+    },
+    getSound() {
+      return this.userStore.getSound;
+    },
   },
   methods: {
+    toggleSound() {
+      this.userStore.toggleSound();
+    },
   },
   mounted() {
     this.userStore.setCurrentPage("quiz");

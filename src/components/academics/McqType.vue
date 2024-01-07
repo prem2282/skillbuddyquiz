@@ -28,17 +28,21 @@
         >
           <q-item
             clickable
-            
             :disable="submitted"
             @click="selectOption(index)"
             class="q-mb-sm quiz-option-text shadow-2"
-            :class="selectedOption === index ? 'bg-grey-6 text-grey-1' : 'bg-grey-3'"
+            :class="
+              selectedOption === index ? 'bg-grey-6 text-grey-1' : 'bg-grey-3'
+            "
           >
             <q-item-section
               class="option-section"
               :class="{ 'selected-option': selectedOption === option }"
             >
-              <span ><span class="choice-index">{{ index }}</span> {{ option }}</span>
+              <span
+                ><span class="choice-index">{{ index }}</span>
+                {{ option }}</span
+              >
             </q-item-section>
           </q-item>
         </transition>
@@ -103,6 +107,7 @@
 
 <script>
 import { useQuizStore } from "stores/quiz-store";
+import { useUserStore } from "stores/user-store";
 export default {
   data() {
     return {
@@ -116,7 +121,9 @@ export default {
     quizStore() {
       return useQuizStore();
     },
-
+    userStore() {
+      return useUserStore();
+    },
     currentQuestionIndex() {
       return this.quizStore.currentQuestionIndex;
     },
@@ -129,7 +136,6 @@ export default {
     totalQuestions() {
       return this.quizStore.totalQuestions;
     },
-
 
     questionResult() {
       let userResponse = this.selectedOption;
@@ -150,6 +156,17 @@ export default {
     showExplanation() {
       return this.selectedOption !== null;
     },
+    getSound() {
+      return this.userStore.getSound;
+    },
+  },
+  watch: {
+    currentQuiz() {
+      this.speak(this.currentQuiz.question);
+    },
+    getSound() {
+      this.stopSpeak();
+    },
   },
   methods: {
     selectOption(option) {
@@ -160,6 +177,7 @@ export default {
       this.quizStore.goToNextQuestion();
       this.selectedOption = null;
       this.submitted = false;
+      this.stopSpeak();
     },
     streamingEffect() {
       this.showStreamingEffect = true;
@@ -170,6 +188,10 @@ export default {
       this.quizStore.putUserQuizData(this.selectedOption);
 
       this.streamingEffect();
+      this.stopSpeak();
+      this.speak(
+        this.explanation(this.currentQuestionIndex, this.selectedOption)
+      );
     },
 
     explanation(quizIndex, optionIndex) {
@@ -178,7 +200,18 @@ export default {
     currentQuizOptions(quizIndex) {
       return this.quizStore.currentQuizOptions(quizIndex);
     },
-  }
+    speak(text) {
+      if (!this.getSound) {
+        return;
+      }
+      console.log("speak", text);
+      const msg = new SpeechSynthesisUtterance(text);
+      window.speechSynthesis.speak(msg);
+    },
+    stopSpeak() {
+      window.speechSynthesis.cancel();
+    },
+  },
 };
 </script>
 <style>

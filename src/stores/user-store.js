@@ -7,6 +7,7 @@ export const useUserStore = defineStore("user", {
   state: () => ({
     user: null,
     currentPage: null,
+    sound: true,
   }),
   getters: {
     getUser() {
@@ -14,6 +15,9 @@ export const useUserStore = defineStore("user", {
     },
     getCurrentPage() {
       return this.currentPage;
+    },
+    getSound() {
+      return this.sound;
     },
   },
   actions: {
@@ -24,6 +28,10 @@ export const useUserStore = defineStore("user", {
       this.user.uid = uid;
       localStorage.setItem("user", JSON.stringify(this.user));
     },
+    toggleSound() {
+      this.sound = !this.sound;
+    },
+
     async setUser(user) {
       this.user = {
         family_name: user.family_name,
