@@ -63,7 +63,7 @@
               <q-banner class="text-white">
                 <div
                   class="mtf-row"
-                  v-for="(item, col_2_index) in items"
+                  v-for="(item, col_2_index) in shuffled_col_2"
                   :key="item.id"
                 >
                   <div :class="popUpItemClass(col_2_index)">
@@ -94,6 +94,13 @@
         @click="submitAnswer"
         class="q-mt-md"
         :disable="allRowsMatched === null"
+      />
+      <q-btn
+        v-if="!submitted"
+        color="warning"
+        label="Skip"
+        @click="skipQuestion"
+        class="q-mt-md"
       />
     </div>
     <div v-if="submitted && showInCorrectItems" class="my-table-container">
@@ -129,6 +136,9 @@ export default {
   },
   props: ["nextLable"],
   methods: {
+    skipQuestion() {
+      this.quizStore.goToNextQuestion();
+    },
     goToNextQuestion() {
       console.log("goToNextQuestion");
       this.quizStore.goToNextQuestion();
@@ -146,15 +156,18 @@ export default {
       this.showPopup = true;
     },
     shuffleItems() {
-      this.shuffled_col_2 = _.shuffle(this.col_2);
+      this.shuffled_col_2 = _.uniq(_.shuffle(this.col_2));
     },
     selectMatch(col_2_index) {
       console.log("selectMatch");
       const selectedValue = this.shuffled_col_2[col_2_index];
-      const alreadySelectedIndex = this.selected_col_2.indexOf(selectedValue);
 
-      if (alreadySelectedIndex !== -1) {
-        this.selected_col_2[alreadySelectedIndex] = "click to select";
+      if (!this.col_2_has_duplicates) {
+        const alreadySelectedIndex = this.selected_col_2.indexOf(selectedValue);
+
+        if (alreadySelectedIndex !== -1) {
+          this.selected_col_2[alreadySelectedIndex] = "click to select";
+        }
       }
 
       this.selected_col_2[this.selectedIndex] = selectedValue;
@@ -165,6 +178,12 @@ export default {
       this.selected_col_2 = this.items.map((item) => "click to select");
     },
     popUpItemClass(col_2_index) {
+      if (this.col_2_has_duplicates) {
+        return {
+          "mtf-column": true,
+          "mtf-column-duplicate-values": true,
+        };
+      }
       return {
         "mtf-column": true,
         "mtf-column-already-selected": !this.selected_col_2.includes(
@@ -199,6 +218,9 @@ export default {
     },
   },
   computed: {
+    col_2_has_duplicates() {
+      return new Set(this.col_2).size !== this.col_2.length;
+    },
     quizStore() {
       return useQuizStore();
     },

@@ -100,6 +100,13 @@
           class="q-mt-md"
           :disable="selectedOption === null"
         />
+        <q-btn
+          v-if="!submitted"
+          color="warning"
+          label="Skip"
+          @click="skipQuestion"
+          class="q-mt-md"
+        />
       </div>
     </transition>
   </div>
@@ -171,6 +178,9 @@ export default {
   methods: {
     selectOption(option) {
       this.selectedOption = option;
+    },
+    skipQuestion() {
+      this.quizStore.goToNextQuestion();
     },
     goToNextQuestion() {
       console.log("goToNextQuestion");
