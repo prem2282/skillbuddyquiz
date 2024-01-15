@@ -23,6 +23,7 @@ h3 {
   font-size: 1.2rem; // Example font size
   // You can add more styles like color, line-height, etc.
 }
+
 strong {
   margin-right: 0.5rem;
   color: #36384c;
@@ -30,6 +31,7 @@ strong {
 li {
   list-style-type: none;
   padding-bottom: 1rem;
+  color: #ccccd3;
 }
 ul {
   padding-left: 0rem;
@@ -259,16 +261,34 @@ ul {
   font-size: medium;
 }
 
-.acad-home-container {
+.acad-home-container-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   min-height: 100vh;
   width: 100vw;
-  background-color: silver;
+  background-color: #111213;
+  padding-top: 52px;
+  // background-image: url("images/SchoolBG5.png");
+  // background-size: cover;
+  opacity: 0.95;
+}
+
+.acad-home-container {
+  position: relative;
+  min-height: 100vh;
+  opacity: 0.95;
+  width: 100vw;
   padding-top: 52px;
 }
 .quiz-page-container {
   height: 100vh;
   width: 100vw;
   padding-top: 52px;
+  background-image: url("images/SchoolBG2.png");
+  background-size: cover;
 }
 
 .mcq-quiz-container {
@@ -286,6 +306,7 @@ ul {
   width: fit-content;
   font-size: larger;
   font-weight: bold;
+  color: #ccccd3;
 }
 
 .summary-container h3 {
@@ -308,7 +329,7 @@ ul {
   margin-left: 0rem;
   font-weight: bold;
   line-height: 1rem;
-  color: $sb-dark-blue;
+  color: lightblue;
 }
 
 .summary-container strong {
@@ -469,7 +490,7 @@ ul {
 }
 
 .subject-card {
-  width: 150px;
+  width: 125px;
   max-width: 150px;
   margin: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 1rem;

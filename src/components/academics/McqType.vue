@@ -100,13 +100,19 @@
           class="q-mt-md"
           :disable="selectedOption === null"
         />
-        <q-btn
-          v-if="!submitted"
-          color="warning"
-          label="Skip"
-          @click="skipQuestion"
-          class="q-mt-md"
-        />
+        <q-page-sticky
+          v-if="!onQuizPage"
+          position="bottom-right"
+          :offset="[10, 10]"
+        >
+          <q-btn
+            rounded
+            v-if="!submitted"
+            color="grey-6"
+            label="Skip"
+            @click="skipQuestion"
+          />
+        </q-page-sticky>
       </div>
     </transition>
   </div>

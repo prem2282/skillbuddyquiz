@@ -1,5 +1,5 @@
 <template>
-  <div class="quiz-page-container bg-grey-4" v-if="currentQuiz">
+  <div class="quiz-page-container bg-grey-9" v-if="currentQuiz">
     <div class="justify-center">
       <q-col class="q-ma-auto">
         <div class="text-center bg-grey-7 q-pa-sm text-white">

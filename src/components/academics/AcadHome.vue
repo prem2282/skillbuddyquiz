@@ -1,34 +1,35 @@
 <template>
-  <div class="acad-home-container">
-    <div v-if="getSelectedChapter" class="selection-chip-box-chapter">
-      <q-chip
-        class="text-subtitle1 bg-orange-9 text-white text-weight-bold"
-        
-        >{{ getSelectedChapter }}
-      </q-chip>
-    </div>
-    <div v-if="getBoardList && !getSelectedBoard">
-      <BoardCard />
-    </div>
-    <div v-if="getSelectedBoard && !getSelectedGrade">
-      <GradeCard />
-    </div>
-    <div v-if="getSelectedGrade && !getSelectedSubject">
-      <SubjectCard />
-    </div>
-    <div v-if="getSelectedSubject && !getSelectedChapter">
-      <div>
+  <div>
+    <div class="acad-home-container-bg"></div>
+    <div class="acad-home-container">
+      <div v-if="getSelectedChapter" class="selection-chip-box-chapter">
+        <q-chip class="text-subtitle1 bg-orange-9 text-white text-weight-bold"
+          >{{ getSelectedChapter }}
+        </q-chip>
+      </div>
+      <div v-if="getBoardList && !getSelectedBoard">
+        <BoardCard />
+      </div>
+      <div v-if="getSelectedBoard && !getSelectedGrade">
+        <GradeCard />
+      </div>
+      <div v-if="getSelectedGrade && !getSelectedSubject">
+        <SubjectCard />
+      </div>
+      <div v-if="getSelectedSubject && !getSelectedChapter">
         <div>
-          <ChapterCard />
+          <div>
+            <ChapterCard />
+          </div>
         </div>
       </div>
-    </div>
-    <div v-if="getSelectedChapter && !getSelectedLevel">
-      <div v-if="getExploreChapter">
-        <ChapterDetails />
-      </div>
-      <div v-else>
-        <ChapterQuizType />
+      <div v-if="getSelectedChapter && !getSelectedLevel">
+        <div v-if="getExploreChapter">
+          <ChapterDetails />
+        </div>
+        <div v-else>
+          <ChapterQuizType />
+        </div>
       </div>
     </div>
   </div>
