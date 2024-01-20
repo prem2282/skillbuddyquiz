@@ -57,27 +57,27 @@ export const useQuizStore = defineStore("quiz", {
         }
         if (level === 4) {
           return "Match 'em";
-        }        
+        }
       });
       return levelTexts;
     },
     getLevelsImage() {
       let levelTexts = this.levels?.map((level) => {
         if (level === 1) {
-          return "images/mcq1.png";
+          return "images/1.png";
         }
         if (level === 2) {
-          return "images/mcq2.png";
+          return "images/2.png";
         }
         if (level === 3) {
-          return "images/tf.png";
+          return "images/3.png";
         }
         if (level === 4) {
-          return "images/match.png";
-        }        
+          return "images/4.png";
+        }
       });
       return levelTexts;
-    },    
+    },
     getSelectedCount(state) {
       return state.quizCount;
     },
