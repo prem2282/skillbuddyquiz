@@ -95,13 +95,15 @@
         class="q-mt-md"
         :disable="allRowsMatched === null"
       />
-      <q-btn
-        v-if="!submitted"
-        color="warning"
-        label="Skip"
-        @click="skipQuestion"
-        class="q-mt-md"
-      />
+      <q-page-sticky position="bottom-right" :offset="[10, 10]">
+        <q-btn
+          rounded
+          v-if="!submitted"
+          color="grey-6"
+          label="Skip"
+          @click="skipQuestion"
+        />
+      </q-page-sticky>
     </div>
     <div v-if="submitted && showInCorrectItems" class="my-table-container">
       <q-chip class="bg-green-9 text-yellow">Correct Answer 👇</q-chip>

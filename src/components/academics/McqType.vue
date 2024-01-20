@@ -100,11 +100,7 @@
           class="q-mt-md"
           :disable="selectedOption === null"
         />
-        <q-page-sticky
-          v-if="!onQuizPage"
-          position="bottom-right"
-          :offset="[10, 10]"
-        >
+        <q-page-sticky position="bottom-right" :offset="[10, 10]">
           <q-btn
             rounded
             v-if="!submitted"
