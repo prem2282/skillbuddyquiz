@@ -1,125 +1,136 @@
 <template>
-  <div>
+  <div class="mcq-quiz-container q-pa-md q-ma-md">
     <transition
       appear
       enter-active-class="animated fadeIn"
       leave-active-class="animated fadeOut"
+      :key="currentQuiz"
     >
-      <q-card>
-        <q-card-section class="no-padding">
-          <q-item-section
-            ><span class="mtf-header">{{ tableHeader }}</span></q-item-section
-          >
-        </q-card-section>
-      </q-card>
-    </transition>
-    <div class="my-table-container">
-      <div class="mtf-row">
-        <div class="mtf-column-header">
-          <div>
-            {{ columns[0] }}
-          </div>
-        </div>
-        <div class="mtf-column-header">
-          <div>
-            {{ columns[1] }}
-          </div>
-        </div>
-      </div>
-      <div class="mtf-row" v-for="(item, col_1_index) in items" :key="item.id">
-        <div class="mtf-column mtf-column-already-selected">
-          <div>
-            {{ item.col_1 }}
-          </div>
-        </div>
-
-        <div :class="col2ItemClass(col_1_index)">
-          <div @click="col2ItemClicked(col_1_index)">
-            <q-icon
-              v-if="submitted"
-              :name="answerRowResult(col_1_index) ? 'check' : 'close'"
-              class="cursor-pointer bolder"
-              color="white"
-            ></q-icon>
-            {{ selected_col_2[col_1_index] }}
-          </div>
-        </div>
-      </div>
-      <div></div>
       <div>
-        <q-dialog
-          v-model="showPopup"
-          transition-show="flip-up"
-          transition-hide="fade"
-        >
-          <q-card>
-            <q-card-section class="q-pa-sm text-center">
-              <q-chip class="bg-orange-10 text-white shadow-4 glossy text-h6">{{
-                col_1[selectedIndex]
-              }}</q-chip>
-            </q-card-section>
+        <q-card>
+          <q-card-section class="no-padding bg-orange">
+            <q-item-section
+              ><span class="mtf-header bg-orange">{{
+                tableHeader
+              }}</span></q-item-section
+            >
+          </q-card-section>
+        </q-card>
 
-            <q-card-section class="no-padding">
-              <q-banner class="text-white">
-                <div
-                  class="mtf-row"
-                  v-for="(item, col_2_index) in shuffled_col_2"
-                  :key="item.id"
-                >
-                  <div :class="popUpItemClass(col_2_index)">
-                    <div @click="selectMatch(col_2_index)">
-                      {{ shuffled_col_2[col_2_index] }}
-                    </div>
+        <div class="my-table-container">
+          <div class="mtf-row">
+            <div class="mtf-column-header">
+              <div>
+                {{ columns[0] }}
+              </div>
+            </div>
+            <div class="mtf-column-header">
+              <div>
+                {{ columns[1] }}
+              </div>
+            </div>
+          </div>
+          <div
+            class="mtf-row"
+            v-for="(item, col_1_index) in items"
+            :key="item.id"
+          >
+            <div class="mtf-column mtf-column-1">
+              <div>
+                {{ item.col_1 }}
+              </div>
+            </div>
+
+            <div :class="col2ItemClass(col_1_index)">
+              <div @click="col2ItemClicked(col_1_index)">
+                <q-icon
+                  v-if="submitted"
+                  :name="answerRowResult(col_1_index) ? 'check' : 'close'"
+                  class="cursor-pointer bolder"
+                  color="white"
+                ></q-icon>
+                {{ selected_col_2[col_1_index] }}
+              </div>
+            </div>
+          </div>
+          <div></div>
+          <div>
+            <q-dialog
+              v-model="showPopup"
+              transition-show="flip-up"
+              transition-hide="fade"
+            >
+              <q-card>
+                <q-card-section class="q-pa-sm text-center">
+                  <div class="mtf-column-1 shadow-4 glossy text-h6 q-pa-sm">
+                    {{ col_1[selectedIndex] }}
                   </div>
-                </div>
-              </q-banner>
-            </q-card-section>
-          </q-card>
-        </q-dialog>
-      </div>
-    </div>
-    <div class="text-center">
-      <q-btn
-        v-if="submitted"
-        color="primary"
-        :label="nextLable"
-        @click="goToNextQuestion"
-        class="q-mt-md"
-        :disable="allRowsMatched === null"
-      />
-      <q-btn
-        v-else
-        color="primary"
-        label="Submit"
-        @click="submitAnswer"
-        class="q-mt-md"
-        :disable="allRowsMatched === null"
-      />
-      <q-page-sticky position="bottom-right" :offset="[10, 10]">
-        <q-btn
-          rounded
-          v-if="!submitted"
-          color="grey-6"
-          label="Skip"
-          @click="skipQuestion"
-        />
-      </q-page-sticky>
-    </div>
-    <div v-if="submitted && showInCorrectItems" class="my-table-container">
-      <q-chip class="bg-green-9 text-yellow">Correct Answer 👇</q-chip>
-      <div class="mtf-row" v-for="item in incorrectItems" :key="item.id">
-        <div class="mtf-column bg-blue-5 text-white">
-          <div>
-            {{ item.col_1 }}
+                </q-card-section>
+
+                <q-card-section class="no-padding">
+                  <q-banner class="text-white">
+                    <div
+                      class="mtf-row"
+                      v-for="(item, col_2_index) in shuffled_col_2"
+                      :key="item.id"
+                      style="display: flex; justify-content: center"
+                    >
+                      <div :class="popUpItemClass(col_2_index)">
+                        <div @click="selectMatch(col_2_index)">
+                          {{ shuffled_col_2[col_2_index] }}
+                        </div>
+                      </div>
+                    </div>
+                  </q-banner>
+                </q-card-section>
+              </q-card>
+            </q-dialog>
           </div>
         </div>
-        <div class="mtf-column bg-green-7 text-white">
-          <div>
-            {{ item.col_2 }}
+        <div class="text-center">
+          <q-btn
+            v-if="submitted"
+            color="primary"
+            :label="nextLable"
+            @click="goToNextQuestion"
+            class="q-mt-md"
+            :disable="allRowsMatched === null"
+          />
+          <q-btn
+            v-else
+            color="primary"
+            label="Submit"
+            @click="submitAnswer"
+            class="q-mt-md"
+            :disable="allRowsMatched === null"
+          />
+          <q-page-sticky position="bottom-right" :offset="[10, 10]">
+            <q-btn
+              rounded
+              v-if="!submitted"
+              color="grey-6"
+              label="Skip"
+              @click="skipQuestion"
+            />
+          </q-page-sticky>
+        </div>
+        <div v-if="submitted && showInCorrectItems" class="my-table-container">
+          <q-chip class="bg-green-9 text-yellow">Correct Answer 👇</q-chip>
+          <div class="mtf-row" v-for="item in incorrectItems" :key="item.id">
+            <div class="mtf-column bg-blue-5 text-white">
+              <div>
+                {{ item.col_1 }}
+              </div>
+            </div>
+            <div class="mtf-column bg-green-7 text-white">
+              <div>
+                {{ item.col_2 }}
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </transition>
   </div>
 </template>
 
@@ -182,12 +193,12 @@ export default {
     popUpItemClass(col_2_index) {
       if (this.col_2_has_duplicates) {
         return {
-          "mtf-column": true,
+          "mtf-pop-up": true,
           "mtf-column-duplicate-values": true,
         };
       }
       return {
-        "mtf-column": true,
+        "mtf-pop-up": true,
         "mtf-column-already-selected": !this.selected_col_2.includes(
           this.shuffled_col_2[col_2_index]
         ),

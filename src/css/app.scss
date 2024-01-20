@@ -356,28 +356,48 @@ ul {
 
 .mtf-row {
   display: table-row;
-  margin: 1rem;
-  padding: 1rem;
 }
 
 .mtf-column {
   display: table-cell;
   vertical-align: middle;
-  border-width: 5px;
+  border-width: 0.5px;
   border-style: solid;
-  border-color: white;
+  border-color: wheat;
   padding: 0.5rem;
-  border-radius: 0.7rem;
+  margin: 0.3rem;
+  // border-radius: 0.7rem;
   text-align: center;
   align-self: center;
   width: 50%;
-  background-color: grey;
-  color: lightgray;
+  background-color: #37b5b6;
+  color: #492e87;
+}
+
+.mtf-pop-up {
+  display: table-cell;
+  vertical-align: middle;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: wheat;
+  padding: 0.5rem;
+  margin: 0.3rem;
+  // border-radius: 0.7rem;
+  text-align: center;
+  align-self: center;
+  width: 100%;
+  background-color: #37b5b6;
+  color: #492e87;
+}
+
+.mtf-column-1 {
+  color: white;
+  background-color: #0a1d56;
 }
 
 .mtf-column-already-selected {
   color: white;
-  background-color: $sb-dark-blue;
+  background-color: #492e87;
 }
 
 .mtf-column-duplicate-values {
@@ -391,25 +411,26 @@ ul {
   text-align: center;
   align-self: center;
   color: $sb-dark-blue;
-  font-size: larger;
+  font-size: x-large;
   font-weight: bolder;
+  color: white;
 }
 
 .mtf-column-header {
   display: table-cell;
   vertical-align: middle;
-  border-width: 2px;
+  padding: 0.5rem;
+  border: wheat;
   border-style: solid;
-  border-color: white;
-  padding: 0.2rem;
+  border-width: 1px;
   text-align: center;
   align-self: center;
   width: 50%;
   background-color: $primary;
   color: aquamarine;
   font-size: larger;
-  font-family: "Courier New", Courier, monospace;
   text-transform: uppercase;
+  font-weight: bolder;
 }
 .tick-mark-class {
   color: white;
