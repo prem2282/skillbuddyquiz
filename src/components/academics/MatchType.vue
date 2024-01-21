@@ -2,7 +2,8 @@
   <div class="mcq-quiz-container q-pa-md q-ma-md">
     <transition
       appear
-      enter-active-class="animated fadeIn"
+      :style="{ 'animation-delay': 0.3 + 's' }"
+      enter-active-class="animated zoomIn"
       leave-active-class="animated fadeOut"
       :key="currentQuiz"
     >
@@ -104,15 +105,6 @@
             class="q-mt-md"
             :disable="allRowsMatched === null"
           />
-          <q-page-sticky position="bottom-right" :offset="[10, 10]">
-            <q-btn
-              rounded
-              v-if="!submitted"
-              color="grey-6"
-              label="Skip"
-              @click="skipQuestion"
-            />
-          </q-page-sticky>
         </div>
         <div v-if="submitted && showInCorrectItems" class="my-table-container">
           <q-chip class="bg-green-9 text-yellow">Correct Answer 👇</q-chip>
@@ -131,6 +123,15 @@
         </div>
       </div>
     </transition>
+    <q-page-sticky position="bottom-right" :offset="[10, 10]">
+      <q-btn
+        rounded
+        v-if="!submitted"
+        color="grey-6"
+        label="Skip"
+        @click="skipQuestion"
+      />
+    </q-page-sticky>
   </div>
 </template>
 

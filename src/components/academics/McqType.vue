@@ -4,6 +4,7 @@
       appear
       enter-active-class="animated fadeIn"
       leave-active-class="animated fadeOut"
+      :key="currentQuiz"
     >
       <q-card>
         <q-card-section>
@@ -182,14 +183,14 @@ export default {
       this.selectedOption = option;
     },
     skipQuestion() {
-      this.quizStore.goToNextQuestion();
+      this.goToNextQuestion();
     },
     goToNextQuestion() {
       console.log("goToNextQuestion");
-      this.quizStore.goToNextQuestion();
       this.selectedOption = null;
       this.submitted = false;
       this.stopSpeak();
+      this.quizStore.goToNextQuestion();
     },
     streamingEffect() {
       this.showStreamingEffect = true;

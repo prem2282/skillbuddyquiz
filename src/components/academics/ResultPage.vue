@@ -20,9 +20,25 @@
                     >{{ quiz_index + 1 }} of {{ totalQuestions }}</q-chip
                   >
                   {{ currentQuiz.quiz.question }}
+                  <q-badge
+                    :class="resultBadgeClass(currentQuiz.result)"
+                    floating
+                  >
+                    <q-icon
+                      :name="resultBadgeIcon(currentQuiz.result)"
+                      color="white"
+                      class="q-mx-sm text-bold"
+                    />
+                    {{ currentQuiz.result }}</q-badge
+                  >
                 </q-card-section>
               </q-card>
-              <q-list v-if="currentQuiz.quiz.level<4" class="q-pa-sm">
+              <q-list
+                v-if="
+                  currentQuiz.quiz.level < 4 && currentQuiz.result !== 'skipped'
+                "
+                class="q-pa-sm"
+              >
                 <q-item
                   v-for="(option, index) in currentQuiz.quiz.options"
                   :key="option"
@@ -33,7 +49,10 @@
                     class="option-section"
                     :class="{ 'selected-option': selectedOption === option }"
                   >
-                    <span><span class="choice-index  shadow-2">{{ index }}</span>{{ option }}</span>
+                    <span
+                      ><span class="choice-index shadow-2">{{ index }}</span
+                      >{{ option }}</span
+                    >
                   </q-item-section>
                 </q-item>
                 <div>
@@ -59,9 +78,16 @@
                   </div>
 
                   <div v-else>
-                    <q-chip :class="yourAnswerColor(currentQuiz.result)" class="shadow-2"
-                      >Your Answer <span><span class="choice-index shadow-2">{{ currentQuiz.userAnswer }}</span></span> is
-                      {{ currentQuiz.result }}</q-chip
+                    <q-chip
+                      :class="yourAnswerColor(currentQuiz.result)"
+                      class="shadow-2"
+                      >Your Answer
+                      <span
+                        ><span class="choice-index shadow-2">{{
+                          currentQuiz.userAnswer
+                        }}</span></span
+                      >
+                      is {{ currentQuiz.result }}</q-chip
                     >
                     <q-item v-if="responseExplanation(currentQuiz)">
                       <q-item-section>
@@ -72,7 +98,12 @@
                   <div v-if="currentQuiz.quiz.level !== 3">
                     <div v-if="currentQuiz.result !== 'correct'">
                       <q-chip class="bg-green-2 shadow-2"
-                        >Correct Answer : <span><span class="choice-index  shadow-2">{{ currentQuiz.quiz.answer }}</span></span>
+                        >Correct Answer :
+                        <span
+                          ><span class="choice-index shadow-2">{{
+                            currentQuiz.quiz.answer
+                          }}</span></span
+                        >
                       </q-chip>
                       <q-item v-if="currentQuiz.correctExplanation">
                         <q-item-section>
@@ -85,9 +116,10 @@
               </q-list>
               <div v-else>
                 <match-result
+                  v-if="currentQuiz.result !== 'skipped'"
                   :currentQuiz="currentQuiz"
-                  ></match-result>
-                </div>
+                ></match-result>
+              </div>
             </div>
           </div>
         </transition-group>
@@ -139,6 +171,28 @@ export default {
     },
   },
   methods: {
+    resultBadgeClass(result) {
+      if (result === "correct") {
+        return "bg-green-9";
+      } else if (result === "incorrect") {
+        return "bg-red-9";
+      } else if (result === "skipped") {
+        return "bg-grey-9";
+      } else {
+        return "bg-grey-4";
+      }
+    },
+    resultBadgeIcon(result) {
+      if (result === "correct") {
+        return "check";
+      } else if (result === "incorrect") {
+        return "close";
+      } else if (result === "skipped") {
+        return "skip_next";
+      } else {
+        return "help";
+      }
+    },
     optionColor(currentQuiz, options_index) {
       if (currentQuiz.quiz.level === 3) {
         return "";
@@ -185,7 +239,7 @@ export default {
   mounted() {
     this.userStore.setCurrentPage("result");
     if (this.quizStore.quizResult.length === 0) {
-      this.$router.push("/");
+      // this.$router.push("/");
     }
   },
 };

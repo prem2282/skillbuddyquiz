@@ -95,7 +95,7 @@ ul {
 }
 
 .board-button {
-  background-color: #6d6c12; /* blue-6 color */
+  background-color: $sb-dark-blue;
   color: white;
   width: calc(25vw); /* Adjust to fit 3 in a row, considering margins */
   text-transform: none;
@@ -103,7 +103,7 @@ ul {
 }
 
 .grade-button {
-  background-color: #464513; /* blue-6 color */
+  background-color: $sb-dark-blue;
   color: white;
   width: calc(15vw); /* Adjust to fit 3 in a row, considering margins */
   text-transform: none;
@@ -392,12 +392,12 @@ ul {
 
 .mtf-column-1 {
   color: white;
-  background-color: #0a1d56;
+  background-color: $match-col-1;
 }
 
 .mtf-column-already-selected {
   color: white;
-  background-color: #492e87;
+  background-color: $match-selected;
 }
 
 .mtf-column-duplicate-values {
@@ -524,6 +524,7 @@ ul {
   margin: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 1rem;
   border: 2px solid #fff;
+  background-color: $sb-dark-blue;
 }
 
 .chapter-card-text {
@@ -532,7 +533,7 @@ ul {
   align-items: center;
   text-align: center;
   font-size: large;
-  color: gainsboro;
+  color: white
   font-family: Arial, Helvetica, sans-serif;
   padding: 0.5rem;
   background-color: rgba(12, 13, 13, 0.8);

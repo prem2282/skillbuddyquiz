@@ -146,7 +146,9 @@ export const useQuizStore = defineStore("quiz", {
       return result;
     },
     quizResult(state) {
-      const questionUids = state.userResponse?.map(
+      const questionUids = state.quizList?.map((quiz) => quiz.uid);
+
+      const answeredUid = state.userResponse?.map(
         (response) => Object.keys(response)[0]
       );
 
@@ -154,6 +156,16 @@ export const useQuizStore = defineStore("quiz", {
         const quiz = state.quizList.find(
           (question) => question.uid === questionUid
         );
+
+        if (!answeredUid.includes(questionUid)) {
+          return {
+            result: "skipped",
+            quiz,
+            userAnswer: null,
+            correctExplanation: "",
+            wrongExplanation: "",
+          };
+        }
 
         const selectedOption = state.userResponse.find((response) => {
           const user_resp = Object.keys(response)[0];
@@ -186,15 +198,23 @@ export const useQuizStore = defineStore("quiz", {
     },
     score(state) {
       const quizResult = state.quizResult;
-      const totalQuestions = quizResult.length;
-      const correctAnswers = quizResult.filter(
-        (result) => result.result === "correct"
-      ).length;
+      const quizList = state.quizList;
+      if (quizList.length === 0 || quizResult.length === 0) {
+        return 0;
+      }
+      const totalQuestions = quizList.length;
+      const correctAnswers =
+        quizResult.length > 0
+          ? quizResult.filter((result) => result.result === "correct").length
+          : 0;
       const scorePercentage = Math.round(
         (correctAnswers / totalQuestions) * 100
       );
-
-      return scorePercentage + "%";
+      if (scorePercentage === NaN || scorePercentage === Infinity) {
+        return 0;
+      } else {
+        return scorePercentage + "%";
+      }
     },
   },
   actions: {

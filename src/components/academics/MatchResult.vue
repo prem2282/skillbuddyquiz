@@ -109,8 +109,16 @@ export default {
     userAnswer() {
       return this.currentQuiz.userAnswer;
     },
+    result() {
+      return this.currentQuiz.result;
+    },
     selected_col_2() {
-      return this.userAnswer.map((index) => this.col_2[index]);
+      if (this.userAnswer) {
+        return this.userAnswer.map((index) => this.col_2[index]);
+      } else {
+        return this.col_2.map(() => null);
+      }
+      // return this.userAnswer?.map((index) => this.col_2[index]);
     },
   },
 };
