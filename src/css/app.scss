@@ -64,11 +64,28 @@ ul {
 .quiz-option-text {
   font-size: medium;
 }
-.quiz-explanation-text {
-  font-size: medium;
-  padding: 0.5rem;
+.quiz-option-text-true-false {
+  font-size: x-large;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  color: darkslategray;
+  border-radius: 50px;
 }
 
+.quiz-explanation-text {
+  font-size: medium;
+  padding: 0.5rem 0rem;
+}
+
+.avatar-box {
+  max-width: max-content;
+  display: flex;
+}
+
+.explanation-box {
+  width: fit-content;
+  margin: 0rem auto 0rem auto;
+}
 .button-container {
   display: flex;
   justify-content: center;

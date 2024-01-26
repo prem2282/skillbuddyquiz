@@ -148,7 +148,7 @@ export const useQuizStore = defineStore("quiz", {
     quizResult(state) {
       const questionUids = state.quizList?.map((quiz) => quiz.uid);
 
-      const answeredUid = state.userResponse?.map(
+      const answeredUids = state.userResponse?.map(
         (response) => Object.keys(response)[0]
       );
 
@@ -156,39 +156,79 @@ export const useQuizStore = defineStore("quiz", {
         const quiz = state.quizList.find(
           (question) => question.uid === questionUid
         );
-
-        if (!answeredUid.includes(questionUid)) {
+        let score = 0;
+        let totalScore = 1;
+        if (quiz.level === 4) {
+          totalScore = quiz.items.length;
+        }
+        if (!answeredUids.includes(questionUid)) {
           return {
             result: "skipped",
             quiz,
             userAnswer: null,
             correctExplanation: "",
             wrongExplanation: "",
+            score,
+            totalScore,
           };
-        }
-
-        const selectedOption = state.userResponse.find((response) => {
-          const user_resp = Object.keys(response)[0];
-          return questionUid === user_resp;
-        })[questionUid];
-        const result = selectedOption === quiz.answer ? "correct" : "incorrect";
-        if (quiz.level === 3) {
         }
         let correctExplanation = "";
         let wrongExplanation = "";
+        let result = "incorrect";
+        let selectedOption = null;
 
-        if (quiz.level === 3) {
-          wrongExplanation = quiz.explanation ? quiz.explanation : "";
+        if (quiz.level === 1 || quiz.level === 2 || quiz.level === 3) {
+          selectedOption = state.userResponse.find((response) => {
+            const user_resp = Object.keys(response)[0];
+            return questionUid === user_resp;
+          })[questionUid];
+          result = selectedOption === quiz.answer ? "correct" : "incorrect";
+
+          if (quiz.level === 3) {
+            wrongExplanation = quiz.explanation ? quiz.explanation : "";
+          } else {
+            if (quiz.explanations) {
+              correctExplanation = quiz.explanations[quiz.answer];
+              wrongExplanation =
+                result === "incorrect" ? quiz.explanations[selectedOption] : "";
+            }
+          }
+
+          if (result === "correct") {
+            score = 1;
+          }
         } else {
-          if (quiz.explanations) {
-            correctExplanation = quiz.explanations[quiz.answer];
-            wrongExplanation =
-              result === "incorrect" ? quiz.explanations[selectedOption] : "";
+          // level 4 - match the following
+          totalScore = quiz.items.length;
+          selectedOption = state.userResponse.find((response) => {
+            const user_resp = Object.keys(response)[0];
+            return questionUid === user_resp;
+          })[questionUid];
+          const correctAnswers = quiz.items.map((item, index) => {
+            return item.col_2;
+          });
+          let userResponseIndexes = state.userResponse.find((response) => {
+            const user_resp = Object.keys(response)[0];
+            return questionUid === user_resp;
+          })[questionUid];
+          let selectedResponses = userResponseIndexes.map((index) => {
+            return quiz.items[index].col_2;
+          });
+          for (let i = 0; i < correctAnswers.length; i++) {
+            if (correctAnswers[i] === selectedResponses[i]) {
+              score += 1;
+            }
+          }
+          if (score === totalScore) {
+            result = "correct";
+          } else {
+            result = String(score) + "/" + String(totalScore);
           }
         }
-
         return {
           result,
+          score,
+          totalScore,
           quiz,
           userAnswer: selectedOption,
           correctExplanation,
@@ -203,13 +243,15 @@ export const useQuizStore = defineStore("quiz", {
         return 0;
       }
       const totalQuestions = quizList.length;
-      const correctAnswers =
-        quizResult.length > 0
-          ? quizResult.filter((result) => result.result === "correct").length
-          : 0;
-      const scorePercentage = Math.round(
-        (correctAnswers / totalQuestions) * 100
+      const totalMarks = quizResult.reduce(
+        (total, result) => total + result.totalScore,
+        0
       );
+      const scoredMarks = quizResult.reduce(
+        (total, result) => total + result.score,
+        0
+      );
+      const scorePercentage = Math.round((scoredMarks / totalMarks) * 100);
       if (scorePercentage === NaN || scorePercentage === Infinity) {
         return 0;
       } else {
@@ -439,11 +481,18 @@ export const useQuizStore = defineStore("quiz", {
     explanation(quizIndex, optionIndex) {
       let quiz = this.quizList[quizIndex];
       if (quiz.level === 3) {
-        let explanation_text = quiz.explanation ? " : " + quiz.explanation : "";
-        return this.level3Options[quiz.answer] + explanation_text;
-      }
+        let explanation_text = "";
+        if (quiz.answer === optionIndex) {
+          explanation_text += "Correct";
+        } else {
+          explanation_text += "Incorrect";
+        }
 
-      return quiz.explanations ? quiz.explanations[optionIndex] : "";
+        explanation_text += quiz.explanation ? " : " + quiz.explanation : "";
+        return explanation_text;
+      } else {
+        return quiz.explanations ? quiz.explanations[optionIndex] : "";
+      }
     },
     correctExplanation(quiz_index) {
       return this.quizList[quiz_index].explanations?.[

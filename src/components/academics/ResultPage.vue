@@ -179,7 +179,7 @@ export default {
       } else if (result === "skipped") {
         return "bg-grey-9";
       } else {
-        return "bg-grey-4";
+        return "bg-orange-9";
       }
     },
     resultBadgeIcon(result) {
@@ -190,7 +190,7 @@ export default {
       } else if (result === "skipped") {
         return "skip_next";
       } else {
-        return "help";
+        return "info";
       }
     },
     optionColor(currentQuiz, options_index) {

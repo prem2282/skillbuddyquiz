@@ -2,7 +2,7 @@
   <div class="mcq-quiz-container q-pa-md q-ma-md">
     <transition
       appear
-      enter-active-class="animated fadeIn"
+      enter-active-class="animated fadeInDown"
       leave-active-class="animated fadeOut"
       :key="currentQuiz"
     >
@@ -16,11 +16,12 @@
         </q-card-section>
       </q-card>
     </transition>
-    <q-list class="q-pa-md q-ma-md">
-      <div
-        v-for="(option, index) in currentQuizOptions(currentQuestionIndex)"
-        :key="option"
-      >
+    <q-list
+      :key="currentQuiz"
+      v-if="currentQuiz.level === 1 || currentQuiz.level === 2"
+      class="q-pa-md q-ma-md"
+    >
+      <div v-for="(option, index) in currentQuizOptions" :key="option">
         <transition
           appear
           :style="{ 'animation-delay': (0.6 + index) * 0.2 + 's' }"
@@ -37,13 +38,47 @@
             "
           >
             <q-item-section
-              class="option-section"
               :class="{ 'selected-option': selectedOption === option }"
             >
               <span
                 ><span class="choice-index">{{ index }}</span>
                 {{ option }}</span
               >
+            </q-item-section>
+          </q-item>
+        </transition>
+      </div>
+    </q-list>
+
+    <q-list
+      :key="currentQuiz"
+      v-if="currentQuiz.level === 3"
+      class="row q-pa-md q-ma-md"
+    >
+      <div
+        class="col-6 q-pa-md text-center"
+        v-for="(option, index) in currentQuizOptions"
+        :key="option"
+      >
+        <transition
+          appear
+          :style="{ 'animation-delay': (0.6 + index) * 0.2 + 's' }"
+          enter-active-class="animated fadeInUp"
+          leave-active-class="animated fadeOut"
+        >
+          <q-item
+            clickable
+            :disable="submitted"
+            @click="selectOption(index)"
+            class="q-mb-sm quiz-option-text-true-false shadow-6"
+            :class="
+              selectedOption === index ? 'bg-grey-6 text-grey-1' : 'bg-grey-3'
+            "
+          >
+            <q-item-section
+              :class="{ 'selected-option': selectedOption === option }"
+            >
+              <span> {{ option }}</span>
             </q-item-section>
           </q-item>
         </transition>
@@ -58,21 +93,27 @@
         leave-active-class="animated fadeOut"
       >
         <q-card
-          :class="questionResult === 'Correct' ? 'bg-green-3' : 'bg-red-3'"
+          class="explanation-box text-white"
+          :class="questionResult === 'Correct' ? 'bg-green-6' : 'bg-red-6'"
         >
-          <q-card-section :class="{ 'streaming-text': showStreamingEffect }">
-            <q-item-section
-              v-if="quizHasExplanation"
-              class="quiz-explanation-text"
-              >{{
-                explanation(currentQuestionIndex, selectedOption)
-              }}</q-item-section
-            >
-            <q-item-section v-else class="quiz-explanation-text">{{
-              questionResult === "Correct"
-                ? "Correct Answer"
-                : "Incorrect Answer"
-            }}</q-item-section>
+          <q-card-section
+            class="row"
+            :class="{ 'streaming-text': showStreamingEffect }"
+          >
+            <q-item-section class="avatar-box">
+              <q-avatar
+                :class="
+                  questionResult === 'Correct' ? 'bg-green-9' : 'bg-red-9'
+                "
+                :icon="questionResult === 'Correct' ? 'check' : 'close'"
+                text-color="white"
+                class="q-ma-sm text-bold"
+              >
+              </q-avatar>
+            </q-item-section>
+            <q-item-section class="quiz-explanation-text q-ma-sm">
+              {{ explanation(currentQuestionIndex, selectedOption) }}
+            </q-item-section>
           </q-card-section>
         </q-card>
       </transition>
@@ -84,33 +125,39 @@
       enter-active-class="animated fadeInDown"
       leave-active-class="animated fadeOut"
     >
-      <div class="text-center">
-        <q-btn
-          v-if="submitted"
-          color="primary"
-          :label="nextLable"
-          @click="goToNextQuestion"
-          class="q-mt-md"
-          :disable="selectedOption === null"
-        />
-        <q-btn
-          v-else
-          color="primary"
-          label="Submit"
-          @click="submitAnswer"
-          class="q-mt-md"
-          :disable="selectedOption === null"
-        />
-        <q-page-sticky position="bottom-right" :offset="[10, 10]">
+      <q-page-sticky position="bottom" :offset="[20, 20]">
+        <div class="text-center">
           <q-btn
-            rounded
-            v-if="!submitted"
-            color="grey-6"
-            label="Skip"
-            @click="skipQuestion"
+            v-if="submitted"
+            color="primary"
+            :label="nextLable"
+            @click="goToNextQuestion"
+            class="q-mt-md"
+            :disable="selectedOption === null"
           />
-        </q-page-sticky>
-      </div>
+          <q-btn
+            v-else
+            color="primary"
+            label="Submit"
+            @click="submitAnswer"
+            class="q-mt-md"
+            :disable="selectedOption === null"
+          />
+        </div>
+      </q-page-sticky>
+    </transition>
+    <transition
+      appear
+      enter-active-class="animated fadeInRight"
+      leave-active-class="animated fadeOut"
+    >
+      <q-page-sticky
+        v-if="!submitted"
+        position="bottom-right"
+        :offset="[20, 20]"
+      >
+        <q-btn rounded color="grey-6" label="Skip" @click="skipQuestion" />
+      </q-page-sticky>
     </transition>
   </div>
 </template>
@@ -143,6 +190,9 @@ export default {
     currentQuiz() {
       return this.quizStore.currentQuiz;
     },
+    currentQuizOptions() {
+      return this.quizStore.currentQuizOptions(this.currentQuestionIndex);
+    },
     totalQuestions() {
       return this.quizStore.totalQuestions;
     },
@@ -157,11 +207,11 @@ export default {
       }
     },
     quizHasExplanation() {
-      console.log(
-        "quizHasExplanation",
-        this.currentQuiz.explanations ? true : false
-      );
-      return this.currentQuiz.explanations ? true : false;
+      if (this.currentQuiz.level === 3) {
+        return this.currentQuiz.explanation ? true : false;
+      } else {
+        return this.currentQuiz.explanations ? true : false;
+      }
     },
     showExplanation() {
       return this.selectedOption !== null;
@@ -200,7 +250,7 @@ export default {
       this.submitted = true;
       this.quizStore.putUserQuizData(this.selectedOption);
 
-      this.streamingEffect();
+      // this.streamingEffect();
       this.stopSpeak();
       this.speak(
         this.explanation(this.currentQuestionIndex, this.selectedOption)
@@ -210,9 +260,7 @@ export default {
     explanation(quizIndex, optionIndex) {
       return this.quizStore.explanation(quizIndex, optionIndex);
     },
-    currentQuizOptions(quizIndex) {
-      return this.quizStore.currentQuizOptions(quizIndex);
-    },
+
     speak(text) {
       if (!this.getSound) {
         return;
