@@ -35,10 +35,10 @@ const routes = [
     ],
   },
 
-  {
-    path: "/explorer",
-    component: () => import("components/local/ChapterViewer.vue"),
-  },
+  // {
+  //   path: "/explorer",
+  //   component: () => import("components/local/ChapterViewer.vue"),
+  // },
 
   // Always leave this as last one,
   // but you can also remove it
