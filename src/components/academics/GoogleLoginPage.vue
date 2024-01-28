@@ -1,13 +1,49 @@
 <template>
-  <div class="google-page-container">
-    <GoogleLogin
-      :clientId="clientId"
-      auto-login
-      prompt
-      :callback="callback"
-      v-if="showGoogleLogin"
-    />
-  </div>
+  <q-layout view="lHh Lpr lFf">
+    <div>
+      <div
+        class="welcome-container google-subtitle bg-primary text-subtitle text-white"
+      >
+        academy.aiskillbuddy.com
+      </div>
+      <div class="q-my-md row">
+        <img class="google-logo col-5" src="icons/apple-icon-180x180.png" />
+        <div class="col-6 welcome-container text-center">
+          <h1>Hello Buddy!</h1>
+          <p class="google-subtitle">Welcome to AI SkillBuddy Academy</p>
+        </div>
+      </div>
+      <div class="welcome-container bg-grey-9 text-white">
+        <h1>NCERT Based AI Study Buddy</h1>
+        <div class="google-subtitle text-h5 text-white">
+          Available for Class 9 & 10
+        </div>
+        <div class="google-subtitle text-subtitle text-grey q-mb-xl">
+          Coming soon... for Class 11 & 12
+        </div>
+      </div>
+
+      <div class="welcome-container">
+        <h2 class="q-ma-xl">Login to try Free!</h2>
+        <GoogleLogin
+          class="q-mb-xl"
+          :clientId="clientId"
+          prompt
+          :callback="callback"
+          v-if="showGoogleLogin"
+        />
+      </div>
+
+      <!-- <q-page-sticky position="bottom" :offset="[50, 50]">
+        <GoogleLogin
+          :clientId="clientId"
+          prompt
+          :callback="callback"
+          v-if="showGoogleLogin"
+        />
+      </q-page-sticky> -->
+    </div>
+  </q-layout>
 </template>
 
 <script>
@@ -34,9 +70,11 @@ export default defineComponent({
     },
     checkTokenActive() {
       let user = JSON.parse(localStorage.getItem("user"));
+      console.log("user", user);
       if (user && user.exp) {
         let currentTime = Math.floor(Date.now() / 1000);
-        if (user.exp > currentTime) {
+        const thirtyDaysInSeconds = 30 * 24 * 60 * 60;
+        if (user.exp + thirtyDaysInSeconds > currentTime) {
           this.userStore.setUser(user);
         } else {
           this.showGoogleLogin = true;

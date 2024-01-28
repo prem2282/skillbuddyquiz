@@ -40,6 +40,17 @@
         <div class="q-gutter-xs">
           <q-avatar size="md">
             <img :src="userImage" />
+            <q-menu class="q-ma-md">
+              <q-list>
+                <q-item clickable v-ripple @click="performLogout">
+                  <q-item-section>
+                    <q-btn class="bg-red-4 text-white q-px-md" dense rounded
+                      >Logout</q-btn
+                    >
+                  </q-item-section>
+                </q-item>
+              </q-list>
+            </q-menu>
           </q-avatar>
         </div>
       </q-toolbar>
@@ -109,6 +120,10 @@ export default defineComponent({
     gotoHome() {
       academicsStore.resetAcademics();
       quizStore.resetQuizData();
+      this.$router.push("/");
+    },
+    performLogout() {
+      userStore.logout();
       this.$router.push("/");
     },
     backButtonClicked() {

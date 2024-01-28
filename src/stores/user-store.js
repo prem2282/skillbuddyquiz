@@ -32,6 +32,10 @@ export const useUserStore = defineStore("user", {
       this.sound = !this.sound;
     },
 
+    logout() {
+      this.user = null;
+      localStorage.removeItem("user");
+    },
     async setUser(user) {
       this.user = {
         family_name: user.family_name,

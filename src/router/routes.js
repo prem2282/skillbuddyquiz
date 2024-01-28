@@ -23,7 +23,7 @@ const routes = [
         component: () => import("components/academics/MatchType.vue"),
       },
     ],
-  },  
+  },
   {
     path: "/result",
     component: () => import("layouts/HomeLayout.vue"),
@@ -34,6 +34,12 @@ const routes = [
       },
     ],
   },
+
+  {
+    path: "/explorer",
+    component: () => import("components/local/ChapterViewer.vue"),
+  },
+
   // Always leave this as last one,
   // but you can also remove it
   {
