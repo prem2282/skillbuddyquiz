@@ -9,7 +9,7 @@
       <div class="q-my-md row">
         <img class="google-logo col-5" src="icons/apple-icon-180x180.png" />
         <div class="col-6 welcome-container text-center">
-          <h1>Hello Buddy!</h1>
+          <h1>Hello Buddy! 🎉</h1>
           <p class="google-subtitle">Welcome to AI SkillBuddy Academy</p>
         </div>
       </div>

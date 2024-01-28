@@ -1,4 +1,10 @@
 {
+  "start_url": "/",
+  "display": "standalone",
+  "short_name": "Academy Buddy",
+  "name": "AI Skill Buddy - Academy",
+  "description": "AI Powered Buddy for Academic Skill Development",
+  "scope": "/",
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#027be3",
