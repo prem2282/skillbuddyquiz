@@ -8,7 +8,6 @@
 <script>
 import { defineComponent } from "vue";
 import { useUserStore } from "stores/user-store";
-// import { GoogleLogin } from "vue3-google-login";
 import GoogleLoginPage from "components/academics/GoogleLoginPage.vue";
 
 export default defineComponent({
@@ -26,6 +25,10 @@ export default defineComponent({
     getUser() {
       return this.userStore.getUser;
     },
+  },
+  mounted() {
+    // window.location.reload();
+    // console.log("App mounted");
   },
 });
 </script>
