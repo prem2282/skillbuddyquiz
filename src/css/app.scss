@@ -40,13 +40,21 @@ ul {
 .q-header {
   background-color: #daf0f0;
 }
-.google-page-container {
+.page-overall-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-  background-color: $dark-page;
+  background-color: darkslategray;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.website-name-tag {
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.google-page-container {
+  width: 50%;
+  margin: auto;
 }
 
 .google-login-button {
@@ -483,6 +491,9 @@ ul {
 }
 /* Mobile Portrait */
 @media (max-width: 600px) {
+  .google-page-container {
+    width: 100%;
+  }
   .chapter-button {
     width: 80vw; /* Full width for vertical stacking */
     margin: 0.5rem;

@@ -1,40 +1,38 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <div>
-      <div
-        class="welcome-container google-subtitle bg-primary text-subtitle text-white"
-      >
-        academy.aiskillbuddy.com
-      </div>
-      <div class="q-my-md row">
-        <img class="google-logo col-5" src="icons/apple-icon-180x180.png" />
-        <div class="col-6 welcome-container text-center">
-          <h1>Hello Buddy! 🎉</h1>
-          <p class="google-subtitle">Welcome to AI SkillBuddy Academy</p>
+    <div class="page-overall-container">
+      <div class="google-page-container shadow-5">
+        <div class="welcome-container website-name-tag bg-grey-10 text-grey-5">
+          academy.aiskillbuddy.com
         </div>
-      </div>
-      <div class="welcome-container bg-grey-9 text-white">
-        <h1>NCERT Based AI Study Buddy</h1>
-        <div class="google-subtitle text-h5 text-white">
-          Available for Class 9 & 10
+        <div class="q-py-md row bg-grey-8 text-white">
+          <img class="google-logo col-5" src="icons/apple-icon-180x180.png" />
+          <div class="col-6 welcome-container text-center">
+            <h1>Hello Buddy!</h1>
+            <p class="google-subtitle">Welcome to AI SkillBuddy Academy</p>
+          </div>
         </div>
-        <div class="google-subtitle text-subtitle text-grey q-mb-xl">
-          Coming soon... for Class 11 & 12
-        </div>
-      </div>
 
-      <div class="welcome-container">
-        <h2 class="q-ma-xl">Login to try Free!</h2>
-        <GoogleLogin
-          class="q-mb-xl"
-          :clientId="clientId"
-          prompt
-          :callback="callback"
-          v-if="showGoogleLogin"
-        />
-      </div>
-
-      <!-- <q-page-sticky position="bottom" :offset="[50, 50]">
+        <div class="welcome-container bg-grey-7 text-grey-4">
+          <h2 class="">Login to try Free!</h2>
+          <GoogleLogin
+            class="q-mb-xl shadow-5"
+            :clientId="clientId"
+            prompt
+            :callback="callback"
+            v-if="showGoogleLogin"
+          />
+        </div>
+        <div class="welcome-container bg-grey-9 text-white">
+          <h1>NCERT Based AI Study Buddy</h1>
+          <div class="google-subtitle text-h5 text-white">
+            Available for Class 9 & 10
+          </div>
+          <div class="google-subtitle text-subtitle text-grey q-mb-xl">
+            Coming soon... for Class 11 & 12
+          </div>
+        </div>
+        <!-- <q-page-sticky position="bottom" :offset="[50, 50]">
         <GoogleLogin
           :clientId="clientId"
           prompt
@@ -42,6 +40,7 @@
           v-if="showGoogleLogin"
         />
       </q-page-sticky> -->
+      </div>
     </div>
   </q-layout>
 </template>
