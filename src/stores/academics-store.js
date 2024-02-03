@@ -65,6 +65,9 @@ export const useAcademicsStore = defineStore("academics", {
     getSelectedChapter(state) {
       return state.selectedChapter;
     },
+    getChapterImage(state) {
+      return `images/lessons/${state.getSelectedQuizId}.png`;
+    },
   },
 
   actions: {
@@ -109,6 +112,24 @@ export const useAcademicsStore = defineStore("academics", {
     },
     selectSubject(subject) {
       this.selectedSubject = subject;
+    },
+    backToBoard() {
+      this.selectedGrade = null;
+      this.selectedSubject = null;
+      this.selectedChapter = null;
+      this.selectedQuizId = null;
+      this.exploreChapter = false;
+    },
+    backToGrade() {
+      this.selectedSubject = null;
+      this.selectedChapter = null;
+      this.selectedQuizId = null;
+      this.exploreChapter = false;
+    },
+    backToSubject() {
+      this.selectedChapter = null;
+      this.selectedQuizId = null;
+      this.exploreChapter = false;
     },
     resetAcademics() {
       this.selectedBoard = null;

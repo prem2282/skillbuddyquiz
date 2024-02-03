@@ -26,15 +26,30 @@
 
         <div v-else class="q-toolbar-title q-mx-auto">
           <div v-if="!getExploreChapter" class="selection-chip-box q-mx-auto">
-            <q-chip class="bg-grey-9 text-white" v-if="getSelectedBoard">{{
-              getSelectedBoard
-            }}</q-chip>
-            <q-chip class="bg-grey-9 text-white" v-if="getSelectedGrade">{{
-              getSelectedGrade
-            }}</q-chip>
-            <q-chip class="bg-grey-9 text-white" v-if="getSelectedSubject">{{
-              getSelectedSubject
-            }}</q-chip>
+            <q-chip
+              clickable
+              @click="backToBoard"
+              class="bg-grey-9 text-white"
+              v-if="getSelectedBoard"
+              >{{ getSelectedBoard }}</q-chip
+            >
+            <q-chip
+              clickable
+              @click="backToGrade"
+              class="bg-grey-9 text-white"
+              v-if="getSelectedGrade"
+              >{{ getSelectedGrade }}</q-chip
+            >
+            <q-chip
+              clickable
+              @click="backToSubject"
+              class="bg-grey-9 text-white"
+              v-if="getSelectedSubject"
+              >{{ getSelectedSubject }}</q-chip
+            >
+            <q-avatar v-if="getSelectedChapter" size="md">
+              <img :src="getChapterImage" />
+            </q-avatar>
           </div>
         </div>
         <div class="q-gutter-xs">
@@ -103,6 +118,9 @@ export default defineComponent({
     getSelectedChapter() {
       return academicsStore.getSelectedChapter;
     },
+    getChapterImage() {
+      return academicsStore.getChapterImage;
+    },
     currentRoute() {
       return this.$route.path;
     },
@@ -133,6 +151,15 @@ export default defineComponent({
       } else {
         academicsStore.backButtonClicked();
       }
+    },
+    backToBoard() {
+      academicsStore.backToBoard();
+    },
+    backToGrade() {
+      academicsStore.backToGrade();
+    },
+    backToSubject() {
+      academicsStore.backToSubject();
     },
   },
   setup() {
