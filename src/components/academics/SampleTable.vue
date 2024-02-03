@@ -1,13 +1,15 @@
 <template>
   <div class="q-pa-md">
     <q-table
-      flat bordered
+      flat
+      bordered
       grid
-      :title=title
+      :title="title"
       :rows="rows"
       :columns="columns"
       row-key="name"
       hide-header
+      table-header-class="bg-grey-8 text-white"
     >
     </q-table>
   </div>
