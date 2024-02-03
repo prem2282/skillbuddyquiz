@@ -1,13 +1,17 @@
 import { defineStore } from "pinia";
 import axios from "axios";
+import { useAcademicsStore } from "./academics-store";
+import moment from "moment";
 
 const user_lambda_url = process.env.VUE_APP_USER_STORE_LAMBDA_URL;
+const user_quiz_lambda_url = process.env.VUE_APP_USER_QUIZ_LAMBDA_URL;
 
 export const useUserStore = defineStore("user", {
   state: () => ({
     user: null,
     currentPage: null,
     sound: true,
+    quizData: null,
   }),
   getters: {
     getUser() {
@@ -18,6 +22,37 @@ export const useUserStore = defineStore("user", {
     },
     getSound() {
       return this.sound;
+    },
+    getQuizData() {
+      return this.quizData;
+    },
+    quizProgressDetails() {
+      if (!this.quizData) {
+        return null;
+      }
+
+      const sortedQuizes = this.quizData.sort((a, b) => {
+        return b.updated_at - a.updated_at;
+      });
+      const academicsStore = useAcademicsStore();
+
+      const updatedQuizes = sortedQuizes.map((quiz) => {
+        const matchingAcademic = academicsStore.academics.data.find(
+          (academic) => academic.quizId === quiz.quiz_id
+        );
+        if (matchingAcademic) {
+          return {
+            ...quiz,
+            ...matchingAcademic,
+            updatedTime: moment(quiz.updated_at * 1000).fromNow(),
+            imageSrc: `images/lessons/${quiz.quiz_id}.png`,
+            historyAvailable: quiz.progress_history.length > 0,
+          };
+        }
+        return quiz;
+      });
+
+      return updatedQuizes;
     },
   },
   actions: {
@@ -32,8 +67,34 @@ export const useUserStore = defineStore("user", {
       this.sound = !this.sound;
     },
 
+    async fetchUserQuizList() {
+      if (!this.user.uid) {
+        return;
+      }
+      console.log("fetchUserQuizList", this.user);
+      const user = this.user;
+      try {
+        const response = await axios.get(
+          `${user_quiz_lambda_url}?user_uid=${user.uid}`,
+          {
+            headers: {
+              Authorization: `${user.uid}<-->${user.jti}`,
+              // "Content-Type": "application/json",
+            },
+          }
+        );
+        if (response.status === 200) {
+          this.quizData = response.data;
+        }
+      } catch (error) {
+        console.log("error", error);
+        this.quizData = null;
+      }
+    },
+
     logout() {
       this.user = null;
+      this.quizData = null;
       localStorage.removeItem("user");
     },
     async setUser(user) {
@@ -68,6 +129,7 @@ export const useUserStore = defineStore("user", {
             user_email: user.email,
             user_details: this.user,
           });
+          this.fetchUserQuizList();
         }
 
         // Handle the response data here

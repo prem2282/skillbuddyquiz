@@ -392,6 +392,7 @@ export const useQuizStore = defineStore("quiz", {
         this.updateInProgressData(null);
       }
     },
+
     getQuizList() {
       if (this.useInprogresQuiz) {
         const newlist =

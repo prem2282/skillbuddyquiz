@@ -34,7 +34,16 @@ const routes = [
       },
     ],
   },
-
+  {
+    path: "/progress",
+    component: () => import("layouts/HomeLayout.vue"),
+    children: [
+      {
+        path: "",
+        component: () => import("components/academics/MyProgress.vue"),
+      },
+    ],
+  },
   // {
   //   path: "/explorer",
   //   component: () => import("components/local/ChapterViewer.vue"),

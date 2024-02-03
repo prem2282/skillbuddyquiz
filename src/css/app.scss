@@ -303,6 +303,10 @@ ul {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
+.q-img__content > div {
+  background: rgba(0, 0, 0, 0.65);
+}
+
 .choice-index {
   background-color: darkslategrey;
   color: white;
@@ -503,6 +507,16 @@ ul {
   max-height: 100%;
   object-fit: contain;
 }
+
+.chapter-card {
+  width: 95vw;
+  max-width: 400px;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 2px solid #fff;
+  background-color: $sb-dark-blue;
+}
+
 /* Mobile Portrait */
 @media (max-width: 600px) {
   .google-page-container {
@@ -580,15 +594,6 @@ ul {
   margin: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 1rem;
   border: 2px solid #fff;
-}
-
-.chapter-card {
-  width: 90vw;
-  max-width: 350px;
-  margin: 0.5rem 1rem 0.5rem 1rem;
-  border-radius: 1rem;
-  border: 2px solid #fff;
-  background-color: $sb-dark-blue;
 }
 
 .chapter-card-text {

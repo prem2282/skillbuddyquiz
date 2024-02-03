@@ -25,7 +25,15 @@
         </div>
 
         <div v-else class="q-toolbar-title q-mx-auto">
-          <div v-if="!getExploreChapter" class="selection-chip-box q-mx-auto">
+          <div v-if="!getSelectedBoard" class="selection-chip-box q-mx-auto">
+            <q-chip class="bg-grey-9 text-white"
+              >academy.aiskillbuddy.com</q-chip
+            >
+          </div>
+          <div
+            v-else-if="!getExploreChapter"
+            class="selection-chip-box q-mx-auto"
+          >
             <q-chip
               clickable
               @click="backToBoard"
@@ -47,9 +55,6 @@
               v-if="getSelectedSubject"
               >{{ getSelectedSubject }}</q-chip
             >
-            <q-avatar v-if="getSelectedChapter" size="md">
-              <img :src="getChapterImage" />
-            </q-avatar>
           </div>
         </div>
         <div class="q-gutter-xs">
@@ -61,6 +66,13 @@
                   <q-item-section>
                     <q-btn class="bg-red-4 text-white q-px-md" dense rounded
                       >Logout</q-btn
+                    >
+                  </q-item-section>
+                </q-item>
+                <q-item clickable v-ripple @click="goToMyProgress">
+                  <q-item-section>
+                    <q-btn class="bg-green-4 text-white q-px-md" dense rounded
+                      >Progress</q-btn
                     >
                   </q-item-section>
                 </q-item>
@@ -140,6 +152,11 @@ export default defineComponent({
       quizStore.resetQuizData();
       this.$router.push("/");
     },
+    goToMyProgress() {
+      academicsStore.resetAcademics();
+      quizStore.resetQuizData();
+      this.$router.push("/progress");
+    },
     performLogout() {
       userStore.logout();
       this.$router.push("/");
@@ -164,10 +181,11 @@ export default defineComponent({
   },
   setup() {
     const leftDrawerOpen = ref(false);
-    const store = useAcademicsStore();
+    const academicsStore = useAcademicsStore();
 
     onMounted(() => {
-      store.fetchAcademics();
+      academicsStore.fetchAcademics();
+      userStore.fetchUserQuizList();
     });
 
     return {
