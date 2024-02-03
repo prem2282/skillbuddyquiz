@@ -59,7 +59,7 @@
     <q-page-container class="no-padding">
       <router-view />
     </q-page-container>
-    <q-page-sticky v-if="!onQuizPage" position="bottom-left" :offset="[10, 10]">
+    <q-page-sticky v-if="!onQuizPage" position="bottom-left" :offset="[20, 20]">
       <q-btn
         round
         dense

@@ -123,7 +123,7 @@
         </div>
       </div>
     </transition>
-    <q-page-sticky position="bottom-right" :offset="[10, 10]">
+    <q-page-sticky position="bottom-right" :offset="[20, 20]">
       <q-btn
         rounded
         v-if="!submitted"
