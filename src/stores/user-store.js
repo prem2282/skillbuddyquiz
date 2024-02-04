@@ -89,6 +89,7 @@ export const useUserStore = defineStore("user", {
       } catch (error) {
         console.log("error", error);
         this.quizData = null;
+        this.logout();
       }
     },
 
