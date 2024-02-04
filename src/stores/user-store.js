@@ -12,8 +12,12 @@ export const useUserStore = defineStore("user", {
     currentPage: null,
     sound: true,
     quizData: null,
+    selectedItemForDelete: null,
   }),
   getters: {
+    showQuizProgressDeleteModal() {
+      return this.selectedItemForDelete !== null;
+    },
     getUser() {
       return this.user;
     },
@@ -47,6 +51,12 @@ export const useUserStore = defineStore("user", {
             updatedTime: moment(quiz.updated_at * 1000).fromNow(),
             imageSrc: `images/lessons/${quiz.quiz_id}.png`,
             historyAvailable: quiz.progress_history.length > 0,
+            inProgress: quiz.status === "in_progress",
+            inProgressNumbers: quiz.progress
+              ? String(quiz.progress.length) +
+                "/" +
+                String(quiz.questions_uid.length)
+              : null,
           };
         }
         return quiz;
@@ -56,6 +66,13 @@ export const useUserStore = defineStore("user", {
     },
   },
   actions: {
+    setSelectedItemForDelete(item) {
+      console.log("setSelectedItemForDelete", item);
+      this.selectedItemForDelete = item;
+    },
+    clearSelectionForDelete() {
+      this.selectedItemForDelete = null;
+    },
     setCurrentPage(page) {
       this.currentPage = page;
     },
@@ -65,6 +82,13 @@ export const useUserStore = defineStore("user", {
     },
     toggleSound() {
       this.sound = !this.sound;
+    },
+
+    removeDeletedQuiz(quizId) {
+      const updatedQuizes = this.quizData.filter(
+        (quiz) => quiz.quiz_id !== quizId
+      );
+      this.quizData = updatedQuizes;
     },
 
     async fetchUserQuizList() {
@@ -130,7 +154,7 @@ export const useUserStore = defineStore("user", {
             user_email: user.email,
             user_details: this.user,
           });
-          this.fetchUserQuizList();
+          // this.fetchUserQuizList();
         }
 
         // Handle the response data here

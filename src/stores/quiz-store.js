@@ -314,9 +314,12 @@ export const useQuizStore = defineStore("quiz", {
     loadInprogresQuiz() {
       this.useInprogresQuiz = true;
       this.userResponse = this.inProgressData.progress;
-      // this.selectedLevel = 2;
       this.getQuizList();
-      this.currentQuestion = this.userResponse.length;
+      if (this.quizCount === this.userResponse.length) {
+        this.currentQuestion = this.userResponse.length - 1;
+      } else {
+        this.currentQuestion = this.userResponse.length;
+      }
     },
 
     async putUserQuizData(selectedOption) {
@@ -325,16 +328,27 @@ export const useQuizStore = defineStore("quiz", {
       if (this.currentQuestion === this.totalQuestions - 1) {
         status = "completed";
       }
-      this.userResponse.push({
-        [this.quizList[this.currentQuestionIndex].uid]: selectedOption,
-      });
+      const existingIndex = this.userResponse.findIndex(
+        (response) =>
+          Object.keys(response)[0] ===
+          this.quizList[this.currentQuestionIndex].uid
+      );
+      if (existingIndex !== -1) {
+        this.userResponse[existingIndex][
+          this.quizList[this.currentQuestionIndex].uid
+        ] = selectedOption;
+      } else {
+        this.userResponse.push({
+          [this.quizList[this.currentQuestionIndex].uid]: selectedOption,
+        });
+      }
       const userStore = useUserStore();
       const user = userStore.user;
       const academicsStore = useAcademicsStore();
       const quizStore = useQuizStore();
 
       let progress_history = this.inProgressData?.progress_history || [];
-
+      let progress = this.userResponse;
       if (status === "completed") {
         this.userResponse.forEach((response) => {
           const key = Object.keys(response)[0];
@@ -348,14 +362,14 @@ export const useQuizStore = defineStore("quiz", {
             progress_history.push(response);
           }
         });
+        progress = null;
       }
-
       const response = await axios.put(
         user_quiz_lambda_url,
         {
           user_uid: user.uid,
           quiz_id: academicsStore.selectedQuizId,
-          progress: quizStore.userResponse,
+          progress: progress,
           questions_uid: quizStore.quizList.map((question) => question.uid),
           status: status,
           update_time: currentTime,
@@ -370,6 +384,23 @@ export const useQuizStore = defineStore("quiz", {
       );
     },
 
+    async deleteUserQuizData(item) {
+      const userStore = useUserStore();
+      let user = userStore.user;
+      const queryParams = new URLSearchParams({
+        quiz_id: item.quizId,
+      });
+      const urlWithParams = `${user_quiz_lambda_url}?${queryParams.toString()}`;
+
+      const response = await axios.delete(urlWithParams, {
+        headers: {
+          Authorization: `${user.uid}<-->${user.jti}`,
+        },
+      });
+      if (response.status === 200) {
+        userStore.removeDeletedQuiz(item.quizId);
+      }
+    },
     async fetchUserQuizData() {
       const userStore = useUserStore();
       const user = userStore.user;

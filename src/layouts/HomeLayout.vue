@@ -83,7 +83,7 @@
       </q-toolbar>
     </q-header>
 
-    <q-page-container class="no-padding">
+    <q-page-container>
       <router-view />
     </q-page-container>
     <q-page-sticky v-if="!onQuizPage" position="bottom-left" :offset="[20, 20]">
@@ -142,6 +142,9 @@ export default defineComponent({
     onResultPage() {
       return this.currentRoute.includes("result");
     },
+    onProgressPage() {
+      return this.currentRoute.includes("progress");
+    },
     getCurrentPage() {
       return userStore.getCurrentPage;
     },
@@ -162,7 +165,7 @@ export default defineComponent({
       this.$router.push("/");
     },
     backButtonClicked() {
-      if (this.onResultPage) {
+      if (this.onResultPage || this.onProgressPage) {
         quizStore.resetQuizData();
         this.$router.push("/");
       } else {

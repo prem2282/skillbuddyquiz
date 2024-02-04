@@ -304,7 +304,10 @@ ul {
 }
 
 .q-img__content > div {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  font-size: medium;
+  color: seashell;
 }
 
 .choice-index {
@@ -510,8 +513,16 @@ ul {
 
 .chapter-card {
   width: 95vw;
-  max-width: 400px;
+  max-width: 350px;
   margin: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 2px solid #fff;
+  background-color: $sb-dark-blue;
+}
+
+.progress-card {
+  width: 95vw;
+  max-width: 400px;
   border-radius: 1rem;
   border: 2px solid #fff;
   background-color: $sb-dark-blue;
@@ -571,6 +582,13 @@ ul {
   justify-content: center;
   align-items: center;
   padding: 5vh 0 5vh 0;
+}
+
+.progress-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .quiztype-card-container {

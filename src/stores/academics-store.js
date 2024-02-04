@@ -94,11 +94,11 @@ export const useAcademicsStore = defineStore("academics", {
       const file_path = "/data/academicsData.enc";
       this.academics = await this.fetchAndDecrypt(file_path);
     },
-    fetchDataForChapter() {
+    async fetchDataForChapter() {
       const quizStore = useQuizStore();
       quizStore.loadQuizList(this.selectedQuizId);
       quizStore.loadChapter(this.selectedQuizId);
-      quizStore.fetchUserQuizData();
+      await quizStore.fetchUserQuizData();
     },
     selectChapter(item) {
       this.selectedChapter = item.chapter;
