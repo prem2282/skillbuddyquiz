@@ -284,13 +284,8 @@ export const useQuizStore = defineStore("quiz", {
 
     async loadQuizList(chapterId) {
       try {
-        let file_path = `/data/quiz/` + chapterId + `.enc `;
-        if (chapterId === "CBSE_9_AI_1") {
-          file_path =
-            `https://dte4w282bjd.cloudfront.net/enc/quiz/` +
-            chapterId +
-            `.enc `;
-        }
+        const file_path =
+          `https://dte4w282bjd.cloudfront.net/enc/quiz/` + chapterId + `.enc `;
 
         this.fullQuizList = await this.fetchAndDecrypt(file_path);
       } catch (error) {
@@ -300,7 +295,16 @@ export const useQuizStore = defineStore("quiz", {
 
     async loadChapter(chapterId) {
       try {
-        const file_path = `/data/chapter/` + chapterId + `.enc `;
+        try {
+          const file_path =
+            `https://dte4w282bjd.cloudfront.net/enc/chapter/` +
+            chapterId +
+            `.enc `;
+
+          this.fullQuizList = await this.fetchAndDecrypt(file_path);
+        } catch (error) {
+          console.error("Failed to load chapter data:", error);
+        }
         const chapter = await this.fetchAndDecrypt(file_path);
         this.chapterSummary = chapter.summary;
         this.chapterDetails = chapter.tables;
