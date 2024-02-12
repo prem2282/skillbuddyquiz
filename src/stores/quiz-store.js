@@ -295,16 +295,11 @@ export const useQuizStore = defineStore("quiz", {
 
     async loadChapter(chapterId) {
       try {
-        try {
-          const file_path =
-            `https://dte4w282bjd.cloudfront.net/enc/chapter/` +
-            chapterId +
-            `.enc `;
+        const file_path =
+          `https://dte4w282bjd.cloudfront.net/enc/chapter/` +
+          chapterId +
+          `.enc `;
 
-          this.fullQuizList = await this.fetchAndDecrypt(file_path);
-        } catch (error) {
-          console.error("Failed to load chapter data:", error);
-        }
         const chapter = await this.fetchAndDecrypt(file_path);
         this.chapterSummary = chapter.summary;
         this.chapterDetails = chapter.tables;
